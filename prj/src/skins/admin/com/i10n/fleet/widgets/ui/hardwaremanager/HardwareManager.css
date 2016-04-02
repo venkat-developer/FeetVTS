@@ -1,0 +1,11 @@
+.hardwaremanager .ft .refresh {
+    margin-right: 300px;
+    float: right;
+}
+
+.harwaremanager .ft .refresh .refreshtxt {
+    background-image: url(@STATIC_DIR@/img/icons/action-icons.png);
+    background-position: 100% -1734px;
+    background-repeat: no-repeat;
+    padding-right: 23px;
+}

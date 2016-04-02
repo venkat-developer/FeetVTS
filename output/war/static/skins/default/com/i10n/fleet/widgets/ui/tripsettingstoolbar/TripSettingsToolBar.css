@@ -1,0 +1,21 @@
+/**
+ * Trip Settings Toolbar UI Widget CSS
+ */
+.tripsettingstoolbar .trip-bar-container {
+    height: 32px;
+    _height: 38px;
+    width: 100%;
+  /*  background-image: url("/static/img/toolbar/toolbar-bg.jpg"); */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: right;
+}
+
+.tripsettingstoolbar .trip-bar-container .title-button {
+    padding-top: 4px;
+    padding-right: 10px;
+    line-height: 25px;
+}

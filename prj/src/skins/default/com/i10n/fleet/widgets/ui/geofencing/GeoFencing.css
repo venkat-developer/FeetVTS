@@ -1,0 +1,385 @@
+/*
+ * This file contains the style information for the trip settings sub-navpage
+ * in the control panel
+ */
+.geofencing .flip-container {
+    display: block;
+}
+
+.geofencing .bd .simpledialog {
+    height: 220px;
+    position: absolute;
+    top: 150px;
+    left: 430px;
+    z-index: 1550;
+    width: 450px;
+}
+
+.geofencing .bd .simpledialog.disabled {
+    display: none;
+}
+
+.geofencing .bd .simpledialog .icon {
+    background-image: url(@STATIC_DIR@/img/icons/widget-header-icons.png);
+    background-position: 8px -575px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 44px;
+}
+.geofencing .bd .simpledialog .iconarrow {
+    background-image: url(@STATIC_DIR@/img/icons/widget-header-icons.png);
+    background-position: 8px -625px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 44px;
+}
+.geofencing .bd .simpledialog .info {
+    width: 450px;
+    font-size:12px;
+    color:#243655;
+}
+
+.geofencing .bd .simpledialog .text {
+    width: 380px;
+    font-family:"Times New Roman";
+}
+
+.geofencing .bd .simpledialog .buttons {
+    font-size: 0.8em;
+    padding-left: 175px;
+    padding-top: 15px;
+}
+
+.geofencing .bd .simpledialog .button-done{
+       padding-left:0px;
+       padding-right:0px;
+}
+
+.geofencing .layout {
+    width: 100%;
+}
+
+.geofencing .layout .side-pane {
+    vertical-align: top;
+    background-color: #E6EDF3;
+}
+
+.geofencing .layout .main-pane {
+    width: 100%;
+    background-color: #FFFFFF;
+    vertical-align: top;
+}
+
+.geofencing .information .popup-markup .bd {
+    line-height: 50px;
+    height: 105px;
+}
+
+.geofencing .flip-container .popup {
+    color: #152836;
+}
+
+.geofencing .flip-container .popup .dialog-buttons {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.geofencing .flip-container .add-region .popup .hd .rounded-rect .nested .label .text {
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    height: 21px;
+    padding-left: 25px;
+}
+
+.geofencing .flip-container .add-region .popup .bd .dialog-form .inline-block {
+    vertical-align: middle;
+}
+
+.geofencing .flip-container .add-region .popup .bd .dialog-form .label {
+    vertical-align: super;
+    width: 190px;
+}
+
+.geofencing .flip-container .add-region .popup .bd .dialog-form .content {
+    padding-left: 12px;
+}
+
+.geofencing .flip-container .add-region .popup .bd .dialog-form .content .table {
+    width: 200%;
+}
+
+.geofencing .flip-container .add-region .popup .bd .dialog-form .content .table .input {
+    padding-top: 11px;
+}
+
+.geofencing .flip-container .add-region .popup .bd .dialog-form .content .input-element {
+    width: 175px;
+    background-color: #E1ECF2;
+    border-color: #D9D9D9;
+    border-style: solid;
+    height: 23px;
+}
+
+.geofencing .flip-container .add-region .popup .bd .dialog-form .content .input-element.text-box {
+    width: 100px;
+    height: 20px;
+    _height: 23px;
+    padding-top: 3px;
+}
+
+.geofencing .flip-container1 .draw-region .popup .hd .rounded-rect .nested .label .text {
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    height: 21px;
+    padding-left: 25px;
+}
+
+.geofencing .flip-container1 .draw-region .popup .bd .dialog-form .inline-block {
+    vertical-align: middle;
+}
+
+.geofencing .flip-container1 .draw-region .popup .bd .dialog-form .label {
+    vertical-align: super;
+    width: 190px;
+}
+
+.geofencing .flip-container1 .draw-region .popup .bd .dialog-form .content {
+    padding-left: 12px;
+}
+
+.geofencing .flip-container1 .draw-region .popup .bd .dialog-form .content .table {
+    width: 200%;
+    font-size: 15px;
+    font-style:normal;
+    font-family:serif;
+    font-weight:400px;
+    font-variant:normal;
+    line-spacing:0.4ex;
+    text-align:left;
+}
+
+.geofencing .flip-container1 .draw-region .popup .bd .dialog-form .content .table .input {
+    padding-top: 11px;
+}
+
+.geofencing .flip-container1 .draw-region .popup .bd .dialog-form .content .input-element {
+    width: 175px;
+    background-color: #E1ECF2;
+    border-color: #D9D9D9;
+    border-style: solid;
+    height: 23px;
+}
+
+.geofencing .flip-container1 .draw-region .popup .bd .dialog-form .content .input-element.text-box {
+    width: 100px;
+    height: 20px;
+    _height: 23px;
+    padding-top: 3px;
+}
+
+
+.geofencing .flip-container2 .edit-region .popup .hd .rounded-rect .nested .label .text {
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    height: 21px;
+    padding-left: 25px;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .dialog-form .inline-block {
+    vertical-align: middle;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .dialog-form .label {
+    vertical-align: super;
+    width: 190px;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .dialog-form .content {
+    padding-left: 12px;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .dialog-form .content .table {
+    width: 200%;
+    font-size: 15px;
+    font-style:normal;
+    font-family:serif;
+    font-weight:400px;
+    font-variant:normal;
+    line-spacing:0.4ex;
+    text-align:left;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .dialog-form .content .table .input {
+    padding-top: 11px;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .dialog-form .content .input-element {
+    width: 175px;
+    background-color: #E1ECF2;
+    border-color: #D9D9D9;
+    border-style: solid;
+    height: 23px;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .dialog-form .content .input-element.text-box {
+    width: 100px;
+    height: 20px;
+    _height: 23px;
+    padding-top: 3px;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .list-cnt {
+    padding-right: 20px;
+    width: 220px;
+    _width: 240px;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .list {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .state-view {
+    padding-bottom: 10px;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .sel-hd, .geofencing .frm-hd {
+    color: #172834;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .list .list-item {
+    display: block;
+    width: 300px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+    *height:auto !important;
+    *height:20px;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .list .list-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .list .list-item.selected, .geofencing .list .list-item.selected.moved {
+    background-color: #ECF4FA;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .list .list-item.moved {
+    background-color: #FFECFA;
+}
+
+.geofencing .flip-container2 .edit-region .popup .bd .list-cnt .list-title {
+    color: #172834;
+    font-size: 1.0em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+.geofencing .flip-container3 .delete-region .popup .bd .dialog-form .inline-block {
+    vertical-align: middle;
+}
+
+.geofencing .flip-container3 .delete-region .popup .bd .dialog-form .label {
+    vertical-align: super;
+    width: 190px;
+}
+
+.geofencing .flip-container3 .delete-region .popup .bd .dialog-form .content {
+    padding-left: 12px;
+}
+
+.geofencing .flip-container3 .delete-region .popup .bd .dialog-form .content .table {
+    width: 200%;
+}
+
+
+/**
+ * Assign Vehicle Ui Widget CSS
+ */
+.geofencing {
+    height: 100%;
+}
+
+.geofencing .state-view {
+    padding-bottom: 10px;
+}
+
+.geofencing .state-item {
+    background-image: url("@STATIC_DIR@/img/login/dot.png");
+    background-repeat: no-repeat;
+    color: #172834;
+    font-weight: bold;
+    height: 20px;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+.geofencing .state-item.disabled {
+    background-image: url("@STATIC_DIR@/img/login/dot-disabled.png");
+    color: #8497A4;
+}
+
+.geofencing .state-item-index {
+    color: #FFFFFF;
+    padding-right: 8px;
+}
+
+.geofencing .assignment-control.disabled {
+    display: none;
+}
+
+.geofencing .ft {
+    padding-top: 20px;
+}
+
+.geofencing .ft .buttons.remove-button {
+    padding-left: 80px;
+    _padding-left: 200px;
+}
+
+.geofencing .ft .buttons.add-button {
+    padding-left: 100px;
+}
+
+.geofencing .ft .buttons.save-button {
+    padding-left: 57px;
+}
+
+.geofencing .ft .buttons .rem-text {
+    background-image: url("@STATIC_DIR@/img/icons/action-icons.png");
+    background-repeat: no-repeat;
+    background-position: 100% -400px;
+    padding-right: 21px;
+}
+
+.geofencing .ft .buttons .add-text {
+    background-image: url("@STATIC_DIR@/img/icons/action-icons.png");
+    background-repeat: no-repeat;
+    background-position: 0% -462px;
+    padding-left: 21px;
+}
+
+

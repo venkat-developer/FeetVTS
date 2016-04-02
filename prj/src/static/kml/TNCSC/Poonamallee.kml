@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Poonjolai</name>
+	<description> EC001, Poonamallee</description>
+	<Point>
+	<coordinates>80.114798,13.044075,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Condonment</name>
+	<description> EC002, Poonamallee</description>
+	<Point>
+	<coordinates>80.114798,13.044075,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>James Street</name>
+	<description> EC003, Poonamallee</description>
+	<Point>
+	<coordinates>80.102529,13.04916,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thirumazhisai 1</name>
+	<description> EC004, Poonamallee</description>
+	<Point>
+	<coordinates>80.059367,13.052358,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Udaiyavar Kovil</name>
+	<description> EC005, Poonamallee</description>
+	<Point>
+	<coordinates>80.063614,13.054166,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thirumazhisai 2</name>
+	<description> EC006, Poonamallee</description>
+	<Point>
+	<coordinates>80.059388,13.053152,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Prayambatt</name>
+	<description> EC007, Poonamallee</description>
+	<Point>
+	<coordinates>80.061105,13.051919,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Madavilagam</name>
+	<description> EC008, Poonamallee</description>
+	<Point>
+	<coordinates>80.0598820536,13.64,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Lakshmipuram</name>
+	<description> EC009, Poonamallee</description>
+	<Point>
+	<coordinates>80.026012,13.125869,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Dasarpuram</name>
+	<description> EC010, Poonamallee</description>
+	<Point>
+	<coordinates>80.024541,13.127703,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Varadarajapuram</name>
+	<description> EC011, Poonamallee</description>
+	<Point>
+	<coordinates>80.080866,13.048313,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nasarathpettai</name>
+	<description> EC012, Poonamallee</description>
+	<Point>
+	<coordinates>80.078591,13.046243,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Agaramel</name>
+	<description> EC013, Poonamallee</description>
+	<Point>
+	<coordinates>80.075802,13.038509,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Meppur</name>
+	<description> EC014, Poonamallee</description>
+	<Point>
+	<coordinates>80.074493,13.033784,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Agragaram-1</name>
+	<description> EP001, Poonamallee</description>
+	<Point>
+	<coordinates>80.111193,13.047242,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Agragaram-2</name>
+	<description> EP002, Poonamallee</description>
+	<Point>
+	<coordinates>80.111776,13.047871,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Agragaram-3</name>
+	<description> EP003, Poonamallee</description>
+	<Point>
+	<coordinates>80.111095,13.048433,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Hariyamanda nallur</name>
+	<description> EP004, Poonamallee</description>
+	<Point>
+	<coordinates>80.112974,13.045554,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Seneerkuppam -1</name>
+	<description> EP005, Poonamallee</description>
+	<Point>
+	<coordinates>80.114015,13.057824,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Seneerkuppam -2</name>
+	<description> EP006, Poonamallee</description>
+	<Point>
+	<coordinates>80.113714,13.060081,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kattupakkam-1</name>
+	<description> EP007, Poonamallee</description>
+	<Point>
+	<coordinates>80.113151,13.046557,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Gobarasa nallur</name>
+	<description> EP008, Poonamallee</description>
+	<Point>
+	<coordinates>80.11343,13.047257,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Parivakkam</name>
+	<description> EP009, Poonamallee</description>
+	<Point>
+	<coordinates>80.088741,13.067732,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Banmavedu Thottam</name>
+	<description> EP010, Poonamallee</description>
+	<Point>
+	<coordinates>80.094728,13.06583,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thiruverkadu</name>
+	<description> EP011, Poonamallee</description>
+	<Point>
+	<coordinates>80.124057,13.069655,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sundarasozawaram</name>
+	<description> EP012, Poonamallee</description>
+	<Point>
+	<coordinates>80.096122,13.084871,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Veeraragavapuram</name>
+	<description> EP013, Poonamallee</description>
+	<Point>
+	<coordinates>80.110499,13.076469,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Mattupalayam</name>
+	<description> EP014, Poonamallee</description>
+	<Point>
+	<coordinates>80.095822,13.080628,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kannapalayam</name>
+	<description> EP015, Poonamallee</description>
+	<Point>
+	<coordinates>80.106787,13.085059,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Melpakkam</name>
+	<description> EP016, Poonamallee</description>
+	<Point>
+	<coordinates>80.095822,13.080628,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thiruninravur RCS</name>
+	<description> EP017, Poonamallee</description>
+	<Point>
+	<coordinates>80.027084,13.114485,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Gomathipuram 1</name>
+	<description> EP018, Poonamallee</description>
+	<Point>
+	<coordinates>80.027084,13.114485,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nimilecheri</name>
+	<description> EP019, Poonamallee</description>
+	<Point>
+	<coordinates>80.044186,13.121245,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Akaraharammel</name>
+	<description> EP020, Poonamallee</description>
+	<Point>
+	<coordinates>80.019902,13.093523,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nachiyarchathram</name>
+	<description> EP021, Poonamallee</description>
+	<Point>
+	<coordinates>80.032873,13.124568,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Annambedu</name>
+	<description> EP022, Poonamallee</description>
+	<Point>
+	<coordinates>80.047282,13.107944,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Karunakaracheri</name>
+	<description> EP023, Poonamallee</description>
+	<Point>
+	<coordinates>80.049728,13.108613,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kolappancheri</name>
+	<description> EP024, Poonamallee</description>
+	<Point>
+	<coordinates>80.07067,13.076552,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Soranjeri</name>
+	<description> EP025, Poonamallee</description>
+	<Point>
+	<coordinates>80.071615,13.101089,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Ayilcheri</name>
+	<description> EP026, Poonamallee</description>
+	<Point>
+	<coordinates>80.083416,13.093732,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Annaikattucheri</name>
+	<description> EP027, Poonamallee</description>
+	<Point>
+	<coordinates>80.057875,13.105143,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kavalcheri</name>
+	<description> EP028, Poonamallee</description>
+	<Point>
+	<coordinates>80.057155,13.07998,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Amuthurmedu</name>
+	<description> EP029, Poonamallee</description>
+	<Point>
+	<coordinates>80.058133,13.098288,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sokkanallur</name>
+	<description> EP030, Poonamallee</description>
+	<Point>
+	<coordinates>80.072516,13.07952,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Vayalanallur</name>
+	<description> EP031, Poonamallee</description>
+	<Point>
+	<coordinates>80.070241,13.085874,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Vellavedu</name>
+	<description> EP032, Poonamallee</description>
+	<Point>
+	<coordinates>80.035397,13.06815,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thiruvmanam</name>
+	<description> EP033, Poonamallee</description>
+	<Point>
+	<coordinates>80.054019,13.094527,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thirukoil Pathu</name>
+	<description> EP034, Poonamallee</description>
+	<Point>
+	<coordinates>80.055751,13.078903,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kilmanambedu</name>
+	<description> EP035, Poonamallee</description>
+	<Point>
+	<coordinates>80.038444,13.06746,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Melmanambedu</name>
+	<description> EP036, Poonamallee</description>
+	<Point>
+	<coordinates>80.038809,13.071013,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sithukadu</name>
+	<description> EP037, Poonamallee</description>
+	<Point>
+	<coordinates>80.049127,13.09206,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kuthambakkam 1</name>
+	<description> EP038, Poonamallee</description>
+	<Point>
+	<coordinates>80.038745,13.070992,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Samathuvapuram</name>
+	<description> EP038P1, Poonamallee</description>
+	<Point>
+	<coordinates>80.046117,13.066509,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Narasingapuram</name>
+	<description> EP039, Poonamallee</description>
+	<Point>
+	<coordinates>80.039197,13.069989,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sambarambakkam 1</name>
+	<description> EP040, Poonamallee</description>
+	<Point>
+	<coordinates>80.081442,13.050173,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Pazhanchur</name>
+	<description> EP041, Poonamallee</description>
+	<Point>
+	<coordinates>80.003897,13.017018,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Parvadarajapuram</name>
+	<description> EP042, Poonamallee</description>
+	<Point>
+	<coordinates>80.046879,13.067758,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Irularpalayam</name>
+	<description> EP042P1, Poonamallee</description>
+	<Point>
+	<coordinates>80.047437,13.067293,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nemam</name>
+	<description> EP043, Poonamallee</description>
+	<Point>
+	<coordinates>80.006172,13.092875,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Gudapakkam</name>
+	<description> EP044, Poonamallee</description>
+	<Point>
+	<coordinates>79.988788,13.082154,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kammavarkandigai</name>
+	<description> EP044P1, Poonamallee</description>
+	<Point>
+	<coordinates>79.991577,13.08763,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Ex-Serviceman</name>
+	<description> EP044P2, Poonamallee</description>
+	<Point>
+	<coordinates>79.991148,13.086417,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Meiyur</name>
+	<description> EP045, Poonamallee</description>
+	<Point>
+	<coordinates>79.993551,13.076176,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Korattur</name>
+	<description> EP046, Poonamallee</description>
+	<Point>
+	<coordinates>80.009648,13.089427,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nochimedu</name>
+	<description> EP047, Poonamallee</description>
+	<Point>
+	<coordinates>80.008382,13.094025,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Padur</name>
+	<description> EP048, Poonamallee</description>
+	<Point>
+	<coordinates>80.023574,13.022956,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Prakash nagar</name>
+	<description> EP049, Poonamallee</description>
+	<Point>
+	<coordinates>80.048832,13.130294,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nadukuthagai-1</name>
+	<description> EP050, Poonamallee</description>
+	<Point>
+	<coordinates>80.036059,13.129542,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nadukuthagai-2</name>
+	<description> EP051, Poonamallee</description>
+	<Point>
+	<coordinates>80.034514,13.128032,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Periyar nagar</name>
+	<description> EP052, Poonamallee</description>
+	<Point>
+	<coordinates>80.027062,13.123084,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thiruvenkata nagar</name>
+	<description> EP053, Poonamallee</description>
+	<Point>
+	<coordinates>80.02806,13.123116,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Gomathipuram 2</name>
+	<description> EP054, Poonamallee</description>
+	<Point>
+	<coordinates>80.031612,13.118476,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Amman Koile Street</name>
+	<description> EP055, Poonamallee</description>
+	<Point>
+	<coordinates>80.114798,13.044075,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Gorimedu</name>
+	<description> EP056, Poonamallee</description>
+	<Point>
+	<coordinates>80.112067,13.042585,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kilmanagar</name>
+	<description> EP057, Poonamallee</description>
+	<Point>
+	<coordinates>80.101531,13.050173,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Mullathottam</name>
+	<description> EP058, Poonamallee</description>
+	<Point>
+	<coordinates>80.110834,13.047848,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Lakshmipuram Poovai</name>
+	<description> EP059, Poonamallee</description>
+	<Point>
+	<coordinates>80.111262,13.047299,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kattupakkam-2</name>
+	<description> EP060, Poonamallee</description>
+	<Point>
+	<coordinates>80.127748,13.044906,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Anna street</name>
+	<description> EP061, Poonamallee</description>
+	<Point>
+	<coordinates>80.07857,13.038781,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nambi nagar</name>
+	<description> EP062, Poonamallee</description>
+	<Point>
+	<coordinates>80.10077,13.052724,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thiruvalluvar </name>
+	<description> EP063, Poonamallee</description>
+	<Point>
+	<coordinates>80.113151,13.046557,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kuthambakkam 2</name>
+	<description> EP064, Poonamallee</description>
+	<Point>
+	<coordinates>80.045999,13.063541,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Senthiirpuram</name>
+	<description> EP065, Poonamallee</description>
+	<Point>
+	<coordinates>80.126862,13.03968,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Pappanchattiram</name>
+	<description> EP066, Poonamallee</description>
+	<Point>
+	<coordinates>80.005399,13.017374,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Andarasanpettai</name>
+	<description> EP067, Poonamallee</description>
+	<Point>
+	<coordinates>80.003833,13.091057,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sembarambakkam-II</name>
+	<description> EP068, Poonamallee</description>
+	<Point>
+	<coordinates>80.126465,13.039147,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sennirkuppam-3</name>
+	<description> EP069, Poonamallee</description>
+	<Point>
+	<coordinates>80.113224,13.062506,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thiruverkadu-2</name>
+	<description> EP070, Poonamallee</description>
+	<Point>
+	<coordinates>80.12021,13.071086,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Prakash nagar-2</name>
+	<description> EP071, Poonamallee</description>
+	<Point>
+	<coordinates>80.041842,13.123701,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Gomathipuram-3</name>
+	<description> EP072, Poonamallee</description>
+	<Point>
+	<coordinates>80.032277,13.118999,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Lakshmipuram</name>
+	<description> EP073, Poonamallee</description>
+	<Point>
+	<coordinates>80.023603,13.126475,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sendhurpuram-2</name>
+	<description> EP074, Poonamallee</description>
+	<Point>
+	<coordinates>80.128278,13.039742,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thiruverkadu III</name>
+	<description> EP075, Poonamallee</description>
+	<Point>
+	<coordinates>80.120005,13.075507,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Lakshmipuram II</name>
+	<description> EP076, Poonamallee</description>
+	<Point>
+	<coordinates>80.090642,13.048208,678</coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

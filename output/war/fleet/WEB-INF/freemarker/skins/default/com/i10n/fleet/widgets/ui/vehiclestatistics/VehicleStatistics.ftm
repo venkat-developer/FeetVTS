@@ -1,0 +1,48 @@
+<#import "/macros/rounded.ftm" as round>
+<#import "/macros/json-publish.ftm" as json/>
+<#import "/macros/print.ftm" as printskin>
+<#macro init params={}>
+    <div class="report disabled cnt-resizable">
+        <div class="hd">
+            <@round.cssRounding params={"radius":5 }>
+                <div class="inline-block title">VEHICLE STATISTICS</div>
+                <div class="inline-block vehiclename"></div>
+                <div class="inline-block print-preview">Print Preview</div>
+            </@round.cssRounding>
+        </div>
+        <div class="bd data-content">
+            <div>
+                <div class="rpt-item odd inline-block rpt-item-title">Total Distance Travelled(K.M)</div
+                ><div class="total-distance rpt-item odd inline-block">--</div>
+            </div>
+            <div>
+                <div class="rpt-item even inline-block rpt-item-title">Max Speed(KMPH)</div
+                ><div class="max-speed rpt-item even inline-block">--</div>
+            </div>
+            <div>
+                <div class="rpt-item odd inline-block rpt-item-title">Average Speed(KMPH)</div
+                ><div class="avg-speed rpt-item odd inline-block">--</div>
+            </div>
+        </div>
+        <div class = "print-skin-template markup-template"><@printskin.printSkinDefault params={"title" : "VehicleStatistics Report"}/></div>
+        <div class="print-section">
+        </div>
+        <@json.publish data=getStyleSheets() publishAs="stylesheets" context="report"/>
+    </div>
+    <@skin.widget name="SimpleDialog" params={"cssClass" : "simpledialog","title" : "Vehicle Report"}>
+        <div class="icon inline-block"></div
+        ><div class="text inline-block"><div>Please select a vehicle from the vehicle list that you want to generate report of.</div></div
+        ><@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-done boldface"}>&nbsp;Done&nbsp;</@skin.widget>
+    </@skin.widget>
+</#macro>
+
+<#function getStyleSheets>
+    <#local stylesheets = []/>
+    <#local viewName=parameters.view/>
+    <#if (skins[parameters.skin]["//views/view[./@name=$viewName]"][0])??>
+        <#local currentView = skins[parameters.skin]["//views/view[./@name=$viewName]"]/>
+        <#local stylesheets = currentView.libraries.library.mergedset.stylesheets.stylesheet + currentView.mergedset.stylesheets.stylesheet />
+        <#local stylesheets = stylesheets + ["/static/css/print.css"]/>
+    </#if>
+    <#return stylesheets/>
+</#function>

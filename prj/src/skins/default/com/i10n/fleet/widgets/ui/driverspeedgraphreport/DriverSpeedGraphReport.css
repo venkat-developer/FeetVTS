@@ -1,0 +1,97 @@
+/**
+ * Driver Report UI Widget CSS.
+ */
+.driverspeedgraphreport .main-bd.disabled {
+    display: none;
+}
+
+.driverspeedgraphreport .driverstatistics {
+    height: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.driverspeedgraphreport .driverstatistics .hd {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 13px;
+    position: relative;
+}
+
+.driverspeedgraphreport .driverstatistics .hd .widget-header-label {
+    background-image: url(@STATIC_DIR@/img/icons/widget-header-icons.png);
+    background-position: 5px -722px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 18px;
+    padding-left: 35px;
+}
+
+.driverspeedgraphreport .driverstatistics .hd .rounded-rect .nested {
+    padding: 7px 2px 2px 2px;
+    height: 23px;
+    background-color: #8ABCDE;
+    border-color: #8ABCDE;
+}
+
+.driverspeedgraphreport .driverstatistics .hd .rounded-rect .cap {
+    background-color: #8ABCDE;
+    border-color: #8ABCDE;
+}
+
+.driverspeedgraphreport .driverstatistics .bd {
+    color: #1F5A85;
+    font-weight: bold;
+    padding-left: 24px;
+}
+
+.driverspeedgraphreport .driverstatistics .bd .info-label {
+    padding-top: 20px;
+}
+
+.driverspeedgraphreport .driverstatistics .bd .info {
+    padding-left: 1px;
+    padding-top: 20px;
+}
+
+.driverspeedgraphreport.widget .widget.simpledialog {
+    position: absolute;
+    top: 190px;
+    left: 440px;
+    z-index: 1500;
+    width: 300px;
+}
+
+.driverspeedgraphreport .simpledialog {
+    height: 130px;
+}
+
+.driverspeedgraphreport .simpledialog.disabled {
+    display: none;
+}
+
+.driverspeedgraphreport .simpledialog .icon {
+    background-image: url(@STATIC_DIR@/img/icons/widget-header-icons.png);
+    background-position: 8px -575px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 44px;
+}
+
+.driverspeedgraphreport .simpledialog .text {
+    width: 246px
+}
+
+.driverspeedgraphreport .simpledialog .buttons {
+    font-size: 0.8em;
+    padding-left: 116px;
+    padding-top: 15px;
+}
+
+.print.popup .driverspeedgraphreport {
+    background-color: white;
+}

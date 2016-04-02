@@ -1,0 +1,1853 @@
+<trips>
+    <vehicle id="vehicle-178">
+        <trip id="trip-vehicle-178">
+            <id>
+                trip-vehicle-178
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 178
+            </name>
+            <startdate>
+                Mon Oct 05 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:44:26 IST 2009
+            </lastupdated>
+            <location>
+                Eejipura
+            </location>
+            <distance>
+                53
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                107
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-225
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.050398" lon="77.581114" location="BTM Layout" speed="41" date="{week}" distance="10"/><position lat="13.050398" lon="77.581114" location="Koramangala" speed="50" date="{week}" distance="11"/><position lat="13.147890791218181" lon="77.55886190660436" location="BTM Layout" speed="51" date="{week}" distance="12"/><position lat="13.147890791218181" lon="77.55886190660436" location="Koramangala" speed="54" date="{week}" distance="13"/><position lat="13.104502417306426" lon="77.46876501981413" location="Eejipura" speed="51" date="{week}" distance="14"/><position lat="13.007009626088244" lon="77.44651292641849" location="Koramangala" speed="40" date="{week}" distance="15"/><position lat="12.928826477841442" lon="77.50886190660437" location="Bommanahalli" speed="44" date="{week}" distance="16"/><position lat="12.928826477841442" lon="77.50886190660437" location="Koramangala" speed="42" date="{week}" distance="17"/><position lat="13.007009626088244" lon="77.57121088679024" location="Madivala" speed="46" date="{week}" distance="18"/><position lat="13.104502417306426" lon="77.5489587933946" location="Bommanahalli" speed="47" date="{week}" distance="19"/><position lat="13.104502417306426" lon="77.5489587933946" location="Koramangala" speed="53" date="{week}" distance="20"/><position lat="13.104502417306426" lon="77.5489587933946" location="Madivala" speed="41" date="{week}" distance="21"/><position lat="13.104502417306426" lon="77.5489587933946" location="Eejipura" speed="45" date="{today}" distance="22"/><position lat="13.104502417306426" lon="77.5489587933946" location="Bommanahalli" speed="47" date="{today}" distance="23"/><position lat="13.104502417306426" lon="77.6489587933946" location="BTM Layout" speed="45" date="{today}" distance="24"/><position lat="13.104502417306426" lon="77.6489587933946" location="Madivala" speed="41" date="{today}" distance="25"/><position lat="13.104502417306426" lon="77.6489587933946" location="Eejipura" speed="48" date="{today}" distance="26"/><position lat="13.147890791218181" lon="77.55886190660436" location="Madivala" speed="49" date="{today}" distance="27"/><position lat="13.104502417306426" lon="77.46876501981413" location="Eejipura" speed="43" date="{today}" distance="28"/><position lat="13.104502417306426" lon="77.46876501981413" location="Bommanahalli" speed="50" date="{today}" distance="29"/><position lat="13.026319269059623" lon="77.531114" location="BTM Layout" speed="51" date="{today}" distance="30"/><position lat="13.026319269059623" lon="77.531114" location="Madivala" speed="54" date="{today}" distance="31"/><position lat="13.026319269059623" lon="77.531114" location="BTM Layout" speed="47" date="{today}" distance="32"/><position lat="13.123812060277805" lon="77.50886190660437" location="Bommanahalli" speed="48" date="{today}" distance="33"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-13">
+        <trip id="trip-vehicle-13">
+            <id>
+                trip-vehicle-13
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 13
+            </name>
+            <startdate>
+                Mon Oct 05 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:02:26 IST 2009
+            </lastupdated>
+            <location>
+                BTM Layout
+            </location>
+            <distance>
+                61
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                67
+            </maxspeed>
+            <idlepointlimit>
+                10
+            </idlepointlimit>
+            <driver>
+                driver-121
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.020398" lon="77.711114" location="Eejipura" speed="47" date="{week}" distance="10"/><position lat="13.098581148246803" lon="77.77346298018587" location="Eejipura" speed="44" date="{week}" distance="11"/><position lat="13.196073939464984" lon="77.75121088679023" location="Madivala" speed="44" date="{week}" distance="12"/><position lat="13.23946231337674" lon="77.661114" location="BTM Layout" speed="48" date="{week}" distance="13"/><position lat="13.23946231337674" lon="77.661114" location="Madivala" speed="45" date="{week}" distance="14"/><position lat="13.141969522158558" lon="77.63886190660436" location="Bommanahalli" speed="48" date="{week}" distance="15"/><position lat="13.063786373911755" lon="77.70121088679024" location="Madivala" speed="44" date="{week}" distance="16"/><position lat="13.063786373911755" lon="77.70121088679024" location="Madivala" speed="48" date="{week}" distance="17"/><position lat="13.063786373911755" lon="77.70121088679024" location="Koramangala" speed="50" date="{week}" distance="18"/><position lat="13.063786373911755" lon="77.70121088679024" location="Koramangala" speed="49" date="{week}" distance="19"/><position lat="13.063786373911755" lon="77.70121088679024" location="Koramangala" speed="43" date="{week}" distance="20"/><position lat="13.063786373911755" lon="77.70121088679024" location="Koramangala" speed="49" date="{today}" distance="21"/><position lat="13.063786373911755" lon="77.70121088679024" location="Madivala" speed="47" date="{today}" distance="22"/><position lat="12.985603225664953" lon="77.76355986697611" location="Eejipura" speed="42" date="{today}" distance="23"/><position lat="12.985603225664953" lon="77.76355986697611" location="Eejipura" speed="53" date="{today}" distance="24"/><position lat="13.063786373911755" lon="77.82590884716198" location="Koramangala" speed="54" date="{today}" distance="25"/><position lat="13.063786373911755" lon="77.82590884716198" location="Bommanahalli" speed="43" date="{today}" distance="26"/><position lat="13.063786373911755" lon="77.82590884716198" location="Eejipura" speed="53" date="{today}" distance="27"/><position lat="13.020398" lon="77.73581196037175" location="BTM Layout" speed="46" date="{today}" distance="28"/><position lat="12.922905208781819" lon="77.71355986697611" location="BTM Layout" speed="53" date="{today}" distance="29"/><position lat="12.844722060535016" lon="77.77590884716199" location="BTM Layout" speed="46" date="{today}" distance="30"/><position lat="12.844722060535016" lon="77.87590884716198" location="Eejipura" speed="54" date="{today}" distance="31"/><position lat="12.922905208781819" lon="77.93825782734785" location="BTM Layout" speed="45" date="{today}" distance="32"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="13.23946231337674" lon="77.661114" location="Madivala" speed="45" date="{week}" distance="14"/><position lat="13.063786373911755" lon="77.70121088679024" location="Madivala" speed="48" date="{week}" distance="17"/><position lat="13.020398" lon="77.73581196037175" location="BTM Layout" speed="46" date="{today}" distance="28"/>
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="13.020398" lon="77.711114" location="Eejipura" speed="47" date="{week}" distance="10"/><position lat="13.063786373911755" lon="77.70121088679024" location="Koramangala" speed="43" date="{week}" distance="20"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-133">
+        <trip id="trip-vehicle-133">
+            <id>
+                trip-vehicle-133
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 133
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 14:57:26 IST 2009
+            </lastupdated>
+            <location>
+                BTM Layout
+            </location>
+            <distance>
+                62
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                97
+            </maxspeed>
+            <idlepointlimit>
+                11
+            </idlepointlimit>
+            <driver>
+                driver-74
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.970398" lon="77.601114" location="Koramangala" speed="54" date="{week}" distance="10"/><position lat="12.970398" lon="77.601114" location="Bommanahalli" speed="54" date="{week}" distance="11"/><position lat="13.067890791218181" lon="77.57886190660436" location="Madivala" speed="46" date="{week}" distance="12"/><position lat="13.111279165129936" lon="77.48876501981412" location="BTM Layout" speed="53" date="{week}" distance="13"/><position lat="13.111279165129936" lon="77.48876501981412" location="Koramangala" speed="50" date="{week}" distance="14"/><position lat="13.111279165129936" lon="77.48876501981412" location="Eejipura" speed="53" date="{week}" distance="15"/><position lat="13.111279165129936" lon="77.48876501981412" location="Bommanahalli" speed="52" date="{week}" distance="16"/><position lat="13.111279165129936" lon="77.58876501981412" location="BTM Layout" speed="44" date="{week}" distance="17"/><position lat="13.111279165129936" lon="77.58876501981412" location="Madivala" speed="52" date="{week}" distance="18"/><position lat="13.208771956348118" lon="77.56651292641848" location="Madivala" speed="50" date="{week}" distance="19"/><position lat="13.208771956348118" lon="77.56651292641848" location="Bommanahalli" speed="43" date="{week}" distance="20"/><position lat="13.208771956348118" lon="77.56651292641848" location="Koramangala" speed="54" date="{week}" distance="21"/><position lat="13.208771956348118" lon="77.56651292641848" location="Koramangala" speed="44" date="{today}" distance="22"/><position lat="13.208771956348118" lon="77.56651292641848" location="Eejipura" speed="45" date="{today}" distance="23"/><position lat="13.208771956348118" lon="77.66651292641848" location="Bommanahalli" speed="42" date="{today}" distance="24"/><position lat="13.208771956348118" lon="77.66651292641848" location="Koramangala" speed="42" date="{today}" distance="25"/><position lat="13.208771956348118" lon="77.66651292641848" location="BTM Layout" speed="43" date="{today}" distance="26"/><position lat="13.252160330259873" lon="77.57641603962824" location="BTM Layout" speed="48" date="{today}" distance="27"/><position lat="13.252160330259873" lon="77.57641603962824" location="Bommanahalli" speed="46" date="{today}" distance="28"/><position lat="13.154667539041691" lon="77.5541639462326" location="Madivala" speed="53" date="{today}" distance="29"/><position lat="13.076484390794889" lon="77.61651292641848" location="Madivala" speed="42" date="{today}" distance="30"/><position lat="13.076484390794889" lon="77.71651292641847" location="BTM Layout" speed="42" date="{today}" distance="31"/><position lat="13.154667539041691" lon="77.77886190660435" location="Eejipura" speed="49" date="{today}" distance="32"/><position lat="13.252160330259873" lon="77.75660981320871" location="Koramangala" speed="54" date="{today}" distance="33"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="13.208771956348118" lon="77.66651292641848" location="BTM Layout" speed="43" date="{today}" distance="26"/>
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="13.111279165129936" lon="77.48876501981412" location="BTM Layout" speed="53" date="{week}" distance="13"/><position lat="13.111279165129936" lon="77.48876501981412" location="Koramangala" speed="50" date="{week}" distance="14"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="12.970398" lon="77.601114" location="Bommanahalli" speed="54" date="{week}" distance="11"/><position lat="13.208771956348118" lon="77.56651292641848" location="Madivala" speed="50" date="{week}" distance="19"/><position lat="13.154667539041691" lon="77.5541639462326" location="Madivala" speed="53" date="{today}" distance="29"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-23">
+        <trip id="trip-vehicle-23">
+            <id>
+                trip-vehicle-23
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 23
+            </name>
+            <startdate>
+                Tue Oct 06 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 14:58:26 IST 2009
+            </lastupdated>
+            <location>
+                BTM Layout
+            </location>
+            <distance>
+                52
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                100
+            </maxspeed>
+            <idlepointlimit>
+                10
+            </idlepointlimit>
+            <driver>
+                driver-44
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.980398" lon="77.581114" location="BTM Layout" speed="52" date="{week}" distance="10"/><position lat="13.058581148246802" lon="77.64346298018587" location="BTM Layout" speed="53" date="{week}" distance="11"/><position lat="13.156073939464983" lon="77.62121088679024" location="Madivala" speed="40" date="{week}" distance="12"/><position lat="13.156073939464983" lon="77.62121088679024" location="BTM Layout" speed="50" date="{week}" distance="13"/><position lat="13.156073939464983" lon="77.62121088679024" location="Madivala" speed="52" date="{week}" distance="14"/><position lat="13.156073939464983" lon="77.62121088679024" location="Eejipura" speed="54" date="{week}" distance="15"/><position lat="13.07789079121818" lon="77.68355986697611" location="Eejipura" speed="45" date="{week}" distance="16"/><position lat="13.07789079121818" lon="77.68355986697611" location="BTM Layout" speed="50" date="{week}" distance="17"/><position lat="13.156073939464983" lon="77.74590884716199" location="Koramangala" speed="40" date="{week}" distance="18"/><position lat="13.253566730683165" lon="77.72365675376635" location="Madivala" speed="43" date="{today}" distance="19"/><position lat="13.253566730683165" lon="77.72365675376635" location="BTM Layout" speed="51" date="{today}" distance="20"/><position lat="13.253566730683165" lon="77.72365675376635" location="Bommanahalli" speed="46" date="{today}" distance="21"/><position lat="13.253566730683165" lon="77.72365675376635" location="Eejipura" speed="50" date="{today}" distance="22"/><position lat="13.175383582436362" lon="77.78600573395222" location="Bommanahalli" speed="41" date="{today}" distance="23"/><position lat="13.175383582436362" lon="77.78600573395222" location="Madivala" speed="49" date="{today}" distance="24"/><position lat="13.253566730683165" lon="77.8483547141381" location="Koramangala" speed="53" date="{today}" distance="25"/><position lat="13.253566730683165" lon="77.8483547141381" location="Koramangala" speed="46" date="{today}" distance="26"/><position lat="13.29695510459492" lon="77.75825782734786" location="BTM Layout" speed="51" date="{today}" distance="27"/><position lat="13.29695510459492" lon="77.75825782734786" location="BTM Layout" speed="53" date="{today}" distance="28"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="12.980398" lon="77.581114" location="BTM Layout" speed="52" date="{week}" distance="10"/><position lat="13.253566730683165" lon="77.72365675376635" location="Bommanahalli" speed="46" date="{today}" distance="21"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-34">
+        <trip id="trip-vehicle-34">
+            <id>
+                trip-vehicle-34
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 34
+            </name>
+            <startdate>
+                Mon Oct 05 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:48:26 IST 2009
+            </lastupdated>
+            <location>
+                Eejipura
+            </location>
+            <distance>
+                52
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                81
+            </maxspeed>
+            <idlepointlimit>
+                10
+            </idlepointlimit>
+            <driver>
+                driver-83
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.020398" lon="77.691114" location="Madivala" speed="50" date="{week}" distance="10"/><position lat="13.098581148246803" lon="77.75346298018587" location="Koramangala" speed="51" date="{week}" distance="11"/><position lat="13.098581148246803" lon="77.75346298018587" location="Bommanahalli" speed="46" date="{week}" distance="12"/><position lat="13.141969522158558" lon="77.66336609339564" location="Madivala" speed="52" date="{week}" distance="13"/><position lat="13.098581148246803" lon="77.5732692066054" location="Koramangala" speed="41" date="{week}" distance="14"/><position lat="13.098581148246803" lon="77.5732692066054" location="Bommanahalli" speed="54" date="{week}" distance="15"/><position lat="13.098581148246803" lon="77.5732692066054" location="Bommanahalli" speed="48" date="{week}" distance="16"/><position lat="13.098581148246803" lon="77.5732692066054" location="Bommanahalli" speed="50" date="{week}" distance="17"/><position lat="13.098581148246803" lon="77.5732692066054" location="Eejipura" speed="51" date="{week}" distance="18"/><position lat="13.196073939464984" lon="77.55101711320977" location="BTM Layout" speed="45" date="{week}" distance="19"/><position lat="13.23946231337674" lon="77.46092022641953" location="BTM Layout" speed="40" date="{week}" distance="20"/><position lat="13.23946231337674" lon="77.46092022641953" location="Koramangala" speed="40" date="{today}" distance="21"/><position lat="13.141969522158558" lon="77.4386681330239" location="Koramangala" speed="47" date="{today}" distance="22"/><position lat="13.141969522158558" lon="77.4386681330239" location="BTM Layout" speed="49" date="{today}" distance="23"/><position lat="13.141969522158558" lon="77.4386681330239" location="Eejipura" speed="46" date="{today}" distance="24"/><position lat="13.22015267040536" lon="77.50101711320977" location="Madivala" speed="49" date="{today}" distance="25"/><position lat="13.317645461623542" lon="77.47876501981413" location="Eejipura" speed="43" date="{today}" distance="26"/><position lat="13.317645461623542" lon="77.47876501981413" location="Koramangala" speed="49" date="{today}" distance="27"/><position lat="13.317645461623542" lon="77.47876501981413" location="Bommanahalli" speed="52" date="{today}" distance="28"/><position lat="13.317645461623542" lon="77.47876501981413" location="BTM Layout" speed="45" date="{today}" distance="29"/><position lat="13.317645461623542" lon="77.47876501981413" location="BTM Layout" speed="49" date="{today}" distance="30"/><position lat="13.317645461623542" lon="77.47876501981413" location="Eejipura" speed="51" date="{today}" distance="31"/><position lat="13.395828609870344" lon="77.54111400000001" location="BTM Layout" speed="48" date="{today}" distance="32"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="13.098581148246803" lon="77.5732692066054" location="Bommanahalli" speed="50" date="{week}" distance="17"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-103">
+        <trip id="trip-vehicle-103">
+            <id>
+                trip-vehicle-103
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 103
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:37:26 IST 2009
+            </lastupdated>
+            <location>
+                Bommanahalli
+            </location>
+            <distance>
+                58
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                99
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-135
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.000397999999999" lon="77.611114" location="Madivala" speed="43" date="{week}" distance="10"/><position lat="13.000397999999999" lon="77.611114" location="Bommanahalli" speed="50" date="{week}" distance="11"/><position lat="13.000397999999999" lon="77.611114" location="Koramangala" speed="52" date="{week}" distance="12"/><position lat="13.043786373911754" lon="77.52101711320977" location="Bommanahalli" speed="51" date="{week}" distance="13"/><position lat="13.043786373911754" lon="77.52101711320977" location="Madivala" speed="53" date="{week}" distance="14"/><position lat="13.043786373911754" lon="77.52101711320977" location="Madivala" speed="51" date="{week}" distance="15"/><position lat="12.965603225664951" lon="77.58336609339564" location="Bommanahalli" speed="52" date="{week}" distance="16"/><position lat="12.965603225664951" lon="77.58336609339564" location="Madivala" speed="49" date="{week}" distance="17"/><position lat="13.043786373911754" lon="77.64571507358151" location="BTM Layout" speed="50" date="{week}" distance="18"/><position lat="13.141279165129935" lon="77.62346298018588" location="Eejipura" speed="47" date="{today}" distance="19"/><position lat="13.18466753904169" lon="77.53336609339564" location="Bommanahalli" speed="46" date="{today}" distance="20"/><position lat="13.141279165129935" lon="77.44326920660541" location="Madivala" speed="53" date="{today}" distance="21"/><position lat="13.043786373911754" lon="77.42101711320977" location="Bommanahalli" speed="53" date="{today}" distance="22"/><position lat="12.965603225664951" lon="77.48336609339565" location="Bommanahalli" speed="49" date="{today}" distance="23"/><position lat="12.965603225664951" lon="77.48336609339565" location="Bommanahalli" speed="41" date="{today}" distance="24"/><position lat="12.965603225664951" lon="77.48336609339565" location="BTM Layout" speed="43" date="{today}" distance="25"/><position lat="13.063096016883133" lon="77.46111400000001" location="Koramangala" speed="53" date="{today}" distance="26"/><position lat="13.063096016883133" lon="77.46111400000001" location="Koramangala" speed="46" date="{today}" distance="27"/><position lat="13.063096016883133" lon="77.46111400000001" location="Koramangala" speed="49" date="{today}" distance="28"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="12.965603225664951" lon="77.58336609339564" location="Madivala" speed="49" date="{week}" distance="17"/>
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="12.965603225664951" lon="77.48336609339565" location="BTM Layout" speed="43" date="{today}" distance="25"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-181">
+        <trip id="trip-vehicle-181">
+            <id>
+                trip-vehicle-181
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 181
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:07:26 IST 2009
+            </lastupdated>
+            <location>
+                Koramangala
+            </location>
+            <distance>
+                57
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                110
+            </maxspeed>
+            <idlepointlimit>
+                10
+            </idlepointlimit>
+            <driver>
+                driver-229
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.980398" lon="77.591114" location="Madivala" speed="47" date="{week}" distance="10"/><position lat="13.058581148246802" lon="77.65346298018588" location="Bommanahalli" speed="43" date="{week}" distance="11"/><position lat="13.058581148246802" lon="77.65346298018588" location="Eejipura" speed="52" date="{week}" distance="12"/><position lat="13.058581148246802" lon="77.65346298018588" location="Bommanahalli" speed="46" date="{week}" distance="13"/><position lat="13.058581148246802" lon="77.65346298018588" location="Bommanahalli" speed="50" date="{week}" distance="14"/><position lat="12.96108835702862" lon="77.63121088679024" location="Koramangala" speed="45" date="{week}" distance="15"/><position lat="12.882905208781818" lon="77.69355986697612" location="Eejipura" speed="44" date="{week}" distance="16"/><position lat="12.882905208781818" lon="77.79355986697611" location="Bommanahalli" speed="52" date="{today}" distance="17"/><position lat="12.96108835702862" lon="77.85590884716198" location="Madivala" speed="40" date="{today}" distance="18"/><position lat="12.96108835702862" lon="77.85590884716198" location="Eejipura" speed="53" date="{today}" distance="19"/><position lat="13.004476730940375" lon="77.76581196037175" location="Eejipura" speed="54" date="{today}" distance="20"/><position lat="12.96108835702862" lon="77.67571507358151" location="Koramangala" speed="47" date="{today}" distance="21"/><position lat="12.863595565810439" lon="77.65346298018588" location="Bommanahalli" speed="54" date="{today}" distance="22"/><position lat="12.863595565810439" lon="77.65346298018588" location="BTM Layout" speed="54" date="{today}" distance="23"/><position lat="12.863595565810439" lon="77.65346298018588" location="BTM Layout" speed="45" date="{today}" distance="24"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="13.058581148246802" lon="77.65346298018588" location="Bommanahalli" speed="46" date="{week}" distance="13"/>
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="12.882905208781818" lon="77.69355986697612" location="Eejipura" speed="44" date="{week}" distance="16"/><position lat="12.96108835702862" lon="77.85590884716198" location="Madivala" speed="40" date="{today}" distance="18"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="12.96108835702862" lon="77.85590884716198" location="Eejipura" speed="53" date="{today}" distance="19"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-94">
+        <trip id="trip-vehicle-94">
+            <id>
+                trip-vehicle-94
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 94
+            </name>
+            <startdate>
+                Tue Oct 06 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:20:26 IST 2009
+            </lastupdated>
+            <location>
+                Madivala
+            </location>
+            <distance>
+                53
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                76
+            </maxspeed>
+            <idlepointlimit>
+                10
+            </idlepointlimit>
+            <driver>
+                driver-170
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.020398" lon="77.621114" location="Eejipura" speed="49" date="{week}" distance="10"/><position lat="13.098581148246803" lon="77.68346298018588" location="Bommanahalli" speed="44" date="{week}" distance="11"/><position lat="13.098581148246803" lon="77.68346298018588" location="Eejipura" speed="44" date="{week}" distance="12"/><position lat="13.098581148246803" lon="77.68346298018588" location="BTM Layout" speed="47" date="{week}" distance="13"/><position lat="13.098581148246803" lon="77.68346298018588" location="Bommanahalli" speed="41" date="{week}" distance="14"/><position lat="13.098581148246803" lon="77.68346298018588" location="Eejipura" speed="52" date="{week}" distance="15"/><position lat="13.098581148246803" lon="77.68346298018588" location="Koramangala" speed="43" date="{week}" distance="16"/><position lat="13.098581148246803" lon="77.78346298018587" location="Bommanahalli" speed="52" date="{week}" distance="17"/><position lat="13.176764296493605" lon="77.84581196037175" location="Eejipura" speed="47" date="{week}" distance="18"/><position lat="13.274257087711787" lon="77.82355986697611" location="Koramangala" speed="52" date="{week}" distance="19"/><position lat="13.274257087711787" lon="77.82355986697611" location="Eejipura" speed="48" date="{week}" distance="20"/><position lat="13.274257087711787" lon="77.82355986697611" location="Koramangala" speed="43" date="{week}" distance="21"/><position lat="13.176764296493605" lon="77.80130777358048" location="Madivala" speed="52" date="{today}" distance="22"/><position lat="13.098581148246803" lon="77.86365675376635" location="BTM Layout" speed="49" date="{today}" distance="23"/><position lat="13.098581148246803" lon="77.96365675376634" location="Eejipura" speed="50" date="{today}" distance="24"/><position lat="13.098581148246803" lon="77.96365675376634" location="Bommanahalli" speed="48" date="{today}" distance="25"/><position lat="13.098581148246803" lon="77.96365675376634" location="Eejipura" speed="40" date="{today}" distance="26"/><position lat="13.141969522158558" lon="77.87355986697611" location="Eejipura" speed="54" date="{today}" distance="27"/><position lat="13.098581148246803" lon="77.78346298018587" location="Madivala" speed="42" date="{today}" distance="28"/><position lat="13.001088357028621" lon="77.76121088679024" location="Eejipura" speed="54" date="{today}" distance="29"/><position lat="13.001088357028621" lon="77.76121088679024" location="Bommanahalli" speed="54" date="{today}" distance="30"/><position lat="13.001088357028621" lon="77.76121088679024" location="Eejipura" speed="43" date="{today}" distance="31"/><position lat="13.079271505275424" lon="77.82355986697611" location="Madivala" speed="48" date="{today}" distance="32"/><position lat="13.176764296493605" lon="77.80130777358048" location="BTM Layout" speed="40" date="{today}" distance="33"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="13.098581148246803" lon="77.68346298018588" location="Bommanahalli" speed="41" date="{week}" distance="14"/><position lat="13.098581148246803" lon="77.78346298018587" location="Madivala" speed="42" date="{today}" distance="28"/>
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="13.176764296493605" lon="77.80130777358048" location="Madivala" speed="52" date="{today}" distance="22"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="13.098581148246803" lon="77.68346298018588" location="Eejipura" speed="52" date="{week}" distance="15"/><position lat="13.098581148246803" lon="77.86365675376635" location="BTM Layout" speed="49" date="{today}" distance="23"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-85">
+        <trip id="trip-vehicle-85">
+            <id>
+                trip-vehicle-85
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 85
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:35:26 IST 2009
+            </lastupdated>
+            <location>
+                Eejipura
+            </location>
+            <distance>
+                51
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                84
+            </maxspeed>
+            <idlepointlimit>
+                10
+            </idlepointlimit>
+            <driver>
+                driver-172
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.030398" lon="77.631114" location="Bommanahalli" speed="41" date="{week}" distance="10"/><position lat="13.108581148246802" lon="77.69346298018587" location="Bommanahalli" speed="49" date="{week}" distance="11"/><position lat="13.108581148246802" lon="77.69346298018587" location="Koramangala" speed="46" date="{week}" distance="12"/><position lat="13.151969522158558" lon="77.60336609339564" location="Bommanahalli" speed="51" date="{week}" distance="13"/><position lat="13.108581148246802" lon="77.5132692066054" location="BTM Layout" speed="43" date="{week}" distance="14"/><position lat="13.01108835702862" lon="77.49101711320976" location="Bommanahalli" speed="53" date="{week}" distance="15"/><position lat="12.932905208781818" lon="77.55336609339564" location="Koramangala" speed="51" date="{week}" distance="16"/><position lat="12.932905208781818" lon="77.55336609339564" location="Koramangala" speed="44" date="{week}" distance="17"/><position lat="12.932905208781818" lon="77.55336609339564" location="Eejipura" speed="44" date="{week}" distance="18"/><position lat="12.932905208781818" lon="77.55336609339564" location="Madivala" speed="54" date="{week}" distance="19"/><position lat="12.976293582693573" lon="77.4632692066054" location="Bommanahalli" speed="49" date="{today}" distance="20"/><position lat="12.976293582693573" lon="77.4632692066054" location="BTM Layout" speed="48" date="{today}" distance="21"/><position lat="12.878800791475392" lon="77.44101711320977" location="Madivala" speed="53" date="{today}" distance="22"/><position lat="12.80061764322859" lon="77.50336609339564" location="Madivala" speed="44" date="{today}" distance="23"/><position lat="12.80061764322859" lon="77.60336609339564" location="Madivala" speed="50" date="{today}" distance="24"/><position lat="12.878800791475392" lon="77.66571507358151" location="BTM Layout" speed="43" date="{today}" distance="25"/><position lat="12.878800791475392" lon="77.66571507358151" location="Koramangala" speed="44" date="{today}" distance="26"/><position lat="12.878800791475392" lon="77.66571507358151" location="BTM Layout" speed="41" date="{today}" distance="27"/><position lat="12.835412417563637" lon="77.57561818679127" location="Bommanahalli" speed="44" date="{today}" distance="28"/><position lat="12.835412417563637" lon="77.57561818679127" location="BTM Layout" speed="42" date="{today}" distance="29"/><position lat="12.835412417563637" lon="77.57561818679127" location="Koramangala" speed="53" date="{today}" distance="30"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="12.932905208781818" lon="77.55336609339564" location="Madivala" speed="54" date="{week}" distance="19"/><position lat="12.878800791475392" lon="77.66571507358151" location="BTM Layout" speed="43" date="{today}" distance="25"/>
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="12.976293582693573" lon="77.4632692066054" location="Bommanahalli" speed="49" date="{today}" distance="20"/><position lat="12.835412417563637" lon="77.57561818679127" location="Bommanahalli" speed="44" date="{today}" distance="28"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-15">
+        <trip id="trip-vehicle-15">
+            <id>
+                trip-vehicle-15
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 15
+            </name>
+            <startdate>
+                Tue Oct 06 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:05:26 IST 2009
+            </lastupdated>
+            <location>
+                Madivala
+            </location>
+            <distance>
+                53
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                91
+            </maxspeed>
+            <idlepointlimit>
+                11
+            </idlepointlimit>
+            <driver>
+                driver-93
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.960398" lon="77.641114" location="BTM Layout" speed="53" date="{week}" distance="10"/><position lat="12.960398" lon="77.641114" location="Koramangala" speed="43" date="{week}" distance="11"/><position lat="12.960398" lon="77.641114" location="Eejipura" speed="54" date="{week}" distance="12"/><position lat="13.003786373911755" lon="77.55101711320977" location="Bommanahalli" speed="42" date="{week}" distance="13"/><position lat="12.960398" lon="77.46092022641953" location="Eejipura" speed="45" date="{week}" distance="14"/><position lat="12.862905208781818" lon="77.4386681330239" location="Koramangala" speed="46" date="{week}" distance="15"/><position lat="12.862905208781818" lon="77.4386681330239" location="Madivala" speed="43" date="{week}" distance="16"/><position lat="12.862905208781818" lon="77.4386681330239" location="Koramangala" speed="42" date="{week}" distance="17"/><position lat="12.94108835702862" lon="77.50101711320977" location="BTM Layout" speed="46" date="{week}" distance="18"/><position lat="13.038581148246802" lon="77.47876501981413" location="Bommanahalli" speed="40" date="{week}" distance="19"/><position lat="13.081969522158557" lon="77.3886681330239" location="Eejipura" speed="48" date="{week}" distance="20"/><position lat="13.038581148246802" lon="77.29857124623366" location="BTM Layout" speed="44" date="{today}" distance="21"/><position lat="13.038581148246802" lon="77.29857124623366" location="Bommanahalli" speed="48" date="{today}" distance="22"/><position lat="13.038581148246802" lon="77.29857124623366" location="Eejipura" speed="49" date="{today}" distance="23"/><position lat="13.038581148246802" lon="77.39857124623366" location="Bommanahalli" speed="53" date="{today}" distance="24"/><position lat="13.038581148246802" lon="77.39857124623366" location="Bommanahalli" speed="52" date="{today}" distance="25"/><position lat="13.038581148246802" lon="77.39857124623366" location="Eejipura" speed="42" date="{today}" distance="26"/><position lat="13.081969522158557" lon="77.30847435944342" location="Bommanahalli" speed="54" date="{today}" distance="27"/><position lat="13.038581148246802" lon="77.21837747265319" location="BTM Layout" speed="45" date="{today}" distance="28"/><position lat="13.038581148246802" lon="77.21837747265319" location="Bommanahalli" speed="42" date="{today}" distance="29"/><position lat="12.960398" lon="77.28072645283906" location="Bommanahalli" speed="42" date="{today}" distance="30"/><position lat="12.960398" lon="77.28072645283906" location="Eejipura" speed="53" date="{today}" distance="31"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="12.960398" lon="77.641114" location="Eejipura" speed="54" date="{week}" distance="12"/>
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="13.081969522158557" lon="77.30847435944342" location="Bommanahalli" speed="54" date="{today}" distance="27"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="13.038581148246802" lon="77.29857124623366" location="BTM Layout" speed="44" date="{today}" distance="21"/><position lat="13.038581148246802" lon="77.21837747265319" location="Bommanahalli" speed="42" date="{today}" distance="29"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-225">
+        <trip id="trip-vehicle-225">
+            <id>
+                trip-vehicle-225
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 225
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:23:26 IST 2009
+            </lastupdated>
+            <location>
+                Bommanahalli
+            </location>
+            <distance>
+                51
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                106
+            </maxspeed>
+            <idlepointlimit>
+                13
+            </idlepointlimit>
+            <driver>
+                driver-28
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.040398" lon="77.70111399999999" location="Bommanahalli" speed="40" date="{week}" distance="10"/><position lat="13.040398" lon="77.70111399999999" location="Eejipura" speed="53" date="{week}" distance="11"/><position lat="13.040398" lon="77.70111399999999" location="Bommanahalli" speed="49" date="{week}" distance="12"/><position lat="13.083786373911755" lon="77.61101711320975" location="Madivala" speed="53" date="{week}" distance="13"/><position lat="13.040398" lon="77.52092022641952" location="Bommanahalli" speed="52" date="{week}" distance="14"/><position lat="12.942905208781818" lon="77.49866813302388" location="BTM Layout" speed="42" date="{week}" distance="15"/><position lat="12.942905208781818" lon="77.49866813302388" location="Bommanahalli" speed="40" date="{week}" distance="16"/><position lat="12.942905208781818" lon="77.49866813302388" location="Eejipura" speed="51" date="{week}" distance="17"/><position lat="12.942905208781818" lon="77.49866813302388" location="Koramangala" speed="40" date="{week}" distance="18"/><position lat="13.040398" lon="77.47641603962825" location="BTM Layout" speed="52" date="{week}" distance="19"/><position lat="13.040398" lon="77.47641603962825" location="Koramangala" speed="50" date="{week}" distance="20"/><position lat="13.040398" lon="77.47641603962825" location="Eejipura" speed="41" date="{today}" distance="21"/><position lat="13.040398" lon="77.47641603962825" location="Bommanahalli" speed="45" date="{today}" distance="22"/><position lat="13.040398" lon="77.47641603962825" location="Eejipura" speed="49" date="{today}" distance="23"/><position lat="13.040398" lon="77.57641603962824" location="Koramangala" speed="47" date="{today}" distance="24"/><position lat="13.040398" lon="77.57641603962824" location="BTM Layout" speed="44" date="{today}" distance="25"/><position lat="13.040398" lon="77.57641603962824" location="Eejipura" speed="47" date="{today}" distance="26"/><position lat="13.040398" lon="77.57641603962824" location="Koramangala" speed="53" date="{today}" distance="27"/><position lat="12.997009626088245" lon="77.486319152838" location="Madivala" speed="50" date="{today}" distance="28"/><position lat="12.997009626088245" lon="77.486319152838" location="Madivala" speed="48" date="{today}" distance="29"/><position lat="12.918826477841442" lon="77.54866813302388" location="Bommanahalli" speed="42" date="{today}" distance="30"/><position lat="12.918826477841442" lon="77.64866813302388" location="Koramangala" speed="53" date="{today}" distance="31"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="13.040398" lon="77.70111399999999" location="Eejipura" speed="53" date="{week}" distance="11"/><position lat="12.942905208781818" lon="77.49866813302388" location="Koramangala" speed="40" date="{week}" distance="18"/>
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="13.040398" lon="77.57641603962824" location="Koramangala" speed="53" date="{today}" distance="27"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-210">
+        <trip id="trip-vehicle-210">
+            <id>
+                trip-vehicle-210
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 210
+            </name>
+            <startdate>
+                Mon Oct 05 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:34:26 IST 2009
+            </lastupdated>
+            <location>
+                Madivala
+            </location>
+            <distance>
+                50
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                85
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-223
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.970398" lon="77.75111399999999" location="Bommanahalli" speed="45" date="{week}" distance="10"/><position lat="12.970398" lon="77.75111399999999" location="Eejipura" speed="46" date="{week}" distance="11"/><position lat="12.970398" lon="77.75111399999999" location="Koramangala" speed="45" date="{week}" distance="12"/><position lat="13.013786373911755" lon="77.66101711320975" location="Eejipura" speed="50" date="{week}" distance="13"/><position lat="12.970398" lon="77.57092022641952" location="BTM Layout" speed="46" date="{week}" distance="14"/><position lat="12.872905208781818" lon="77.54866813302388" location="Eejipura" speed="52" date="{week}" distance="15"/><position lat="12.794722060535015" lon="77.61101711320975" location="Eejipura" speed="49" date="{week}" distance="16"/><position lat="12.794722060535015" lon="77.71101711320975" location="Eejipura" speed="50" date="{week}" distance="17"/><position lat="12.872905208781818" lon="77.77336609339562" location="Bommanahalli" speed="53" date="{week}" distance="18"/><position lat="12.970398" lon="77.75111399999999" location="Bommanahalli" speed="46" date="{week}" distance="19"/><position lat="13.013786373911755" lon="77.66101711320975" location="BTM Layout" speed="54" date="{week}" distance="20"/><position lat="13.013786373911755" lon="77.66101711320975" location="Bommanahalli" speed="49" date="{week}" distance="21"/><position lat="13.013786373911755" lon="77.66101711320975" location="Eejipura" speed="42" date="{today}" distance="22"/><position lat="12.935603225664952" lon="77.72336609339563" location="Koramangala" speed="40" date="{today}" distance="23"/><position lat="12.935603225664952" lon="77.82336609339562" location="BTM Layout" speed="47" date="{today}" distance="24"/><position lat="13.013786373911755" lon="77.8857150735815" location="Bommanahalli" speed="50" date="{today}" distance="25"/><position lat="13.111279165129936" lon="77.86346298018586" location="BTM Layout" speed="50" date="{today}" distance="26"/><position lat="13.154667539041691" lon="77.77336609339562" location="Bommanahalli" speed="43" date="{today}" distance="27"/><position lat="13.111279165129936" lon="77.68326920660539" location="Madivala" speed="49" date="{today}" distance="28"/><position lat="13.013786373911755" lon="77.66101711320975" location="Eejipura" speed="52" date="{today}" distance="29"/><position lat="12.935603225664952" lon="77.72336609339563" location="Eejipura" speed="40" date="{today}" distance="30"/><position lat="12.935603225664952" lon="77.72336609339563" location="Eejipura" speed="40" date="{today}" distance="31"/><position lat="12.935603225664952" lon="77.72336609339563" location="Eejipura" speed="47" date="{today}" distance="32"/><position lat="13.033096016883134" lon="77.70111399999999" location="Bommanahalli" speed="53" date="{today}" distance="33"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="12.935603225664952" lon="77.72336609339563" location="Eejipura" speed="47" date="{today}" distance="32"/>
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="13.013786373911755" lon="77.8857150735815" location="Bommanahalli" speed="50" date="{today}" distance="25"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-95">
+        <trip id="trip-vehicle-95">
+            <id>
+                trip-vehicle-95
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 95
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:49:26 IST 2009
+            </lastupdated>
+            <location>
+                Eejipura
+            </location>
+            <distance>
+                59
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                79
+            </maxspeed>
+            <idlepointlimit>
+                11
+            </idlepointlimit>
+            <driver>
+                driver-241
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.050398" lon="77.711114" location="Bommanahalli" speed="53" date="{week}" distance="10"/><position lat="13.050398" lon="77.711114" location="Madivala" speed="50" date="{week}" distance="11"/><position lat="13.147890791218181" lon="77.68886190660436" location="BTM Layout" speed="53" date="{week}" distance="12"/><position lat="13.147890791218181" lon="77.68886190660436" location="Bommanahalli" speed="50" date="{week}" distance="13"/><position lat="13.147890791218181" lon="77.68886190660436" location="BTM Layout" speed="45" date="{week}" distance="14"/><position lat="13.050398" lon="77.66660981320872" location="Bommanahalli" speed="42" date="{week}" distance="15"/><position lat="12.972214851753197" lon="77.7289587933946" location="Koramangala" speed="50" date="{week}" distance="16"/><position lat="12.972214851753197" lon="77.82895879339459" location="Madivala" speed="45" date="{week}" distance="17"/><position lat="13.050398" lon="77.89130777358046" location="Madivala" speed="54" date="{week}" distance="18"/><position lat="13.050398" lon="77.89130777358046" location="Koramangala" speed="40" date="{week}" distance="19"/><position lat="13.093786373911755" lon="77.80121088679023" location="Koramangala" speed="40" date="{today}" distance="20"/><position lat="13.050398" lon="77.711114" location="BTM Layout" speed="52" date="{today}" distance="21"/><position lat="12.952905208781818" lon="77.68886190660436" location="Madivala" speed="46" date="{today}" distance="22"/><position lat="12.874722060535015" lon="77.75121088679023" location="Koramangala" speed="53" date="{today}" distance="23"/><position lat="12.874722060535015" lon="77.75121088679023" location="Madivala" speed="51" date="{today}" distance="24"/><position lat="12.952905208781818" lon="77.8135598669761" location="Bommanahalli" speed="48" date="{today}" distance="25"/><position lat="13.050398" lon="77.79130777358047" location="Koramangala" speed="51" date="{today}" distance="26"/><position lat="13.050398" lon="77.79130777358047" location="Madivala" speed="45" date="{today}" distance="27"/><position lat="13.007009626088244" lon="77.70121088679024" location="Eejipura" speed="45" date="{today}" distance="28"/><position lat="13.007009626088244" lon="77.70121088679024" location="Koramangala" speed="54" date="{today}" distance="29"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="13.050398" lon="77.711114" location="BTM Layout" speed="52" date="{today}" distance="21"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-159">
+        <trip id="trip-vehicle-159">
+            <id>
+                trip-vehicle-159
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 159
+            </name>
+            <startdate>
+                Tue Oct 06 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:17:26 IST 2009
+            </lastupdated>
+            <location>
+                BTM Layout
+            </location>
+            <distance>
+                53
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                80
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-226
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.030398" lon="77.711114" location="Madivala" speed="40" date="{week}" distance="10"/><position lat="13.030398" lon="77.711114" location="Eejipura" speed="44" date="{week}" distance="11"/><position lat="13.030398" lon="77.711114" location="Koramangala" speed="52" date="{week}" distance="12"/><position lat="13.073786373911755" lon="77.62101711320976" location="Bommanahalli" speed="41" date="{week}" distance="13"/><position lat="13.030398" lon="77.53092022641952" location="Koramangala" speed="48" date="{week}" distance="14"/><position lat="13.030398" lon="77.53092022641952" location="Bommanahalli" speed="46" date="{week}" distance="15"/><position lat="12.952214851753197" lon="77.5932692066054" location="Bommanahalli" speed="52" date="{week}" distance="16"/><position lat="12.952214851753197" lon="77.5932692066054" location="BTM Layout" speed="46" date="{week}" distance="17"/><position lat="12.952214851753197" lon="77.5932692066054" location="Madivala" speed="51" date="{week}" distance="18"/><position lat="13.049707642971379" lon="77.57101711320976" location="Koramangala" speed="51" date="{today}" distance="19"/><position lat="13.049707642971379" lon="77.57101711320976" location="BTM Layout" speed="54" date="{today}" distance="20"/><position lat="13.049707642971379" lon="77.57101711320976" location="Bommanahalli" speed="42" date="{today}" distance="21"/><position lat="13.049707642971379" lon="77.57101711320976" location="Madivala" speed="52" date="{today}" distance="22"/><position lat="13.049707642971379" lon="77.57101711320976" location="Bommanahalli" speed="52" date="{today}" distance="23"/><position lat="13.049707642971379" lon="77.57101711320976" location="Koramangala" speed="47" date="{today}" distance="24"/><position lat="13.127890791218181" lon="77.63336609339564" location="Bommanahalli" speed="47" date="{today}" distance="25"/><position lat="13.225383582436363" lon="77.611114" location="Koramangala" speed="46" date="{today}" distance="26"/><position lat="13.268771956348118" lon="77.52101711320977" location="Bommanahalli" speed="50" date="{today}" distance="27"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="13.030398" lon="77.53092022641952" location="Bommanahalli" speed="46" date="{week}" distance="15"/><position lat="12.952214851753197" lon="77.5932692066054" location="Bommanahalli" speed="52" date="{week}" distance="16"/><position lat="13.049707642971379" lon="77.57101711320976" location="Madivala" speed="52" date="{today}" distance="22"/><position lat="13.049707642971379" lon="77.57101711320976" location="Koramangala" speed="47" date="{today}" distance="24"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="13.073786373911755" lon="77.62101711320976" location="Bommanahalli" speed="41" date="{week}" distance="13"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-97">
+        <trip id="trip-vehicle-97">
+            <id>
+                trip-vehicle-97
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 97
+            </name>
+            <startdate>
+                Tue Oct 06 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:15:26 IST 2009
+            </lastupdated>
+            <location>
+                Koramangala
+            </location>
+            <distance>
+                56
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                74
+            </maxspeed>
+            <idlepointlimit>
+                11
+            </idlepointlimit>
+            <driver>
+                driver-108
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.020398" lon="77.681114" location="Eejipura" speed="41" date="{week}" distance="10"/><position lat="13.020398" lon="77.681114" location="Eejipura" speed="42" date="{week}" distance="11"/><position lat="13.020398" lon="77.681114" location="Eejipura" speed="51" date="{week}" distance="12"/><position lat="13.063786373911755" lon="77.59101711320976" location="BTM Layout" speed="49" date="{week}" distance="13"/><position lat="13.020398" lon="77.50092022641952" location="Bommanahalli" speed="43" date="{week}" distance="14"/><position lat="13.020398" lon="77.50092022641952" location="Bommanahalli" speed="51" date="{week}" distance="15"/><position lat="12.942214851753198" lon="77.5632692066054" location="Madivala" speed="43" date="{week}" distance="16"/><position lat="12.942214851753198" lon="77.5632692066054" location="Eejipura" speed="44" date="{week}" distance="17"/><position lat="13.020398" lon="77.62561818679127" location="Madivala" speed="50" date="{week}" distance="18"/><position lat="13.020398" lon="77.62561818679127" location="Bommanahalli" speed="42" date="{week}" distance="19"/><position lat="13.063786373911755" lon="77.53552130000104" location="BTM Layout" speed="41" date="{week}" distance="20"/><position lat="13.020398" lon="77.4454244132108" location="Madivala" speed="54" date="{today}" distance="21"/><position lat="12.922905208781819" lon="77.42317231981517" location="Koramangala" speed="41" date="{today}" distance="22"/><position lat="12.844722060535016" lon="77.48552130000104" location="Bommanahalli" speed="54" date="{today}" distance="23"/><position lat="12.844722060535016" lon="77.48552130000104" location="Bommanahalli" speed="48" date="{today}" distance="24"/><position lat="12.922905208781819" lon="77.54787028018691" location="Bommanahalli" speed="46" date="{today}" distance="25"/><position lat="13.020398" lon="77.52561818679128" location="Eejipura" speed="50" date="{today}" distance="26"/><position lat="13.063786373911755" lon="77.43552130000104" location="BTM Layout" speed="50" date="{today}" distance="27"/><position lat="13.063786373911755" lon="77.43552130000104" location="Eejipura" speed="45" date="{today}" distance="28"/><position lat="13.063786373911755" lon="77.43552130000104" location="Eejipura" speed="43" date="{today}" distance="29"/><position lat="13.063786373911755" lon="77.43552130000104" location="Bommanahalli" speed="48" date="{today}" distance="30"/><position lat="13.063786373911755" lon="77.43552130000104" location="BTM Layout" speed="41" date="{today}" distance="31"/><position lat="13.063786373911755" lon="77.43552130000104" location="Koramangala" speed="54" date="{today}" distance="32"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="13.063786373911755" lon="77.43552130000104" location="BTM Layout" speed="50" date="{today}" distance="27"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="12.942214851753198" lon="77.5632692066054" location="Eejipura" speed="44" date="{week}" distance="17"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-226">
+        <trip id="trip-vehicle-226">
+            <id>
+                trip-vehicle-226
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 226
+            </name>
+            <startdate>
+                Mon Oct 05 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:22:26 IST 2009
+            </lastupdated>
+            <location>
+                Koramangala
+            </location>
+            <distance>
+                60
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                75
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-35
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.030398" lon="77.741114" location="BTM Layout" speed="54" date="{week}" distance="10"/><position lat="13.030398" lon="77.741114" location="Eejipura" speed="42" date="{week}" distance="11"/><position lat="13.127890791218181" lon="77.71886190660436" location="BTM Layout" speed="52" date="{week}" distance="12"/><position lat="13.127890791218181" lon="77.71886190660436" location="BTM Layout" speed="41" date="{week}" distance="13"/><position lat="13.127890791218181" lon="77.71886190660436" location="Koramangala" speed="47" date="{week}" distance="14"/><position lat="13.030398" lon="77.69660981320872" location="Koramangala" speed="53" date="{week}" distance="15"/><position lat="12.952214851753197" lon="77.7589587933946" location="BTM Layout" speed="44" date="{week}" distance="16"/><position lat="12.952214851753197" lon="77.85895879339459" location="BTM Layout" speed="41" date="{week}" distance="17"/><position lat="13.030398" lon="77.92130777358047" location="Bommanahalli" speed="42" date="{week}" distance="18"/><position lat="13.127890791218181" lon="77.89905568018483" location="BTM Layout" speed="49" date="{week}" distance="19"/><position lat="13.171279165129937" lon="77.8089587933946" location="Eejipura" speed="41" date="{today}" distance="20"/><position lat="13.171279165129937" lon="77.8089587933946" location="Bommanahalli" speed="48" date="{today}" distance="21"/><position lat="13.073786373911755" lon="77.78670669999896" location="Koramangala" speed="53" date="{today}" distance="22"/><position lat="12.995603225664953" lon="77.84905568018483" location="Koramangala" speed="50" date="{today}" distance="23"/><position lat="12.995603225664953" lon="77.94905568018483" location="Koramangala" speed="47" date="{today}" distance="24"/><position lat="12.995603225664953" lon="77.94905568018483" location="Eejipura" speed="45" date="{today}" distance="25"/><position lat="13.093096016883134" lon="77.92680358678919" location="Bommanahalli" speed="50" date="{today}" distance="26"/><position lat="13.13648439079489" lon="77.83670669999896" location="Bommanahalli" speed="42" date="{today}" distance="27"/><position lat="13.13648439079489" lon="77.83670669999896" location="BTM Layout" speed="52" date="{today}" distance="28"/><position lat="13.038991599576708" lon="77.81445460660332" location="Madivala" speed="47" date="{today}" distance="29"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="13.127890791218181" lon="77.71886190660436" location="BTM Layout" speed="52" date="{week}" distance="12"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-82">
+        <trip id="trip-vehicle-82">
+            <id>
+                trip-vehicle-82
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 82
+            </name>
+            <startdate>
+                Mon Oct 05 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:07:26 IST 2009
+            </lastupdated>
+            <location>
+                Eejipura
+            </location>
+            <distance>
+                63
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                101
+            </maxspeed>
+            <idlepointlimit>
+                13
+            </idlepointlimit>
+            <driver>
+                driver-189
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.960398" lon="77.681114" location="Bommanahalli" speed="43" date="{week}" distance="10"/><position lat="13.038581148246802" lon="77.74346298018587" location="Eejipura" speed="53" date="{week}" distance="11"/><position lat="13.136073939464984" lon="77.72121088679023" location="Madivala" speed="47" date="{week}" distance="12"/><position lat="13.179462313376739" lon="77.631114" location="BTM Layout" speed="49" date="{week}" distance="13"/><position lat="13.179462313376739" lon="77.631114" location="Bommanahalli" speed="49" date="{week}" distance="14"/><position lat="13.081969522158557" lon="77.60886190660436" location="Eejipura" speed="44" date="{week}" distance="15"/><position lat="13.081969522158557" lon="77.60886190660436" location="Koramangala" speed="49" date="{week}" distance="16"/><position lat="13.081969522158557" lon="77.60886190660436" location="Eejipura" speed="48" date="{week}" distance="17"/><position lat="13.081969522158557" lon="77.60886190660436" location="Madivala" speed="40" date="{week}" distance="18"/><position lat="13.179462313376739" lon="77.58660981320872" location="Koramangala" speed="42" date="{today}" distance="19"/><position lat="13.222850687288494" lon="77.49651292641849" location="BTM Layout" speed="54" date="{today}" distance="20"/><position lat="13.179462313376739" lon="77.40641603962825" location="Madivala" speed="54" date="{today}" distance="21"/><position lat="13.179462313376739" lon="77.40641603962825" location="Koramangala" speed="47" date="{today}" distance="22"/><position lat="13.101279165129936" lon="77.46876501981413" location="Madivala" speed="49" date="{today}" distance="23"/><position lat="13.101279165129936" lon="77.56876501981412" location="BTM Layout" speed="54" date="{today}" distance="24"/><position lat="13.179462313376739" lon="77.631114" location="Eejipura" speed="51" date="{today}" distance="25"/><position lat="13.179462313376739" lon="77.631114" location="BTM Layout" speed="44" date="{today}" distance="26"/><position lat="13.222850687288494" lon="77.54101711320976" location="Koramangala" speed="46" date="{today}" distance="27"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-62">
+        <trip id="trip-vehicle-62">
+            <id>
+                trip-vehicle-62
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 62
+            </name>
+            <startdate>
+                Mon Oct 05 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:27:26 IST 2009
+            </lastupdated>
+            <location>
+                Bommanahalli
+            </location>
+            <distance>
+                52
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                108
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-0
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.980398" lon="77.631114" location="BTM Layout" speed="48" date="{week}" distance="10"/><position lat="13.058581148246802" lon="77.69346298018587" location="Madivala" speed="44" date="{week}" distance="11"/><position lat="13.156073939464983" lon="77.67121088679023" location="Bommanahalli" speed="52" date="{week}" distance="12"/><position lat="13.156073939464983" lon="77.67121088679023" location="Eejipura" speed="52" date="{week}" distance="13"/><position lat="13.112685565553228" lon="77.581114" location="Bommanahalli" speed="45" date="{week}" distance="14"/><position lat="13.015192774335047" lon="77.55886190660436" location="Madivala" speed="48" date="{week}" distance="15"/><position lat="12.937009626088244" lon="77.62121088679024" location="BTM Layout" speed="41" date="{week}" distance="16"/><position lat="12.937009626088244" lon="77.62121088679024" location="Bommanahalli" speed="50" date="{week}" distance="17"/><position lat="13.015192774335047" lon="77.68355986697611" location="Eejipura" speed="42" date="{week}" distance="18"/><position lat="13.015192774335047" lon="77.68355986697611" location="BTM Layout" speed="41" date="{today}" distance="19"/><position lat="13.015192774335047" lon="77.68355986697611" location="Koramangala" speed="53" date="{today}" distance="20"/><position lat="12.971804400423292" lon="77.59346298018588" location="BTM Layout" speed="50" date="{today}" distance="21"/><position lat="12.87431160920511" lon="77.57121088679024" location="Eejipura" speed="40" date="{today}" distance="22"/><position lat="12.796128460958307" lon="77.63355986697611" location="BTM Layout" speed="41" date="{today}" distance="23"/><position lat="12.796128460958307" lon="77.73355986697611" location="BTM Layout" speed="41" date="{today}" distance="24"/><position lat="12.796128460958307" lon="77.73355986697611" location="Madivala" speed="42" date="{today}" distance="25"/><position lat="12.796128460958307" lon="77.73355986697611" location="Bommanahalli" speed="46" date="{today}" distance="26"/><position lat="12.796128460958307" lon="77.73355986697611" location="Madivala" speed="41" date="{today}" distance="27"/><position lat="12.752740087046552" lon="77.64346298018587" location="Eejipura" speed="48" date="{today}" distance="28"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="13.015192774335047" lon="77.68355986697611" location="Eejipura" speed="42" date="{week}" distance="18"/><position lat="12.752740087046552" lon="77.64346298018587" location="Eejipura" speed="48" date="{today}" distance="28"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-202">
+        <trip id="trip-vehicle-202">
+            <id>
+                trip-vehicle-202
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 202
+            </name>
+            <startdate>
+                Mon Oct 05 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:25:26 IST 2009
+            </lastupdated>
+            <location>
+                Eejipura
+            </location>
+            <distance>
+                57
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                88
+            </maxspeed>
+            <idlepointlimit>
+                11
+            </idlepointlimit>
+            <driver>
+                driver-142
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.030398" lon="77.65111399999999" location="Koramangala" speed="54" date="{week}" distance="10"/><position lat="13.030398" lon="77.65111399999999" location="Madivala" speed="46" date="{week}" distance="11"/><position lat="13.030398" lon="77.65111399999999" location="Madivala" speed="49" date="{week}" distance="12"/><position lat="13.073786373911755" lon="77.56101711320976" location="BTM Layout" speed="48" date="{week}" distance="13"/><position lat="13.030398" lon="77.47092022641952" location="Madivala" speed="48" date="{week}" distance="14"/><position lat="12.932905208781818" lon="77.44866813302389" location="BTM Layout" speed="43" date="{week}" distance="15"/><position lat="12.854722060535016" lon="77.51101711320976" location="BTM Layout" speed="44" date="{week}" distance="16"/><position lat="12.854722060535016" lon="77.51101711320976" location="Madivala" speed="41" date="{week}" distance="17"/><position lat="12.854722060535016" lon="77.51101711320976" location="BTM Layout" speed="49" date="{week}" distance="18"/><position lat="12.854722060535016" lon="77.51101711320976" location="Eejipura" speed="48" date="{week}" distance="19"/><position lat="12.898110434446771" lon="77.42092022641953" location="Bommanahalli" speed="41" date="{week}" distance="20"/><position lat="12.898110434446771" lon="77.42092022641953" location="Madivala" speed="41" date="{today}" distance="21"/><position lat="12.80061764322859" lon="77.39866813302389" location="Madivala" speed="53" date="{today}" distance="22"/><position lat="12.722434494981787" lon="77.46101711320976" location="Koramangala" speed="40" date="{today}" distance="23"/><position lat="12.722434494981787" lon="77.56101711320976" location="Koramangala" speed="40" date="{today}" distance="24"/><position lat="12.80061764322859" lon="77.62336609339563" location="BTM Layout" speed="42" date="{today}" distance="25"/><position lat="12.80061764322859" lon="77.62336609339563" location="Koramangala" speed="53" date="{today}" distance="26"/><position lat="12.80061764322859" lon="77.62336609339563" location="Bommanahalli" speed="41" date="{today}" distance="27"/><position lat="12.80061764322859" lon="77.62336609339563" location="Eejipura" speed="44" date="{today}" distance="28"/><position lat="12.80061764322859" lon="77.62336609339563" location="Koramangala" speed="51" date="{today}" distance="29"/><position lat="12.80061764322859" lon="77.62336609339563" location="Bommanahalli" speed="54" date="{today}" distance="30"/><position lat="12.80061764322859" lon="77.72336609339563" location="Koramangala" speed="49" date="{today}" distance="31"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="12.932905208781818" lon="77.44866813302389" location="BTM Layout" speed="43" date="{week}" distance="15"/><position lat="12.80061764322859" lon="77.39866813302389" location="Madivala" speed="53" date="{today}" distance="22"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="12.80061764322859" lon="77.62336609339563" location="Bommanahalli" speed="54" date="{today}" distance="30"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-54">
+        <trip id="trip-vehicle-54">
+            <id>
+                trip-vehicle-54
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 54
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:04:26 IST 2009
+            </lastupdated>
+            <location>
+                Bommanahalli
+            </location>
+            <distance>
+                63
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                83
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-186
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.050398" lon="77.671114" location="BTM Layout" speed="50" date="{week}" distance="10"/><position lat="13.050398" lon="77.671114" location="Bommanahalli" speed="44" date="{week}" distance="11"/><position lat="13.147890791218181" lon="77.64886190660437" location="Koramangala" speed="54" date="{week}" distance="12"/><position lat="13.191279165129936" lon="77.55876501981413" location="Bommanahalli" speed="47" date="{week}" distance="13"/><position lat="13.147890791218181" lon="77.4686681330239" location="Eejipura" speed="49" date="{week}" distance="14"/><position lat="13.050398" lon="77.44641603962826" location="Koramangala" speed="43" date="{week}" distance="15"/><position lat="12.972214851753197" lon="77.50876501981413" location="Eejipura" speed="47" date="{week}" distance="16"/><position lat="12.972214851753197" lon="77.60876501981413" location="Eejipura" speed="44" date="{week}" distance="17"/><position lat="13.050398" lon="77.671114" location="Koramangala" speed="42" date="{week}" distance="18"/><position lat="13.050398" lon="77.671114" location="Bommanahalli" speed="47" date="{week}" distance="19"/><position lat="13.050398" lon="77.671114" location="Eejipura" speed="51" date="{today}" distance="20"/><position lat="13.050398" lon="77.671114" location="Madivala" speed="40" date="{today}" distance="21"/><position lat="12.952905208781818" lon="77.64886190660437" location="Bommanahalli" speed="53" date="{today}" distance="22"/><position lat="12.952905208781818" lon="77.64886190660437" location="Koramangala" speed="52" date="{today}" distance="23"/><position lat="12.952905208781818" lon="77.64886190660437" location="Eejipura" speed="46" date="{today}" distance="24"/><position lat="13.03108835702862" lon="77.71121088679024" location="Koramangala" speed="46" date="{today}" distance="25"/><position lat="13.03108835702862" lon="77.71121088679024" location="Eejipura" speed="54" date="{today}" distance="26"/><position lat="13.03108835702862" lon="77.71121088679024" location="Madivala" speed="42" date="{today}" distance="27"/><position lat="13.03108835702862" lon="77.71121088679024" location="Koramangala" speed="52" date="{today}" distance="28"/><position lat="13.03108835702862" lon="77.71121088679024" location="Koramangala" speed="44" date="{today}" distance="29"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="13.03108835702862" lon="77.71121088679024" location="Madivala" speed="42" date="{today}" distance="27"/>
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="13.050398" lon="77.44641603962826" location="Koramangala" speed="43" date="{week}" distance="15"/><position lat="12.972214851753197" lon="77.50876501981413" location="Eejipura" speed="47" date="{week}" distance="16"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-46">
+        <trip id="trip-vehicle-46">
+            <id>
+                trip-vehicle-46
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 46
+            </name>
+            <startdate>
+                Tue Oct 06 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:04:26 IST 2009
+            </lastupdated>
+            <location>
+                Madivala
+            </location>
+            <distance>
+                58
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                104
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-23
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.980398" lon="77.601114" location="Koramangala" speed="50" date="{week}" distance="10"/><position lat="12.980398" lon="77.601114" location="Bommanahalli" speed="42" date="{week}" distance="11"/><position lat="12.980398" lon="77.601114" location="BTM Layout" speed="45" date="{week}" distance="12"/><position lat="12.980398" lon="77.601114" location="Madivala" speed="41" date="{week}" distance="13"/><position lat="12.937009626088244" lon="77.51101711320976" location="Madivala" speed="48" date="{week}" distance="14"/><position lat="12.937009626088244" lon="77.51101711320976" location="Koramangala" speed="43" date="{week}" distance="15"/><position lat="12.858826477841442" lon="77.57336609339563" location="Koramangala" speed="48" date="{week}" distance="16"/><position lat="12.858826477841442" lon="77.67336609339563" location="Eejipura" speed="53" date="{week}" distance="17"/><position lat="12.937009626088244" lon="77.7357150735815" location="BTM Layout" speed="45" date="{week}" distance="18"/><position lat="12.937009626088244" lon="77.7357150735815" location="Madivala" speed="54" date="{week}" distance="19"/><position lat="12.937009626088244" lon="77.7357150735815" location="Eejipura" speed="44" date="{today}" distance="20"/><position lat="12.937009626088244" lon="77.7357150735815" location="Eejipura" speed="41" date="{today}" distance="21"/><position lat="12.937009626088244" lon="77.7357150735815" location="BTM Layout" speed="52" date="{today}" distance="22"/><position lat="12.858826477841442" lon="77.79806405376738" location="BTM Layout" speed="41" date="{today}" distance="23"/><position lat="12.858826477841442" lon="77.89806405376737" location="Bommanahalli" speed="54" date="{today}" distance="24"/><position lat="12.858826477841442" lon="77.89806405376737" location="BTM Layout" speed="42" date="{today}" distance="25"/><position lat="12.858826477841442" lon="77.89806405376737" location="Koramangala" speed="47" date="{today}" distance="26"/><position lat="12.902214851753197" lon="77.80796716697714" location="Madivala" speed="49" date="{today}" distance="27"/><position lat="12.858826477841442" lon="77.7178702801869" location="BTM Layout" speed="42" date="{today}" distance="28"/><position lat="12.76133368662326" lon="77.69561818679126" location="Bommanahalli" speed="50" date="{today}" distance="29"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="12.980398" lon="77.601114" location="Koramangala" speed="50" date="{week}" distance="10"/>
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-137">
+        <trip id="trip-vehicle-137">
+            <id>
+                trip-vehicle-137
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 137
+            </name>
+            <startdate>
+                Mon Oct 05 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:20:26 IST 2009
+            </lastupdated>
+            <location>
+                Madivala
+            </location>
+            <distance>
+                59
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                68
+            </maxspeed>
+            <idlepointlimit>
+                11
+            </idlepointlimit>
+            <driver>
+                driver-151
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.010398" lon="77.65111399999999" location="Koramangala" speed="44" date="{week}" distance="10"/><position lat="13.010398" lon="77.65111399999999" location="BTM Layout" speed="46" date="{week}" distance="11"/><position lat="13.010398" lon="77.65111399999999" location="Bommanahalli" speed="40" date="{week}" distance="12"/><position lat="13.053786373911755" lon="77.56101711320976" location="Koramangala" speed="47" date="{week}" distance="13"/><position lat="13.053786373911755" lon="77.56101711320976" location="Eejipura" speed="49" date="{week}" distance="14"/><position lat="12.956293582693574" lon="77.53876501981412" location="BTM Layout" speed="52" date="{week}" distance="15"/><position lat="12.878110434446771" lon="77.601114" location="Bommanahalli" speed="47" date="{week}" distance="16"/><position lat="12.878110434446771" lon="77.70111399999999" location="Eejipura" speed="44" date="{week}" distance="17"/><position lat="12.878110434446771" lon="77.70111399999999" location="Madivala" speed="40" date="{week}" distance="18"/><position lat="12.878110434446771" lon="77.70111399999999" location="Bommanahalli" speed="43" date="{week}" distance="19"/><position lat="12.878110434446771" lon="77.70111399999999" location="BTM Layout" speed="42" date="{week}" distance="20"/><position lat="12.878110434446771" lon="77.70111399999999" location="Eejipura" speed="52" date="{today}" distance="21"/><position lat="12.878110434446771" lon="77.70111399999999" location="BTM Layout" speed="54" date="{today}" distance="22"/><position lat="12.878110434446771" lon="77.70111399999999" location="Eejipura" speed="50" date="{today}" distance="23"/><position lat="12.878110434446771" lon="77.70111399999999" location="BTM Layout" speed="42" date="{today}" distance="24"/><position lat="12.878110434446771" lon="77.70111399999999" location="Bommanahalli" speed="42" date="{today}" distance="25"/><position lat="12.975603225664953" lon="77.67886190660435" location="BTM Layout" speed="45" date="{today}" distance="26"/><position lat="13.018991599576708" lon="77.58876501981412" location="Bommanahalli" speed="43" date="{today}" distance="27"/><position lat="13.018991599576708" lon="77.58876501981412" location="Bommanahalli" speed="52" date="{today}" distance="28"/><position lat="12.921498808358526" lon="77.56651292641848" location="BTM Layout" speed="53" date="{today}" distance="29"/><position lat="12.921498808358526" lon="77.56651292641848" location="Bommanahalli" speed="46" date="{today}" distance="30"/><position lat="12.921498808358526" lon="77.56651292641848" location="Koramangala" speed="53" date="{today}" distance="31"/><position lat="12.921498808358526" lon="77.56651292641848" location="Bommanahalli" speed="54" date="{today}" distance="32"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="12.878110434446771" lon="77.70111399999999" location="Eejipura" speed="44" date="{week}" distance="17"/><position lat="12.921498808358526" lon="77.56651292641848" location="Bommanahalli" speed="46" date="{today}" distance="30"/>
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="12.975603225664953" lon="77.67886190660435" location="BTM Layout" speed="45" date="{today}" distance="26"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-111">
+        <trip id="trip-vehicle-111">
+            <id>
+                trip-vehicle-111
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 111
+            </name>
+            <startdate>
+                Tue Oct 06 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:34:26 IST 2009
+            </lastupdated>
+            <location>
+                Eejipura
+            </location>
+            <distance>
+                52
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                109
+            </maxspeed>
+            <idlepointlimit>
+                11
+            </idlepointlimit>
+            <driver>
+                driver-181
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.030398" lon="77.591114" location="BTM Layout" speed="54" date="{week}" distance="10"/><position lat="13.108581148246802" lon="77.65346298018588" location="BTM Layout" speed="51" date="{week}" distance="11"/><position lat="13.108581148246802" lon="77.65346298018588" location="Madivala" speed="51" date="{week}" distance="12"/><position lat="13.151969522158558" lon="77.56336609339564" location="Madivala" speed="51" date="{week}" distance="13"/><position lat="13.151969522158558" lon="77.56336609339564" location="Bommanahalli" speed="44" date="{week}" distance="14"/><position lat="13.151969522158558" lon="77.56336609339564" location="Bommanahalli" speed="42" date="{week}" distance="15"/><position lat="13.151969522158558" lon="77.56336609339564" location="BTM Layout" speed="42" date="{week}" distance="16"/><position lat="13.151969522158558" lon="77.56336609339564" location="Eejipura" speed="46" date="{week}" distance="17"/><position lat="13.23015267040536" lon="77.62571507358152" location="Madivala" speed="45" date="{today}" distance="18"/><position lat="13.327645461623542" lon="77.60346298018588" location="BTM Layout" speed="53" date="{today}" distance="19"/><position lat="13.327645461623542" lon="77.60346298018588" location="Koramangala" speed="48" date="{today}" distance="20"/><position lat="13.327645461623542" lon="77.60346298018588" location="Eejipura" speed="52" date="{today}" distance="21"/><position lat="13.327645461623542" lon="77.60346298018588" location="Madivala" speed="46" date="{today}" distance="22"/><position lat="13.327645461623542" lon="77.60346298018588" location="Madivala" speed="40" date="{today}" distance="23"/><position lat="13.327645461623542" lon="77.60346298018588" location="Eejipura" speed="45" date="{today}" distance="24"/><position lat="13.327645461623542" lon="77.60346298018588" location="Bommanahalli" speed="50" date="{today}" distance="25"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-90">
+        <trip id="trip-vehicle-90">
+            <id>
+                trip-vehicle-90
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 90
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:52:26 IST 2009
+            </lastupdated>
+            <location>
+                Koramangala
+            </location>
+            <distance>
+                54
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                64
+            </maxspeed>
+            <idlepointlimit>
+                10
+            </idlepointlimit>
+            <driver>
+                driver-63
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.010398" lon="77.581114" location="Madivala" speed="45" date="{week}" distance="10"/><position lat="13.010398" lon="77.581114" location="Koramangala" speed="50" date="{week}" distance="11"/><position lat="13.010398" lon="77.581114" location="Koramangala" speed="50" date="{week}" distance="12"/><position lat="13.053786373911755" lon="77.49101711320976" location="Bommanahalli" speed="50" date="{week}" distance="13"/><position lat="13.053786373911755" lon="77.49101711320976" location="BTM Layout" speed="49" date="{week}" distance="14"/><position lat="13.053786373911755" lon="77.49101711320976" location="Koramangala" speed="46" date="{week}" distance="15"/><position lat="13.053786373911755" lon="77.49101711320976" location="Eejipura" speed="52" date="{week}" distance="16"/><position lat="13.053786373911755" lon="77.49101711320976" location="Madivala" speed="50" date="{week}" distance="17"/><position lat="13.053786373911755" lon="77.49101711320976" location="Bommanahalli" speed="45" date="{week}" distance="18"/><position lat="13.053786373911755" lon="77.49101711320976" location="Madivala" speed="51" date="{week}" distance="19"/><position lat="13.09717474782351" lon="77.40092022641953" location="Koramangala" speed="48" date="{today}" distance="20"/><position lat="13.053786373911755" lon="77.3108233396293" location="Madivala" speed="52" date="{today}" distance="21"/><position lat="12.956293582693574" lon="77.28857124623366" location="Koramangala" speed="41" date="{today}" distance="22"/><position lat="12.956293582693574" lon="77.28857124623366" location="Koramangala" speed="50" date="{today}" distance="23"/><position lat="12.956293582693574" lon="77.28857124623366" location="Koramangala" speed="53" date="{today}" distance="24"/><position lat="12.956293582693574" lon="77.28857124623366" location="Madivala" speed="44" date="{today}" distance="25"/><position lat="13.053786373911755" lon="77.26631915283802" location="Madivala" speed="47" date="{today}" distance="26"/><position lat="13.09717474782351" lon="77.17622226604779" location="Koramangala" speed="47" date="{today}" distance="27"/><position lat="13.09717474782351" lon="77.17622226604779" location="BTM Layout" speed="51" date="{today}" distance="28"/><position lat="13.09717474782351" lon="77.17622226604779" location="Eejipura" speed="52" date="{today}" distance="29"/><position lat="13.09717474782351" lon="77.17622226604779" location="Eejipura" speed="44" date="{today}" distance="30"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="13.010398" lon="77.581114" location="Madivala" speed="45" date="{week}" distance="10"/><position lat="13.053786373911755" lon="77.49101711320976" location="Madivala" speed="50" date="{week}" distance="17"/>
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-144">
+        <trip id="trip-vehicle-144">
+            <id>
+                trip-vehicle-144
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 144
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 14:59:26 IST 2009
+            </lastupdated>
+            <location>
+                Madivala
+            </location>
+            <distance>
+                53
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                68
+            </maxspeed>
+            <idlepointlimit>
+                10
+            </idlepointlimit>
+            <driver>
+                driver-152
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.960398" lon="77.601114" location="BTM Layout" speed="47" date="{week}" distance="10"/><position lat="13.038581148246802" lon="77.66346298018587" location="Koramangala" speed="51" date="{week}" distance="11"/><position lat="13.038581148246802" lon="77.66346298018587" location="Bommanahalli" speed="44" date="{week}" distance="12"/><position lat="13.081969522158557" lon="77.57336609339563" location="Bommanahalli" speed="46" date="{week}" distance="13"/><position lat="13.038581148246802" lon="77.4832692066054" location="Madivala" speed="44" date="{week}" distance="14"/><position lat="13.038581148246802" lon="77.4832692066054" location="BTM Layout" speed="47" date="{week}" distance="15"/><position lat="13.038581148246802" lon="77.4832692066054" location="Koramangala" speed="40" date="{week}" distance="16"/><position lat="13.038581148246802" lon="77.4832692066054" location="Bommanahalli" speed="45" date="{week}" distance="17"/><position lat="13.038581148246802" lon="77.4832692066054" location="Eejipura" speed="45" date="{today}" distance="18"/><position lat="13.038581148246802" lon="77.4832692066054" location="Eejipura" speed="54" date="{today}" distance="19"/><position lat="13.038581148246802" lon="77.4832692066054" location="Madivala" speed="53" date="{today}" distance="20"/><position lat="12.995192774335047" lon="77.39317231981516" location="BTM Layout" speed="53" date="{today}" distance="21"/><position lat="12.995192774335047" lon="77.39317231981516" location="BTM Layout" speed="54" date="{today}" distance="22"/><position lat="12.995192774335047" lon="77.39317231981516" location="Madivala" speed="40" date="{today}" distance="23"/><position lat="12.995192774335047" lon="77.49317231981516" location="Eejipura" speed="54" date="{today}" distance="24"/><position lat="13.07337592258185" lon="77.55552130000103" location="Koramangala" speed="45" date="{today}" distance="25"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="12.995192774335047" lon="77.39317231981516" location="BTM Layout" speed="54" date="{today}" distance="22"/>
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="12.995192774335047" lon="77.39317231981516" location="BTM Layout" speed="53" date="{today}" distance="21"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-193">
+        <trip id="trip-vehicle-193">
+            <id>
+                trip-vehicle-193
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 193
+            </name>
+            <startdate>
+                Tue Oct 06 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:22:26 IST 2009
+            </lastupdated>
+            <location>
+                Madivala
+            </location>
+            <distance>
+                63
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                64
+            </maxspeed>
+            <idlepointlimit>
+                13
+            </idlepointlimit>
+            <driver>
+                driver-72
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.960398" lon="77.621114" location="Madivala" speed="52" date="{week}" distance="10"/><position lat="12.960398" lon="77.621114" location="BTM Layout" speed="45" date="{week}" distance="11"/><position lat="12.960398" lon="77.621114" location="Madivala" speed="46" date="{week}" distance="12"/><position lat="12.960398" lon="77.621114" location="Koramangala" speed="40" date="{week}" distance="13"/><position lat="12.960398" lon="77.621114" location="Madivala" speed="49" date="{week}" distance="14"/><position lat="12.862905208781818" lon="77.59886190660437" location="Madivala" speed="50" date="{week}" distance="15"/><position lat="12.784722060535016" lon="77.66121088679024" location="BTM Layout" speed="42" date="{week}" distance="16"/><position lat="12.784722060535016" lon="77.76121088679024" location="Bommanahalli" speed="40" date="{week}" distance="17"/><position lat="12.862905208781818" lon="77.82355986697611" location="Madivala" speed="40" date="{week}" distance="18"/><position lat="12.862905208781818" lon="77.82355986697611" location="Bommanahalli" speed="51" date="{today}" distance="19"/><position lat="12.862905208781818" lon="77.82355986697611" location="Bommanahalli" speed="42" date="{today}" distance="20"/><position lat="12.862905208781818" lon="77.82355986697611" location="Koramangala" speed="50" date="{today}" distance="21"/><position lat="12.765412417563637" lon="77.80130777358048" location="Koramangala" speed="40" date="{today}" distance="22"/><position lat="12.687229269316834" lon="77.86365675376635" location="Madivala" speed="45" date="{today}" distance="23"/><position lat="12.687229269316834" lon="77.86365675376635" location="Koramangala" speed="43" date="{today}" distance="24"/><position lat="12.687229269316834" lon="77.86365675376635" location="Koramangala" speed="50" date="{today}" distance="25"/><position lat="12.784722060535016" lon="77.84140466037071" location="BTM Layout" speed="44" date="{today}" distance="26"/><position lat="12.82811043444677" lon="77.75130777358048" location="Bommanahalli" speed="40" date="{today}" distance="27"/><position lat="12.784722060535016" lon="77.66121088679024" location="BTM Layout" speed="52" date="{today}" distance="28"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="12.960398" lon="77.621114" location="Madivala" speed="46" date="{week}" distance="12"/><position lat="12.862905208781818" lon="77.82355986697611" location="Madivala" speed="40" date="{week}" distance="18"/><position lat="12.687229269316834" lon="77.86365675376635" location="Madivala" speed="45" date="{today}" distance="23"/>
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-29">
+        <trip id="trip-vehicle-29">
+            <id>
+                trip-vehicle-29
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 29
+            </name>
+            <startdate>
+                Tue Oct 06 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:02:26 IST 2009
+            </lastupdated>
+            <location>
+                Eejipura
+            </location>
+            <distance>
+                59
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                76
+            </maxspeed>
+            <idlepointlimit>
+                10
+            </idlepointlimit>
+            <driver>
+                driver-91
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.970398" lon="77.711114" location="Madivala" speed="54" date="{week}" distance="10"/><position lat="13.048581148246802" lon="77.77346298018587" location="Madivala" speed="44" date="{week}" distance="11"/><position lat="13.048581148246802" lon="77.77346298018587" location="Eejipura" speed="48" date="{week}" distance="12"/><position lat="13.048581148246802" lon="77.77346298018587" location="Koramangala" speed="40" date="{week}" distance="13"/><position lat="13.005192774335047" lon="77.68336609339563" location="BTM Layout" speed="40" date="{week}" distance="14"/><position lat="13.005192774335047" lon="77.68336609339563" location="BTM Layout" speed="52" date="{week}" distance="15"/><position lat="13.005192774335047" lon="77.68336609339563" location="Koramangala" speed="44" date="{week}" distance="16"/><position lat="13.005192774335047" lon="77.78336609339563" location="Eejipura" speed="41" date="{week}" distance="17"/><position lat="13.08337592258185" lon="77.8457150735815" location="Koramangala" speed="48" date="{week}" distance="18"/><position lat="13.180868713800031" lon="77.82346298018587" location="Eejipura" speed="45" date="{today}" distance="19"/><position lat="13.180868713800031" lon="77.82346298018587" location="Bommanahalli" speed="41" date="{today}" distance="20"/><position lat="13.137480339888276" lon="77.73336609339563" location="BTM Layout" speed="48" date="{today}" distance="21"/><position lat="13.039987548670094" lon="77.711114" location="BTM Layout" speed="45" date="{today}" distance="22"/><position lat="13.039987548670094" lon="77.711114" location="Koramangala" speed="54" date="{today}" distance="23"/><position lat="13.039987548670094" lon="77.81111399999999" location="Koramangala" speed="43" date="{today}" distance="24"/><position lat="13.039987548670094" lon="77.81111399999999" location="Bommanahalli" speed="47" date="{today}" distance="25"/><position lat="13.039987548670094" lon="77.81111399999999" location="Madivala" speed="52" date="{today}" distance="26"/><position lat="13.039987548670094" lon="77.81111399999999" location="Madivala" speed="42" date="{today}" distance="27"/><position lat="13.039987548670094" lon="77.81111399999999" location="BTM Layout" speed="54" date="{today}" distance="28"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-154">
+        <trip id="trip-vehicle-154">
+            <id>
+                trip-vehicle-154
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 154
+            </name>
+            <startdate>
+                Mon Oct 05 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 14:59:26 IST 2009
+            </lastupdated>
+            <location>
+                Koramangala
+            </location>
+            <distance>
+                50
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                108
+            </maxspeed>
+            <idlepointlimit>
+                10
+            </idlepointlimit>
+            <driver>
+                driver-36
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.960398" lon="77.661114" location="Madivala" speed="48" date="{week}" distance="10"/><position lat="13.038581148246802" lon="77.72346298018587" location="BTM Layout" speed="45" date="{week}" distance="11"/><position lat="13.136073939464984" lon="77.70121088679024" location="Eejipura" speed="48" date="{week}" distance="12"/><position lat="13.136073939464984" lon="77.70121088679024" location="Bommanahalli" speed="43" date="{week}" distance="13"/><position lat="13.136073939464984" lon="77.70121088679024" location="Koramangala" speed="47" date="{week}" distance="14"/><position lat="13.038581148246802" lon="77.6789587933946" location="Bommanahalli" speed="42" date="{week}" distance="15"/><position lat="13.038581148246802" lon="77.6789587933946" location="Eejipura" speed="41" date="{week}" distance="16"/><position lat="13.038581148246802" lon="77.6789587933946" location="BTM Layout" speed="40" date="{week}" distance="17"/><position lat="13.116764296493605" lon="77.74130777358047" location="Bommanahalli" speed="44" date="{week}" distance="18"/><position lat="13.116764296493605" lon="77.74130777358047" location="Eejipura" speed="43" date="{week}" distance="19"/><position lat="13.16015267040536" lon="77.65121088679024" location="Eejipura" speed="52" date="{today}" distance="20"/><position lat="13.16015267040536" lon="77.65121088679024" location="Koramangala" speed="49" date="{today}" distance="21"/><position lat="13.16015267040536" lon="77.65121088679024" location="Madivala" speed="46" date="{today}" distance="22"/><position lat="13.081969522158557" lon="77.71355986697611" location="Koramangala" speed="48" date="{today}" distance="23"/><position lat="13.081969522158557" lon="77.71355986697611" location="Bommanahalli" speed="52" date="{today}" distance="24"/><position lat="13.081969522158557" lon="77.71355986697611" location="Eejipura" speed="49" date="{today}" distance="25"/><position lat="13.081969522158557" lon="77.71355986697611" location="Madivala" speed="51" date="{today}" distance="26"/><position lat="13.125357896070312" lon="77.62346298018588" location="Koramangala" speed="43" date="{today}" distance="27"/><position lat="13.081969522158557" lon="77.53336609339564" location="Eejipura" speed="44" date="{today}" distance="28"/><position lat="12.984476730940376" lon="77.511114" location="BTM Layout" speed="48" date="{today}" distance="29"/><position lat="12.984476730940376" lon="77.511114" location="Eejipura" speed="48" date="{today}" distance="30"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="13.136073939464984" lon="77.70121088679024" location="Eejipura" speed="48" date="{week}" distance="12"/><position lat="13.116764296493605" lon="77.74130777358047" location="Bommanahalli" speed="44" date="{week}" distance="18"/>
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-155">
+        <trip id="trip-vehicle-155">
+            <id>
+                trip-vehicle-155
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 155
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:11:26 IST 2009
+            </lastupdated>
+            <location>
+                BTM Layout
+            </location>
+            <distance>
+                63
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                87
+            </maxspeed>
+            <idlepointlimit>
+                11
+            </idlepointlimit>
+            <driver>
+                driver-147
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.020398" lon="77.721114" location="Bommanahalli" speed="41" date="{week}" distance="10"/><position lat="13.020398" lon="77.721114" location="BTM Layout" speed="51" date="{week}" distance="11"/><position lat="13.020398" lon="77.721114" location="Koramangala" speed="54" date="{week}" distance="12"/><position lat="13.063786373911755" lon="77.63101711320977" location="Bommanahalli" speed="45" date="{week}" distance="13"/><position lat="13.063786373911755" lon="77.63101711320977" location="Bommanahalli" speed="52" date="{week}" distance="14"/><position lat="12.966293582693574" lon="77.60876501981413" location="Madivala" speed="49" date="{week}" distance="15"/><position lat="12.966293582693574" lon="77.60876501981413" location="Koramangala" speed="48" date="{week}" distance="16"/><position lat="12.966293582693574" lon="77.70876501981412" location="BTM Layout" speed="43" date="{week}" distance="17"/><position lat="13.044476730940376" lon="77.771114" location="Bommanahalli" speed="53" date="{week}" distance="18"/><position lat="13.044476730940376" lon="77.771114" location="Koramangala" speed="53" date="{week}" distance="19"/><position lat="13.044476730940376" lon="77.771114" location="Madivala" speed="50" date="{today}" distance="20"/><position lat="13.044476730940376" lon="77.771114" location="Bommanahalli" speed="46" date="{today}" distance="21"/><position lat="12.946983939722195" lon="77.74886190660436" location="Koramangala" speed="52" date="{today}" distance="22"/><position lat="12.946983939722195" lon="77.74886190660436" location="Bommanahalli" speed="40" date="{today}" distance="23"/><position lat="12.946983939722195" lon="77.74886190660436" location="Koramangala" speed="54" date="{today}" distance="24"/><position lat="12.946983939722195" lon="77.74886190660436" location="Bommanahalli" speed="54" date="{today}" distance="25"/><position lat="13.044476730940376" lon="77.72660981320873" location="Bommanahalli" speed="50" date="{today}" distance="26"/><position lat="13.044476730940376" lon="77.72660981320873" location="Madivala" speed="52" date="{today}" distance="27"/><position lat="13.044476730940376" lon="77.72660981320873" location="Koramangala" speed="54" date="{today}" distance="28"/><position lat="13.044476730940376" lon="77.72660981320873" location="Madivala" speed="44" date="{today}" distance="29"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-247">
+        <trip id="trip-vehicle-247">
+            <id>
+                trip-vehicle-247
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 247
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:20:26 IST 2009
+            </lastupdated>
+            <location>
+                Bommanahalli
+            </location>
+            <distance>
+                63
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                79
+            </maxspeed>
+            <idlepointlimit>
+                11
+            </idlepointlimit>
+            <driver>
+                driver-1
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.040398" lon="77.75111399999999" location="Madivala" speed="53" date="{week}" distance="10"/><position lat="13.118581148246802" lon="77.81346298018586" location="Koramangala" speed="44" date="{week}" distance="11"/><position lat="13.118581148246802" lon="77.81346298018586" location="Koramangala" speed="41" date="{week}" distance="12"/><position lat="13.161969522158557" lon="77.72336609339563" location="BTM Layout" speed="51" date="{week}" distance="13"/><position lat="13.161969522158557" lon="77.72336609339563" location="Koramangala" speed="46" date="{week}" distance="14"/><position lat="13.161969522158557" lon="77.72336609339563" location="Bommanahalli" speed="50" date="{week}" distance="15"/><position lat="13.161969522158557" lon="77.72336609339563" location="Eejipura" speed="47" date="{week}" distance="16"/><position lat="13.161969522158557" lon="77.82336609339562" location="Eejipura" speed="45" date="{week}" distance="17"/><position lat="13.161969522158557" lon="77.82336609339562" location="BTM Layout" speed="51" date="{week}" distance="18"/><position lat="13.161969522158557" lon="77.82336609339562" location="Bommanahalli" speed="52" date="{today}" distance="19"/><position lat="13.161969522158557" lon="77.82336609339562" location="Madivala" speed="44" date="{today}" distance="20"/><position lat="13.118581148246802" lon="77.73326920660539" location="Eejipura" speed="43" date="{today}" distance="21"/><position lat="13.118581148246802" lon="77.73326920660539" location="Madivala" speed="45" date="{today}" distance="22"/><position lat="13.040398" lon="77.79561818679126" location="Madivala" speed="54" date="{today}" distance="23"/><position lat="13.040398" lon="77.79561818679126" location="Eejipura" speed="53" date="{today}" distance="24"/><position lat="13.040398" lon="77.79561818679126" location="Bommanahalli" speed="51" date="{today}" distance="25"/><position lat="13.040398" lon="77.79561818679126" location="BTM Layout" speed="44" date="{today}" distance="26"/><position lat="13.083786373911755" lon="77.70552130000102" location="Madivala" speed="41" date="{today}" distance="27"/><position lat="13.083786373911755" lon="77.70552130000102" location="Eejipura" speed="49" date="{today}" distance="28"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="13.161969522158557" lon="77.72336609339563" location="Koramangala" speed="46" date="{week}" distance="14"/><position lat="13.161969522158557" lon="77.82336609339562" location="Madivala" speed="44" date="{today}" distance="20"/><position lat="13.083786373911755" lon="77.70552130000102" location="Eejipura" speed="49" date="{today}" distance="28"/>
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="13.161969522158557" lon="77.72336609339563" location="Eejipura" speed="47" date="{week}" distance="16"/><position lat="13.161969522158557" lon="77.82336609339562" location="Eejipura" speed="45" date="{week}" distance="17"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-22">
+        <trip id="trip-vehicle-22">
+            <id>
+                trip-vehicle-22
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 22
+            </name>
+            <startdate>
+                Tue Oct 06 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:44:26 IST 2009
+            </lastupdated>
+            <location>
+                Bommanahalli
+            </location>
+            <distance>
+                56
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                73
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-200
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.960398" lon="77.641114" location="Bommanahalli" speed="47" date="{week}" distance="10"/><position lat="12.960398" lon="77.641114" location="Bommanahalli" speed="47" date="{week}" distance="11"/><position lat="13.057890791218181" lon="77.61886190660437" location="Eejipura" speed="52" date="{week}" distance="12"/><position lat="13.101279165129936" lon="77.52876501981413" location="Bommanahalli" speed="53" date="{week}" distance="13"/><position lat="13.101279165129936" lon="77.52876501981413" location="Koramangala" speed="51" date="{week}" distance="14"/><position lat="13.003786373911755" lon="77.5065129264185" location="BTM Layout" speed="50" date="{week}" distance="15"/><position lat="13.003786373911755" lon="77.5065129264185" location="Koramangala" speed="50" date="{week}" distance="16"/><position lat="13.003786373911755" lon="77.60651292641849" location="Eejipura" speed="41" date="{week}" distance="17"/><position lat="13.003786373911755" lon="77.60651292641849" location="Bommanahalli" speed="49" date="{today}" distance="18"/><position lat="13.003786373911755" lon="77.60651292641849" location="Eejipura" speed="54" date="{today}" distance="19"/><position lat="13.04717474782351" lon="77.51641603962825" location="Bommanahalli" speed="50" date="{today}" distance="20"/><position lat="13.003786373911755" lon="77.42631915283802" location="Bommanahalli" speed="48" date="{today}" distance="21"/><position lat="13.003786373911755" lon="77.42631915283802" location="Koramangala" speed="52" date="{today}" distance="22"/><position lat="13.003786373911755" lon="77.42631915283802" location="Eejipura" speed="54" date="{today}" distance="23"/><position lat="13.003786373911755" lon="77.52631915283801" location="Bommanahalli" speed="45" date="{today}" distance="24"/><position lat="13.081969522158557" lon="77.58866813302389" location="Bommanahalli" speed="42" date="{today}" distance="25"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                        <position lat="13.081969522158557" lon="77.58866813302389" location="Bommanahalli" speed="42" date="{today}" distance="25"/>
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-118">
+        <trip id="trip-vehicle-118">
+            <id>
+                trip-vehicle-118
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 118
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:12:26 IST 2009
+            </lastupdated>
+            <location>
+                Eejipura
+            </location>
+            <distance>
+                52
+            </distance>
+            <status>
+                started
+            </status>
+            <maxspeed>
+                81
+            </maxspeed>
+            <idlepointlimit>
+                13
+            </idlepointlimit>
+            <driver>
+                driver-77
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.990397999999999" lon="77.621114" location="Koramangala" speed="52" date="{week}" distance="10"/><position lat="12.990397999999999" lon="77.621114" location="Bommanahalli" speed="40" date="{week}" distance="11"/><position lat="12.990397999999999" lon="77.621114" location="Koramangala" speed="50" date="{week}" distance="12"/><position lat="12.990397999999999" lon="77.621114" location="Bommanahalli" speed="43" date="{week}" distance="13"/><position lat="12.990397999999999" lon="77.621114" location="Koramangala" speed="42" date="{week}" distance="14"/><position lat="12.990397999999999" lon="77.621114" location="BTM Layout" speed="46" date="{week}" distance="15"/><position lat="12.990397999999999" lon="77.621114" location="Eejipura" speed="44" date="{week}" distance="16"/><position lat="12.990397999999999" lon="77.721114" location="Madivala" speed="40" date="{week}" distance="17"/><position lat="12.990397999999999" lon="77.721114" location="Madivala" speed="51" date="{week}" distance="18"/><position lat="12.990397999999999" lon="77.721114" location="Bommanahalli" speed="50" date="{week}" distance="19"/><position lat="13.033786373911754" lon="77.63101711320977" location="Bommanahalli" speed="54" date="{week}" distance="20"/><position lat="12.990397999999999" lon="77.54092022641953" location="Madivala" speed="50" date="{week}" distance="21"/><position lat="12.990397999999999" lon="77.54092022641953" location="Madivala" speed="42" date="{today}" distance="22"/><position lat="12.912214851753196" lon="77.6032692066054" location="Madivala" speed="47" date="{today}" distance="23"/><position lat="12.912214851753196" lon="77.7032692066054" location="Bommanahalli" speed="47" date="{today}" distance="24"/><position lat="12.990397999999999" lon="77.76561818679127" location="Bommanahalli" speed="53" date="{today}" distance="25"/><position lat="12.990397999999999" lon="77.76561818679127" location="Bommanahalli" speed="48" date="{today}" distance="26"/><position lat="12.990397999999999" lon="77.76561818679127" location="Koramangala" speed="40" date="{today}" distance="27"/><position lat="12.990397999999999" lon="77.76561818679127" location="Bommanahalli" speed="40" date="{today}" distance="28"/><position lat="12.990397999999999" lon="77.76561818679127" location="BTM Layout" speed="47" date="{today}" distance="29"/><position lat="12.990397999999999" lon="77.76561818679127" location="Madivala" speed="42" date="{today}" distance="30"/><position lat="12.990397999999999" lon="77.76561818679127" location="Eejipura" speed="51" date="{today}" distance="31"/><position lat="12.990397999999999" lon="77.76561818679127" location="BTM Layout" speed="44" date="{today}" distance="32"/><position lat="12.990397999999999" lon="77.76561818679127" location="Madivala" speed="44" date="{today}" distance="33"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="12.990397999999999" lon="77.54092022641953" location="Madivala" speed="42" date="{today}" distance="22"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-33">
+        <trip id="trip-vehicle-33">
+            <id>
+                trip-vehicle-33
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 33
+            </name>
+            <startdate>
+                Tue Oct 06 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:39:26 IST 2009
+            </lastupdated>
+            <location>
+                Eejipura
+            </location>
+            <distance>
+                55
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                98
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-162
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.050398" lon="77.641114" location="Eejipura" speed="52" date="{week}" distance="10"/><position lat="13.050398" lon="77.641114" location="Bommanahalli" speed="52" date="{week}" distance="11"/><position lat="13.050398" lon="77.641114" location="Bommanahalli" speed="50" date="{week}" distance="12"/><position lat="13.093786373911755" lon="77.55101711320977" location="Eejipura" speed="41" date="{week}" distance="13"/><position lat="13.093786373911755" lon="77.55101711320977" location="Madivala" speed="42" date="{week}" distance="14"/><position lat="12.996293582693573" lon="77.52876501981413" location="Koramangala" speed="41" date="{week}" distance="15"/><position lat="12.91811043444677" lon="77.591114" location="Koramangala" speed="53" date="{week}" distance="16"/><position lat="12.91811043444677" lon="77.591114" location="Eejipura" speed="52" date="{week}" distance="17"/><position lat="12.996293582693573" lon="77.65346298018588" location="Madivala" speed="51" date="{week}" distance="18"/><position lat="12.996293582693573" lon="77.65346298018588" location="Madivala" speed="51" date="{week}" distance="19"/><position lat="12.996293582693573" lon="77.65346298018588" location="Koramangala" speed="41" date="{week}" distance="20"/><position lat="12.996293582693573" lon="77.65346298018588" location="Bommanahalli" speed="47" date="{today}" distance="21"/><position lat="12.898800791475391" lon="77.63121088679024" location="Madivala" speed="41" date="{today}" distance="22"/><position lat="12.898800791475391" lon="77.63121088679024" location="Eejipura" speed="44" date="{today}" distance="23"/><position lat="12.898800791475391" lon="77.73121088679024" location="Madivala" speed="51" date="{today}" distance="24"/><position lat="12.976983939722194" lon="77.79355986697611" location="Koramangala" speed="40" date="{today}" distance="25"/><position lat="12.976983939722194" lon="77.79355986697611" location="Koramangala" speed="42" date="{today}" distance="26"/><position lat="12.976983939722194" lon="77.79355986697611" location="BTM Layout" speed="48" date="{today}" distance="27"/><position lat="12.933595565810439" lon="77.70346298018588" location="BTM Layout" speed="50" date="{today}" distance="28"/><position lat="12.933595565810439" lon="77.70346298018588" location="Bommanahalli" speed="40" date="{today}" distance="29"/><position lat="12.855412417563636" lon="77.76581196037175" location="Koramangala" speed="42" date="{today}" distance="30"/><position lat="12.855412417563636" lon="77.76581196037175" location="Eejipura" speed="51" date="{today}" distance="31"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="12.855412417563636" lon="77.76581196037175" location="Eejipura" speed="51" date="{today}" distance="31"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="13.093786373911755" lon="77.55101711320977" location="Madivala" speed="42" date="{week}" distance="14"/><position lat="12.898800791475391" lon="77.63121088679024" location="Eejipura" speed="44" date="{today}" distance="23"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-27">
+        <trip id="trip-vehicle-27">
+            <id>
+                trip-vehicle-27
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 27
+            </name>
+            <startdate>
+                Mon Oct 05 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:42:26 IST 2009
+            </lastupdated>
+            <location>
+                Eejipura
+            </location>
+            <distance>
+                61
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                73
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-101
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.020398" lon="77.741114" location="BTM Layout" speed="43" date="{week}" distance="10"/><position lat="13.098581148246803" lon="77.80346298018587" location="Eejipura" speed="47" date="{week}" distance="11"/><position lat="13.098581148246803" lon="77.80346298018587" location="Madivala" speed="48" date="{week}" distance="12"/><position lat="13.141969522158558" lon="77.71336609339563" location="Bommanahalli" speed="51" date="{week}" distance="13"/><position lat="13.141969522158558" lon="77.71336609339563" location="Koramangala" speed="40" date="{week}" distance="14"/><position lat="13.141969522158558" lon="77.71336609339563" location="Bommanahalli" speed="40" date="{week}" distance="15"/><position lat="13.141969522158558" lon="77.71336609339563" location="BTM Layout" speed="47" date="{week}" distance="16"/><position lat="13.141969522158558" lon="77.71336609339563" location="Madivala" speed="46" date="{week}" distance="17"/><position lat="13.141969522158558" lon="77.71336609339563" location="BTM Layout" speed="43" date="{today}" distance="18"/><position lat="13.141969522158558" lon="77.71336609339563" location="Eejipura" speed="54" date="{today}" distance="19"/><position lat="13.185357896070313" lon="77.6232692066054" location="Eejipura" speed="50" date="{today}" distance="20"/><position lat="13.185357896070313" lon="77.6232692066054" location="Bommanahalli" speed="49" date="{today}" distance="21"/><position lat="13.087865104852131" lon="77.60101711320976" location="Madivala" speed="51" date="{today}" distance="22"/><position lat="13.009681956605329" lon="77.66336609339564" location="Madivala" speed="46" date="{today}" distance="23"/><position lat="13.009681956605329" lon="77.66336609339564" location="Bommanahalli" speed="50" date="{today}" distance="24"/><position lat="13.087865104852131" lon="77.72571507358151" location="Madivala" speed="42" date="{today}" distance="25"/><position lat="13.185357896070313" lon="77.70346298018588" location="Madivala" speed="52" date="{today}" distance="26"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                        <position lat="13.087865104852131" lon="77.72571507358151" location="Madivala" speed="42" date="{today}" distance="25"/>
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-229">
+        <trip id="trip-vehicle-229">
+            <id>
+                trip-vehicle-229
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 229
+            </name>
+            <startdate>
+                Wed Oct 07 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:51:26 IST 2009
+            </lastupdated>
+            <location>
+                Bommanahalli
+            </location>
+            <distance>
+                60
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                110
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-154
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="12.960398" lon="77.76111399999999" location="Eejipura" speed="41" date="{week}" distance="10"/><position lat="13.038581148246802" lon="77.82346298018587" location="BTM Layout" speed="52" date="{week}" distance="11"/><position lat="13.136073939464984" lon="77.80121088679023" location="Bommanahalli" speed="51" date="{week}" distance="12"/><position lat="13.136073939464984" lon="77.80121088679023" location="Madivala" speed="43" date="{week}" distance="13"/><position lat="13.136073939464984" lon="77.80121088679023" location="Madivala" speed="54" date="{week}" distance="14"/><position lat="13.038581148246802" lon="77.7789587933946" location="Bommanahalli" speed="41" date="{week}" distance="15"/><position lat="13.038581148246802" lon="77.7789587933946" location="Koramangala" speed="47" date="{week}" distance="16"/><position lat="13.038581148246802" lon="77.87895879339459" location="Koramangala" speed="41" date="{today}" distance="17"/><position lat="13.116764296493605" lon="77.94130777358046" location="Koramangala" speed="53" date="{today}" distance="18"/><position lat="13.214257087711786" lon="77.91905568018483" location="Madivala" speed="53" date="{today}" distance="19"/><position lat="13.214257087711786" lon="77.91905568018483" location="Madivala" speed="46" date="{today}" distance="20"/><position lat="13.214257087711786" lon="77.91905568018483" location="Eejipura" speed="50" date="{today}" distance="21"/><position lat="13.214257087711786" lon="77.91905568018483" location="Bommanahalli" speed="49" date="{today}" distance="22"/><position lat="13.214257087711786" lon="77.91905568018483" location="BTM Layout" speed="47" date="{today}" distance="23"/><position lat="13.214257087711786" lon="78.01905568018482" location="Koramangala" speed="47" date="{today}" distance="24"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                        <position lat="13.038581148246802" lon="77.87895879339459" location="Koramangala" speed="41" date="{today}" distance="17"/>
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+    <vehicle id="vehicle-49">
+        <trip id="trip-vehicle-49">
+            <id>
+                trip-vehicle-49
+            </id>
+            <active>
+                true
+            </active>
+            <name>
+                Trip Vehicle 49
+            </name>
+            <startdate>
+                Mon Oct 05 15:53:26 IST 2009
+            </startdate>
+            <lastupdated>
+                Wed Oct 07 15:46:26 IST 2009
+            </lastupdated>
+            <location>
+                BTM Layout
+            </location>
+            <distance>
+                51
+            </distance>
+            <status>
+                paused
+            </status>
+            <maxspeed>
+                72
+            </maxspeed>
+            <idlepointlimit>
+                12
+            </idlepointlimit>
+            <driver>
+                driver-96
+            </driver>
+            <track>
+                <positions type="array">
+                    <position lat="13.030398" lon="77.70111399999999" location="Eejipura" speed="49" date="{week}" distance="10"/><position lat="13.030398" lon="77.70111399999999" location="Bommanahalli" speed="54" date="{week}" distance="11"/><position lat="13.030398" lon="77.70111399999999" location="Bommanahalli" speed="52" date="{week}" distance="12"/><position lat="13.073786373911755" lon="77.61101711320975" location="Bommanahalli" speed="51" date="{week}" distance="13"/><position lat="13.073786373911755" lon="77.61101711320975" location="Madivala" speed="43" date="{week}" distance="14"/><position lat="12.976293582693573" lon="77.58876501981412" location="Koramangala" speed="52" date="{week}" distance="15"/><position lat="12.898110434446771" lon="77.65111399999999" location="Bommanahalli" speed="40" date="{week}" distance="16"/><position lat="12.898110434446771" lon="77.65111399999999" location="Koramangala" speed="51" date="{week}" distance="17"/><position lat="12.976293582693573" lon="77.71346298018587" location="BTM Layout" speed="54" date="{week}" distance="18"/><position lat="13.073786373911755" lon="77.69121088679023" location="Madivala" speed="54" date="{week}" distance="19"/><position lat="13.073786373911755" lon="77.69121088679023" location="Koramangala" speed="53" date="{week}" distance="20"/><position lat="13.030398" lon="77.601114" location="Eejipura" speed="43" date="{today}" distance="21"/><position lat="12.932905208781818" lon="77.57886190660436" location="Madivala" speed="53" date="{today}" distance="22"/><position lat="12.932905208781818" lon="77.57886190660436" location="Madivala" speed="51" date="{today}" distance="23"/><position lat="12.932905208781818" lon="77.57886190660436" location="Eejipura" speed="50" date="{today}" distance="24"/><position lat="13.01108835702862" lon="77.64121088679023" location="Eejipura" speed="52" date="{today}" distance="25"/><position lat="13.01108835702862" lon="77.64121088679023" location="Madivala" speed="46" date="{today}" distance="26"/><position lat="13.01108835702862" lon="77.64121088679023" location="Bommanahalli" speed="54" date="{today}" distance="27"/><position lat="12.967699983116866" lon="77.551114" location="Madivala" speed="42" date="{today}" distance="28"/><position lat="12.870207191898684" lon="77.52886190660436" location="BTM Layout" speed="45" date="{today}" distance="29"/><position lat="12.792024043651882" lon="77.59121088679024" location="Bommanahalli" speed="42" date="{today}" distance="30"/><position lat="12.792024043651882" lon="77.59121088679024" location="Koramangala" speed="49" date="{today}" distance="31"/>
+                </positions>
+                <violations>
+                    <idle type="array">
+                    </idle>
+                    <geofencing type="array">
+                    </geofencing>
+                    <overspeeding type="array">
+                    </overspeeding>
+                </violations>
+            </track>
+        </trip>
+    </vehicle>
+</trips>

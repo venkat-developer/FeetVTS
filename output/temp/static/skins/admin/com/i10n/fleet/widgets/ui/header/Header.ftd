@@ -1,0 +1,69 @@
+<#function data params={}>
+    <#local subNavData = {
+        "sites" : {
+            "dashboard" : {
+                "title" : "Dashboard",
+                "link" : "@APP_CONTEXT@/view/dashboard/",
+                "subnav" : {}
+            },
+            "controlpanel" : {
+                "title" : "Control Panel",
+                "link" : "@APP_CONTEXT@/view/controlpanel/",
+                "subnav" : {
+                    "adminmanage" : {
+                        "title" : "Manage",
+                        "widget" : "AdminManage",
+                        "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=adminmanage",
+                        "default": true,
+                        "subpage" : {
+                       		  "hardware" : {
+                                "title" : "Hardware",
+                                "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=adminmanage&subpage=hardware", 
+                                "widget" : "HardwareManager",
+                                "default" : true
+                           },"vehicle" : {
+                                "title" : "Vehicles",
+                                "widget" : "VehicleManager",
+                                "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=adminmanage&subpage=vehicle"
+                            },"user" : {
+                                "title" : "User",
+                                "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=adminmanage&subpage=user", 
+                                "widget" : "UserManager"
+                            },"driver" : {
+                                "title" : "Drivers",
+                                "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=adminmanage&subpage=driver",
+                                "widget" : "DriverManager"
+                            },"group" : {
+                                "title" : "Groups",
+                                "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=adminmanage&subpage=group",
+                                "widget" : "GroupManager"
+                            },"tripsettings" : {
+                        		"title" : "Trip Settings",
+                        		"widget" : "TripSettings",
+                        		"link" : "@APP_CONTEXT@/view/controlpanel/?subnav=tripsettings"
+                    		},"logs" : {
+                                "title" : "Logs",
+                                "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=adminmanage&subpage=logs",
+                                "widget" : "LogManager"
+                            },"fuelcalibration" : {
+                                "title" : "Fuel Calibration",
+                                "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=adminmanage&subpage=fuelcalibration",
+                                "widget" : "FuelCalibrationManager"
+                            },"vehiclehistory" : {
+                                "title" : "Vehicle History",
+                                "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=adminmanage&subpage=vehiclehistory",
+                                "widget" : "VehiclehistoryManager"
+                            },
+                             "routeschedule" : {
+                                "title" : "Route Schedule",
+                                "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=adminmanage&subpage=routeschedule",
+                                "widget" : "RouteScheduleManager"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }/>
+    <#return subNavData/>
+</#function>

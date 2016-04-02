@@ -1,0 +1,22 @@
+<#import "/macros/skin.ftm" as skin/>
+<#macro init params={}>
+    <@skin.widget name="GroupedReport" params={"cssClass":"report groupedreport","reportTitle":"Alert Status Report"}/>
+       <div class="comments disabled">
+            <@skin.widget name="ViolationPopUp"params={
+                "cssClass": "violationpopup popup",
+                "containerID":"comments-popup",
+                "header":"Comments",
+                "submitButtonText":"Submit",
+                "cancelButtonText":"Cancel"
+            }> 
+              <div class="input comments-vehicle">
+             <form  class="input-form">
+              <TEXTAREA name="comments-name" class="comments-input" id="comments-id">
+              </TEXTAREA>
+              </form>
+             
+                </div>
+           
+             </@skin.widget>
+        </div>
+</#macro>

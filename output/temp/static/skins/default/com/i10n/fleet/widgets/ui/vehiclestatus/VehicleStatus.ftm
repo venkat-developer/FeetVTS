@@ -1,0 +1,14 @@
+<#import "/macros/skin.ftm" as skin/>
+<#macro init params={}>
+<div class="inline-block rpt-select-cnt">
+    	<div class="inline-block exportreports" id="export">
+    	<form  id="input-form">
+    	 Export Report to : 
+    	<input type="radio" class="exportlivevehiclestatus" id="livevehiclestatuspdf" name="export" value ="pdf" >PDF</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<input type="radio" class="exportlivevehiclestatus" id="livevehiclestatusexcel" name="export" value ="excel">Excel</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<input type="button" class="exportlivevehiclestatus" id="exportlivevehiclestatus" name="exportlivevehiclestatus" value ="Export"></input>
+    	</form>
+    	</div>
+    </div>
+    <@skin.widget name="GroupedReport" params={"cssClass":"report groupedreport","reportTitle":"Vehicle Status Report","groupSelect" : "true"}/>
+</#macro>

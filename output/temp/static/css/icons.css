@@ -1,0 +1,91 @@
+
+
+.icons {
+    display: -moz-inline-stack;
+    vertical-align: middle;
+    background-image: url("/static/img/vehiclehealth/allhealthicons.png");
+    height: 21px;
+    width: 25px;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+}
+
+.icons.gsm-icon-level-legend {
+    background-position: 5px -50px;
+}
+
+.icons.gsm-icon-level-3 {
+    background-position: 5px -100px;
+}
+
+.icons.gsm-icon-level-2 {
+    background-position: 5px -150px;
+}
+
+.icons.gsm-icon-level-1 {
+    background-position: 5px -200px;
+}
+
+.icons.gsm-icon-level-0 {
+    background-position: 5px -250px;
+}
+
+.icons.gps-icon-level-legend {
+    background-position: -48px -50px;
+}
+
+.icons.gps-icon-level-3 {
+    background-position: -48px -100px;
+}
+
+.icons.gps-icon-level-2 {
+    background-position: -48px -150px;
+}
+
+.icons.gps-icon-level-1 {
+    background-position: -48px -200px;
+}
+
+.icons.gps-icon-level-0 {
+    background-position: -48px -250px;
+}
+
+.icons.battery-icon-level-legend {
+    background-position: -99px -50px;
+}
+
+.icons.battery-icon-level-3 {
+    background-position: -99px -100px;
+}
+
+.icons.battery-icon-level-2 {
+    background-position: -99px -150px;
+}
+
+.icons.battery-icon-level-1 {
+    background-position: -99px -200px;
+}
+
+.icons.battery-icon-level-0 {
+    background-position: -99px -250px;
+}
+
+.icons.fuel-icon-level-legend {
+    background-position: -146px -49px;
+}
+
+.icons.fuel-icon-level-3 {
+    background-position: -146px -99px;
+}
+
+.icons.fuel-icon-level-2 {
+    background-position: -146px -149px;
+}
+
+.icons.fuel-icon-level-1 {
+    background-position: -146px -199px;
+}
+
+.icons.fuel-icon-level-0 {
+    background-position: -146px -249px;
+}

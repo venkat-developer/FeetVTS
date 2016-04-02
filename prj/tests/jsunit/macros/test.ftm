@@ -1,0 +1,48 @@
+<#macro widgetscripts name="" view="" skin="">
+    <#local widgetName = "${name}"/>
+    <#local widgetSkin = "${skin}"/>
+    <#local widgetView = "${view}"/>
+    <#if (view?length=0)>
+        <#local widgetView = "${parameters.view}"/>
+    </#if>
+    <#if (skin?length=0)>
+        <#local widgetSkin = "${parameters.skin}"/>
+    </#if>
+    <#if (skins["${widgetSkin}"]["//views/view[./@name=$widgetView]/widgets/widget[./@name=$widgetName]"][0])??>
+        <#local widgetScripts = skins["${widgetSkin}"]["//views/view[./@name=$widgetView]/widgets/widget[./@name=$widgetName]"].scripts.script/>
+    <#else>
+        <#local widgetScripts = skins["${widgetSkin}"]["//views/view[./@name='test']/widgets/widget[./@name=$widgetName]"].scripts.script/>
+    </#if>
+    <#list widgetScripts as widgetScript>
+       <script src="${widgetScript}"></script>
+    </#list>
+</#macro>
+<#macro widget name="" params={}>
+    <#if (name?length>0)>
+        <#local skin = parameters.skin/>
+        <#local view = parameters.view/>
+        <#if (skins["${skin}"]["//views/view[./@name=$view]/widgets/widget[./@name=$name]/template"][0])??>
+            <#local widgetTemplateFile = skins["${skin}"]["//views/view[./@name=$view]/widgets/widget[./@name=$name]/template"]/>
+        <#else>
+            <#if (skins["${skin}"]["//views/view[./@name='test']/widgets/widget[./@name=$name]/template"][0])??>
+                <#local widgetTemplateFile = skins["${skin}"]["//views/view[./@name='test']/widgets/widget[./@name=$name]/template"]/>
+            </#if>
+        </#if>
+        <#if (widgetTemplateFile)??>
+            <#import "${widgetTemplateFile}" as widgetInstance/>
+            <#local widgetCSSClass = "${name?lower_case}"/>
+            <#if (params.cssClass)??>
+                <#local widgetCSSClass = "${params.cssClass}"/>
+            </#if>
+            <#local widgetContainerID = "${name?lower_case}"/>
+            <#if (params.containerID)??>
+                <#local widgetContainerID = "${params.containerID}"/>
+            </#if>
+            <div class="${widgetCSSClass} widget" id="${widgetContainerID}">
+                <@widgetInstance.init params=params>
+                    <#nested/>
+                </@widgetInstance.init>
+            </div>
+        </#if> 
+    </#if>
+</#macro>

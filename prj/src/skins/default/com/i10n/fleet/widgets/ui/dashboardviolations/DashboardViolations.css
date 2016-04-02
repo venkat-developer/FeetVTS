@@ -1,0 +1,250 @@
+/**
+ * Dashboard Violation UI Widget CSS
+ */
+.dashboardviolations {
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 263px;
+	width: 714px;
+	background-color: #F7F7F7;
+	/** background-image: url("/static/img/backgrounds/dashboard-sd-vh-bg.jpg");*/
+	background-image: linear-gradient(to bottom, #f2f2f2 0%, #f7f7f7 100%);
+}
+
+.dashboardviolations .violations-container {
+	padding: 10px 10px 10px 10px;
+	height: 254px;
+}
+
+.dashboardviolations .violations-container .hd {
+	padding: 0px 0px 0px 0px;
+	position: relative;
+}
+
+.dashboardviolations .violations-container .hd .widget-header-label {
+	padding-left: 35px;
+	padding-top: 2px;
+	height: 18px;
+	background-image: url("/static/img/icons/widget-header-icons.png");
+	background-position: 5px -425px;
+	background-repeat: no-repeat;
+}
+
+.dashboardviolations .violations-container .hd .rounded-rect .nested {
+	padding: 7px 2px 2px 2px;
+	font-weight: bold;
+	font-size: 1.2em;
+	height: 23px;
+	background-color: #AF1C26;
+	border-color: #AF1C26;
+}
+
+.dashboardviolations .violations-container .hd .rounded-rect .cap {
+	background-color: #AF1C26;
+	border-color: #AF1C26;
+}
+
+.dashboardviolations .violations-container .yui-navset {
+	margin-top: -31px;
+	position: relative;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav {
+	padding-left: 0px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav .tabitem
+	{
+	cursor: pointer;
+	padding-left: 0px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav .tab-label
+	{
+	padding-left: 25px;
+	padding-right: 0px;
+	background-repeat: no-repeat;
+	background-image: url("/static/img/icons/widget-header-icons.png");
+	padding-top: 5px;
+	height: 26px;
+	*height: 24px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav .overspeed .tab-label.overspeed
+	{
+	background-position: 1px -106px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav .geo-fencing .tab-label.geo-fencing
+	{
+	background-position: 1px -274px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav .chargerstatus .tab-label.chargerstatus
+	{
+	background-position: 1px -164px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav .vehiclestatus.tab-label.vehiclestatus
+	{
+	background-position: 1px -717px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav .alertstatus.tab-label.alertstatus
+	{
+	background-position: 1px -421px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav li {
+	/* background-image: url(/static/img/buttons/set-buttons.png); */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+	border-top-right-radius: 10px; border-top-left-radius : 10px;
+	/* 	background-position: 0 -1050px;
+ */
+	background-repeat: no-repeat;
+	margin-left: 7px;
+	border-top-left-radius: 10px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav li a {
+	font-size: 1.1em;
+	/* background-image: url(/static/img/buttons/set-buttons.png); */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+	border-top-right-radius: 10px; border-top-left-radius : 10px;
+	/* 	background-position: 0 -1137px;
+ */
+	background-repeat: repeat-x;
+	display: block;
+	margin-left: 6px;
+	margin-right: 8px;
+	border-top-left-radius: 10px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav li div {
+	color: #FFFFFF;
+	/* background-image: url(/static/img/buttons/set-buttons.png); */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+	border-top-right-radius: 10px; border-top-left-radius : 10px;
+	/* 	background-position: 100% -1093px;
+ */
+	height: auto;
+	background-repeat: no-repeat;
+	border-top-left-radius: 10px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav li.selected
+	{
+	padding: 0px 2px 0px 2px;
+	background-position: 0 -1208px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav li.selected div
+	{
+	color: #901019;
+	 border-top-left-radius : 10px;
+	/* 	background-position: 100% -1252px; */
+	/* background-image: url(/static/img/buttons/set-buttons.png); */
+	background-image: linear-gradient(to bottom, #f2f2f2 0%, #f7f7f7 100%);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-nav li.selected a
+	{
+	/* 	background-position: 0 -1172px; */
+	/* background-image: url(/static/img/buttons/set-buttons.png); */
+	background-image: linear-gradient(to bottom, #f2f2f2 0%, #f7f7f7 100%);
+	border-top-right-radius: 10px; border-top-left-radius : 10px;
+	background-repeat: repeat-x;
+	border-top-left-radius: 10px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-content {
+	font-size: 0.7em;
+	height: 185px;
+	padding-left: 20px;
+	padding-top: 15px;
+	width: 662px;
+}
+
+.dashboardviolations .violations-container .yui-navset .yui-content .yui-hidden
+	{
+	display: none;
+}
+
+.dashboardviolations .violations-container .yui-content table {
+	width: 100%;
+	color: #4F5054;
+}
+
+.dashboardviolations .violations-container .yui-content table thead {
+	font-weight: bold;
+}
+
+.dashboardviolations .violations-container .yui-content table tr,.dashboardviolations .violations-container .yui-content table th
+	{
+	text-align: center;
+	height: 26px;
+	border-bottom: 1px solid #E3E3E3;
+}
+
+.dashboardviolations .violations-container .yui-content table th {
+	height: 30px;
+}
+
+.dashboardviolations .violations-container .yui-content table .table-item-row
+	{
+	border-bottom-color: #E3E3E3;
+}
+
+.dashboardviolations .violations-container .yui-content table .table-item-row.even
+	{
+	background-color: #E9ECEE;
+}
+
+.dashboardviolations .violations-container .yui-content table.table-3-cols .table-item-col,.dashboardviolations .violations-container .yui-content table.table-3-cols .table-head-col
+	{
+	width: 33%;
+}
+
+.dashboardviolations .violations-container .yui-content .ft {
+	font-size: 0.7em;
+	height: 12px;
+	position: absolute;
+	top: 242.4px;
+	left: 611px;
+	width: 93px;
+}
+
+.dashboardviolations .violations-container .yui-content .label {
+	left: 611px;
+	position: absolute;
+	top: 225px;
+}
+
+.dashboardviolations .violations-container .yui-content .label a {
+	background-image: url("/static/img/icons/arrows.png");
+	background-position: 100% -161px;
+	background-repeat: no-repeat;
+	color: #000000;
+	display: block;
+	height: 12px;
+	left: 30px;
+	position: absolute;
+	width: 55px;
+	padding-top: 2px;
+}
+
+.dashboardviolations .violations-container .yui-content .ft .rounded-rect .nested
+	{
+	background-color: #F4F4F4;
+	border-color: #F4F4F4;
+	position: absolute;
+}
+
+.dashboardviolations .violations-container .yui-content .ft .rounded-rect .cap
+	{
+	background-color: #F4F4F4;
+	border-color: #F4F4F4;
+}

@@ -1,0 +1,34 @@
+<groups>
+    <group id="group-0">
+        <id>
+            group-0
+        </id>
+        <name>
+            North Zone
+        </name>
+    </group>
+    <group id="group-10">
+        <id>
+            group-10
+        </id>
+        <name>
+            South Zone
+        </name>
+    </group>
+    <group id="group-2">
+        <id>
+            group-2
+        </id>
+        <name>
+            East Zone
+        </name>
+    </group>
+    <group id="group-3">
+        <id>
+            group-3
+        </id>
+        <name>
+            West Zone
+        </name>
+    </group>
+</groups>

@@ -1,0 +1,36 @@
+<#import "/macros/skin.ftm" as skin/>
+
+<#macro init params={}>
+
+    <table class="layout">
+        <tbody>
+                <tr>
+            
+                <td class="main-pane cnt-resizable">
+                    <div class="hd">
+                       <div class="report-bar-container">
+                         <div class="inline-block">
+                            <@skin.widget name="Buttons" params={"style":"blue","class":"button-generate-report", "tag": "div"}>
+                                  &nbsp; Generate Report&nbsp;
+                            </@skin.widget>
+                         </div>
+                       </div> 
+                    </div>
+                    <div class="bd">
+                        <!--Displaying the initial information-->
+                        <@skin.widget name="SimpleDialog" params={
+                            "title" : "ETA Display"
+                        }>
+                            <div class="icon inline-block"></div
+                            ><div class="text inline-block"><div>Please select a Stop from the Stop List to view the details.</div></div
+                            ><@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-done boldface"}>&nbsp;Done&nbsp;</@skin.widget>
+                        </@skin.widget>
+                        <div class="etatables">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+   
+</#macro>

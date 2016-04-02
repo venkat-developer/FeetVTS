@@ -1,0 +1,173 @@
+<#import "/macros/skin.ftm" as skin/>
+<#include "/mock/GeoFenceData.ftd">
+<#include "/mock/VehicleData.ftd" />
+<#macro init params={}>
+
+    <#local vehicles = []/>
+     <#if (view.geofencing.vehicle)??>
+        <#local vehicles = view.geofencing.vehicle/>
+        <#else>
+        <#local vehicles = mockVehicleData/>
+    </#if>
+    <table class="layout">
+        <tbody>
+            <tr>
+                <td class="side-pane cnt-resizable">
+                    <@skin.widget name="GeoFencingSideBar"/>
+                </td>
+                <td class="main-pane cnt-resizable">
+                    <div class="hd">
+                        <@skin.widget name="GeoFencingToolBar"/>
+                    </div>
+                    <div class="bd">
+                        <!--Displaying the initial information-->
+                        <@skin.widget name="SimpleDialog" params={
+                            "title" : "Geofencing"
+                        }><div class="info inline-block"><div>This feature helps you to create boundaries for one or more vehicles. Once the vehicle moves out of boundaries your are alerted of the same by email and SMS.</div></div>
+                         <div class="iconarrow inline-block"></div
+                            ><div class="text inline-block"><div>To know how to use this section click how to draw region button</div></div>
+                            <div class="icon inline-block"></div
+                            ><div class="text inline-block"><div>Please select a Region from the list to View, Edit, Add or a Delete Region</div></div
+                            ><@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-done boldface"}>&nbsp;Done&nbsp;</@skin.widget>
+                        </@skin.widget>
+                        <!--Creating the GeoFencing details widget-->
+                        <@skin.widget name="GeoFencingDetails"/>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Creating the popup section-->
+    <div class="flip-container">
+        <div class="add-region">
+            <@skin.widget name="DialogPopUp"params={
+                "cssClass": "dialogpopup popup",
+                "containerID":"add-region-popup",
+                "header":"ADD REGION",
+                "submitButtonText":"Add Region",
+                "cancelButtonText":"Cancel"
+            }>
+                <div class="table">
+                    <div class="input vacant-vehicle">
+                        <div class="inline-block label">Region Name</div>                       
+                            <input class="input-element region-name" name="region-name" type="text"></input>                       
+                    </div>
+                    <div class="input vacant-driver">
+                        <div class="inline-block label">Speed Limit (kmph)</div>
+                        	<input id="speed" class="input-element speed-limit" name="speed-limit" type="text"></input>
+                    </div>
+                    <div class="input region-shape">
+                        <div class="inline-block label">Region Shape</div>
+                            <input class="region-shape" checked="checked" type="radio" name="radiogroup" value="circle" >&nbsp Circle&nbsp</input>
+                            <input class="region-shape" type="radio" name="radiogroup" value="square" >&nbsp Square&nbsp</input>
+                            <input class="region-shape" type="radio" name="radiogroup" value="custom" >&nbsp Custom</input>                       
+                    </div>
+            </@skin.widget>
+        </div>
+    </div>
+     <!--Creating the popup section for drawing region-->
+   
+   <div class="flip-container1">
+        <div class="draw-region">
+            <@skin.widget name="DialogPopUp"params={
+                "cssClass": "dialogpopup popup",
+                "containerID":"draw-region-popup",
+                "header":"HOW TO DRAW REGION?",
+                "submitButtonText":"Ok"
+            }>
+                <div class="table">
+         A region is drawn by connecting a set of points<br>
+         <div class="icon inline-block"></div>
+         <div class="text inline-block"><div>
+			->  Click Add Region Button and select the shape of the region<br>
+			->  To mark a point on the map, single-click on the map.<br>
+			&nbsp &nbsp&nbsp   The point will get added to the nearest line<br>
+			->  To remove a point, single-click on it<br>
+			->  To adjust any point, drag it to the desired location<br>
+			->  Once done click on Save Region button.
+          	</div>
+         </div>
+       	</div>
+        </@skin.widget>
+        </div>
+    </div>
+   
+       <!--Creating the popup section for edit region-->
+   
+   <div class="flip-container2">
+        <div class="edit-region">
+            <@skin.widget name="EditVehiclePopUp"params={
+                "cssClass": "editvehiclepopup popup",
+                "containerID":"edit-vehicle-popup",
+                "header":"EDIT REGION",
+                "submitButtonText":"Save Changes"
+            }>
+                <div class="table">
+                 <div class="bd">
+                  	<div class="assignment-control assigned-list-cnt list-cnt inline-block">
+            			<div class="assng-title list-title">
+               		 		Assigned Vehicles (<span class="assng-count list-count">10</span>)
+            			</div>
+            			<div class="assigned-list assignment-control-list list" name="assng-veh" size="12">
+            			</div>
+        			</div>
+        			<div class="assignment-control vacant-list-cnt list-cnt inline-block">
+            			<div class="vac-title list-title">
+                			Vacant Vehicles (<span class="vac-count list-count">11</span>)
+            			</div>
+            			<div class="vacant-list assignment-control-list list" name="vac-veh">
+            			</div>
+        		</div>
+         		<div class="ft">
+        			<@skin.widget name="Buttons" params={"cssClass":"inline-block assignment-control remove-button buttons","style":"red","class":"rem-button"}><div class="rem-text">Remove</div></@skin.widget>
+        			<@skin.widget name="Buttons" params={"cssClass":"inline-block assignment-control add-button buttons","style":"red","class":"add-button"}><div class="add-text">Add</div></@skin.widget>
+        			<input class="input-element" name="command_type" value="assign_vehicle" type="hidden"/>
+        		</div>
+    		</div>
+   		</div>
+	</@skin.widget>
+	<div class="markup-template template-assigned-list-item">
+        <div class="assng-list-item list-item slist-item" assigned="true" value="{id}">{name}</div>
+    </div>
+    <div class="markup-template template-vacant-list-item">
+        <div class="vac-list-item list-item slist-item" assigned="false" value="{id}">{name}</div>
+    </div>
+ </div>
+	
+	 <!--Delete region conformation popup-->
+    <div class="flip-container3">
+        <div class="delete-region">
+            <@skin.widget name="DialogPopUp"params={
+                "cssClass": "dialogpopup popup",
+                "containerID":"delete-region-popup",
+                "header":"DELETE REGION",
+                "submitButtonText":"Confirm",
+                "cancelButtonText":"Cancel"
+            }>
+                <div class="table">
+					Are you sure to delete this region?                       
+                    </div>
+            </@skin.widget>
+        </div>
+    </div>
+    
+   	<!--Save region conformation popup-->
+    <div class="flip-container4">
+        <div class="save-region">
+            <@skin.widget name="DialogPopUp"params={
+                "cssClass": "dialogpopup popup",
+                "containerID":"save-region-popup",
+                "header":"SAVE REGION",
+                "submitButtonText":"Confirm",
+                "cancelButtonText":"Cancel"
+            }>
+                <div class="table">
+					Save this region?                       
+                </div>
+            </@skin.widget>
+        </div>
+    </div>
+	
+	
+    </div>
+</#macro>

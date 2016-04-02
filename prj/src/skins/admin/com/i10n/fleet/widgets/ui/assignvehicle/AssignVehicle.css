@@ -1,0 +1,296 @@
+/**
+ * Assign Vehicle Ui Widget CSS
+ */
+.assignvehicle {
+    padding: 20px;
+    height: 500px;
+}
+
+.assignvehicle .state-view {
+    padding-bottom: 10px;
+}
+
+.assignvehicle .state-item {
+    background-image: url("@STATIC_DIR@/img/login/dot.png");
+    background-repeat: no-repeat;
+    color: #172834;
+    font-weight: bold;
+    height: 20px;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+.assignvehicle .state-item.disabled {
+    background-image: url("@STATIC_DIR@/img/login/dot-disabled.png");
+    color: #8497A4;
+}
+
+.assignvehicle .state-item-index {
+    color: #FFFFFF;
+    padding-right: 8px;
+}
+
+
+
+.assignvehicle .assignment-control.disabled {
+    display: none;
+}
+
+.assignvehicle .list-cnt {
+    padding-right: 20px;
+    width: 220px;
+    _width: 240px;
+}
+
+.assignvehicle .list {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.assignvehicle .search-item-user {
+    padding-bottom: 17px;
+}
+
+.assignvehicle .search-item-user .search-item-input-user {
+    width: 216px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.assignvehicle .search-autocomplete-user {
+    position: absolute;
+    margin-top: 4px;
+    width: 215px;
+    font-size: 1em;
+}
+
+.assignvehicle .list-cnt .search-item-assignvehicle {
+    padding-bottom: 17px;
+}
+
+.assignvehicle .list-cnt .search-item-assignvehicle .search-title-assign {
+    padding-bottom: 5px;
+}
+
+.assignvehicle .list-cnt .search-item-assignvehicle .search-item-input-assign {
+    width: 216px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.assignvehicle .list-cnt .search-autocomplete-assignvehicle {
+    position: absolute;
+    margin-top: 4px;
+    width: 215px;
+    font-size: 1em;
+}
+
+.assignvehicle .list-cnt .search-item-vacantvehicle {
+    padding-bottom: 17px;
+}
+
+.assignvehicle .list-cnt .search-item-vacantvehicle .search-title-vacant {
+    padding-bottom: 5px;
+}
+
+.assignvehicle .list-cnt .search-item-vacantvehicle .search-item-input-vacant {
+    width: 216px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.assignvehicle .list-cnt .search-autocomplete-vacantvehicle {
+    position: absolute;
+    margin-top: 4px;
+    width: 215px;
+    font-size: 1em;
+}
+
+.assignvehicle .state-view {
+    padding-bottom: 10px;
+}
+
+.assignvehicle .sel-hd, .assignvehicle .frm-hd {
+    color: #172834;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+
+.assignvehicle .user-sel-disp {
+    padding-left: 20px;
+}
+
+.assignvehicle .user-sel {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.assignvehicle .user-sel .user-list-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+	*height:auto !important;
+	*height:25px;
+}
+
+.assignvehicle .user-sel .user-list-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.assignvehicle .user-sel .user-list-item.selected {
+    background-color: #ECF4FA;
+}
+
+.assignvehicle .user-sel .user-list-item.disabled {
+    display:none;
+}
+.assignvehicle .vehicle-sel-disp {
+    padding-left: 20px;
+}
+
+.assignvehicle .vehicle-sel {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.assignvehicle .vehicle-sel .vehicle-sel-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+	*height:auto !important;
+	*height:25px;
+}
+
+.assignvehicle .vehicle-sel .vehicle-sel-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.assignvehicle .vehicle-sel .vehicle-sel-item.selected {
+    background-color: #ECF4FA;
+}
+
+.assignvehicle .list .list-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+    *height:auto !important;
+    *height:25px;
+}
+
+.assignvehicle .list .list-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.assignvehicle .list .list-item.selected, .assignvehicle .list .list-item.selected.moved {
+    background-color: #ECF4FA;
+}
+
+.assignvehicle .list .list-item.disabled{
+	display:none;
+}
+
+.assignvehicle .list .list-item.moved {
+    background-color: #FFECFA;
+}
+
+.assignvehicle .list-cnt .list-title {
+    color: #172834;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+
+.assignvehicle .ft {
+    padding-top: 20px;
+}
+
+.assignvehicle .ft .buttons.remove-button {
+    padding-left: 345px;
+    _padding-left: 375px;
+}
+
+.assignvehicle .ft .buttons.add-button {
+    padding-left: 35px;
+}
+
+.assignvehicle .ft .buttons.save-button {
+    padding-left: 70px;
+}
+
+.assignvehicle .ft .buttons .rem-text {
+    background-image: url("@STATIC_DIR@/img/icons/action-icons.png");
+    background-repeat: no-repeat;
+    background-position: 100% -400px;
+    padding-right: 21px;
+}
+
+.assignvehicle .ft .buttons .add-text {
+    background-image: url("@STATIC_DIR@/img/icons/action-icons.png");
+    background-repeat: no-repeat;
+    background-position: 0% -462px;
+    padding-left: 21px;
+}

@@ -1,0 +1,14 @@
+<ivysettings>
+    <settings defaultResolver="${ivy.resolver}" />
+    <resolvers>
+        <vfs name="root-resolver">
+			<ivy pattern="ftp://${ftp.repository.user}:${ftp.repository.password}@${ftp.repository.host}/ivy-repository/[organization]/[module]/ivy-[revision].xml" />
+			<artifact pattern="ftp://${ftp.repository.user}:${ftp.repository.password}@${ftp.repository.host}/ivy-repository/[organisation]/[module]/[type]s/[artifact]-[revision].[ext]" />
+		</vfs>
+        <filesystem name="local-resolver">
+            <ivy pattern="${local.repo.dir}/[organisation]/[module]/ivys/ivy-[revision].xml" />
+            <artifact pattern="${local.repo.dir}/[organisation]/[module]/[type]s/[artifact]-[revision].[ext]" />
+        </filesystem>
+    </resolvers>
+</ivysettings>
+

@@ -1,0 +1,205 @@
+/**
+ * Buttons Widget CSS
+ */
+.buttons .fleet-buttons .button-anchor {
+    display: block;
+    height: 29px;
+    cursor: pointer;
+}
+
+/*
+ *  Buttons Styling
+ */
+.buttons .fleet-buttons .button-anchor .rt, .buttons .fleet-buttons .button-anchor .lt, .buttons .fleet-buttons .button-anchor .ct {
+    
+	/* background-image: url("/static/img/buttons/set-buttons.png"); */
+	background-image: linear-gradient(to bottom, #162633 0%, gray 100%);
+    border-radius: 5px     5px      5px  5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.buttons .fleet-buttons.button-blue .button-anchor .rt {
+    background-repeat: no-repeat;
+    background-position: 0px -490px;
+}
+
+.buttons .fleet-buttons.button-blue .button-anchor .lt {
+    background-repeat: no-repeat;
+    background-position: 0px -294px;
+}
+
+.buttons .fleet-buttons.button-blue .button-anchor .ct {
+    background-position: 0px -392px;
+}
+
+.buttons .fleet-buttons.button-blue .button-anchor:hover ul .rt {
+   /*  background-position: 0px -523px; */
+    background-image: linear-gradient(to bottom, #1e5f8e 0%, #1D5B89 100%);
+    border-radius: 5px     5px      5px  5px;
+}
+
+.buttons .fleet-buttons.button-blue .button-anchor:hover ul .lt {
+  /*   background-position: 0px -327px; */
+    background-image: linear-gradient(to bottom, #1e5f8e 0%, #1D5B89 100%);
+    border-radius: 5px     5px      5px  5px;
+}
+
+.buttons .fleet-buttons.button-blue .button-anchor:hover ul .ct {
+/*     background-position: 0px -425px; */
+    background-image: linear-gradient(to bottom, #1e5f8e 0%, #1D5B89 100%);
+    border-radius: 5px     5px      5px  5px;
+}
+
+.buttons .fleet-buttons.button-red .button-anchor .rt {
+    background-repeat: no-repeat;
+    background-position: 0px -196px;
+}
+
+.buttons .fleet-buttons.button-red .button-anchor .lt {
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+.buttons .fleet-buttons.button-red .button-anchor .ct {
+    background-position: 0px -98px;
+}
+
+.buttons .fleet-buttons.button-red .button-anchor:hover ul .rt {
+		background-image: linear-gradient(to bottom, #1e5f8e 0%, #1D5B89 100%);
+	
+/*     background-position: 0px -227px; */
+}
+
+.buttons .fleet-buttons.button-red .button-anchor:hover ul .lt {
+   /*  background-position: 0px -31px; */
+   	background-image: linear-gradient(to bottom, #1e5f8e 0%, #1D5B89 100%);
+   
+}
+
+.buttons .fleet-buttons.button-red .button-anchor:hover ul .ct {
+   /*  background-position: 0px -129px; */
+   	background-image: linear-gradient(to bottom, #1e5f8e 0%, #1D5B89 100%);
+   
+}
+
+.buttons .fleet-buttons.button-green .button-anchor .rt {
+    background-repeat: no-repeat;
+    background-position: 0px -784px;
+}
+.buttons .fleet-buttons.button-manage .button-anchor {
+    height: 24px;
+}
+
+.buttons .fleet-buttons.button-manage .button-anchor ul .rt {
+    background-position: 0px -1934px;
+    height: 24px;
+}
+
+.buttons .fleet-buttons.button-manage .button-anchor ul .lt {
+    background-position: 0 -1871px;
+    height: 24px;
+}
+
+.buttons .fleet-buttons.button-manage .button-anchor ul .ct {
+    background-position: 0px -1903px;
+    height: 24px;
+}
+
+.buttons .fleet-buttons.button-manage.disabled .button-anchor ul .rt {
+    background-position: 0px -2025px;
+}
+
+.buttons .fleet-buttons.button-manage.disabled .button-anchor ul .lt {
+    background-position: 0 -1968px;
+}
+
+.buttons .fleet-buttons.button-manage.disabled .button-anchor ul .ct {
+    background-position: 0px -1997px;
+}
+
+.buttons .fleet-buttons.button-green .button-anchor .lt {
+    background-repeat: no-repeat;
+    background-position: 0px -588px;
+}
+
+.buttons .fleet-buttons.button-green .button-anchor .ct {
+    background-position: 0px -686px;
+}
+
+.buttons .fleet-buttons.button-green .button-anchor:hover ul .rt {
+ /*    background-position: 0px -818px; */
+ 	   	background-image: linear-gradient(to bottom, #53c500 0%, #2e9500 100%);
+ 
+}
+
+.buttons .fleet-buttons.button-green .button-anchor:hover ul .lt {
+/*     background-position: 0px -622px; */
+	   	background-image: linear-gradient(to bottom, #53c500 0%, #2e9500 100%);
+
+}
+
+.buttons .fleet-buttons.button-green .button-anchor:hover ul .ct {
+/*     background-position: 0px -720px; */
+	   	background-image: linear-gradient(to bottom, #53c500 0%, #2e9500 100%);
+
+}
+
+.buttons .fleet-buttons.disabled .button-anchor {
+	cursor: default;
+}
+
+.buttons .fleet-buttons.disabled .button-anchor ul .rt {
+    background-repeat: no-repeat;
+    background-position: 0px -850px;
+}
+
+.buttons .fleet-buttons.disabled .button-anchor ul .lt {
+    background-repeat: no-repeat;
+    background-position: 0px -360px;
+}
+
+.buttons .fleet-buttons.disabled .button-anchor ul .ct {
+    background-position: 0px -458px;
+}
+
+.buttons .fleet-buttons.disabled .button-anchor:hover ul .rt {
+    background-repeat: no-repeat;
+    background-position: 0px -850px;
+}
+
+.buttons .fleet-buttons.disabled .button-anchor:hover ul .lt {
+    background-repeat: no-repeat;
+    background-position: 0px -360px;
+}
+
+.buttons .fleet-buttons.disabled .button-anchor:hover ul .ct {
+    background-position: 0px -458px;
+}
+
+.buttons .fleet-buttons .button-anchor .rt {
+    height: 29px;
+    width: 8px;
+    position: relative;
+}
+
+.buttons .fleet-buttons .button-anchor .lt {
+    height: 29px;
+    width: 8px;
+    position: relative;
+}
+
+.buttons .fleet-buttons .button-anchor .ct {
+    padding-top: 6px;
+    height: 22px;
+    _height: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.buttons .fleet-buttons.boldface .button-anchor .ct {
+    font-weight: bold;
+}
+

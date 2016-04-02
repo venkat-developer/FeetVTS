@@ -1,0 +1,83 @@
+/**
+ * Add Vehicle UI Widget CSS
+ */
+.addgroup {
+    padding: 20px;
+}
+
+.addgroup .note {
+    height: 30px;
+    border: 1px solid #95D0E9;
+    color: #5A6065;
+    margin-top: 3px;
+    line-height: 28px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+}
+
+.addgroup .note .title {
+    color: #BB0813;
+    font-weight: bold;
+}
+
+.addgroup .note.disabled {
+    display: none;
+}
+
+.addgroup .form-add-grp {
+    padding-top: 25px;
+}
+
+.addgroup .form-add-grp .frm-lbl {
+    width: 120px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.addgroup .form-add-grp .input-element {
+    width: 240px;
+    height: 19px;
+}
+
+.addgroup .form-add-grp .input-element.txt {
+    padding-top: 2px;
+}
+.addgroup .form-add-grp .input-element.list {
+    padding-top: 2px;
+    height: 26px;
+    color: #39444C;
+    
+}
+.addgroup .form-add-grp .frm-inp {
+    padding-right: 5px;
+}
+
+.addgroup .form-add-grp .frm-imp {
+    color: #39444C;
+    font-size: 0.9em;
+    line-height: 21px;
+}
+
+.addgroup .form-add-grp .frm-item-cnt {
+    padding-bottom: 10px;
+}
+
+.addgroup .buttons {
+    padding-left: 160px;
+}
+
+.addgroup .add-group-empty-popup {
+    display: block;
+}
+
+.addgroup .add-group-groupname-popup {
+    display: block;
+}
+
+.addgroup .add-group-empty-popup.disabled{
+    display: none;
+}
+
+.addgroup .add-group-groupname-popup.disabled{
+    display: none;
+}

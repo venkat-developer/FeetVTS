@@ -1,0 +1,155 @@
+/*
+ * The Stylesheet for the TripDetails widget in the Trip Settings sub nav view
+ */
+.geofencing .layout .main-pane .bd .geofencingdetails .simpledialog {
+    position: absolute;
+    top: 150px;
+    left: 440px;
+    z-index: 1550;
+    width: 370px;
+}
+
+.geofencing .layout .main-pane .bd .geofencingdetails .simpledialog {
+    height: 225px;
+}
+
+.geofencing .layout .main-pane .bd .geofencingdetails .simpledialog.disabled {
+    display: none;
+}
+
+.geofencing .layout .main-pane .bd .geofencingdetails .simpledialog .text {
+    width: 370px;
+    line-height: 29px;
+}
+
+.geofencing .layout .main-pane .bd .geofencingdetails .simpledialog .buttons {
+    font-size: 0.8em;
+    padding-left: 150px;
+    padding-top: 15px;
+}
+
+.geofencingdetails .trip-details-container {
+    background-color: #FFFFFF;
+    padding: 10px 25px 29px 13px;
+    height: 560px;
+}
+
+.geofencingdetails .trip-details-container.hidden {
+    display: none;
+}
+
+.geofencing .layout .main-pane .bd .geofencingdetails .trip-details-information .popup-markup .bd {
+    height: auto;
+    line-height: 35px;
+}
+
+.geofencing .layout .main-pane .bd .geofencingdetails .trip-details-information .popup-markup .hd {
+    height: auto;
+}
+
+.geofencingdetails .data {
+    vertical-align: middle;
+    padding-left: 25px;
+}
+
+.geofencingdetails .hd .rounded-rect .nested {
+    background-color: #BADDF1;
+    color: #1D5F8E;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    height: 30px;
+    padding-left: 22px;
+    padding-top: 10px;
+    border-color: #BADDF1;
+}
+
+.geofencingdetails .hd .rounded-rect .cap {
+    background-color: #BADDF1;
+    border-color: #BADDF1;
+}
+
+.geofencingdetails .hd .rounded-rect .bottom.cap {
+    display: none;
+}
+
+.geofencingdetails .hd .rounded-rect .nested .label {
+    font-weight: bold;
+}
+
+.geofencingdetails .bd .trip-details-header {
+    height: 41px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D0E5F3;
+    color: #172832;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.geofencingdetails .bd .trip-details-header .background {
+    height: 55px;
+    background-image: url("@STATIC_DIR@/img/tables/th-normal.jpg");
+    background-repeat: repeat-x;
+    padding-left: 22px;
+    line-height: 50px;
+}
+
+.geofencingdetails .bd .trip-details-body {
+    background-image: url("@STATIC_DIR@/img/geofencingdetails/all-gradiants.png");
+    background-position: 0px -36px;
+    background-repeat: repeat-x;
+    margin-top: 2px;
+    padding-top: 8px;
+    min-height: 68px;
+    /*Hack for IE*/
+    height: auto !important;
+    height: 68px;
+}
+
+.geofencingdetails .bd .trip-details-body .details-record {
+    height: 24px;
+    padding-left: 26px;
+    border-bottom: 1px dotted #A2C0D4;
+}
+
+.geofencingdetails .bd .trip-details-body .last-record.details-record {
+    border: none;
+}
+
+.geofencingdetails .bd .trip-details-body .details-record .content {
+    line-height: 24px;
+}
+
+.geofencingdetails .bd .trip-details-body .details-record.editable .content.data {
+    min-height: 20px;
+    /*Hack for IE*/
+    height: auto !important;
+    height: 20px;
+}
+
+.geofencingdetails .bd .trip-details-body .details-record.editable .content.icon {
+    width: 25px;
+    height: 20px;
+    background-image: url(@STATIC_DIR@/img/icons/widget-header-icons.png);
+    background-position: 100% -223px;
+    background-repeat: no-repeat;
+}
+
+.geofencingdetails .bd .trip-details-body .details-record.editable .content.link {
+    color: blue;
+    font-size: 0.9em;
+}
+
+.geofencingdetails .bd .trip-details-body .details-record .label {
+    width: 129px;
+    font-weight: bold;
+    color: #172832;
+}
+
+.geofencingdetails .ft {
+    padding-top: 6px;
+}
+
+.geofencingdetails .ft .buttons.widget {
+    padding-left: 25px;
+}

@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thavarakarai - 2</name>
+	<description> JF007, Denkanikottai</description>
+	<Point>
+	<coordinates>77.761703,12.504962,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Hosatti</name>
+	<description> JF007p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.760104,12.519636,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>GandiganPalli</name>
+	<description> JF034, Denkanikottai</description>
+	<Point>
+	<coordinates>77.743367,12.521008,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thavarakarai - 1 KanduganaPalli</name>
+	<description> JF006, Denkanikottai</description>
+	<Point>
+	<coordinates>77.737777,12.514022,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Varadhareddi Palayam</name>
+	<description> JF033, Denkanikottai</description>
+	<Point>
+	<coordinates>77.7281,12.533073,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Doddabillamudirae</name>
+	<description> JP075, Denkanikottai</description>
+	<Point>
+	<coordinates>77.717757,12.46897,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Padinganalam</name>
+	<description> JP081, Denkanikottai</description>
+	<Point>
+	<coordinates>77.685217,12.446184,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Gundalam</name>
+	<description> JP028p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.685539,12.480503,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kachivadi</name>
+	<description> JP074, Denkanikottai</description>
+	<Point>
+	<coordinates>77.689959,12.469525,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>BalathottanPalli</name>
+	<description> JP028, Denkanikottai</description>
+	<Point>
+	<coordinates>77.704089,12.504669,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>VanaganPalli</name>
+	<description> JP029p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.686172,12.512252,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>SarandaPalli</name>
+	<description> JP041, Denkanikottai</description>
+	<Point>
+	<coordinates>77.692652,12.541075,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>MainakkamPalli</name>
+	<description> JP041p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.711663,12.560009,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Agalakotta</name>
+	<description> JP033, Denkanikottai</description>
+	<Point>
+	<coordinates>77.677803,12.507497,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>JSettiPalli</name>
+	<description> JP029, Denkanikottai</description>
+	<Point>
+	<coordinates>77.672106,12.521417,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Gattunisae</name>
+	<description> JP033p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.655144,12.526905,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>SivanapPalli</name>
+	<description> JP043p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.661002,12.537807,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Jewalagiri</name>
+	<description> JP031, Denkanikottai</description>
+	<Point>
+	<coordinates>77.644114,12.516766,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sollaepuram</name>
+	<description> JP031p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.642623,12.532927,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Chennamalam</name>
+	<description> JP078, Denkanikottai</description>
+	<Point>
+	<coordinates>77.594676,12.481708,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Aralnatham</name>
+	<description> JP032p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.70014,12.371422,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Madakkallur</name>
+	<description> JP032, Denkanikottai</description>
+	<Point>
+	<coordinates>77.674917,12.415475,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Tsulagundu</name>
+	<description> JP079, Denkanikottai</description>
+	<Point>
+	<coordinates>77.651882,12.431296,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Ulibanda</name>
+	<description> JP095, Denkanikottai</description>
+	<Point>
+	<coordinates>77.644351,12.392569,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>NandhiMangalam</name>
+	<description> JP031p2, Denkanikottai</description>
+	<Point>
+	<coordinates>77.644973,12.4638,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Denkanikotta - 2</name>
+	<description> JF002, Denkanikottai</description>
+	<Point>
+	<coordinates>77.789437,12.519118,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Therpettai</name>
+	<description> JF029, Denkanikottai</description>
+	<Point>
+	<coordinates>77.795708,12.517489,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Denkanikotta - 1</name>
+	<description> JF001, Denkanikottai</description>
+	<Point>
+	<coordinates>77.79169,12.52425,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Denkanikotta - 3</name>
+	<description> JF003, Denkanikottai</description>
+	<Point>
+	<coordinates>77.79177,12.524632,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Netaji Nagar</name>
+	<description> JF028, Denkanikottai</description>
+	<Point>
+	<coordinates>77.791808,12.524983,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>M.G.R.Nagar</name>
+	<description> JF029, Denkanikottai</description>
+	<Point>
+	<coordinates>77.790585,12.528952,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kelkottai</name>
+	<description> JF027, Denkanikottai</description>
+	<Point>
+	<coordinates>77.786497,12.527942,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Bennangur</name>
+	<description> JP027, Denkanikottai</description>
+	<Point>
+	<coordinates>77.784705,12.558501,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thandarae</name>
+	<description> JF025, Denkanikottai</description>
+	<Point>
+	<coordinates>77.772818,12.578397,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Korattagiri</name>
+	<description> JF049, Denkanikottai</description>
+	<Point>
+	<coordinates>77.784265,12.589748,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Jkaripalli</name>
+	<description> JF017, Denkanikottai</description>
+	<Point>
+	<coordinates>77.811559,12.603737,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Ulimangalam</name>
+	<description> JP006, Denkanikottai</description>
+	<Point>
+	<coordinates>77.760211,12.532843,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Annyalam</name>
+	<description> JP035, Denkanikottai</description>
+	<Point>
+	<coordinates>77.745899,12.5505,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sirthimeenatti</name>
+	<description> JP035p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.743549,12.575109,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Devarolimangalam</name>
+	<description> JP089, Denkanikottai</description>
+	<Point>
+	<coordinates>77.720912,12.540719,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Ballapalli</name>
+	<description> JP030p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.710268,12.540007,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Ubburayanpalli</name>
+	<description> JP030p2, Denkanikottai</description>
+	<Point>
+	<coordinates>77.713498,12.525386,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kembathpalli</name>
+	<description> JP030, Denkanikottai</description>
+	<Point>
+	<coordinates>77.699926,12.52259,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kmallathsandaram</name>
+	<description> JP036p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.728132,12.572439,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kakadasam</name>
+	<description> JP036, Denkanikottai</description>
+	<Point>
+	<coordinates>77.718862,12.566669,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>ThalliKothanur</name>
+	<description> JP042, Denkanikottai</description>
+	<Point>
+	<coordinates>77.692008,12.573329,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Tharavaendaram</name>
+	<description> JP043 , Denkanikottai</description>
+	<Point>
+	<coordinates>77.691236,12.555967,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>ThippaeNagararam</name>
+	<description> JP087, Denkanikottai</description>
+	<Point>
+	<coordinates>77.66952,12.578963,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Bettapalli</name>
+	<description> JP082, Denkanikottai</description>
+	<Point>
+	<coordinates>77.66539,12.557004,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Maropalli</name>
+	<description> JP034, Denkanikottai</description>
+	<Point>
+	<coordinates>77.646593,12.555401,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thalli</name>
+	<description> JP094, Denkanikottai</description>
+	<Point>
+	<coordinates>77.655648,12.583099,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Gejanakuppam</name>
+	<description> JP038p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.625607,12.592648,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nelmaragraram</name>
+	<description> JP037, Denkanikottai</description>
+	<Point>
+	<coordinates>77.621981,12.558658,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sampahanthoddi</name>
+	<description> JP085, Denkanikottai</description>
+	<Point>
+	<coordinates>77.601242,12.532382,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Chudasantharam</name>
+	<description> JP038 , Denkanikottai</description>
+	<Point>
+	<coordinates>77.626798,12.583874,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Achubalu</name>
+	<description> JP039, Denkanikottai</description>
+	<Point>
+	<coordinates>77.605587,12.585738,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>A Baelallam</name>
+	<description> JP084, Denkanikottai</description>
+	<Point>
+	<coordinates>77.595406,12.557611,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sangaepalli</name>
+	<description> JP088, Denkanikottai</description>
+	<Point>
+	<coordinates>77.658947,12.599936,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kottaemudugumarathi</name>
+	<description> JP047, Denkanikottai</description>
+	<Point>
+	<coordinates>77.660079,12.616803,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Unusaenatham</name>
+	<description> JP048, Denkanikottai</description>
+	<Point>
+	<coordinates>77.6531,12.629843,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Odurapalayam</name>
+	<description> JP047p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.649318,12.598585,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kariaenpalayam</name>
+	<description> JP048p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.660594,12.63613,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Gummulapauram</name>
+	<description> JP044, Denkanikottai</description>
+	<Point>
+	<coordinates>77.665036,12.656711,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Ganganapalli</name>
+	<description> JP044p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.653996,12.648373,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thammapuram</name>
+	<description> JP044p2, Denkanikottai</description>
+	<Point>
+	<coordinates>77.668598,12.655947,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kuppatti</name>
+	<description> JP040, Denkanikottai</description>
+	<Point>
+	<coordinates>77.693939,12.594481,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Doddabunur</name>
+	<description> JP045, Denkanikottai</description>
+	<Point>
+	<coordinates>77.676682,12.606276,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>C.R.Palayam</name>
+	<description> JP040p2, Denkanikottai</description>
+	<Point>
+	<coordinates>77.705365,12.597596,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Dasirapalli</name>
+	<description> JP086, Denkanikottai</description>
+	<Point>
+	<coordinates>77.701879,12.576858,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Birugandapalli</name>
+	<description> JP040p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.713552,12.588816,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thuagari Agraharam</name>
+	<description> JP089, Denkanikottai</description>
+	<Point>
+	<coordinates>77.726222,12.589172,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Devugandapalli</name>
+	<description> JP046, Denkanikottai</description>
+	<Point>
+	<coordinates>77.699915,12.616081,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sanabohanapalli</name>
+	<description> JP046p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.713745,12.607852,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Madahondapalli</name>
+	<description> JP051, Denkanikottai</description>
+	<Point>
+	<coordinates>77.728733,12.62743,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Periyamadahondapalli</name>
+	<description> JP052, Denkanikottai</description>
+	<Point>
+	<coordinates>77.719098,12.634863,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sathanur</name>
+	<description> JP054, Denkanikottai</description>
+	<Point>
+	<coordinates>77.704099,12.629566,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Binnamangalam</name>
+	<description> JP049, Denkanikottai</description>
+	<Point>
+	<coordinates>77.686343,12.623724,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Eleyasandiram</name>
+	<description> JP049p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.684627,12.620756,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Onnatti</name>
+	<description> JP091, Denkanikottai</description>
+	<Point>
+	<coordinates>77.714174,12.651226,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kempatti</name>
+	<description> JP055, Denkanikottai</description>
+	<Point>
+	<coordinates>77.722778,12.66452,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thirikodipalli</name>
+	<description> JP055p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.732821,12.656397,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Upparapalli</name>
+	<description> JP052p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.736189,12.639103,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Uliverunapalli</name>
+	<description> JP057p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.742809,12.653989,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kallikondapalli</name>
+	<description> JP057 , Denkanikottai</description>
+	<Point>
+	<coordinates>77.754611,12.664698,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Baelagondapalli</name>
+	<description> JP056, Denkanikottai</description>
+	<Point>
+	<coordinates>77.761402,12.669115,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kothzegure</name>
+	<description> JP058p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.757862,12.688281,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kumaranpalli</name>
+	<description> JP058 , Denkanikottai</description>
+	<Point>
+	<coordinates>77.745759,12.690301,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sarakkapalli</name>
+	<description> JP050, Denkanikottai</description>
+	<Point>
+	<coordinates>77.748184,12.612322,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Vanamangalam</name>
+	<description> JP090, Denkanikottai</description>
+	<Point>
+	<coordinates>77.763526,12.606428,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>S Kurupatti</name>
+	<description> JP090p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.75004,12.594449,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Koduhareddy</name>
+	<description> JP053p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.753624,12.587057,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>kodiyallam</name>
+	<description> JP053 , Denkanikottai</description>
+	<Point>
+	<coordinates>77.736136,12.602365,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Baellur</name>
+	<description> JP025p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.759621,12.570596,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Mardanapalli</name>
+	<description> JP025 , Denkanikottai</description>
+	<Point>
+	<coordinates>77.763891,12.557077,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Ispathupalli</name>
+	<description> JP025p2, Denkanikottai</description>
+	<Point>
+	<coordinates>77.772185,12.549945,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nganur</name>
+	<description> JF026, Denkanikottai</description>
+	<Point>
+	<coordinates>77.776712,12.487899,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>N-Khuttur</name>
+	<description> JF026p2, Denkanikottai</description>
+	<Point>
+	<coordinates>77.779094,12.502396,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>N-Uchinapalli</name>
+	<description> JF026p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.77476,12.507214,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Girianpalli</name>
+	<description> JP063, Denkanikottai</description>
+	<Point>
+	<coordinates>77.795144,12.465345,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Maniampaaddi</name>
+	<description> JP062, Denkanikottai</description>
+	<Point>
+	<coordinates>77.786111,12.449107,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>kolatti</name>
+	<description> JP023, Denkanikottai</description>
+	<Point>
+	<coordinates>77.794468,12.43863,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>K Muchandram</name>
+	<description> JP023p1, Denkanikottai</description>
+	<Point>
+	<coordinates>77.789061,12.413379,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Salivaram</name>
+	<description> JP024, Denkanikottai</description>
+	<Point>
+	<coordinates>77.78036,12.424412,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Arulalam</name>
+	<description> JP077, Denkanikottai</description>
+	<Point>
+	<coordinates>77.769352,12.408696,678</coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

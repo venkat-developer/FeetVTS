@@ -1,0 +1,107 @@
+/**
+ * CSS Rounding Styles
+ */
+div.css-rounding {
+    background: transparent;
+    position: relative;
+    zoom: 1;
+}
+
+div.css-rounding div { 
+    position: relative;
+    *zoom: 1;
+}
+
+.css-rounding .cap {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 1px;
+    font-size: 1px;
+    border: 1px solid;
+    border-width: 0px 1px;
+    zoom: 1;
+    _width: 100%;
+}
+
+.css-rounding .cap.r0 {
+    border-width: 1px 0 0;
+    height: 0px;
+    _height: 1px;
+}
+
+.css-rounding .nested {
+    display: block;
+    padding: 0 1px;
+    border: 0px solid;
+    border-width: 0px 1px;
+    position: relative;
+    *zoom: 1;
+}
+
+.css-rounding.radius-5 .r0 {
+    margin: 0 5px;
+}
+
+.css-rounding.radius-5 .r1 {
+    margin: 0 3px;
+    border-width: 0 2px;
+}
+
+.css-rounding.radius-5 .r2 {
+    margin: 0 2px;
+}
+
+.css-rounding.radius-5 .r3 {
+    margin: 0 1px;
+    height: 2px;
+}
+
+.css-rounding.radius-5 .r4 {
+    display: none;
+}
+
+.css-rounding.radius-4 .r0 {
+    margin: 0 4px;
+}
+
+.css-rounding.radius-4 .r1 {
+    margin: 0 2px;
+    border-width: 0 2px;
+}
+
+.css-rounding.radius-4 .r2 {
+    display: none;
+}
+
+.css-rounding.radius-4 .r3 {
+    margin: 0 1px;
+    height: 2px;
+}
+
+.css-rounding.radius-3 .r0 {
+    margin: 0 3px;
+}
+
+.css-rounding.radius-3 .r1 {
+    margin: 0 2px;
+    border-width: 0 1px;
+}
+
+.css-rounding.radius-3 .r2 {
+    margin: 0 1px;
+    height: 1px;
+}
+
+.css-rounding.radius-2 .r0 {
+    margin: 0 2px;
+}
+
+.css-rounding.radius-2 .r1 {
+    margin: 0 1px;
+    height: 1px;
+}
+
+.css-rounding.radius-1 .r0 {
+    margin: 0 1px;
+}

@@ -1,0 +1,6 @@
+Please use the following queries if you building version 4553 and above - DVasudeva
+
+alter TABLE livevehiclestatus add column latestbuttonpressed int default 0 not null;
+alter TABLE livevehiclestatus add column buttonsequence text default '' not null;
+alter TABLE trackhistory add column latestbuttonpressed int default 0 not null;
+alter TABLE trackhistory add column buttonsequence text default '' not null;

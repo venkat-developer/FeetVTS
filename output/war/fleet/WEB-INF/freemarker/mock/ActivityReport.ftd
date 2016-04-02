@@ -1,0 +1,7 @@
+<#assign activityReports= {
+    "vehicleactivityreport" : {
+        "widget" : "VehicleActivityReport",
+        "name" : "Activity Report",
+        "dataType" : "json"
+    } 
+}/>

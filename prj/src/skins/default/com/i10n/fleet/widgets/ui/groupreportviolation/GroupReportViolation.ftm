@@ -1,0 +1,100 @@
+<#import "/macros/rounded.ftm" as round>
+<#import "/macros/print.ftm" as printskin>
+<#macro init params={}>
+    <#local printTitle = ""/>
+    <#if (params.reportTitle)??>
+        <#local printTitle = params.reportTitle/>
+    </#if>
+   
+    <div class="hd item-border">
+        <@round.cssRounding params={"radius":5,"bottom":false}>
+            <div class="inline-block select-text">
+                Select 
+                <a href="#all" class="select-all select-option">All</a>
+                <a href="#none" class="select-none select-option">None</a>
+                <a href="#page" class="select-page select-option last">Page</a>
+            </div>
+            <!--<div class="inline-block group-select"></div>-->
+          
+             <!-- &nbsp;&nbsp;&nbsp;
+            Select Status: &nbsp;
+            <select id="status" class="select-status">
+                <option>All</option>
+                <option>Closed</option>
+                <option>Opened</option>               
+            </select> -->
+        
+
+            <select id="violation" class="select-violation">
+                <option value="All">All</option>  
+                <option value="Overspeed">OverSpeed</option>
+                <!-- <option value="Bunching">Bunching</option> -->
+				<option value="Geofencing Out">Geofencing Out</option>
+				<option value="Geofencing In">Geofencing In</option>
+                <option value="Idle">Idle</option>
+                <option value="CCtrue">ChargerConnected</option>
+                <option value="CCfalse">ChargerDisConnected</option>                     
+            </select>
+            
+            <select id="overspeedvalue" class="select-overspeedalertvalue disabled">
+        				<option value="0">All</option>  
+                        <option value="10">0-10 kmph</option>  
+                        <option value="20">10-20 kmph</option>
+                        <option value="30">20-30 kmph</option>
+                        <option value="40">30-40 kmph</option>
+                        <option value="50">40-50 kmph</option>
+                        <option value="60">>50 kmph</option>                     
+                    </select>
+        			
+        			 <select id="idlevalue" class="select-idlealertvalue disabled">
+        				<option value="0">All</option>  
+                        <option value="10">0-10 min</option>  
+                        <option value="20">10-20 min</option>
+                        <option value="30">20-30 min</option>
+                        <option value="40">30-40 min</option>
+                        <option value="50">40-50 min</option>
+                        <option value="60">50-60 min</option>  
+        				<option value="70">>1 hr</option> 				
+                    </select>
+            
+           
+                    <div class="inline-block print-preview">Print Preview</div>
+                    <div class="paginator " ></div>
+	              <div class="violationpageButtons inline-block" >
+	              <a href="#" class="violationprevious inline-block" rel="item" style="text-decoration: underline">Previous</a>
+	              &nbsp;&nbsp;&nbsp;
+	              <a href="#" class="violationnext inline-block" rel="item" style="text-decoration: underline">Next</a>
+	              </div>
+        </@round.cssRounding>
+    </div>
+    <div class="bd">
+        <!-- Body of the Report-->   
+    </div>
+    <div class="ft item-border">
+        <@round.cssRounding params={"radius":5,"top":false}>
+            <div class="inline-block select-text">
+                Select 
+                <a href="#all" class="select-all select-option">All</a>
+                <a href="#none" class="select-none select-option">None</a>
+                <a href="#page" class="select-page select-option last">Page</a>
+            </div>
+        </@round.cssRounding>
+    </div>
+    <div class = "print-skin-template markup-template">
+        <@printskin.printSkinDefault params={"title":"${printTitle}"}/>
+    </div>
+    <div class="print-section"></div>
+    
+    <@json.publish data=getStyleSheets() publishAs="stylesheets" context="report"/>
+     
+</#macro>
+<#function getStyleSheets>
+    <#local stylesheets = []/>
+    <#local viewName=parameters.view/>
+    <#if (skins[parameters.skin]["//views/view[./@name=$viewName]"][0])??>
+        <#local currentView = skins[parameters.skin]["//views/view[./@name=$viewName]"]/>
+        <#local stylesheets = currentView.libraries.library.mergedset.stylesheets.stylesheet + currentView.mergedset.stylesheets.stylesheet />
+        <#local stylesheets = stylesheets + ["@STATIC_DIR@/css/print.css"]/>
+    </#if>
+    <#return stylesheets/>
+</#function>

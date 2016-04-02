@@ -1,0 +1,35 @@
+<#import "/macros/rounded.ftm" as round>
+<#import "/macros/skin.ftm" as skin/>
+<#macro init params={}>
+    <div class="login-form-container">
+        <@round.cssRounding params={"radius":5}>LOGIN</@round.cssRounding>
+        <form action="@APP_CONTEXT@/form/login/" name="login.form" id="login-form" class="login-form" method="POST">
+            <div class="user-title title-box">User Id</div>
+            <input type="text" name="user" id="login.user" class="user-textbox input-box"/>
+            <div class="user-example"></div>
+            <div class="message">
+            	<span class="inline-block user-message disabled">Username is empty</span>
+			</div>
+            <div class="password-title title-box">Password</div>
+            <input type="password" name="password" id="login.password" class="password-textbox input-box event-source inline-block"/>
+            <div class="message">
+            	<span class="inline-block password-message disabled">Password is empty</span>
+			</div>
+         	<!--
+         	<div class="keep-signed inline-block">
+                <div>
+                    <input type="checkbox" name="login.keepsignedin" id="login.keepsignedin"/>
+                    <span class="inline-block keep-signed-text">Keep me signed in</span>
+                </div>
+            </div>
+            -->
+            <input type="text" name="localTime" id="login.localTime" class="localTime-textbox input-box disabled" value=""/>
+            <input type="text" name="localTimeZone" id="login.localTimeZone" class="localTimeZone-textbox input-box disabled" value=""/>
+           	<!-- 
+           	<a href="#forgot-pass" class="forgot-pass inline-block">Forgot Password?</a>
+           	  -->
+            <@skin.widget name="Buttons" params={"cssClass":"buttons inline-block","style":"blue boldface","class":"login-button"}> &nbsp;&nbsp;Login&nbsp;&nbsp;</@skin.widget>
+            
+        </form>
+    </div>
+</#macro>

@@ -1,0 +1,38 @@
+<#import "/macros/skin.ftm" as skin/>
+<#macro init params={}>
+    <div class="resizer">
+        <a href="#" class="minimizer">&nbsp;</a>
+    </div>
+    <div class="alertsettingslist-container minimizable-content">
+        <div>
+            <form>
+                <div class="user-details">
+                    <div class="title">Add New E-Mail</div>
+                    <div class="user-info">
+                        <div class="subtitle">Full Name </div>
+                        <div><input type="text" name="name" class="txtbox txt-user-name input-element" value="Eg. user"/></div>
+                        <div class="subtitle"> Enter E-Mail Id </div>
+                        <div><input type="text" name="email" class="txtbox txt-user-mail input-element" value="Eg. user@i10n.com"/></div>
+                    </div>
+                </div>
+                <div class="selectalert">
+                    <div class="title">Select alert</div>
+                    <div class="options">
+                        <div class="chkbox-text"><input type="checkbox" name="overspeeding" class="alert chkbox input-element"/><span class="options-desc">Over Speeding</span></div>
+                        <div class="chkbox-text"><input type="checkbox" name="geofencing" class="alert chkbox input-element"/><span class="options-desc">Geo Fencing</span></div>
+                        <div class="chkbox-text"><input type="checkbox" name="chargerdisconnected" class="alert chkbox input-element"/><span class="options-desc">Charger Disconnected</span></div>
+                        <div class="chkbox-text"><input type="checkbox" name="ignition" class="alert chkbox input-element"/><span class="options-desc">Ignition</span></div>
+                        <div class="chkbox-text"><input type="checkbox" name="all" class="chkbox all input-element"/><span class="options-desc"> All</span></div>
+                    
+                    </div>
+                </div>
+                <div class="inline-block">
+                    <@skin.widget name="Buttons" params={"style":"blue","class":"button-addto-list"}>
+                        Add to List
+                    </@skin.widget>
+                </div>
+            </form>
+        </div>
+    </div>
+</#macro>
+

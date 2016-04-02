@@ -1,0 +1,28 @@
+<#macro init params={}>
+    <#local className = ""/>
+    <#if (params.class)??>
+        <#local className = params.class/> 
+    </#if>
+    <#local style="red"/>
+    <#if (params.style)?? && params.style?has_content>
+        <#local style=params.style/>
+    </#if> 
+    <#local href="#"/>
+    <#if (params.href)??>
+        <#local href="${params.href}"/>
+    </#if>
+    <#local tag="a"/>
+    <#if (params.tagName)??>
+        <#local tag="${params.tagName}"/>
+    </#if> 
+    <div class="fleet-buttons ${className} button-${style}">
+        <${tag} href="${href}" class="hover button-anchor">
+            <div>
+                <ul>&nbsp;&nbsp;&nbsp;<li class="lt inline-block">&nbsp;
+                </li><li class="ct inline-block"><#nested/></li
+                    ><li class="rt inline-block">&nbsp;</li
+                ></ul>
+            </div>
+        </${tag}>
+    </div>
+</#macro>

@@ -1,0 +1,68 @@
+/**
+ * Admin Manage UI Widget CSS
+ */
+.adminmanage .adm-cnt .yui-nav {
+	height: 31px;
+	padding-left: 600px;
+	padding-top: 7px;
+	background-color: #A41922;
+}
+
+.adminmanage .adm-cnt .yui-nav li {
+	position: relative;
+	height: 24px;
+	cursor: pointer;
+	margin-left: 3px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	_width: 1px;
+	_white-space: nowrap;
+	/*     background-image: url("@STATIC_DIR@/img/buttons/set-buttons.png");
+ */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+	background-position: 0 -1872px;
+	background-repeat: no-repeat;
+	*display: inline;
+	*zoom: 1;
+}
+
+.adminmanage .adm-cnt .yui-nav li em {
+	color: #FFFFFF;
+	font-style: normal;
+	vertical-align: middle;
+	line-height: 24px;
+}
+
+.adminmanage .adm-cnt .yui-nav li div {
+	/*     background-image: url("@STATIC_DIR@/img/buttons/set-buttons.png"); */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+	background-position: 100% -1934px;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 100%;
+}
+
+.adminmanage .adm-cnt .yui-nav li div a {
+	/*     background-image: url("@STATIC_DIR@/img/buttons/set-buttons.png");
+ */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+	background-repeat: repeat-x;
+	background-position: 0px -1903px;
+	height: 100%;
+	display: block;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.adminmanage .adm-cnt .yui-nav li.selected {
+	background-position: 0 -1968px;
+}
+
+.adminmanage .adm-cnt .yui-nav li.selected div {
+	background-position: 100% -2025px;
+}
+
+.adminmanage .adm-cnt .yui-nav li.selected div a {
+	background-position: 0px -1997px;
+}

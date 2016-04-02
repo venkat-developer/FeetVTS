@@ -1,0 +1,67 @@
+<#import "/macros/skin.ftm" as skin/>
+<#import "/macros/json-publish.ftm" as json/>
+<#import "/macros/rounded.ftm" as round>
+<#import "/macros/print.ftm" as printskin>
+<#macro init params={}>
+<@skin.widget name="ReportTimeFrame" params={"showminuteinterval":"true","showstatus":"false","showviolationtype":"false"}>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="inline-block rpt-select-cnt">
+    <div>
+    	<div class="input exportactivityreports-vehicle">
+    	<form  id="input-form">
+    	 Export Report to : 
+    	<input type="radio" class="activityReportPdf" id="activitypdf" name="export" value ="pdf" >PDF</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<input type="radio" class="activityReportExcel" id="activityexcel" name="export" value ="excel">Excel</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<input type="button" class="exportactivityreport" id="exportactivityreport" name="exportactivityreport" value ="Export"></input>
+    	</form>
+    	</div>
+    </div>
+</div>
+</@skin.widget>   
+    <div id="vehicleactivityreport" class="vehicleactivityreport cnt-resizable minht report empty">
+        <div class="hd">
+            <@round.cssRounding params={"radius":5,"bottom":false}>
+                <div class="inline-block title">Vehicle Number :</div>
+                <div class="inline-block vehiclename"> Select a vehicle</div>
+                <div class="inline-block print-preview">Print Preview</div>
+                <div class="inline-block paginator"></div>
+                <div class="activitypageButtons inline-block" >
+                <a href="#" class="activityprevious inline-block" rel="item" style="text-decoration: underline">Previous</a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="#" class="activitynext inline-block" rel="item" style="text-decoration: underline">Next</a>
+                </div>
+            </@round.cssRounding>
+        </div>
+        <div class="bd">
+        </div>
+        <div class="ft">
+            <@round.cssRounding params={"radius":5,"top":false}>
+                <div class="inline-block paginator"></div>
+            </@round.cssRounding>
+        </div>
+        <div class = "print-skin-template markup-template">
+            <@printskin.printSkinDefault params={"title":"Activity Report"}/>
+        </div>
+        <div class="print-section">
+        </div>
+        <@json.publish data=getStyleSheets() publishAs="stylesheets" context="report"/>
+    </div>
+    <@skin.widget name="SimpleDialog" params={
+            "cssClass" : "simpledialog", 
+            "title" : "Activity Report"
+        }>
+            <div class="icon inline-block"></div
+            ><div class="text inline-block"><div>Please select a vehicle from the vehicle list that you want to generate report of.</div></div
+            ><@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-done boldface"}>&nbsp;Done&nbsp;</@skin.widget>
+    </@skin.widget>        
+</#macro>
+<#function getStyleSheets>
+    <#local stylesheets = []/>
+    <#local viewName=parameters.view/>
+    <#if (skins[parameters.skin]["//views/view[./@name=$viewName]"][0])??>
+        <#local currentView = skins[parameters.skin]["//views/view[./@name=$viewName]"]/>
+        <#local stylesheets = currentView.libraries.library.mergedset.stylesheets.stylesheet + currentView.mergedset.stylesheets.stylesheet />
+        <#local stylesheets = stylesheets + ["@STATIC_DIR@/css/print.css"]/>
+    </#if>
+    <#return stylesheets/>
+</#function>

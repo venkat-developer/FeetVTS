@@ -1,0 +1,42 @@
+<#import "/macros/skin.ftm" as skin>
+<#macro init params={}>
+    <#local popupHeader=""/>
+    <#local formClass=""/>
+    <#local formMethod=""/>
+    <#local formSubmitButtonText="Submit"/>
+    <#local formCancelButtonText="Cancel"/>
+    <#if (params.header)??>
+       <#local popupHeader = "${params.header}"/>
+    </#if>
+    <#if (params.formClass)??>
+       <#local formClass = "${params.formClass}"/>        
+    </#if>
+    <#if (params.formAction)??>
+       <#local formAction = "${params.formAction}"/>
+    </#if>
+    <#if (params.formMethod)??>
+       <#local formMethod = "${params.formMethod}"/>
+    </#if>
+    <#if (params.submitButtonText)??>
+       <#local formSubmitButtonText = "${params.submitButtonText}"/>
+    </#if>
+    <#if (params.cancelButtonText)??>
+       <#local formCancelButtonText = "${params.cancelButtonText}"/>
+    </#if>
+    <@skin.widgetBody name="PopUp" params={"header":popupHeader}>
+        <form class='${formClass} dialog-form' <#if (formAction)??>action='${formAction}' </#if> method='${formMethod}'>
+            <div class="content">
+                <#nested/>
+            </div>
+           
+            <div class="dialog-buttons">
+                <@skin.widget name="Buttons" params={"style":"blue","class":"submit-button","cssClass":"buttons inline-block"}>${formSubmitButtonText}</@skin.widget>
+                 <!--<@skin.widget name="Buttons" params={"cssClass":"assignment-control inline-block add-button buttons","style":"red","class":"add-button"}><div class="add-text">Add</div></@skin.widget>-->
+                <@skin.widget name="Buttons" params={"style":"blue","class":"cancel-button","cssClass":"buttons inline-block"}>${formCancelButtonText}</@skin.widget>
+                 <!-- <@skin.widget name="Buttons" params={"cssClass":"assignment-control inline-block remove-button buttons","style":"red","class":"rem-button"}><div class="rem-text">Remove</div></@skin.widget>-->
+       
+        
+            </div>
+        </form>
+    </@skin.widgetBody>
+</#macro>

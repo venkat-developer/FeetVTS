@@ -1,0 +1,21 @@
+<#import "/macros/rounded.ftm" as round>
+<#import "/macros/skin.ftm" as skin/>
+<#macro init params={}>
+ <#local sites = skin.getWidgetData("Header",{}).sites/>
+    <#local defaultPageID = ""/>
+    <div class ="main-bd disabled">
+        <@skin.widget name ="GraphReport" params={"title":"Driver SpeedGraph",
+         "cssClass" : "graphreport driverspeedgraph"}/>
+    </div>
+       <@skin.widget name="SimpleDialog" params={
+        "cssClass" : "simpledialog", 
+        "title" : "Driver Report"
+    }>
+        <div class="icon inline-block"></div
+        ><div class="text inline-block"><div>Please select a driver from the driver list that you want to generate report of.</div></div
+        ><@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-done boldface"}>&nbsp;Done&nbsp;</@skin.widget>
+    </@skin.widget>
+  </#macro>
+  
+  
+  

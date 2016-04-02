@@ -1,0 +1,116 @@
+/**
+ * Login Form UI Widget CSS
+ */
+.loginform {
+	height: 300px;
+	width: 368px;
+	background-color: #F5F5F5;
+	border: 1px solid #EDEDED;
+}
+
+.loginform .login-form-container {
+	padding: 15px 10px 15px 10px;
+}
+
+.loginform .css-rounding .cap {
+	background-color: gray;
+	border-color: #1D5B89;
+}
+
+.loginform .css-rounding .nested {
+	height: 27px;
+	_height: 34px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: gray;
+	border-color: #1D5B89;
+	padding-left: 23px;
+	padding-top: 7px;
+}
+
+.loginform .buttons {
+	padding-top: 15px;
+}
+
+.loginform .title-box {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	color: #4F5054;
+	font-weight: bold;
+}
+
+.loginform .input-box {
+	background-color: transparent;
+	border: 1px solid #BFBFC1;
+	height: 21px;
+	padding-top: 5px;
+	color: #4F5054;
+	width: 100%;
+}
+
+.loginform .input-box.disabled {
+	display: none;
+}
+
+.loginform .message {
+	padding: 4px;
+}
+
+.loginform .user-message {
+	width: 200px;
+	height: 20px;
+	color: #ff0000;
+	font-style: oblique;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.loginform .password-message {
+	width: 200px;
+	height: 20px;
+	color: #ff0000;
+	font-style: oblique;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.loginform .user-message.disabled {
+	display: none;
+}
+
+.loginform .password-message.disabled {
+	display: none;
+}
+
+.loginform .user-example {
+	color: #A7AAAC;
+	padding-top: 8px;
+	font-size: 0.9em;
+}
+
+.loginform .keep-signed {
+	color: #4F5054;
+	font-size: 0.9em;
+	padding-top: 1px;
+}
+
+.loginform .keep-signed input {
+	height: 15px;
+	width: 15px;
+}
+
+.loginform .keep-signed .keep-signed-text {
+	line-height: 15px;
+}
+
+.loginform .forgot-pass {
+	color: #1187AE;
+	font-size: 0.9em;
+	margin-left: 145px;
+	padding-top: 2px;
+}
+
+.loginform .login-form {
+	display: inline;
+}

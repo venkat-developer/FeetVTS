@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<skin name="admin" depends="default">
+	<views>
+		<view name="dashboard" title="Dashboard">
+			<widgetrefs>
+				<widgetref ref="SupportDesk" />
+				<widgetref ref="UserInfo" />
+				<filterset>
+					<filter element="widgetref" removeby="attribute"
+						key="ref:DashboardVehicleStatus" />
+					<filter element="widgetref" removeby="attribute" key="ref:VacantVehicles" />
+					<filter element="widgetref" removeby="attribute"
+						key="ref:DashboardVehicleHealth" />
+					<filter element="widgetref" removeby="attribute"
+						key="ref:DashboardViolations" />
+				</filterset>
+			</widgetrefs>
+		</view>
+		<view name="controlpanel" title="Control Panel">
+			<widgetrefs>
+				<widgetref ref="AdminManage" />
+				<filterset>
+					<filter element="widgetref" removeby="attribute" key="ref:TripSettings" />
+					<filter element="widgetref" removeby="attribute" key="ref:AlertSettings" />
+					<filter element="widgetref" removeby="attribute" key="ref:ReportSettings" />
+					<filter element="widgetref" removeby="attribute" key="ref:SystemSettings" />
+				</filterset>
+			</widgetrefs>
+		</view>
+		<view name="saspanel" title="Sas Panel">
+			<widgetrefs>
+				<widgetref ref="Header" />
+				<widgetref ref="HeaderSubNav" />
+				<widgetref ref="SasAdminManage" />
+			</widgetrefs>
+		</view>
+		<filterset>
+			<filter element="view" removeby="attribute" key="name:reports" />
+			<filter element="view" removeby="attribute" key="name:livetrack" />
+			<filter element="view" removeby="attribute" key="name:sas" />
+		</filterset>
+	</views>
+	<widgetconfig>
+		<widget name="UserInfo" type="ui">
+			<libraryrefs>
+				<libraryref ref="base" />
+			</libraryrefs>
+		</widget>
+		<widget name="AdminManage" type="ui">
+			<libraryrefs>
+				<libraryref ref="base" />
+				<libraryref ref="tabview" />
+			</libraryrefs>
+			<widgetrefs>
+				<widgetref ref="HardwareManager" />
+				<widgetref ref="VehicleManager" />
+				<widgetref ref="DriverManager" />
+				<widgetref ref="GroupManager" />
+				<widgetref ref="UserManager" />
+				<widgetref ref="LogManager" />
+				<widgetref ref="VehiclehistoryManager" />
+				<widgetref ref="FuelCalibrationManager" />
+				<widgetref ref="TripSettings" />
+				<widgetref ref="RouteScheduleManager" />
+
+			</widgetrefs>
+		</widget>
+		<widget name="TripSettings" type="ui">
+			<widgetrefs>
+				<widgetref ref="TripSettingsToolBar" />
+				<widgetref ref="DialogPopUp" />
+				<widgetref ref="SimpleDialog" />
+				<widgetref ref="TripSettingsSideBar" />
+				<widgetref ref="TripDetails" />
+			</widgetrefs>
+			<libraryrefs>
+				<libraryref ref="base" />
+				<libraryref ref="connection" />
+			</libraryrefs>
+		</widget>
+		<widget name="TripDetails" type="ui">
+			<widgetrefs>
+				<widgetref ref="Buttons" />
+				<widgetref ref="SimpleDialog" />
+			</widgetrefs>
+			<libraryrefs>
+				<libraryref ref="base" />
+			</libraryrefs>
+		</widget>
+		<widget name="TripSettingsSideBar" type="ui">
+			<widgetrefs>
+				<widgetref ref="MinimizableList" />
+				<widgetref ref="SortableList" />
+			</widgetrefs>
+			<libraryrefs>
+				<libraryref ref="base" />
+				<libraryref ref="autocomplete" />
+			</libraryrefs>
+		</widget>
+		<widget name="SimpleDialog" type="ui">
+		</widget>
+		<widget name="TripSettingsToolBar" type="ui">
+			<widgetrefs>
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+			<libraryrefs>
+				<libraryref ref="base" />
+			</libraryrefs>
+		</widget>
+		<widget name="DialogPopUp" type="ui">
+			<widgetrefs>
+				<widgetref ref="PopUp" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="ActionManager" type="ui">
+		</widget>
+
+		<widget name="VehicleManager" type="ui">
+			<libraryrefs>
+				<libraryref ref="base" />
+			</libraryrefs>
+			<widgetrefs>
+				<widgetref ref="ActionManager" />
+				<widgetref ref="AddVehicle" />
+				<widgetref ref="EditVehicle" />
+				<widgetref ref="AssignVehicle" />
+				<widgetref ref="DeleteVehicle" />
+			</widgetrefs>
+		</widget>
+		<widget name="GroupManager" type="ui">
+			<libraryrefs>
+				<libraryref ref="base" />
+			</libraryrefs>
+			<widgetrefs>
+				<widgetref ref="ActionManager" />
+				<widgetref ref="AddGroup" />
+				<widgetref ref="EditGroup" />
+				<widgetref ref="AssignVehiclesToGroup" />
+				<widgetref ref="AssignDriversToGroup" />
+				<widgetref ref="DeleteGroup" />
+			</widgetrefs>
+		</widget>
+		<widget name="SupportDesk" type="ui">
+			<libraryrefs>
+				<libraryref ref="base" />
+			</libraryrefs>
+			<scripts>
+				<script>
+					com/i10n/fleet/widgets/ui/adminsupportdesk/AdminSupportDesk.js
+				</script>
+			</scripts>
+		</widget>
+		<widget name="EditEntity" type="ui">
+			<scripts>
+				<script>
+					com/i10n/fleet/widgets/ui/controlwidgets/EditEntity.js
+				</script>
+			</scripts>
+			<widgetrefs>
+				<widgetref ref="AddEntity" />
+			</widgetrefs>
+		</widget>
+		<widget name="ConfirmationPopUp" type="ui">
+			<widgetrefs>
+				<widgetref ref="PopUp" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="WarningPopUp" type="ui">
+			<widgetrefs>
+				<widgetref ref="PopUp" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="DeleteEntity" type="ui">
+			<scripts>
+				<script>
+					com/i10n/fleet/widgets/ui/controlwidgets/DeleteEntity.js
+				</script>
+			</scripts>
+			<widgetrefs>
+				<widgetref ref="ConfirmationPopUp" />
+				<widgetref ref="WarningPopUp" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="Assignment" type="ui">
+			<scripts>
+				<script>
+					com/i10n/fleet/widgets/ui/controlwidgets/Assignment.js
+				</script>
+			</scripts>
+			<widgetrefs>
+				<widgetref ref="Buttons" />
+				<widgetref ref="SortableList" />
+			</widgetrefs>
+		</widget>
+		<widget name="AddEntity" type="ui">
+			<scripts>
+				<script>
+					com/i10n/fleet/widgets/ui/controlwidgets/AddEntity.js
+				</script>
+			</scripts>
+			<widgetrefs>
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="DriverManager" type="ui">
+			<libraryrefs>
+				<libraryref ref="base" />
+			</libraryrefs>
+			<widgetrefs>
+				<widgetref ref="ActionManager" />
+				<widgetref ref="AddDriver" />
+				<widgetref ref="EditDriver" />
+				<widgetref ref="AssignDriver" />
+				<widgetref ref="DeleteDriver" />
+			</widgetrefs>
+		</widget>
+		<widget name="UserManager" type="ui">
+			<libraryrefs>
+				<libraryref ref="base" />
+			</libraryrefs>
+			<widgetrefs>
+				<widgetref ref="ActionManager" />
+				<widgetref ref="AddUser" />
+				<widgetref ref="EditUser" />
+				<widgetref ref="DeleteUser" />
+			</widgetrefs>
+		</widget>
+		<widget name="HardwareManager" type="ui">
+			<libraryrefs>
+				<libraryref ref="base" />
+			</libraryrefs>
+			<widgetrefs>
+				<widgetref ref="ActionManager" />
+				<widgetref ref="AddHardware" />
+				<widgetref ref="EditHardware" />
+				<widgetref ref="DeleteHardware" />
+			</widgetrefs>
+		</widget>
+		<widget name="FuelCalibrationManager" type="ui">
+			<libraryrefs>
+				<libraryref ref="base" />
+			</libraryrefs>
+			<widgetrefs>
+				<widgetref ref="ActionManager" />
+				<widgetref ref="AddFuelCalibration" />
+				<widgetref ref="EditHardware" />
+				<widgetref ref="DeleteHardware" />
+				<widgetref ref="DeleteFuelCalibration" />
+				<widgetref ref="EditFuelCalibration" />
+
+			</widgetrefs>
+		</widget>
+		<widget name="RouteScheduleManager" type="ui">
+			<libraryrefs>
+				<libraryref ref="base" />
+			</libraryrefs>
+			<widgetrefs>
+				<widgetref ref="ActionManager" />
+				<widgetref ref="AddRouteSchedule" />
+				<widgetref ref="DeleteRouteSchedule" />
+				<widgetref ref="AssignRouteSchedule" />
+			</widgetrefs>
+		</widget>
+		<widget name="AddRouteSchedule" type="ui">
+			<widgetrefs>
+				<widgetref ref="AddEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="DeleteRouteSchedule" type="ui">
+			<widgetrefs>
+				<widgetref ref="DeleteEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="AddHardware" type="ui">
+			<widgetrefs>
+				<widgetref ref="AddEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="AddFuelCalibration" type="ui">
+			<widgetrefs>
+				<widgetref ref="AddEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="DeleteFuelCalibration" type="ui">
+			<widgetrefs>
+				<widgetref ref="AddEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="EditFuelCalibration" type="ui">
+			<widgetrefs>
+				<widgetref ref="AddEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+
+
+
+		<widget name="EditHardware" type="ui">
+			<widgetrefs>
+				<widgetref ref="EditEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="DeleteHardware" type="ui">
+			<widgetrefs>
+				<widgetref ref="DeleteEntity" />
+				<widgetref ref="Buttons" />
+				<widgetref ref="SortableList" />
+			</widgetrefs>
+		</widget>
+
+		<widget name="AddVehicle" type="ui">
+			<widgetrefs>
+				<widgetref ref="AddEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="EditVehicle" type="ui">
+			<widgetrefs>
+				<widgetref ref="EditEntity" />
+				<widgetref ref="Buttons" />
+				<widgetref ref="SortableList" />
+			</widgetrefs>
+		</widget>
+		<widget name="AssignVehicle" type="ui">
+			<widgetrefs>
+				<widgetref ref="Assignment" />
+				<widgetref ref="Buttons" />
+				<widgetref ref="SortableList" />
+			</widgetrefs>
+		</widget>
+		<widget name="AssignRouteSchedule" type="ui">
+			<widgetrefs>
+				<widgetref ref="Assignment" />
+				<widgetref ref="Buttons" />
+				<widgetref ref="SortableList" />
+			</widgetrefs>
+		</widget>
+		<widget name="DeleteVehicle" type="ui">
+			<widgetrefs>
+				<widgetref ref="DeleteEntity" />
+				<widgetref ref="Buttons" />
+				<widgetref ref="SortableList" />
+			</widgetrefs>
+		</widget>
+
+		<widget name="AddGroup" type="ui">
+			<widgetrefs>
+				<widgetref ref="AddEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="EditGroup" type="ui">
+			<widgetrefs>
+				<widgetref ref="EditEntity" />
+				<widgetref ref="Buttons" />
+				<widgetref ref="SortableList" />
+			</widgetrefs>
+		</widget>
+		<widget name="AssignVehiclesToGroup" type="ui">
+			<widgetrefs>
+				<widgetref ref="Assignment" />
+				<widgetref ref="Buttons" />
+				<widgetref ref="SortableList" />
+			</widgetrefs>
+		</widget>
+		<widget name="AssignDriversToGroup" type="ui">
+			<widgetrefs>
+				<widgetref ref="Assignment" />
+				<widgetref ref="Buttons" />
+				<widgetref ref="SortableList" />
+			</widgetrefs>
+		</widget>
+		<widget name="DeleteGroup" type="ui">
+			<widgetrefs>
+				<widgetref ref="DeleteEntity" />
+				<widgetref ref="Buttons" />
+				<widgetref ref="SortableList" />
+			</widgetrefs>
+		</widget>
+
+		<widget name="AddUser" type="ui">
+			<widgetrefs>
+				<widgetref ref="AddEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="EditUser" type="ui">
+			<widgetrefs>
+				<widgetref ref="EditEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="DeleteUser" type="ui">
+			<widgetrefs>
+				<widgetref ref="DeleteEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="AddDriver" type="ui">
+			<widgetrefs>
+				<widgetref ref="AddEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="EditDriver" type="ui">
+			<widgetrefs>
+				<widgetref ref="EditEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="AssignDriver" type="ui">
+			<widgetrefs>
+				<widgetref ref="Assignment" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="DeleteDriver" type="ui">
+			<widgetrefs>
+				<widgetref ref="DeleteEntity" />
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+		</widget>
+		<widget name="LogManager" type="ui">
+			<widgetrefs>
+				<widgetref ref="Buttons" />
+			</widgetrefs>
+			<libraryrefs>
+				<libraryref ref="calendar" />
+				<libraryref ref="base" />
+				<libraryref ref="datatable" />
+			</libraryrefs>
+		</widget>
+		<widget name="VehiclehistoryManager" type="ui">
+			<widgetrefs>
+				<widgetref ref="EditEntity" />
+				<widgetref ref="Buttons" />
+				<libraryrefs>
+					<libraryref ref="calendar" />
+					<libraryref ref="base" />
+					<libraryref ref="datatable" />
+				</libraryrefs>
+			</widgetrefs>
+		</widget>
+	</widgetconfig>
+</skin>

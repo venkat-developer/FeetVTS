@@ -1,0 +1,22 @@
+<#import "/macros/skin.ftm" as skin>
+<#macro init params={}>
+    <table class="fleet-container-layout">
+        <tr class="fleet-hd-row">
+            <td colspan="2" class="fleet-hd-col">
+                <@skin.widget name="Header" params={}/>
+            </td>
+        </tr>
+        <tr class="fleet-bd-row">
+            <td class="fleet-bd-col side-pane cnt-resizable"><!--
+                --><@skin.widget name="VehicleList" params={"cssClass":"inactive minimizable sidepanelist vehiclelist"}/><!--
+                --><@skin.widget name="DriverList" params={"cssClass":"inactive minimizable sidepanelist driverlist"}/><!--
+            --></td>
+            <td class="fleet-bd-col main-pane cnt-resizable">
+                <@skin.widget name="HeaderSubNav" params={"preLoadMarkup" : true}/>
+            </td>
+        </tr>
+    </table>
+    <div id="flip-container" class="flip-container">
+        <@skin.widget name="CustomReportTimeFrame" params={}/>
+    </div>
+</#macro>

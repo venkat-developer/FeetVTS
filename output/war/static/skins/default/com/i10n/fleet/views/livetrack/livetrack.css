@@ -1,0 +1,111 @@
+/**
+ * Live Track View CSS
+ */
+.livetrack .vehiclelist {
+    margin-left: 4px;
+    z-index: 2;
+}
+
+.livetrack .vehiclelist.minimized {
+    margin-left: 1px;
+}
+
+.livetrack .yui-content .yui-content-tab, .livetrack .yui-content .yui-content-tab .livetrack.widget, .livetrack .yui-content .yui-content-tab .livetrack.widget .fleetmap {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    zoom: 1;
+}
+.livetrack .headersubnav {
+    height: 100%;
+    zoom: 1;
+}
+
+.livetrack .headersubnav .yui-navset {
+    height: 100%;
+}
+
+.livetrack .headersubnav .yui-content {
+    width: 100%;
+    height: 100%;
+}
+.livetrack .flip-container {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    bottom: 2px;
+    top:300px;
+    right: 2px;
+}
+
+.livetrack .flip-container .popup {
+    color: #152836;
+}
+
+.livetrack .flip-container .popup .dialog-buttons {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.livetrack .flip-container .create-trip.disabled{
+	display: none;
+}
+
+.livetrack .flip-container .create-trip .popup .hd .rounded-rect .nested .label .text {
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    height: 21px;
+    padding-left: 25px;
+}
+
+.livetrack .flip-container .create-trip .popup .bd .dialog-form .inline-block {
+    vertical-align: middle;
+}
+
+.livetrack .flip-container .create-trip .popup .bd .dialog-form .label {
+    vertical-align: super;
+    width: 190px;
+}
+
+.livetrack .flip-container .create-trip .popup .bd .dialog-form .content {
+    padding-left: 12px;
+}
+
+.livetrack .flip-container .create-trip .popup .bd .dialog-form .content .comment-item{
+    width:200px;
+    height:20px;
+    color:#ff0000;
+    font-style:oblique;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.livetrack .flip-container .create-trip .popup .bd .dialog-form .content .comment-item.disabled{
+display:none;
+}
+
+.livetrack .flip-container .create-trip .popup .bd .dialog-form .content .table {
+    width: 98%;
+}
+
+.livetrack .flip-container .create-trip .popup .bd .dialog-form .content .table .input {
+    padding-top: 11px;
+}
+
+.livetrack .flip-container .create-trip .popup .bd .dialog-form .content .input-element {
+    width: 175px;
+    background-color: #E1ECF2;
+    border-color: #D9D9D9;
+    border-style: solid;
+    height: 23px;
+}
+
+.livetrack .flip-container .create-trip .popup .bd .dialog-form .content .input-element.text-box {
+    width: 100px;
+    height: 20px;
+    _height: 23px;
+    padding-top: 3px;
+}

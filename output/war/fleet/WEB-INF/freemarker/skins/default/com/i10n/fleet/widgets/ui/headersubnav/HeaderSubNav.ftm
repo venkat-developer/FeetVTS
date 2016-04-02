@@ -1,0 +1,44 @@
+<#include "/mock/SiteData.ftd" >
+<#import "/macros/skin.ftm" as skin/>
+<#import "/macros/json-publish.ftm" as json/>
+<#import "/macros/skin.ftm" as skin/>
+<#macro init params={}>
+    <#local sites = siteMock.sites/>
+    <#local markup = false/>
+    <#if (params.preLoadMarkup)??>
+        <#local markup = params.preLoadMarkup/>
+    </#if>
+    <#if (sites["${parameters.view}"].subnav)?? && sites["${parameters.view}"].subnav?has_content>
+        <div class="nav-container yui-navset view-${parameters.view}" preMarkupLoad="${markup?string}">
+            <#if markup>
+                <ul class="subnav-nav yui-nav">
+                    <#list sites["${parameters.view}"].subnav?keys as subnavid>
+                        <#local subnavInfo = sites["${parameters.view}"].subnav[subnavid]/>
+                        <#local isSelected = false/>
+                        <#if (parameters.subnav)?? >
+                            <#if subnavid == parameters.subnav>
+                                <#local isSelected = true/>
+                            </#if>
+                        <#elseif subnavInfo.default?has_content && subnavInfo.default>
+                            <#local isSelected = true/>
+                        </#if>
+                        <#if subnavInfo.title?has_content>              
+                            <li class="<#if isSelected>selected </#if>" title="<#if subnavInfo.default?has_content>active</#if>"><div><a href="#"><em>${subnavInfo.title}</em></a></div></li>
+                        </#if>
+                    </#list>
+                </ul>
+                <div class="yui-content">
+                    <#list sites["${parameters.view}"].subnav?values as subnavInfo>
+                        <#if subnavInfo.widget?has_content>
+                            <div class="yui-content-tab <#if (!subnavInfo.default?has_content)>yui-hidden</#if>"> 
+                                <@skin.widget name="${subnavInfo.widget}"/>
+                            </div>
+                        </#if>
+                    </#list>
+                <div>
+            </#if>
+        </div>
+        <#local subNavData= skin.getWidgetData("Header",{})/>
+        <@json.publish data=subNavData.sites publishAs="sites" context="sitemap"/>
+    </#if>
+</#macro>

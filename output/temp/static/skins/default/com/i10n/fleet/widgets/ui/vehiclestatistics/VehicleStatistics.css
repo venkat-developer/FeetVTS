@@ -1,0 +1,119 @@
+/*
+ * Vehicle Statistics Widget
+ */
+.vehiclestatistics .report.disabled {
+    display: none;
+}
+
+.vehiclestatistics .report {
+    background-color: white;
+    padding: 0px;
+}
+
+.vehiclestatistics .report .hd {
+    padding: 15px 15px 5px 15px;
+}
+
+.vehiclestatistics .report .hd .rounded-rect .nested, .report .ft .rounded-rect .nested {
+    padding: 9px 7px 7px 7px;
+    font-weight: bold;
+    height: 24px;
+    background-color: #BBDDF2;
+    border-color: #BBDDF2;
+}
+
+.vehiclestatistics .report .hd .rounded-rect .nested .title {
+    padding-left: 10px;
+    font-size: 1.4em;
+    color: #1C5E90;
+}
+
+.vehiclestatistics .report .hd .rounded-rect .cap, .report .ft .rounded-rect .cap {
+    background-color: #BBDDF2;
+    border-color: #BBDDF2;
+}
+
+.vehiclestatistics .report .hd .rounded-rect .nested .vehiclename {
+    font-size: 1.4em;
+    color: #1C5E90;
+    width: 130px;
+    padding-left: 5px;
+}
+
+.vehiclestatistics .report .hd .print-preview {
+    background-image: url(@STATIC_DIR@/img/icons/widget-header-icons.png);
+    background-position: 0 -481px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: normal;
+    height: 16px;
+    margin-left: 380px;
+    padding-left: 23px;
+    padding-top: 1px;
+    text-decoration: underline;
+}
+
+.vehiclestatistics .report .bd {
+    padding: 5px 15px 15px 15px;
+}
+
+.vehiclestatistics .report .bd .rpt-item {
+    padding: 10px;
+    width: 70%;
+}
+
+.vehiclestatistics .report .bd .rpt-item.rpt-item-title {
+    font-weight: bold;
+    color: #205984;
+    width: 25%;
+    border: 1px;
+    border-style: none dotted none none;
+}
+
+.vehiclestatistics .report .bd .rpt-item.rpt-item-title.even {
+    border-style: dotted dotted dotted none;
+}
+
+.vehiclestatistics .report .bd .rpt-item.even {
+    background-color: #f3f8fb;
+    border: 1px;
+    border-style: dotted none dotted none;
+}
+
+.vehiclestatistics .report .bd .rpt-item.odd {
+    background-color: #e9f2f9;
+}
+
+.vehiclestatistics.widget .widget.simpledialog {
+    position: absolute;
+    top: 190px;
+    left: 440px;
+    z-index: 1500;
+    width: 300px;
+}
+
+.vehiclestatistics .simpledialog {
+    height: 130px;
+}
+
+.vehiclestatistics .simpledialog.disabled {
+    display: none;
+}
+
+.vehiclestatistics .simpledialog .icon {
+    background-image: url(@STATIC_DIR@/img/icons/widget-header-icons.png);
+    background-position: 8px -575px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 44px;
+}
+
+.vehiclestatistics .simpledialog .text {
+    width: 246px
+}
+
+.vehiclestatistics .simpledialog .buttons {
+    font-size: 0.8em;
+    padding-left: 116px;
+    padding-top: 15px;
+}

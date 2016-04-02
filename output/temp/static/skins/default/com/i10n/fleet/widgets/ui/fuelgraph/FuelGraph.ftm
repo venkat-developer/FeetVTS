@@ -1,0 +1,9 @@
+<#import "/macros/skin.ftm" as skin/>
+<--
+    author : N.Balaji
+-->
+<#macro init params={}>
+    <@skin.widget name="VehicleGraphReport" params={
+        "title":"Fuel Graph"
+    }/>
+</#macro>

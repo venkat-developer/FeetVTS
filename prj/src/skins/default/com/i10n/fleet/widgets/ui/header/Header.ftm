@@ -1,0 +1,26 @@
+<#import "/macros/skin.ftm" as skin>
+<#macro init params={}>
+    <#local sites = skin.getWidgetData("Header",{}).sites/>
+    <div class="header-container">
+        <div class="header-body">
+            <div class="logo inline-block">GPS Tracker</div>
+            <div class="globalnav inline-block">
+                <ul class="link-list">
+                    <#list sites?keys as viewKey>
+                        <li class="inline-block item-${viewKey}">
+                            <div><a <#if !(viewKey == parameters.view)>href="${sites[viewKey].link}"</#if> view="${viewKey}"
+                              class="globalnav-item ${viewKey} inline-block <#if viewKey == parameters.view>selected</#if>">
+                            </a></div>
+                        </li>
+                    </#list>
+                </ul>
+                 <div class="hr"></div>
+            </div>
+        </div>
+        <div class="header-links">
+            <div class="inline-block"><a class="user-link" href="#user"><#if (parameters.username)??>${parameters.username}</#if></a></div>
+            <div class="inline-block"><a class="logout-link" href="@APP_CONTEXT@/form/login/?logout=true">Sign Out</a></div>
+            <!--<div class="inline-block"><a class="help-link last" href="#help">Help</a></div>-->
+        </div>
+    </div>
+</#macro>

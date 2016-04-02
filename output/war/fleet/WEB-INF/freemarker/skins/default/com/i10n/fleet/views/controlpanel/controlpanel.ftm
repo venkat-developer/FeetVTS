@@ -1,0 +1,11 @@
+<#import "/macros/skin.ftm" as skin>
+<#macro init params={}>
+    <@skin.widget name="Header" params={}/>
+    <ul
+        ><li class="side-bar inline-block">
+        </li
+        ><li class="view-body inline-block">
+            <@skin.widget name="HeaderSubNav" params = {"markup" : "false"}/>
+        </li
+    ></ul>
+</#macro>

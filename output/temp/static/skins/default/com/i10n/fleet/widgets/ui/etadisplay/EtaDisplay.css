@@ -1,0 +1,202 @@
+/*
+ * This file contains the style information for the sas report settings sub-navpage
+ * in the control panel
+ */
+ /**
+ * ReportTimeFrame Widget CSS
+ */
+.etadisplay .hd .report-bar-container {
+    height: 32px;
+    _height: 38px;
+    width: 100%;
+    /*  background-image: url("@STATIC_DIR@/img/toolbar/toolbar-bg.jpg"); */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    padding-top: 6px;
+    font-size: 0.9em
+}
+
+.etadisplay .hd .report-bar-container .button-generate-report {
+    padding-left: 5px;
+    margin-left: 600px;
+}
+
+.yui-panel-container .bd form {
+    clear: left;
+}
+
+.yui-panel-container .bd {
+    padding: 0;
+}
+
+.yui-panel-container .hd {
+    text-align: left;
+}
+
+/* Center buttons in the footer */
+.yui-panel-container .ft .button-group {
+    text-align: center;
+}
+ 
+.etadisplay .flip-container {
+    display: block;
+}
+
+.etadisplay .bd .simpledialog {
+    height: 130px;
+    position: absolute;
+    top: 150px;
+    left: 430px;
+    z-index: 1550;
+    width: 300px;
+}
+
+.etadisplay .bd .simpledialog.disabled {
+    display: none;
+}
+
+.etadisplay .bd .simpledialog .icon {
+    background-image: url(/static/img/icons/widget-header-icons.png);
+    background-position: 8px -575px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 44px;
+}
+
+.etadisplay .bd .simpledialog .text {
+    width: 246px
+}
+
+.etadisplay .bd .simpledialog .buttons {
+    font-size: 0.8em;
+    padding-left: 116px;
+    padding-top: 15px;
+}
+
+.etadisplay .layout {
+    width: 100%;
+}
+
+.etadisplay .layout .side-pane {
+    vertical-align: top;
+    background-color: #E6EDF3;
+}
+
+.etadisplay .layout .main-pane {
+    width: 100%;
+    background-color: #FFFFFF;
+    vertical-align: top;
+}
+
+.etadisplay .information .popup-markup .bd {
+    line-height: 50px;
+    height: 105px;
+}
+
+.etadisplay .flip-container .popup {
+    color: #152836;
+}
+
+.etadisplay .flip-container .popup .dialog-buttons {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.etadisplay .flip-container .create-trip .popup .hd .rounded-rect .nested .label .text {
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    height: 21px;
+    padding-left: 25px;
+}
+
+.etadisplay .flip-container .create-trip .popup .bd .dialog-form .inline-block {
+    vertical-align: middle;
+}
+
+.etadisplay .flip-container .create-trip .popup .bd .dialog-form .label {
+    vertical-align: super;
+    width: 190px;
+}
+
+.etadisplay .flip-container .create-trip .popup .bd .dialog-form .content {
+    padding-left: 12px;
+}
+
+.etadisplay .flip-container .create-trip .popup .bd .dialog-form .content .comment-item{
+    width:200px;
+    height:20px;
+    color:#ff0000;
+    font-style:oblique;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.etadisplay .flip-container .create-trip .popup .bd .dialog-form .content .comment-item.disabled{
+display:none;
+}
+
+.etadisplay .flip-container .create-trip .popup .bd .dialog-form .content .table {
+    width: 98%;
+}
+
+.etadisplay .flip-container .create-trip .popup .bd .dialog-form .content .table .input {
+    padding-top: 11px;
+}
+
+.etadisplay .flip-container .create-trip .popup .bd .dialog-form .content .input-element {
+    width: 175px;
+    background-color: #E1ECF2;
+    border-color: #D9D9D9;
+    border-style: solid;
+    height: 23px;
+}
+
+.etadisplay .flip-container .create-trip .popup .bd .dialog-form .content .input-element.text-box {
+    width: 100px;
+    height: 20px;
+    _height: 23px;
+    padding-top: 3px;
+}
+
+.etadisplay .disabled{
+	display: none;
+}
+
+.etadisplay .etatables td.stopdetail
+{ border-bottom: 2px solid #6699CC;
+border-left: 1px solid #6699CC;
+background-color: #BEC8D1;
+height: 35px;
+text-align: center;
+text-indent: 5px;
+font-family: Verdana;
+font-weight: bold;
+font-size: 11px;
+color: #404040; }
+
+.etadisplay .etatables td.stopdata
+{ 
+border-bottom: 2px solid #6699CC;
+border-left: 1px solid #6699CC;
+text-align: center;
+text-indent: 5px;
+font-family: Verdana;
+font-size: 11px;
+color: #404040;
+}
+
+.etadisplay .etatables table.stopinfo
+{ text-align: center;
+font-family: Verdana;
+font-weight: normal;
+font-size: 11px;
+color: #404040;
+width: 75%;
+margin-left: 130px;
+background-color: #fafafa;
+border: 1px #6699CC solid;
+border-collapse: collapse;
+border-spacing: 30px; } 

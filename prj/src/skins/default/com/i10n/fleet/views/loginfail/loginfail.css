@@ -1,0 +1,18 @@
+/**
+ * Login View CSS
+ */
+.loginfail .bd {
+    background-color: #FFFFFF;
+    height: 100%;
+    margin-right: 2px;
+    margin-left: 5px;
+    padding-top: 25px;
+}
+
+.fleet-container.cnt-login {
+    background-color: #FFFFFF;
+}
+
+.loginfail .loginform {
+    margin-left: 13px;
+}

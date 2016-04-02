@@ -1,0 +1,58 @@
+/**
+ * Vehicle Status UI Widget CSS
+ */
+
+.vehiclestatus .rpt-select-cnt {
+    height: 32px;
+    _height: 38px;
+    width: 100%;
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    padding-top: 6px;
+    font-size: 0.9em;
+}
+
+.vehiclestatus .exportreports {
+	float:right;
+	margin-right:20px;
+	padding-top: 6px;
+	text-align: center;
+}
+
+.vehiclestatus .bd .yui-dt-data .cell-custom.cell-gps {
+    padding-top: 2px;
+}
+
+.vehiclestatus .bd .yui-dt-data .cell-custom.cell-gsm {
+    padding-top: 4px;
+}
+
+.vehiclestatus .bd .yui-dt-data .cell-custom.cell-battery {
+    padding-top: 6px;
+}
+
+.vehiclestatus .bd .yui-dt-data .cell-custom.cell-status {
+    text-transform: capitalize;
+}
+.vehiclestatus .bd .yui-dt-data .cell-custom.cell-seatbelt {
+    text-transform: capitalize;
+}
+.vehiclestatus .bd .yui-dt-data .yui-dt-col-battery, .vehiclestatus .bd .yui-dt-data .yui-dt-col-gps, .vehiclestatus .bd .yui-dt-data .yui-dt-col-gsm {
+    width: 150px;
+}
+
+.vehiclestatus .bd .yui-dt-data .yui-dt-col-battery .yui-dt-liner, .vehiclestatus .bd .yui-dt-data .yui-dt-col-gps .yui-dt-liner, .vehiclestatus .bd .yui-dt-data .yui-dt-col-gsm .yui-dt-liner {
+    width: 100px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.vehiclestatus .bd .yui-dt-data .yui-dt-liner .data {
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.vehiclestatus .bd .yui-dt-data .yui-dt-col-gps .yui-dt-liner .data {
+    padding-top: 4px;
+}

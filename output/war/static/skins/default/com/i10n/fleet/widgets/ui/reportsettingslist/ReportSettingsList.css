@@ -1,0 +1,60 @@
+/**
+ * ReportSettings List Widget CSS
+ */
+.reportsettingslist {
+    background-color: #e6edf3;
+    overflow: hidden;
+    width: 255px;
+}
+
+.reportsettingslist .reportsettingslist-container {
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+.reportsettingslist .reportsettingslist-container .title {
+    color: #a81a23;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px 0px;
+}
+
+.reportsettingslist .reportsettingslist-container .subtitle {
+    color: #02195c;
+    font-weight: bold;
+    font-size: 1.0em;
+    padding: 5px 0px;
+}
+
+.reportsettingslist .reportsettingslist-container .options {
+    padding: 5px 0px;
+}
+
+.reportsettingslist .reportsettingslist-container .options .options-desc {
+    vertical-align: top;
+}
+
+.reportsettingslist .reportsettingslist-container .user-info {
+    font-weight: bold;
+    color: #02195c;
+    padding: 10px 0px;
+}
+
+.reportsettingslist .reportsettingslist-container .txtbox {
+    border: 1px none;
+    background-color: #cedce7;
+    color: #011a5d;
+    font-size: 0.9em;
+    width: 214px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+.reportsettingslist .reportsettingslist-container .chkbox, .reportsettingslist .reportsettingslist-container .radio {
+    margin-bottom: 10px;
+}
+
+.reportsettingslist .reportsettingslist-container .buttons {
+    padding-top: 4px;
+}

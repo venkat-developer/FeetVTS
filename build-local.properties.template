@@ -1,0 +1,4 @@
+compress.enabled=@compress.enabled.template@
+tomcat.dir=/opt/apache-tomcat-6.0.16/webapps
+test.env=@test.env.template@
+jsunit.browser.names=@jsunit.browser.names.template@

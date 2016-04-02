@@ -1,0 +1,8 @@
+<#import "/macros/skin.ftm" as skin>
+<#macro init params={}>
+    <@skin.widgetBody name="SidePaneList" params={
+     "cssClass": "inactive minimizable sidepanelist",       
+     "listTitle": "Drivers"      
+    }/>   
+    <@json.publish data=view.drivers.groupsdata publishAs="driverData" context="drivers"/>
+</#macro>

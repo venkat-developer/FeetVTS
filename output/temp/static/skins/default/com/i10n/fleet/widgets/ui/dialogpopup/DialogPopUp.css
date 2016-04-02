@@ -1,0 +1,23 @@
+/**
+ * Stylesheet for the Dialog Popup Uitlity Widget
+ */
+.dialog-popup .content {
+    height: 55%;
+}
+
+.dialog-popup .dialog-form {
+    height: 100%;
+}
+
+.dialog-popup .dialog-buttons {
+    text-align: center;
+    width: 99%;
+}
+
+.dialog-popup .dialog-buttons .buttons .fleet-buttons.yes-button.button-blue a .ct {
+    width: 45px;
+}
+
+.dialog-popup.dialog-buttons .buttons .fleet-buttons.no-button.button-blue a .ct {
+    width: 44px;
+}

@@ -1,0 +1,20 @@
+e<#import "/macros/skin.ftm" as skin/>
+<#macro init params={}>
+    <div class="geofencing-bar-container">
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-add-region"}>
+            Add Region
+        </@skin.widget>
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-delete-region"}>
+            Delete Region
+        </@skin.widget>
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-draw-region"}>
+            How to Draw Region
+        </@skin.widget>   
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-edit-region"}>
+            Edit Vehicles
+        </@skin.widget>
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-save-region"}>
+            Save Region
+        </@skin.widget>    
+    </div>    
+</#macro>

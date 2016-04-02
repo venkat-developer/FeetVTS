@@ -1,0 +1,162 @@
+/**
+ * Dashboard Vehicle Health UI Widget CSS*
+ */
+.dashboardvehiclehealth {
+	width: 317px;
+	height: 261px;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container {
+	background-repeat: repeat-x;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-bottom: 7px;
+	color: #4F5054;
+	height: 261px;
+	width: 317px;
+	/***  background-image: url("@STATIC_DIR@/img/backgrounds/dashboard-sd-vh-bg.jpg");*/
+	background-image: linear-gradient(to bottom, #f2f2f2 0%, #f7f7f7 100%);
+	background-repeat: repeat-x;
+	background-color: #F7F7F7;
+	color: #4F5054;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .hd {
+	padding-left: 10px;
+	padding-top: 14px;
+	padding-right: 10px;
+}
+
+/**
+ * Style obtained thorough macro substitution in the .ftm file
+ */
+.dashboardvehiclehealth .vehiclehealth-container .hd .rounded-rect .nested
+	{
+	padding: 7px 2px 2px 2px;
+	height: 23px;
+	background-color: #8ABCDE;
+	border-color: #8ABCDE;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .hd .rounded-rect .nested .title-text
+	{
+	background-image: url("@STATIC_DIR@/img/icons/widget-header-icons.png");
+	background-position: 12px -374px;
+	background-repeat: no-repeat;
+	padding-left: 37px;
+	height: 23px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .hd .rounded-rect .cap
+	{
+	background-color: #8ABCDE;
+	border-color: #8ABCDE;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .bd {
+	padding-left: 10px;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .bd .list-header {
+	padding-left: 18px;
+	padding-bottom: 5px;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .bd .list-header-text {
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-top: 12px;
+	width: 104px;
+	vertical-align: bottom;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .bd .health-list .health-list-el
+	{
+	width: 298px;
+	height: 26px;
+	border-top: 1px solid #FCFCFC;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .bd .health-list .health-list-el.even
+	{
+	background-color: #F7F7F7;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .bd .health-list .health-list-el.odd
+	{
+	background-color: #ECEFF1;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .bd .health-list .health-list-el .button
+	{
+	vertical-align: middle;
+	padding-top: 10px;
+	padding-left: 12px;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .bd .health-list .health-list-el .button .image
+	{
+	background-image:
+		url("@STATIC_DIR@/img/vehiclehealth/allhealthicons.png");
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 7px;
+	width: 7px;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .bd .signal {
+	vertical-align: middle;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .bd .list-header .signal
+	{
+	padding-top: 10px;
+	padding-left: 53px;
+	vertical-align: middle;
+}
+
+.dashboardvehiclehealth .vehiclehealth-container .bd .health-list .health-list-el .text
+	{
+	font-size: 1.1em;
+	padding-top: 5px;
+	padding-left: 5px;
+	width: 151px;
+}
+
+.dashboardvehiclehealth .ft {
+	margin-top: -6px;
+	padding-left: 215px;
+	width: 102px;
+}
+
+.dashboardvehiclehealth .ft .rounded-rect .nested {
+	padding: 7px 2px 2px 2px;
+	font-size: 0.7em;
+	height: 10px;
+	background-color: #F7F7F7;
+	border-color: #F7F7F7;
+}
+
+.dashboardvehiclehealth .ft .rounded-rect .nested .text {
+	padding-left: 21px;
+	color: black;
+}
+
+.dashboardvehiclehealth .ft .rounded-rect .nested .text a {
+	color: black;
+	background-image: url("@STATIC_DIR@/img/icons/arrows.png");
+	background-position: 37px -161px;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+.dashboardvehiclehealth .ft .rounded-rect .cap {
+	background-color: #F7F7F7;
+	border-color: #F7F7F7;
+}

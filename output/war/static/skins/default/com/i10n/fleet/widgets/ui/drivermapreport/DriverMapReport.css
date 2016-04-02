@@ -1,0 +1,63 @@
+/**
+ * Driver Map Report UI Widget CSS
+ */
+.drivermapreport {
+    color: #FFFFFF;
+    height: 340px;
+}
+
+.drivermapreport.widget .widget.simpledialog {
+    position: absolute;
+    top: 190px;
+    left: 440px;
+    z-index: 1500;
+    width: 300px;
+}
+
+.drivermapreport .simpledialog {
+    height: 130px;
+}
+
+.drivermapreport .simpledialog.disabled {
+    display: none;
+}
+
+.drivermapreport .simpledialog .icon {
+    background-image: url(/static/img/icons/widget-header-icons.png);
+    background-position: 8px -575px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 44px;
+}
+
+.drivermapreport .simpledialog .text {
+    width: 246px
+}
+
+.drivermapreport .simpledialog .buttons {
+    font-size: 0.8em;
+    padding-left: 116px;
+    padding-top: 15px;
+}
+/**
+ * LiveTrack UI Widget CSS
+ */
+.drivermapreport .widget .reportpopup .marker-info-window .bd .yui-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.9em;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+}
+
+
+
+#oddrow {
+    background-color: #485763;
+}
+th{
+	padding-left:20px;
+	}
+

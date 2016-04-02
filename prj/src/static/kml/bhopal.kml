@@ -1,0 +1,2830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>HEG Mandideep</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.51755,23.0965,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Mandideep</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.51245,23.10337,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Mandideep</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.51246,23.10356,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Samardha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.50201,23.11796,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Samardha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.50205,23.11799,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Indus Town</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.49134,23.13247,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Indus Town</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.49117,23.13248,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Misrod</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.46895,23.13254,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Fun City</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.48839,23.13626,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Fun City</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.48851,23.13627,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>11 Mile</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.48215,23.14478,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>11 Mile</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4819,23.14479,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Chichli Bairagarh </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4111,23.15,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Genhu Kheda</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41301,23.15714,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Genhu Kheda</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41312,23.15718,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sanskar Gardan</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41408,23.16089,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sanskar Gardan</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4141,23.1611,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Misrod</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.46879,23.16243,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Lalit Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41525,23.16578,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Lalita Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41542,23.1659,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Akruti-Eco-City</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44217,23.16887,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Nayapura Colony</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41684,23.17173,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Nayapura Colony</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41683,23.17212,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Jaat Khedi</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.46149,23.17252,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Jaat Khedi</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.46173,23.17254,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Rohit Nagar Ph-II                </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44043,23.17394,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Rohit Nagar Ph-II</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44055,23.17402,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Indus Garden</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43492,23.17767,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Indus Garden</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43953,23.17784,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bima Kunj</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41742,23.1797,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bima Kunj</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41758,23.18012,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Mahabali Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41736,23.18203,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Mahabali Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4175,23.18211,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Tilak Nagar                     </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43757,23.18486,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Tilak Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43769,23.18496,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Nikhil Homes</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.45341,23.18535,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Nikhil Homes</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.45357,23.18567,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Nehar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43635,23.18802,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Nehar  Puliya</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43649,23.18809,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sarvdharma Colony</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41722,23.18895,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sarva Dharma Colony</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41722,23.18895,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Sarvdharma Colony</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41705,23.18931,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sarva Dharma Colony</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41705,23.18931,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Asharam Mode </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4844,23.1905,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Asharam Mode </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4845,23.1906,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Housingh Board Market </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4808,23.1918,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Vidya Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.45005,23.19243,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Housingh Board Market </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44884,23.19251,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Vidya Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.45026,23.19257,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Savoi Complex</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43639,23.19265,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Savoi Complex</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43608,23.19271,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>KataraHills </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.48727,23.19286,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Ishwar Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44041,23.1933,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Ishwar Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44037,23.1935,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Rameshwaram </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4745,23.1937,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Rameshwaram </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4746,23.1938,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Mt Carmel School </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4691,23.1951,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Mt Carmel School </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4692,23.1952,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Arvind Vihar </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4678,23.1964,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Arvind Vihar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4677,23.1965,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Nahar Puliya</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41723,23.19729,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Chuna bhatti colar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41661,23.1975,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Nahar puliya</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41744,23.19753,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Chuna bhatti colar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4166,23.19755,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Raja Bhoj Mode </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4642,23.1979,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Ayushman Hospital</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41903,23.1985,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Ayushman Hospital</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41921,23.1985,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Amrai Tiraha </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4584,23.1988,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Naveen School </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4613,23.1995,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>University</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44749,23.19985,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>University</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44771,23.19991,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>MIG Mode</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4636,23.2,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>MIG Mode </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4636,23.2001,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Manisha Market</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42613,23.20173,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Manisha Market</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42632,23.20197,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Saitan singh</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42965,23.2022,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Saitan singh</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43025,23.20262,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> 12 No. Stop</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43726,23.20293,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> 12 No.Stop</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43741,23.20311,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Amrai Colony </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4584,23.2032,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Champion School</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43121,23.20369,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Narayan Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.446,23.20389,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Narayan Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44612,23.204,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Khusiram College</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40869,23.20512,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Khusiram college</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40769,23.20596,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Champion School</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43125,23.20641,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Sai Board             </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43684,23.20668,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Sai Board                       </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43694,23.20678,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Mapcastaradhna</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4002,23.2072,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Map cast aradhna</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.3998,23.2073,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>9 A Market </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4564,23.2088,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Hanuman Mandir</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43116,23.20918,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>1100 Quatars</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4312,23.2092,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>1100 Quatars</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43129,23.20921,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Hanuman Mandir</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43128,23.20926,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>11 No.Stop</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43652,23.20954,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> 11 No. Stop</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43644,23.20971,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> RRL</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44383,23.2106,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> RRL</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44364,23.21064,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Vitthal market</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43123,23.21082,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>SPS Mode </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4558,23.2114,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Vitthal Market</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43147,23.21169,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>AIIMS </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4582,23.2118,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> 10.5 No.Stop</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43662,23.21185,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>10 No. Stop</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43619,23.21195,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>10 No. Stop</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43687,23.21212,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Fracture Hospital               </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.439,23.2124,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Fracture Hospital     </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4392,23.2125,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Paras City</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44104,23.21254,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Paras City</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4415,23.21279,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Shiv Mandir </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4554,23.2131,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Shiv Mandir </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4554,23.2132,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Nehru Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39264,23.21353,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Nehru Nagar </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39245,23.21377,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Habibganj Naka</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44111,23.21574,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Habibganj Naka</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44097,23.21577,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Habibganj Naka </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4429,23.2159,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Habibganj Naka </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4424,23.216,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Kasturba Tiraha </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4459,23.2161,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>KasturbaTiraha </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4459,23.2163,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Alka Puri </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.455,23.2165,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Habibganj Naka</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44183,23.21655,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>AlkaPuri </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4538,23.2166,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Habibganj Naka</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44206,23.21673,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Habibganj Station               </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43832,23.22129,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Habibganj Station </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44199,23.22155,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Habibganj Railway Station</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43786,23.22174,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Habibganj Railway Station</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4379,23.2219,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Habibganj Station </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4422,23.2221,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Govt. Quarter</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39133,23.22221,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Subhash School </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4311,23.2227,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Govt.Quarter </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39137,23.22275,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>7 No. Stop</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43343,23.22288,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>7 No.Stop </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43434,23.22311,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>BJP Office</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43624,23.22326,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>BJPOffice </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43631,23.22344,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Kasturba Hospital</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44513,23.22381,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Nutan College </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42879,23.22386,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Mansarobar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43691,23.22404,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Kasturba Hospital</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44532,23.22406,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Nutan College </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42775,23.2242,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sanchi Dudh </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44216,23.22424,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Avadhpuri VidyaSagar College</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.48836,23.22435,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sanchi Dudh</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44196,23.22436,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Manasarowar Complex</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4364,23.2246,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Manasarovar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43638,23.2247,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Narmada Bhawan</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41174,23.22486,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Narmada Bhawan </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4127,23.22499,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Mata Mandir </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40211,23.2252,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Jain Mandir </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40745,23.22529,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Mata Mandir </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40228,23.22544,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Jain Mandir </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40732,23.22545,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>KamlaNagar/Kotra</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4021,23.2256,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>1250 Pranami Mandir </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41782,23.22585,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>5 NO.Stop </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42345,23.2259,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>5 NO. Stop </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42206,23.22606,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Shiv Mandir</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.48743,23.22608,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>1250 Pranami Mandir </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41889,23.22621,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Shiv Mandir</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.48731,23.22626,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>P and T Chouraha </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39168,23.22634,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>P and T Chouraha </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39162,23.22647,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>SargamTalkies</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43513,23.22723,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sargam Talkies</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43531,23.22723,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>SargamTalkies</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43507,23.22739,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>City Depot Chouraha </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.38933,23.22784,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>City Depot Chouraha </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.38926,23.22797,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Vijay Market</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.46578,23.2292,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Avadhpuri </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.48524,23.23013,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>ISBT </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44212,23.23018,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Avadhpuri</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.48534,23.23022,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>St Xavier School</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.47994,23.2305,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>St Xavier School</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.48002,23.23056,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Jawahar chowk                  </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.3928,23.2308,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Vyapam                </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42711,23.2308,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Jawar ChowK </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39281,23.23087,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Board Office (Zone-2)</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43313,23.23092,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Board Office (Shanchi Comlex)</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43193,23.23098,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Vyapam                         </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42665,23.23099,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Jawar ChowK </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39328,23.23107,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Cangress Bhawan</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42128,23.23114,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Cangress Bhawan</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42127,23.23129,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> 1250 Hospital</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41633,23.23147,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> 1250 Hospital                   </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4172,23.23155,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Tin Shed </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40152,23.23156,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Kasturba Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4419,23.23159,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Board Office (D.B.Mall)</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43199,23.23166,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Anna Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4467,23.23166,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Board Office (Milan)</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4329,23.23167,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Ayyappa Mandir Barkeda</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.47629,23.23174,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Carrier College</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.45005,23.23175,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Govindpura Thana</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.45447,23.23176,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Ayyappa Mandir Barkeda</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.47646,23.23177,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>BHEL Gate No 6</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.45933,23.2318,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Anna Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44674,23.23185,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Carrier College</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.45081,23.23191,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Govindpura Thana</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.45462,23.23192,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Mahatma Gandhi Couraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.47138,23.23201,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Tin Shed </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40171,23.23202,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>BHEL Gate No-6</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.46015,23.2321,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Mahatma Gandhi Couraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.47259,23.23212,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Prakash Tarun Pushkar </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41311,23.23215,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Prakash Tarun Pushkar </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41287,23.23242,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Kasturba Nagar </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44194,23.23297,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Jyoti Talkies</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4348,23.2335,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>JyotiTalkies </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4357,23.2336,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Goutam Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44172,23.23364,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Goutam Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44164,23.23369,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>New Market/Top N Town</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40133,23.23389,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>D B Mall</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43027,23.23424,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>D B Mall</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42999,23.23437,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>New Market/Top N Town</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40147,23.23458,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>RangMahal (Gangotry Parisar)</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.398,23.23495,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Rang Mahal (Magic-Stand)</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39842,23.236,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Rangmahal (GTB Complex)</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39933,23.23623,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Vallabh Bhavan</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4207,23.2364,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Roshanpura </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40134,23.23643,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Narmda Bhawan</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42674,23.23643,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Narmda Bhawan</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42687,23.23658,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Vallabh Bhavan</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4217,23.23708,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Roshan Pura </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40068,23.23713,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Shantiniketan</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4419,23.23726,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Shantiniketan</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.44106,23.23734,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>New Vidhan Sabha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4162,23.23742,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Birla Mandir</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40887,23.23769,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Birla Mandir</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40893,23.23776,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>New Vidhan Sabha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41519,23.23783,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>New Court</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42519,23.2382,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Roshanpura                     </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40227,23.23838,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>New Court</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42468,23.23842,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Roshanpura</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40286,23.23893,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Post Office</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43107,23.23893,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Post Office</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43128,23.23918,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Old Vidhan Sabha               </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40634,23.24118,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Janta Quarter</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43981,23.24187,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Janta Quarter</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43998,23.24189,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Old Vidhan Sabha               </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40785,23.24242,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Old Vidhan Sabha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40785,23.24242,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Police Control Room                      </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40953,23.24323,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Police Control Room</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40974,23.24343,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> SBI LHO</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43239,23.24344,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>St Peter Church</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43638,23.24413,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>St Peter Church</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4361,23.24416,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> SBI LHO</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43285,23.24426,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Polytechnic                    </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.3971,23.2451,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Polytechnic</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.397,23.2454,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Subhash R F</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43184,23.24613,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Subhash R F</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43192,23.24638,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>PHQ</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41178,23.24646,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Subhash Fatak</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43222,23.24697,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>PHQ</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41221,23.2471,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Prabhat Petrol Pump</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43233,23.24729,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Jhansi Tiraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42406,23.2502,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Jhansi Tiraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42378,23.25043,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Kamla Park                      </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.3977,23.2517,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Jahagirabad</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41454,23.2517,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Subhas Fatak</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43079,23.2518,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bogda Pul</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42379,23.25198,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Kamla Park</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.3978,23.252,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bogda Pul</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42384,23.25206,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Jahagirabad                    </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41365,23.25259,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Prabhat Petrol Pump</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43055,23.25269,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Upaj Mandi</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42057,23.25425,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Upaj Mandi</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42052,23.25434,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Moti Masjid</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.3986,23.2552,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Badkedi R C</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41858,23.25563,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Ladies Hospital</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40944,23.25578,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Moti Masjid</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39822,23.25605,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Badkedi R C</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41815,23.25605,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Ladies Hospital</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40967,23.25611,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Swami Vivekanand Chouraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4299,23.2571,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Swami Vivekananada Chouraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42976,23.2572,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Patra Pul</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41573,23.25767,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Patra Pul</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41565,23.25769,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Hamidia Hosp. Gate N0.2</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.3949,23.2588,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>New Ashoka Gardan</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43174,23.25894,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>New Ashoka Garden</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.43148,23.25896,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Peergate                       </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.3985,23.25915,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Ashoka Garden Thana</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42968,23.26066,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Ashoka Gardan Thana</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42973,23.26078,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bharat Talkies</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41098,23.26098,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Royal Market</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39225,23.26115,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Bharat Talkies                 </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41091,23.26129,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Royal Market</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39183,23.26151,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>S B I Chouraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.38756,23.26184,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>SBI Chouraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.38877,23.26188,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Green Park Chouraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42648,23.26292,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Green Park Chouraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42671,23.26298,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Pushpa Nagar Chouraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41865,23.26305,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Kammu Ka Bagh</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41533,23.26314,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Pushpa Nagar Chouraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41868,23.26318,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Kammu Ka Bagh</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41543,23.2632,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Collectorate</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.38305,23.26365,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>High Secondary School</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4134,23.26378,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>High Secondary School</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41345,23.26389,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Alpana Tiraha                  </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41012,23.26423,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Collectorate</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.38182,23.26427,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Alpana Tiraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41014,23.26435,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Sabjimandi</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40641,23.26438,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sabjimandi</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4064,23.2644,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bus stand</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40492,23.2649,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Nadra Bus Stand</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40378,23.26517,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Chirayu Hospital</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.30982,23.26588,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bhopal Talkies</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39991,23.26662,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bhopal Talkies</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40002,23.26663,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Railway Station Platform 1</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41409,23.26664,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Railway Station Platform No-1</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41397,23.26666,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Taj Mahal </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39328,23.26673,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Bhopal Talkies</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40044,23.26717,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bhaisa khedi</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.31506,23.26741,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bhaisa khedi</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.315,23.26756,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bhopal Talkies</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40066,23.26761,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Taj Mahal </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.39332,23.26765,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>GRP Thana</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41468,23.268,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>GRP Thana</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41461,23.26809,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bhaisa Khedi</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.3234,23.2687,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Madhavasram</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.3235,23.2689,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bairagarh City Depot</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.327,23.2693,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bairagarh City Depot</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.32686,23.26961,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Sindhi colony                  </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40089,23.26969,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sindhi Colony</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40101,23.26987,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sihor Naka</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.3355,23.2709,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bairagarh Railway Station</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.33693,23.27097,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bairagarh Railway Station</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.33691,23.27115,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Railway Colony</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41566,23.27126,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Railway Colony</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41552,23.27134,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> VIP Guest House</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.37567,23.27144,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> VIP Guest House</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.37522,23.27177,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Bairagarh Station</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.34091,23.27188,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Bairagarh Bus Stand</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.34083,23.27204,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Lalghati</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.36925,23.27289,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Lalghati                       </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.36918,23.27316,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Halalpur                       </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.36278,23.27352,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Kazi camp                      </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40235,23.27484,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Kazi camp</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40258,23.27486,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sai Mandir</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.417,23.27515,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Sai Mandir</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4169,23.27519,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Halalpura</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.36314,23.2753,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Dwarka Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4188,23.27762,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Dwarka Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.41884,23.27779,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Indus Tiraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42743,23.27783,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> DIG Banglow                    </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4032,23.27786,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Indus Tiraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.4275,23.27787,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>DIG Banglow</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40343,23.2783,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Coach Factory</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42936,23.27965,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>State Bank ATM </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42267,23.28073,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>State Bank ATM</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.42227,23.28088,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Arif Nagar                     </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40332,23.28388,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Arif Nagar</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40331,23.28456,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Kris upaj                      </name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40344,23.2912,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Krisupaj</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40348,23.29124,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Housing Colony</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40366,23.29515,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name>Housing Colony</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40379,23.29549,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://bpl.gwtrack.com/static/kml/busstop.png</href></Icon></IconStyle></Style>
+	<name> Karond Chouraha</name>
+	<description> BMC BUS STOP</description>
+	<Point>
+	<coordinates>77.40433,23.30236,678</coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

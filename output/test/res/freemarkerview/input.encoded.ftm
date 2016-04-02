@@ -1,0 +1,6 @@
+<#ftl attributes={"content_type": "text/xml"}>
+<htmlasxml>
+	<body>
+		Hello ${entry.value}
+	</body>
+</htmlasxml>

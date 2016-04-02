@@ -1,0 +1,39 @@
+<#import "/macros/skin.ftm" as skin/>
+<#import "/macros/json-publish.ftm" as json/>
+<#macro init params={}>
+    <#local sites = skin.getWidgetData("Header",{}).sites/>
+    <#local subPages = sites["${parameters.view}"].subnav.vehiclereport.subpage />
+    <#local defaultPageID = ""/>
+    <#if (parameters.subpage)?? && (subPages[parameters.subpage])??>
+        <#local defaultPageID = "${parameters.subpage}"/>    
+    </#if>
+    <@skin.widget name="ReportTimeFrame" params={"showminuteinterval":"false","showstatus":"false","showviolationtype":"false"}>
+        <div class="inline-block rpt-select-cnt">
+            <div>
+                More Reports : 
+                <select class="rpt-select">
+                    <#list subPages?keys as subPageKey>
+                        <#if  (defaultPageID?length=0)&& (subPages[subPageKey].default)?? && subPages[subPageKey].default>
+                            <#local defaultPageID = "${subPageKey}"/>
+                        </#if>
+                        <option class="rpt-option" value="${subPageKey}"  <#if defaultPageID == subPageKey>selected</#if>>${subPages[subPageKey].title}</option>
+                    </#list>
+                </select>
+            </div>
+            
+           
+        </div>
+    </@skin.widget>   
+    <div class="rpt-container" defaultPage="${defaultPageID}">
+        <#list subPages?keys as subPageKey>
+            <div class="rpt-${subPageKey} ${subPageKey} rpt-item
+                <#if defaultPageID != subPageKey>rpt-hidden</#if>
+            ">
+                <#if subPages[subPageKey].dataType == "json">
+                    <@skin.widget name="${subPages[subPageKey].widget}"/>
+                </#if>
+            </div>
+        </#list>
+    </div>
+    <@json.publish data=subPages publishAs="vehicleReportItems" context="report"/>
+</#macro>

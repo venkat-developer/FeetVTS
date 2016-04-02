@@ -1,0 +1,99 @@
+/**
+ * Add Vehicle UI Widget CSS
+ */
+.adddriver {
+    padding: 20px;
+}
+
+.adddriver .note {
+    height: 30px;
+    border: 1px solid #95D0E9;
+    color: #5A6065;
+    margin-top: 3px;
+    line-height: 28px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+}
+
+.adddriver .note .title {
+    color: #BB0813;
+    font-weight: bold;
+}
+
+.adddriver .note.disabled {
+    display: none;
+}
+
+.adddriver .form-add-drv {
+    padding-top: 25px;
+}
+
+.adddriver .form-add-drv .frm-lbl {
+    width: 120px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.adddriver .form-add-drv .input-element {
+    width: 240px;
+    height: 19px;
+}
+
+.adddriver .form-add-drv .input-element.txt {
+    padding-top: 2px;
+}
+
+.adddriver .form-add-drv .input-element.file {
+    height: 24px;
+}
+
+.adddriver .form-add-drv .frm-inp {
+    padding-right: 5px;
+}
+
+.adddriver .form-add-drv .frm-imp {
+    color: #39444C;
+    font-size: 0.9em;
+    line-height: 21px;
+}
+
+.adddriver .form-add-drv .frm-item-cnt {
+    padding-bottom: 10px;
+}
+
+.adddriver .buttons {
+    padding-left: 160px;
+}
+
+.adddriver .add-driver-empty-popup {
+    display: block;
+}
+
+.adddriver .add-driver-firstname-popup {
+    display: block;
+}
+
+.adddriver .add-driver-lastname-popup {
+    display: block;
+}
+
+.adddriver .add-driver-licenseno-popup {
+    display: block;
+}
+
+.adddriver .add-driver-empty-popup.disabled{
+    display: none;
+}
+
+.adddriver .add-driver-firstname-popup.disabled{
+    display: none;
+}
+
+.adddriver .add-driver-lastname-popup.disabled{
+    display: none;
+}
+
+.adddriver .add-driver-licenseno-popup.disabled{
+    display: none;
+}
+

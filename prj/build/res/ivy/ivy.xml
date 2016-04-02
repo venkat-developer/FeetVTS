@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="1.0">
+    <info organisation="interchain" module="fleet">
+        <description>
+            Interchain Fleet
+        </description>
+    </info>
+    <configurations>
+        <conf name="fleetlibs"/>
+        <conf name="tools"/>
+        <conf name="test"/>
+    </configurations>
+    <dependencies>
+        <!--     These are the fleet 1 dependencies.They are just for references.  -->
+        <!--
+        <dependency org="apache" name="activemq-all" rev="5.0.0" conf="fleetlibs->default">
+        <artifact name="activemq-all"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="apache-solr" rev="1.3-dev" conf="fleetlibs->default">
+        <artifact name="apache-solr"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-beanutils" rev="1.6" conf="fleetlibs->default">
+        <artifact name="commons-beanutils"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-chain" rev="1.1" conf="fleetlibs->default">
+        <artifact name="commons-chain"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-codec" rev="1.3" conf="fleetlibs->default">
+        <artifact name="commons-codec"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-collections" rev="3.2" conf="fleetlibs->default">
+        <artifact name="commons-collections"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-digester" rev="1.8" conf="fleetlibs->default">
+        <artifact name="commons-digester"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-fileupload" rev="1.2" conf="fleetlibs->default">
+        <artifact name="commons-fileupload"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-httpclient" rev="3.1" conf="fleetlibs->default">
+        <artifact name="commons-httpclient"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-io" rev="1.3.2" conf="fleetlibs->default">
+        <artifact name="commons-io"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-lang" rev="2.3" conf="fleetlibs->default">
+        <artifact name="commons-lang"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-logging" rev="2.0.1" conf="fleetlibs->default">
+        <artifact name="commons-logging"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-logging-api" rev="1.1" conf="fleetlibs->default">
+        <artifact name="commons-logging-api"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-validator" rev="1.3.0" conf="fleetlibs->default">
+        <artifact name="commons-validator"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="oro" rev="2.0.8" conf="fleetlibs->default">
+        <artifact name="oro"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="tiles-api" rev="2.0" conf="fleetlibs->default">
+        <artifact name="tiles-api"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="tiles-core" rev="2.0" conf="fleetlibs->default">
+        <artifact name="tiles-core"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="velocity" rev="1.4" conf="fleetlibs->default">
+        <artifact name="velocity"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="velocity-dep" rev="1.4" conf="fleetlibs->default">
+        <artifact name="velocity-dep"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="velocity-tools" rev="1.1" conf="fleetlibs->default">
+        <artifact name="velocity-tools"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="xalan" rev="2.4.0" conf="fleetlibs->default">
+        <artifact name="xalan"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="xerces" rev="2.6.2" conf="fleetlibs->default">
+        <artifact name="xerces"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="xerces-impl" rev="2.6.2" conf="fleetlibs->default">
+        <artifact name="xerces-impl"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="compass" name="compass" rev="2.0.1" conf="fleetlibs->default">
+        <artifact name="compass"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="cyberneko" name="nekohtml" rev="0.9.5" conf="fleetlibs->default">
+        <artifact name="nekohtml"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="danga" name="memcached" rev="2.0" conf="fleetlibs->default">
+        <artifact name="memcached"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="dom4j" name="dom4j" rev="1.6.1" conf="fleetlibs->default">
+        <artifact name="dom4j"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="geotools" name="gt2-referencing" rev="2.3.1" conf="fleetlibs->default">
+        <artifact name="gt2-referencing"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="hibernate" name="hibernate" rev="3.0" conf="fleetlibs->default">
+        <artifact name="hibernate"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="hibernate" name="hibernate-annotations" rev="3.0" conf="fleetlibs->default">
+        <artifact name="hibernate-annotations"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="hibernate" name="hibernate-commons" rev="annotations" conf="fleetlibs->default">
+        <artifact name="hibernate-commons"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="hibernate" name="hibernate-entitymanager" rev="3.0" conf="fleetlibs->default">
+        <artifact name="hibernate-entitymanager"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="hibernate" name="hibernate-shards" rev="3.0" conf="fleetlibs->default">
+        <artifact name="hibernate-shards"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="hibernate" name="hibernate-validator" rev="3.0" conf="fleetlibs->default">
+        <artifact name="hibernate-validator"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javaassist" name="javassist" rev="1.0" conf="fleetlibs->default">
+        <artifact name="javassist"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="connector" rev="1.0" conf="fleetlibs->default">
+        <artifact name="connector"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="ejb-persistence" rev="3.0" conf="fleetlibs->default">
+        <artifact name="ejb-persistence"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="jaxb-api" rev="2.1" conf="fleetlibs->default">
+        <artifact name="jaxb-api"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="jaxb-impl" rev="2.1" conf="fleetlibs->default">
+        <artifact name="jaxb-impl"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="jdbc" rev="stdext-2.0" conf="fleetlibs->default">
+        <artifact name="jdbc"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="jms" rev="1.0" conf="fleetlibs->default">
+        <artifact name="jms"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="jsr108" rev="0.01" conf="fleetlibs->default">
+        <artifact name="jsr108"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="jsr173-api" rev="1.0" conf="fleetlibs->default">
+        <artifact name="jsr173-api"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="jstl" rev="1.2" conf="fleetlibs->default">
+        <artifact name="jstl"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="jstl-standard" rev="1.2" conf="fleetlibs->default">
+        <artifact name="jstl-standard"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="jta" rev="1.0" conf="fleetlibs->default">
+        <artifact name="jta"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="xml-apis" rev="1.0.b2" conf="fleetlibs->default">
+        <artifact name="xml-apis"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="javax" name="xml-parser-api" rev="2.6.2" conf="fleetlibs->default">
+        <artifact name="xml-parser-api"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="jaxen" name="jaxen" rev="1.1.1" conf="fleetlibs->default">
+        <artifact name="jaxen"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="jboss" name="jboss-archive-browsing" rev="1.0" conf="fleetlibs->default">
+        <artifact name="jboss-archive-browsing"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="jboss" name="jboss-cache" rev="1.0" conf="fleetlibs->default">
+        <artifact name="jboss-cache"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="jboss" name="jboss-common" rev="1.0" conf="fleetlibs->default">
+        <artifact name="jboss-common"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="jboss" name="jboss-jmx" rev="1.0" conf="fleetlibs->default">
+        <artifact name="jboss-jmx"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="jboss" name="jboss-system" rev="1.0" conf="fleetlibs->default">
+        <artifact name="jboss-system"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="jdom" name="jdom" rev="1.0" conf="fleetlibs->default">
+        <artifact name="jdom"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="jgroups" name="jgroups" rev="2.2.8" conf="fleetlibs->default">
+        <artifact name="jgroups"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="lightstreamer" name="ls-adapter-interface" rev="1.0" conf="fleetlibs->default">
+        <artifact name="ls-adapter-interface"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="logicalcobwebs" name="proxool" rev="0.8.3" conf="fleetlibs->default">
+        <artifact name="proxool"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="mozilla" name="js" rev="1.6R7" conf="fleetlibs->default">
+        <artifact name="js"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="mysql" name="mysql-connector-java-bin" rev="5.1.5" conf="fleetlibs->default">
+        <artifact name="mysql-connector-java-bin"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="objectweb" name="asm" rev="1.0" conf="fleetlibs->default">
+        <artifact name="asm"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="objectweb" name="asm-attrs" rev="1.0" conf="fleetlibs->default">
+        <artifact name="asm-attrs"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="ognl" name="ognl" rev="2.6.11" conf="fleetlibs->default">
+        <artifact name="ognl"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="opengis" name="geoapi-nogenerics" rev="2.1-M2" conf="fleetlibs->default">
+        <artifact name="geoapi-nogenerics"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="opensymphony" name="oscache" rev="2.1" conf="fleetlibs->default">
+        <artifact name="oscache"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="oswego" name="concurrent" rev="1.3.2" conf="fleetlibs->default">
+        <artifact name="concurrent"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="postgresql" name="postgis" rev="1.3.3" conf="fleetlibs->default">
+        <artifact name="postgis"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="postgresql" name="postgresql-jdbc3" rev="8.2-505" conf="fleetlibs->default">
+        <artifact name="postgresql-jdbc3"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="qtag" name="qtag" rev="1.0" conf="fleetlibs->default">
+        <artifact name="qtag"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="sourceforge" name="cglib" rev="2.1.3" conf="fleetlibs->default">
+        <artifact name="cglib"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="sourceforge" name="ehcache" rev="1.2.3" conf="fleetlibs->default">
+        <artifact name="ehcache"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="sourceforge" name="swarmcache" rev="1.0rc2" conf="fleetlibs->default">
+        <artifact name="swarmcache"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="spy" name="spy" rev="2.4" conf="fleetlibs->default">
+        <artifact name="spy"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="steadystate" name="cssparser" rev="0.9.4" conf="fleetlibs->default">
+        <artifact name="cssparser"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="sun" name="activation" rev="1.1" conf="fleetlibs->default">
+        <artifact name="activation"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="sun" name="jaas" rev="1.0" conf="fleetlibs->default">
+        <artifact name="jaas"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="sun" name="jacc" rev="1.0-fr" conf="fleetlibs->default">
+        <artifact name="jacc"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="sun" name="jai-codec" rev="1.0" conf="fleetlibs->default">
+        <artifact name="jai-codec"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="sun" name="jai-core" rev="1.0" conf="fleetlibs->default">
+        <artifact name="jai-core"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="sun" name="rome" rev="0.9" conf="fleetlibs->default">
+        <artifact name="rome"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="thoughtworks" name="xstream" rev="1.1.2" conf="fleetlibs->default">
+        <artifact name="xstream"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="tombrus" name="cleanimports" rev="1.0" conf="fleetlibs->default">
+        <artifact name="cleanimports"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="uottawa" name="entityextraction" rev="1.0" conf="fleetlibs->default">
+        <artifact name="entityextraction"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="usfca" name="syndiag" rev="2.0" conf="fleetlibs->default">
+        <artifact name="syndiag"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="versioncheck" name="versioncheck" rev="1.0" conf="fleetlibs->default">
+        <artifact name="versioncheck"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="weka" name="weka" rev="1.0" conf="fleetlibs->default">
+        <artifact name="weka"  type="jar" ext="jar" />
+        </dependency>
+        -->
+ 	<dependency org="javax" name="mail" rev="1.0" conf="fleetlibs->default">
+            <artifact name="mail"  type="jar" ext="jar" />
+        </dependency>
+ 	<dependency org="pushlet" name="pushlet" rev="2.0.4" conf="fleetlibs->default">
+            <artifact name="pushlet"  type="jar" ext="jar" />
+        </dependency>
+	<dependency org="json" name="json" rev="1.0" conf="fleetlibs->default">
+            <artifact name="json"  type="jar" ext="jar" />
+        </dependency>
+	<dependency org="googlecode" name="jsonplugin" rev="0.20" conf="fleetlibs->default">
+            <artifact name="jsonplugin"  type="jar" ext="jar" />
+        </dependency>
+	<dependency org="apache" name="struts-core" rev="1.3.5" conf="fleetlibs->default">
+            <artifact name="struts-core"  type="jar" ext="jar" />
+        </dependency>
+	<dependency org="apache" name="struts2-core" rev="2.0.11" conf="fleetlibs->default">
+            <artifact name="struts2-core"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="struts-tiles-plugin" rev="2.0.11" conf="fleetlibs->default">
+            <artifact name="struts-tiles-plugin"  type="jar" ext="jar" />
+        </dependency>
+	<dependency org="mchange" name="c3p0" rev="0.9.1" conf="fleetlibs->default">
+            <artifact name="c3p0"  type="jar" ext="jar" />
+        </dependency>
+	<dependency org="opensymphony" name="xwork" rev="2.0.4" conf="fleetlibs->default">
+            <artifact name="xwork"  type="jar" ext="jar" />
+        </dependency>
+	<dependency org="jfree" name="birt-jcommon" rev="1.0.10" conf="fleetlibs->default">
+            <artifact name="birt-jcommon"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="jfree" name="birt-jfreechart" rev="1.0.6" conf="fleetlibs->default">
+            <artifact name="birt-jfreechart"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="jfree" name="birt-jfreechart-swt" rev="1.0.6" conf="fleetlibs->default">
+            <artifact name="birt-jfreechart-swt"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="jfree" name="birt-jfreechat-experimental" rev="1.0.6" conf="fleetlibs->default">
+            <artifact name="birt-jfreechat-experimental"  type="jar" ext="jar" />
+        </dependency>
+ 	<dependency org="eclipse" name="birt-chartengineapi" rev="1.0" conf="fleetlibs->default">
+            <artifact name="birt-chartengineapi"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="eclipse" name="birt-coreapi" rev="1.0" conf="fleetlibs->default">
+            <artifact name="birt-coreapi"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="eclipse" name="birt-engineapi" rev="1.0" conf="fleetlibs->default">
+            <artifact name="birt-engineapi"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="eclipse" name="birt-modelapi" rev="1.0" conf="fleetlibs->default">
+            <artifact name="birt-modelapi"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="eclipse" name="birt-scriptapi" rev="1.0" conf="fleetlibs->default">
+            <artifact name="birt-scriptapi"  type="jar" ext="jar" />
+        </dependency>
+		<dependency org="ibm" name="birt" rev="3.6.1" conf="fleetlibs->default">
+            <artifact name="birt"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="apache" name="commons-beanutils" rev="1.6" conf="fleetlibs->default">
+            <artifact name="commons-beanutils" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="commons-chain" rev="1.1" conf="fleetlibs->default">
+            <artifact name="commons-chain" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="commons-codec" rev="1.3" conf="fleetlibs->default">
+            <artifact name="commons-codec" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="commons-collections" rev="3.2" conf="fleetlibs->default">
+            <artifact name="commons-collections" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="commons-digester" rev="1.8" conf="fleetlibs->default">
+            <artifact name="commons-digester" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="commons-fileupload" rev="1.2" conf="fleetlibs->default">
+            <artifact name="commons-fileupload" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="commons-httpclient" rev="3.1" conf="fleetlibs->default">
+            <artifact name="commons-httpclient" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="commons-io" rev="1.3.2" conf="fleetlibs->default">
+            <artifact name="commons-io" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="commons-lang" rev="2.3" conf="fleetlibs->default">
+            <artifact name="commons-lang" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="commons-logging" rev="2.0.1" conf="fleetlibs->default">
+            <artifact name="commons-logging" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="commons-logging-api" rev="1.1" conf="fleetlibs->default">
+            <artifact name="commons-logging-api" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="commons-validator" rev="1.3.0" conf="fleetlibs->default">
+            <artifact name="commons-validator" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="javax" name="servlet-api" rev="2.5" conf="fleetlibs->default">
+            <artifact name="servlet-api" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="log4j" rev="1.2.15" conf="fleetlibs->default">
+            <artifact name="log4j" type="jar" ext="jar"/>
+        </dependency>
+<!--        <dependency org="apache" name="mina-core" rev="2.0.3" conf="fleetlibs->default">-->
+<!--            <artifact name="mina-core" type="jar" ext="jar"/>-->
+<!--        </dependency>-->
+<!--        <dependency org="slf4j" name="slf4j-simple" rev="1.6.1" conf="fleetlibs->default">-->
+<!--            <artifact name="slf4j-simple" type="jar" ext="jar"/>-->
+<!--        </dependency>-->
+		<dependency org="postgresql" name="postgis" rev="1.4.0" conf="fleetlibs->default">
+			<artifact name="postgis"  type="jar" ext="jar" />
+        </dependency>
+		<dependency org="postgresql" name="postgresql-jdbc4" rev="8.4-701" conf="fleetlibs->default">
+			<artifact name="postgresql-jdbc4"  type="jar" ext="jar" />
+        </dependency>
+        <dependency org="easymock" name="easymock" rev="2.5.1" conf="test->default">
+            <artifact name="easymock" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="freemarker" name="freemarker" rev="2.3.15" conf="fleetlibs->default">
+            <artifact name="freemarker" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="mozilla" name="jslint" rev="1.0_01" conf="tools->default">
+            <artifact name="jsl" type="zip" ext="zip"/>
+        </dependency>
+        <dependency org="spring" name="spring" rev="2.0.8" conf="fleetlibs->default">
+            <artifact name="spring" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="spring" name="spring" rev="2.0.8" conf="test->default">
+            <artifact name="spring-mock" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="umd" name="findbugs" rev="1.0" conf="tools->default">
+            <artifact name="findbugs" type="zip" ext="zip"/>
+        </dependency>
+        <dependency org="puppycrawl" name="checkstyle-all" rev="1.0" conf="tools->default">
+            <artifact name="checkstyle-all" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="jdom" name="jdom" rev="1.1" conf="test->default">
+            <artifact name="jdom" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="junit" name="junit" rev="4.5" conf="test->default">
+            <artifact name="junit" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="vladium" name="emma" rev="2.0.5312" conf="test->default">
+            <artifact name="emma" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="vladium" name="emma_ant" rev="2.0.5312" conf="test->default">
+            <artifact name="emma_ant" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="mortbay" name="jetty" rev="6.1.18" conf="test->default">
+            <artifact name="jetty" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="mortbay" name="jetty-util" rev="6.1.18" conf="test->default">
+            <artifact name="jetty-util" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="apache" name="xerces" rev="2.6.2" conf="test->default">
+            <artifact name="xerces" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="jsunit" name="jsunit" rev="i10n.2.1" conf="test->default">
+            <artifact name="jsunit" type="jar" ext="jar"/>
+            <artifact name="jsunit" type="zip" ext="zip"/>
+        </dependency>
+        <dependency org="jaxen" name="jaxen" rev="1.1.1" conf="fleetlibs->default">
+            <artifact name="jaxen" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="thoughtworks" name="selenium" rev="1.0.1" conf="test->default">
+            <artifact name="selenium-server" type="jar" ext="jar"/>
+            <artifact name="selenium-java-client-driver" type="jar" ext="jar"/>
+        </dependency>
+        <dependency org="yahoo" name="yuicompressor" rev="2.4.2" conf="tools->default">
+            <artifact name="yuicompressor" type="jar" ext="jar"/>
+        </dependency>
+    </dependencies>
+</ivy-module>
+

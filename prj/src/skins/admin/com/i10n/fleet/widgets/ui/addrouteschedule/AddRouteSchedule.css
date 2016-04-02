@@ -1,0 +1,108 @@
+
+/**
+ * Add RouteSchedule UI Widget CSS
+ */
+.addrouteschedule {
+    padding: 20px;
+}
+
+.addrouteschedule .note {
+    height: 30px;
+    border: 1px solid #95D0E9;
+    color: #5A6065;
+    margin-top: 3px;
+    line-height: 28px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+}
+
+.addrouteschedule .note .title {
+    color: #BB0813;
+    font-weight: bold;
+}
+
+.addrouteschedule .note.disabled {
+    display: none;
+}
+
+.addrouteschedule .form-add-routeschedule {
+    padding-top: 25px;
+}
+
+.addrouteschedule .form-add-routeschedule .frm-lbl {
+    width: 120px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.addrouteschedule .form-add-routeschedule .input-element {
+    width: 240px;
+    height: 19px;
+}
+
+.addrouteschedule .form-add-routeschedule .input-element.txt {
+    padding-top: 2px;
+}
+.addrouteschedule .form-add-routeschedule .input-element.list {
+    padding-top: 2px;
+    height: 26px;
+    color: #39444C;
+    
+}
+.addrouteschedule .form-add-routeschedule .frm-inp {
+    padding-right: 5px;
+}
+
+.addrouteschedule .form-add-routeschedule .frm-imp {
+    color: #39444C;
+    font-size: 0.9em;
+    line-height: 21px;
+}
+
+.addrouteschedule .form-add-routeschedule .frm-item-cnt {
+    padding-bottom: 10px;
+}
+
+.addrouteschedule .buttons {
+    padding-left: 160px;
+}
+
+.addrouteschedule .add-routeschedule-empty-popup {
+    display: block;
+}
+
+.addrouteschedule .add-routeschedule-sequenceno-popup {
+    display: block;
+}
+
+.addrouteschedule .add-routeschedule-distance-popup {
+    display: block;
+}
+
+.addrouteschedule .add-routeschedule-time-popup {
+    display: block;
+}
+
+.addrouteschedule .add-routeschedule-spanday-popup {
+    display: block;
+}
+
+.addrouteschedule .add-routeschedule-empty-popup.disabled{
+    display: none;
+}
+
+.addrouteschedule .add-routeschedule-sequenceno-popup.disabled{
+    display: none;
+}
+
+.addrouteschedule .add-routeschedule-distance-popup.disabled{
+    display: none;
+}
+
+.addrouteschedule .add-routeschedule-time-popup.disabled{
+    display: none;
+}
+
+.addrouteschedule .add-routeschedule-spanday-popup.disabled{
+    display: none;
+}

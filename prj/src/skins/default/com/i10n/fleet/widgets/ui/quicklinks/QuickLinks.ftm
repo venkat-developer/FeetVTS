@@ -1,0 +1,63 @@
+<#import "/macros/skin.ftm" as skin/>
+<#import "/macros/rounded.ftm" as round/>
+<#--
+    @auhor: N.Balaji
+-->
+<#macro init params={}>
+    <#local maxLinks=3/>
+    <#if (params.maxLinks)??>
+        <#local maxLinks=params.maxLinks/>
+    </#if>
+    <#local links = view.quicklinks.links/>
+    <div class="quicklinks-container" maxLinks="${maxLinks}">
+        <div class="hd">
+            <@round.cssRounding params={"radius":5}>QUICK LINKS</@round.cssRounding>
+        </div>
+        <div class="bd">
+            <div class="link-elements">
+                <#local count=0/>
+                <#local sites = skin.getWidgetData("Header",{}).sites/>
+                <#list links as link>
+                    <#local linkArr = link?split(".")/>
+                    <#local quickLink = {}/>
+                    <#list linkArr as linkEl>
+                        <#if linkEl_index == 0>
+                            <#local quickLink = sites[linkEl]/>
+                        <#elseif linkEl_index == 1>
+                            <#local quickLink = quickLink.subnav[linkEl]/>
+                        <#elseif linkEl_index == 2>
+                            <#local quickLink = quickLink.subpage[linkEl]/>    
+                        </#if>
+                    </#list>
+                    <div class="inline-block link-element">
+                        <div>
+                            <div class="inline-block">
+                                <div><a class='content link' href='${quickLink.link}'>${quickLink.title}</a></div>
+                            </div
+                            ><div class="inline-block content close"
+                            ></div>
+                        </div>
+                    </div>
+                    <#local count = count+1/>
+                    <#if count==maxLinks >
+                        <#break/>
+                    </#if>
+                </#list>
+            </div> 
+        </div>
+        <div class="ft">
+            <a class="add-links">Add Links</a>
+        </div>
+    </div>
+    <div class="markup-template template-link-item">
+        <div class="inline-block link-element">
+            <div>
+                <div class="inline-block">
+                    <div><a class='content link' href='{link}'>{title}</a></div>
+                </div
+                ><div class="inline-block content close"
+                ></div>
+            </div>
+        </div>
+    </div>
+</#macro>

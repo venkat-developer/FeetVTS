@@ -1,0 +1,15 @@
+/**
+ * Vehicle Report UI Widget CSS
+ */
+.vehiclereport .rpt-hidden {
+    display: none;
+}
+
+.vehiclereport .rpt-select-cnt {
+    padding-left: 1px;
+    padding-top: 3px;
+}
+
+.vehiclereport .rpt-select-cnt .rpt-select {
+    height: 25px;
+}

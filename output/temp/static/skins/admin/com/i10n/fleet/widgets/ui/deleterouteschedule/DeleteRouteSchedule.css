@@ -1,0 +1,130 @@
+@CHARSET "ISO-8859-1";
+/**
+ * Delete RouteSchedule UI Widget CSS
+ */
+ 
+.deleterouteschedule {
+    padding: 20px;
+}
+
+.deleterouteschedule .note {
+    height: 30px;
+    border: 1px solid #95D0E9;
+    color: #5A6065;
+    margin-top: 3px;
+    line-height: 28px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+}
+
+.deleterouteschedule .note .title {
+    color: #BB0813;
+    font-weight: bold;
+}
+
+.deleterouteschedule .note.disabled {
+    display: none;
+}
+
+.deleterouteschedule .state-view {
+    padding-bottom: 10px;
+}
+
+.deleterouteschedule .state-item {
+    background-image: url("@STATIC_DIR@/img/login/dot.png");
+    background-repeat: no-repeat;
+    color: #172834;
+    font-weight: bold;
+    height: 20px;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+.deleterouteschedule .state-item.disabled {
+    background-image: url("@STATIC_DIR@/img/login/dot-disabled.png");
+    color: #8497A4;
+}
+
+.deleterouteschedule .state-item-index {
+    color: #FFFFFF;
+    padding-right: 8px;
+}
+
+.deleterouteschedule .routeschedule-list {
+    height: 312px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.deleterouteschedule .routeschedule-list .tlist {
+    width: 100%;
+}
+
+.deleterouteschedule .routeschedule-list .l-row .l-col {
+    width: 13%;
+    padding-left: 3%;
+    border-right: 1px dotted #9BA2BE;
+    border-bottom: 1px dotted #9BA2BE;
+    line-height: 30px;
+    color: #011A5D;
+    min-height: 30px;
+    *height: auto !important;
+    *height: 30px;
+}
+
+.deleterouteschedule .routeschedule-list .l-row.hd-row .l-col {
+    font-weight: bold;
+}
+
+.deleterouteschedule .routeschedule-list .l-row {
+    cursor: pointer;
+    min-height: 30px;
+    *height: auto !important;
+    *height: 30px;
+}
+
+.deleterouteschedule .routeschedule-list .l-row.hd-row, .deleterouteschedule .routeschedule-list .l-row.hd-row:hover {
+    background-color: #ECF3F9;
+    border-bottom: none;
+    cursor: default;
+}
+
+.deleterouteschedule .routeschedule-list .l-row .l-col.last {
+    border-right: none;
+}
+
+.deleterouteschedule .routeschedule-list .l-row.first {
+    height: 35px;
+}
+
+.deleterouteschedule .routeschedule-list .l-row.first .l-col {
+    line-height: 35px;
+}
+
+.deleterouteschedule .routeschedule-list .l-row .l-col .input-element {
+    margin-right: 8px;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+
+.deleterouteschedule .bd .title {
+    font-size: 1.2em;
+    color: #172834;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.deleterouteschedule .ft {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.deleterouteschedule .routeschedule-list .l-row:hover {
+    background-color: #ECF4FA;
+}

@@ -1,0 +1,159 @@
+<#assign siteMock = {
+    "sites" : {
+        "dashboard" : {
+            "title" : "Dashboard",
+            "link" : "view/dashboard/",
+            "subnav" : {}
+        },
+        "livetrack" : {
+            "title" : "Live Tracking",
+            "link" : "view/livetrack/",
+            "subnav" : {
+                "livetrack" : {
+                    "title" : "Live Tracking",
+                    "default" : true,
+                    "widget" : "LiveTrack",
+                    "deeplink" : "/fleet/view/livetrack/"
+                },
+                "vehiclestatus" : {
+                    "title" : "Vehicle Status",
+                    "widget" : "VehicleStatus",
+                    "deeplink" : "/fleet/view/livetrack/?subnav=vehiclestatus"
+                <!--
+                },
+				"alertstatus" : {
+                        "title" : "Live Alerts",
+                        "widget" : "AlertStatus",
+                        "link" : "/fleet/view/livetrack/?subnav=alertstatus"
+                -->
+                } 
+            }
+        },
+        
+        "reports" : {
+            "title" : "Reports",
+            "link" : "view/reports/",
+            "subnav" : {
+                "vehiclereport" : {
+                    "title" : "Vehicle Report",
+                    "default" : true,
+                    "widget" : "VehicleReport",
+                    "request" : "markup=VehicleReport&report=vehiclereport",
+                    "deeplink" : "/fleet/view/reports/"
+                },
+                "driverreport" : {
+                    "title" : "Driver Report",
+                    "widget" : "DriverReport",
+                    "request" : "markup=DriverReport&report=driverreport",
+                    "deeplink" : "/fleet/view/reports/?subnav=driverreport"
+                } ,
+                "vehiclestats" : {
+                    "title" : "Vehicle Stats",
+                    "widget" : "VehicleStatsReport",
+                    "request" : "markup=VehicleStatsReport&report=vehiclestatsreport",
+                    "deeplink" : "/fleet/view/reports/?subnav=vehiclestats"
+                },
+                "violationreport" : {
+                    "title" : "Violation Report",
+                    "widget" : "ViolationReport",
+                    "request" : "markup=ViolationReport&report=violationreport",
+                    "deeplink" : "/fleet/view/reports/?subnav=violationreport"
+                },
+                "activityreport" : {
+                    "title" : "Activity Report",
+                    "widget" : "ActivityReport",
+                    "request" : "markup=ActivityReport&report=activityreport",
+                    "deeplink" : "/fleet/view/reports/?subnav=activityreport"
+                },"vehiclehistory" : {
+                    "title" : "Vehicle History",
+                    "widget" : "VehicleHistory",
+                    "request" : "markup=VehicleHistory&report=vehiclehistory",
+                    "deeplink" : "/fleet/view/reports/?subnav=vehiclehistory"
+                <!--
+                },
+                "activityreportvehicle" : {
+                    "title" : "Trip Report",
+                    "widget" : "ActivityReportVehicle",
+                    "request" : "markup=ActivityReportVehicle&report=activityreportvehicle",
+                    "deeplink" : "/fleet/view/reports/?subnav=activityreportvehicle"
+                -->
+                }
+            }
+        },
+        
+        "controlpanel" : {
+            "title" : "Control Panel",
+            "link" : "view/controlpanel/",
+            "subnav" : {
+                "tripsettings" : {
+                    "title" : "Trip Settings",
+                    "default" : true,
+                    "widget" : "TripSettings",
+                    "deeplink" : "/fleet/view/controlpanel/?subnav=tripsettings"
+                },
+                "geofencing" : {
+                    "title" : "Geo Fencing",
+                    "widget" : "TripSettings",
+                    "deeplink" : "/fleet/view/controlpanel/?subnav=geofencing"
+                },
+                "reportsettings" : {
+                    "title" : "Report Settings",
+                    "widget" : "ReportSettings",
+                    "deeplink" : "/fleet/view/controlpanel/?subnav=reportsettings"
+                },
+                "alertsettings" : {
+                    "title" : "Alert Settings",
+                    "widget" : "AlertSettings",
+                    "deeplink" : "/fleet/view/controlpanel/?subnav=alertsettings"
+                <!-- 
+                },
+               "systemsettings" : {
+                    "title" : "System Settings",
+                    "widget" : "SystemSettings",
+                    "deeplink" : "/fleet/view/controlpanel/?subnav=systemsettings"
+                -->
+                }, 
+                "adminmanage" : {
+                    "title" : "Manage",
+                    "widget" : "AdminManage",
+                    "deeplink" : "/fleet/view/controlpanel/?subnav=adminmanage"
+                <!--
+                },
+                "uploadkml" : {
+                    "title" : "Upload KML",
+                    "widget" : "Upload",
+                    "deeplink" : "/fleet/view/controlpanel/?subnav=uploadKML"
+                -->
+                }  
+            }
+        <!-- -->    
+        },
+        
+         "sas" : {
+                "title" : "SAS",
+                "link" : "/fleet/view/sas/",
+                "subnav" : {
+                    "etadisplay" : {
+                        "title" : "ETA Display",
+                        "default" : true,
+                        "widget" : "EtaDisplay",
+                        "request" : "markup=EtaDisplay&report=etadisplay",
+                        "deeplink" : "/fleet/view/sas/?subnav=etadisplay"
+                    },
+                    "scheduledreport" : {
+                        "title" : "Scheduled Report",
+                        "widget" : "ScheduledReport",
+                        "request" : "markup=ScheduledReport&report=scheduledreport",
+                        "link" : "/fleet/view/sas/?subnav=scheduledreport"
+                    },
+                    "sasviolations" : {
+                      "title" : "Violations",
+                        "widget" : "SasViolations",
+                         "request" : "markup=SasViolations&report=sasviolations",
+                        "deeplink" : "/fleet/view/sas/?subnav=sasviolations"
+                    }
+                }
+            <!-- -->
+			}
+		}
+}/>

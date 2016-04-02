@@ -1,0 +1,389 @@
+<geofencesettings>
+    <geofences>
+        <geofence id="region-0">
+            <id>
+                region-0
+            </id>
+            <name>
+                Region - 0
+            </name>
+            <speedlimit>
+                48
+            </speedlimit>
+            <vehicles type="array">
+                <vehicle>
+                    <vehicleid>
+                        vehicle-29
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 29
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-49
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 49
+                    </vehiclename>
+                </vehicle>
+            </vehicles>
+            <type>
+                1
+            </type>
+            <points type="array">
+                <point lat="12.960398" lon="77.581114"/><point lat="13.018398" lon="77.642114"/>
+            </points>
+        </geofence>
+        <geofence id="region-1">
+            <id>
+                region-1
+            </id>
+            <name>
+                Region - 1
+            </name>
+            <speedlimit>
+                49
+            </speedlimit>
+            <vehicles type="array">
+                <vehicle>
+                    <vehicleid>
+                        vehicle-95
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 95
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-216
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 216
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-193
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 193
+                    </vehiclename>
+                </vehicle>
+            </vehicles>
+            <type>
+                0
+            </type>
+            <points type="array">
+                <point lat="12.960398" lon="77.581114"/><point lat="13.025398" lon="77.638114"/>
+            </points>
+        </geofence>
+        <geofence id="region-2">
+            <id>
+                region-2
+            </id>
+            <name>
+                Region - 2
+            </name>
+            <speedlimit>
+                42
+            </speedlimit>
+            <vehicles type="array">
+                <vehicle>
+                    <vehicleid>
+                        vehicle-34
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 34
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-247
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 247
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-33
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 33
+                    </vehiclename>
+                </vehicle>
+            </vehicles>
+            <type>
+                2
+            </type>
+            <points type="array">
+                <point lat="12.960398" lon="77.581114"/><point lat="13.041398" lon="77.666114"/><point lat="13.114398" lon="77.763114"/><point lat="13.146398" lon="77.800114"/><point lat="13.292398" lon="77.801114"/>
+            </points>
+        </geofence>
+        <geofence id="region-3">
+            <id>
+                region-3
+            </id>
+            <name>
+                Region - 3
+            </name>
+            <speedlimit>
+                49
+            </speedlimit>
+            <vehicles type="array">
+                <vehicle>
+                    <vehicleid>
+                        vehicle-98
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 98
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-137
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 137
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-181
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 181
+                    </vehiclename>
+                </vehicle>
+            </vehicles>
+            <type>
+                0
+            </type>
+            <points type="array">
+                <point lat="12.960398" lon="77.581114"/><point lat="13.025398" lon="77.638114"/>
+            </points>
+        </geofence>
+        <geofence id="region-4">
+            <id>
+                region-4
+            </id>
+            <name>
+                Region - 4
+            </name>
+            <speedlimit>
+                48
+            </speedlimit>
+            <vehicles type="array">
+                <vehicle>
+                    <vehicleid>
+                        vehicle-46
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 46
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-155
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 155
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-164
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 164
+                    </vehiclename>
+                </vehicle>
+            </vehicles>
+            <type>
+                0
+            </type>
+            <points type="array">
+                <point lat="12.960398" lon="77.581114"/><point lat="13.028398" lon="77.661114"/>
+            </points>
+        </geofence>
+        <geofence id="region-5">
+            <id>
+                region-5
+            </id>
+            <name>
+                Region - 5
+            </name>
+            <speedlimit>
+                43
+            </speedlimit>
+            <vehicles type="array">
+                <vehicle>
+                    <vehicleid>
+                        vehicle-90
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 90
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-203
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 203
+                    </vehiclename>
+                </vehicle>
+            </vehicles>
+            <type>
+                0
+            </type>
+            <points type="array">
+                <point lat="12.960398" lon="77.581114"/><point lat="13.020398" lon="77.656114"/>
+            </points>
+        </geofence>
+        <geofence id="region-6">
+            <id>
+                region-6
+            </id>
+            <name>
+                Region - 6
+            </name>
+            <speedlimit>
+                44
+            </speedlimit>
+            <vehicles type="array">
+                <vehicle>
+                    <vehicleid>
+                        vehicle-23
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 23
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-178
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 178
+                    </vehiclename>
+                </vehicle>
+            </vehicles>
+            <type>
+                2
+            </type>
+            <points type="array">
+                <point lat="12.960398" lon="77.581114"/><point lat="13.044398" lon="77.647114"/><point lat="13.136398" lon="77.745114"/><point lat="13.215398" lon="77.752114"/><point lat="13.224397999999999" lon="77.837114"/><point lat="13.210398" lon="77.926114"/><point lat="13.476398" lon="77.935114"/>
+            </points>
+        </geofence>
+        <geofence id="region-7">
+            <id>
+                region-7
+            </id>
+            <name>
+                Region - 7
+            </name>
+            <speedlimit>
+                46
+            </speedlimit>
+            <vehicles type="array">
+                <vehicle>
+                    <vehicleid>
+                        vehicle-54
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 54
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-94
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 94
+                    </vehiclename>
+                </vehicle>
+            </vehicles>
+            <type>
+                1
+            </type>
+            <points type="array">
+                <point lat="12.960398" lon="77.581114"/><point lat="13.010398" lon="77.677114"/>
+            </points>
+        </geofence>
+        <geofence id="region-8">
+            <id>
+                region-8
+            </id>
+            <name>
+                Region - 8
+            </name>
+            <speedlimit>
+                41
+            </speedlimit>
+            <vehicles type="array">
+                <vehicle>
+                    <vehicleid>
+                        vehicle-230
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 230
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-190
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 190
+                    </vehiclename>
+                </vehicle>
+            </vehicles>
+            <type>
+                0
+            </type>
+            <points type="array">
+                <point lat="12.960398" lon="77.581114"/><point lat="13.011398" lon="77.641114"/>
+            </points>
+        </geofence>
+        <geofence id="region-9">
+            <id>
+                region-9
+            </id>
+            <name>
+                Region - 9
+            </name>
+            <speedlimit>
+                41
+            </speedlimit>
+            <vehicles type="array">
+                <vehicle>
+                    <vehicleid>
+                        vehicle-229
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 229
+                    </vehiclename>
+                </vehicle>
+                <vehicle>
+                    <vehicleid>
+                        vehicle-97
+                    </vehicleid>
+                    <vehiclename>
+                        Vehicle 97
+                    </vehiclename>
+                </vehicle>
+            </vehicles>
+            <type>
+                1
+            </type>
+            <points type="array">
+                <point lat="12.960398" lon="77.581114"/><point lat="13.025398" lon="77.671114"/>
+            </points>
+        </geofence>
+    </geofences>
+    <vacantvehicles type="array">
+        <vehicle vehicleid="vehicle-13" vehiclename="Vehicle 13"/><vehicle vehicleid="vehicle-133" vehiclename="Vehicle 133"/><vehicle vehicleid="vehicle-103" vehiclename="Vehicle 103"/><vehicle vehicleid="vehicle-85" vehiclename="Vehicle 85"/><vehicle vehicleid="vehicle-2" vehiclename="Vehicle 2"/><vehicle vehicleid="vehicle-15" vehiclename="Vehicle 15"/><vehicle vehicleid="vehicle-167" vehiclename="Vehicle 167"/><vehicle vehicleid="vehicle-225" vehiclename="Vehicle 225"/><vehicle vehicleid="vehicle-210" vehiclename="Vehicle 210"/><vehicle vehicleid="vehicle-215" vehiclename="Vehicle 215"/><vehicle vehicleid="vehicle-159" vehiclename="Vehicle 159"/><vehicle vehicleid="vehicle-226" vehiclename="Vehicle 226"/><vehicle vehicleid="vehicle-82" vehiclename="Vehicle 82"/><vehicle vehicleid="vehicle-228" vehiclename="Vehicle 228"/><vehicle vehicleid="vehicle-62" vehiclename="Vehicle 62"/><vehicle vehicleid="vehicle-202" vehiclename="Vehicle 202"/><vehicle vehicleid="vehicle-111" vehiclename="Vehicle 111"/><vehicle vehicleid="vehicle-144" vehiclename="Vehicle 144"/><vehicle vehicleid="vehicle-154" vehiclename="Vehicle 154"/><vehicle vehicleid="vehicle-53" vehiclename="Vehicle 53"/><vehicle vehicleid="vehicle-22" vehiclename="Vehicle 22"/><vehicle vehicleid="vehicle-118" vehiclename="Vehicle 118"/><vehicle vehicleid="vehicle-27" vehiclename="Vehicle 27"/><vehicle vehicleid="vehicle-234" vehiclename="Vehicle 234"/>
+    </vacantvehicles>
+</geofencesettings>

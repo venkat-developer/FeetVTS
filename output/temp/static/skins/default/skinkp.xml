@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<skin name="default">
+    <views>
+    	<!-- added for login checking -->
+    	<view name="loginh" title="Login"></view>
+    	<view name="successh" title="Success"></view>
+    	<view name="failureh" title="Failure"></view>
+    	
+        <view name="login" title="Login">
+            <widgetrefs>
+                <widgetref ref="LoginHeader"/>
+                <widgetref ref="LoginBanner"/>
+                <widgetref ref="LoginForm"/>
+            </widgetrefs>
+        </view>
+        <view name="loginfail" title="Login">
+            <widgetrefs>
+                <widgetref ref="LoginHeader"/>
+                <widgetref ref="LoginBanner"/>
+                <widgetref ref="LoginFormFail"/>
+            </widgetrefs>
+        </view>
+        <view name="dashboard" title="Dashboard">
+            <widgetrefs>
+                <widgetref ref="Header"/>
+                <widgetref ref="SupportDesk"/>
+                <widgetref ref="DashboardVehicleStatus"/>
+                <widgetref ref="VacantVehicles"/>
+                <widgetref ref="CountVehicles"/>
+                <widgetref ref="DashboardVehicleHealth"/>
+                <widgetref ref="DashboardViolations"/>
+                <widgetref ref="QuickLinks"/>
+            </widgetrefs>
+        </view>
+        <view name="livetrack" title="Livetrack"> 
+            <widgetrefs>
+                <widgetref ref="Header"/>
+                <widgetref ref="HeaderSubNav"/>
+                <widgetref ref="LiveTrack"/>
+                <widgetref ref="VehicleStatus"/>
+                <widgetref ref="VehicleList"/>
+                <widgetref ref="SortableList"/>
+                <widgetref ref="DialogPopUp"/>
+                <widgetref ref="AlertPopUp"/>
+                <widgetref ref="AlertStatus"/>
+            </widgetrefs>
+        </view>
+        <view name="reports" title="Reports">
+            <widgetrefs>
+                <widgetref ref="Header"/>
+                <widgetref ref="HeaderSubNav"/>
+                <widgetref ref="GroupedReport"/>
+                <widgetref ref="SpeedGraphReport"/>
+                <widgetref ref="VehicleMapReport"/>
+                <widgetref ref="FuelGraph"/>
+                <widgetref ref="VehicleReport"/>
+                <widgetref ref="VehicleStatsReport"/>
+                <widgetref ref="DriverList"/>
+                <widgetref ref="ActivityReport"/>
+                <widgetref ref="ActivityReportVehicle"/>
+                <widgetref ref="VehicleList"/>
+                <widgetref ref="ViolationReport"/>
+                <widgetref ref="DriverReport"/>
+                <widgetref ref="IdlePointsReport"/>
+                <widgetref ref="VehicleStatistics"/>
+  				<widgetref ref="Tncsc"/>
+            </widgetrefs>
+        </view>
+        <view name="controlpanel" title="Control Panel">
+            <widgetrefs>
+                <widgetref ref="Header"/>
+                <widgetref ref="HeaderSubNav"/>
+                <widgetref ref="TripSettings"/>
+                <widgetref ref="GeoFencing"/>
+                <widgetref ref="AlertSettings"/>
+                <widgetref ref="MobileAlertSettings"/>
+                <widgetref ref="ReportSettings"/>
+                <widgetref ref="SystemSettings"/>
+                <widgetref ref="Upload"/>
+            </widgetrefs>
+        </view>
+        <view name="sas" title="SAS">
+            <widgetrefs>
+                <widgetref ref="Header"/>
+                <widgetref ref="HeaderSubNav"/>
+                <widgetref ref="GroupedReport"/>
+                <widgetref ref="VehicleList"/>
+                <widgetref ref="EtaDisplaySideBar"/>
+                <widgetref ref="EtaDisplay"/>
+                <widgetref ref="ScheduledReport"/>
+                <widgetref ref="SasViolations"/>
+            </widgetrefs>
+        </view>
+        <view name="test" title="Used only for Testing!">
+            <widgetrefs>
+                <widgetref ref="ConfirmationPopUp"/>
+                <widgetref ref="GraphReport"/>
+            </widgetrefs>
+        </view>
+    </views>
+    <widgetconfig>
+        <widget name="Header" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="HeaderSubNav" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="tabview"/>
+            </libraryrefs>
+        </widget>
+        <widget name="LiveTrack" type="ui">
+            <widgetrefs>
+                <widgetref ref="FleetMap"/>
+                </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="VehicleStatus" type="ui">
+            <widgetrefs>
+                <widgetref ref="GroupedReport"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+         <widget name="AlertStatus" type="ui">
+            <widgetrefs>
+            <widgetref ref="GroupedReport"/>
+            <widgetref ref="GroupReportViolation"/>
+                <widgetref ref="BaseReport"/>
+                <widgetref ref="DialogPopUp"/>
+                <widgetref ref="ViolationPopUp"/>
+                <widgetref ref="SimpleDialog"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="tabview"/>
+            </libraryrefs>         
+        </widget>
+        <widget name="BaseReport" type="ui">
+            <widgetrefs>
+                <widgetref ref="ReportTimeFrame"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+		<widget name="SpeedGraphReport" type="ui">
+			<widgetrefs>
+				<widgetref ref="VehicleGraphReport" />
+			</widgetrefs>
+		</widget>
+        <widget name="FuelGraph">
+            <widgetrefs>
+                <widgetref ref="VehicleGraphReport"/>
+            </widgetrefs>
+        </widget>
+        <widget name="VehicleGraphReport">
+            <widgetrefs>
+                <widgetref ref="GraphReport"/>
+            </widgetrefs>
+        </widget>
+        <widget name="GraphReport">
+            <widgetrefs>
+                <widgetref ref="VehicleReport"/>
+                <widgetref ref="SimpleDialog"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+				<libraryref ref="ginteractivegraphs" />
+            </libraryrefs>
+        </widget>
+        <widget name="VehicleStatsReport" type="ui">
+            <widgetrefs>
+                <widgetref ref="GroupedReport"/>
+                <widgetref ref="ReportTimeFrame"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="VehicleReport" type="ui">
+            <widgetrefs>
+                <widgetref ref="BaseReport"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+		
+        <widget name="VehicleMapReport" type="ui">
+            <widgetrefs>
+                <widgetref ref="VehicleReport"/>
+                <widgetref ref="SimpleDialog"/>
+                <widgetref ref="FleetMap"/>
+                <widgetref ref="ReportPopUp"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="openlayers"/>
+            </libraryrefs>
+        </widget>
+        <widget name="ViolationReport" type="ui">
+            <widgetrefs>
+                <widgetref ref="GroupReportViolation"/>
+                <widgetref ref="BaseReport"/>
+                <widgetref ref="DialogPopUp"/>
+                <widgetref ref="ViolationPopUp"/>
+                <widgetref ref="SimpleDialog"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="tabview"/>
+            </libraryrefs>
+        </widget>
+        <widget name="ScheduledReport" type="ui">
+            <widgetrefs>
+                <widgetref ref="ReportTimeFrame"/>
+                <widgetref ref="BaseReport"/>
+                <widgetref ref="Report"/>
+                <widgetref ref="SimpleDialog"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="calendar"/>
+            </libraryrefs>
+        </widget>
+        <widget name="SasViolations" type="ui">
+            <widgetrefs>
+                <widgetref ref="GroupedReport"/>
+                <widgetref ref="BaseReport"/>
+                <widgetref ref="DialogPopUp"/>
+                <widgetref ref="SimpleDialog"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="tabview"/>
+                <libraryref ref="connection"/>
+            </libraryrefs>
+        </widget>
+        <widget name="DriverReport" type="ui">
+            <widgetrefs>
+                <widgetref ref="ReportTimeFrame"/>
+                <widgetref ref="GraphReport"/>
+                <widgetref ref="BaseReport"/>
+                <widgetref ref="DialogPopUp"/>
+                <widgetref ref="SimpleDialog"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="ActivityReport" type="ui">
+            <widgetrefs>
+                <widgetref ref="ReportTimeFrame"/>
+                <widgetref ref="BaseReport"/>
+                <widgetref ref="Report"/>
+                <widgetref ref="SimpleDialog"/>
+				<widgetref ref="ViolationPopUp" />
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="calendar"/>
+            </libraryrefs>
+        </widget>
+         <widget name="ActivityReportVehicle" type="ui">
+            <widgetrefs>
+				<widgetref ref="ViolationPopUp" />
+                <widgetref ref="ReportTimeFrame"/>
+                <widgetref ref="BaseReport"/>
+                <widgetref ref="Report"/>
+                <widgetref ref="SimpleDialog"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="calendar"/>
+            </libraryrefs>
+        </widget>
+      <widget name="Tncsc" type="ui">
+            <widgetrefs>
+				<widgetref ref="ViolationPopUp" />
+                <widgetref ref="ReportTimeFrame"/>
+                <widgetref ref="BaseReport"/>
+                <widgetref ref="Report"/>
+                <widgetref ref="SimpleDialog"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="calendar"/>
+            </libraryrefs>
+        </widget>
+        <widget name="ReportTimeFrame" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+                <widgetref ref="CustomReportTimeFrame"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="calendar"/>
+                <libraryref ref="datatable"/>
+            </libraryrefs>
+        </widget>
+        <widget name="CustomReportTimeFrame" type="ui">
+            <widgetrefs>
+                <widgetref ref="DialogPopUp"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="DriverSpeedGraph" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        
+        <widget name="GeoFencing" type="ui">
+            <widgetrefs>
+                <widgetref ref="GeoFencingToolBar"/>
+                <widgetref ref="DialogPopUp"/>
+                <widgetref ref="EditVehiclePopUp"/>
+              <!--    <widgetref ref="Assignment"/>-->
+                <widgetref ref="SimpleDialog"/>
+                <widgetref ref="GeoFencingSideBar"/>
+                <widgetref ref="GeoFencingDetails"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="connection"/>
+                <libraryref ref="googlemap"/>
+
+            </libraryrefs>
+        </widget>
+                
+        <widget name="GeoFencingDetails" type="ui">
+            <widgetrefs>
+                <widgetref ref="FleetMap"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="googlemap"/>
+            </libraryrefs>
+        </widget>
+        
+        <widget name="GeoFencingToolBar" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        
+         <widget name="GeoFencingSideBar" type="ui">
+            <widgetrefs>
+                <widgetref ref="MinimizableList"/>
+                <widgetref ref="SidePaneList"/>
+                <widgetref ref="SortableList"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="autocomplete"/>
+            </libraryrefs>
+        </widget>
+        
+        <widget name="EditVehiclePopUp" type="ui">
+            <widgetrefs>
+                <widgetref ref="PopUp"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+        </widget>
+        <widget name="ReportVehiclePopUp" type="ui">
+            <widgetrefs>
+                <widgetref ref="PopUp"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+        </widget>
+        <widget name="AlertVehiclePopUp" type="ui">
+            <widgetrefs>
+                <widgetref ref="PopUp"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+        </widget>
+        <widget name="MobileVehiclePopUp" type="ui">
+            <widgetrefs>
+                <widgetref ref="PopUp"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+        </widget>
+        <widget name="EtaDisplay" type="ui">
+            <widgetrefs>            
+                <widgetref ref="DialogPopUp"/>
+                <widgetref ref="SimpleDialog"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="connection"/>
+                <libraryref ref="datatable"/>
+            </libraryrefs>
+        </widget>
+        <widget name="EtaDisplaySideBar" type="ui">
+            <widgetrefs>
+                <widgetref ref="MinimizableList"/>
+                <widgetref ref="SortableList"/>
+                
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="autocomplete"/>
+            </libraryrefs>
+        </widget>
+        <widget name="SidePane" type="ui">
+           
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="autocomplete"/>
+            </libraryrefs>
+        </widget>
+        
+        <widget name="TripSettings" type="ui">
+            <widgetrefs>
+                <widgetref ref="TripSettingsToolBar"/>
+                <widgetref ref="DialogPopUp"/>
+                <widgetref ref="SimpleDialog"/>
+                <widgetref ref="TripSettingsSideBar"/>
+                <widgetref ref="TripDetails"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="connection"/>
+            </libraryrefs>
+        </widget>
+        <widget name="TripDetails" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+                <widgetref ref="SimpleDialog"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="ReportSettings" type="ui">
+            <widgetrefs>
+                <widgetref ref="ReportSettingsList"/>
+                <widgetref ref="SearchToolBar"/>
+                <widgetref ref="ReportSettingsReport"/>
+                <widgetref ref="ReportVehiclePopUp"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="SearchToolBar" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="autocomplete"/>
+            </libraryrefs>
+        </widget>
+        <widget name="ReportSettingsList" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+                <widgetref ref="MinimizableList"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="ReportSettingsReport" type="ui">
+            <widgetrefs>
+                <widgetref ref="UpdatableReport"/>
+            </widgetrefs>
+        </widget>
+        <widget name="TripSettingsToolBar" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="AlertSettings" type="ui">
+            <widgetrefs>
+                <widgetref ref="SearchToolBar"/>
+                <widgetref ref="AlertSearchToolBar"/>
+                <widgetref ref="AlertSettingsList"/>
+                <widgetref ref="AlertSettingsReport"/>
+                <widgetref ref="AlertVehiclePopUp"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="AlertSettingsList" type="ui">
+            <widgetrefs>
+                <widgetref ref="MinimizableList"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="autocomplete"/>
+            </libraryrefs>
+        </widget>
+        <widget name="AlertSettingsReport" type="ui">
+            <widgetrefs>
+                <widgetref ref="UpdatableReport"/>
+            </widgetrefs>
+        </widget>
+        <widget name="UpdatableReport">
+            <widgetrefs>
+                <widgetref ref="Report"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+        </widget>
+                <widget name="MobileAlertSettings" type="ui">
+            <widgetrefs>
+                <widgetref ref="SearchToolBar"/>
+                 <widgetref ref="MobileSearchToolBar"/>
+                <widgetref ref="MobileAlertSettingsList"/>
+                <widgetref ref="MobileAlertSettingsReport"/>
+                <widgetref ref="MobileVehiclePopUp"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="MobileAlertSettingsList" type="ui">
+            <widgetrefs>
+                <widgetref ref="MinimizableList"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="autocomplete"/>
+            </libraryrefs>
+        </widget>
+        <widget name="MobileAlertSettingsReport" type="ui">
+            <widgetrefs>
+                <widgetref ref="UpdatableReport"/>
+            </widgetrefs>
+        </widget>
+        <widget name="UpdatableReport">
+            <widgetrefs>
+                <widgetref ref="Report"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+        </widget>
+        <widget name="AlertSearchToolBar" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+                <widgetref ref="GroupedReport"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="SearchToolBar" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="AlertSearchToolBar" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+                <widgetref ref="GroupedReport"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                
+                <libraryref ref="autocomplete"/>
+            </libraryrefs>
+        </widget>
+         <widget name="MobileSearchToolBar" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+                <widgetref ref="GroupedReport"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                
+                <libraryref ref="autocomplete"/>
+            </libraryrefs>
+        </widget>
+           <widget name="MobileSearchToolBar" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+                <widgetref ref="GroupedReport"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        
+        <widget name="Buttons" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="SupportDesk" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="DashboardViolations" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="tabview"/>
+            </libraryrefs>
+        </widget>
+        <widget name="Report" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="datatable"/>
+            </libraryrefs>
+        </widget>
+        <widget name="GroupedReport" type="ui">
+            <widgetrefs>
+             <widgetref ref="ViolationPopUp"/>
+                <widgetref ref="Report"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="datatable"/>
+            </libraryrefs>
+        </widget>
+        <widget name="GroupReportViolation" type="ui">
+        
+            <widgetrefs>
+             <widgetref ref="ViolationPopUp"/>
+                <widgetref ref="Report"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="datatable"/>
+            </libraryrefs>
+        </widget>
+        <widget name="SidePaneList" type="ui">
+            <widgetrefs>
+                <widgetref ref="MinimizableList"/>
+                <widgetref ref="SortableList"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="accordion"/>
+                <libraryref ref="autocomplete"/>
+            </libraryrefs>
+        </widget>
+        <widget name="TripSettingsSideBar" type="ui">
+            <widgetrefs>
+                <widgetref ref="MinimizableList"/>
+                <widgetref ref="SortableList"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="autocomplete"/>
+            </libraryrefs>
+        </widget>
+        <widget name="MinimizableList" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="DriverList" type="ui">
+            <widgetrefs>
+                <widgetref ref="SidePaneList"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="VehicleList" type="ui">
+            <widgetrefs>
+                <widgetref ref="SidePaneList"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="DashboardVehicleStatus" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="DashboardVehicleHealth" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="CountVehicles" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="SortableList" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="VacantVehicles" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="LoginBanner" type="ui">
+        </widget>
+        <widget name="QuickLinks" type="ui">
+            <widgetrefs>
+                <widgetref ref="AddLinks"/>
+            </widgetrefs>
+        </widget>
+        <widget name="AddLinks" type="ui">
+            <widgetrefs>
+                <widgetref ref="DialogPopUp"/>
+            </widgetrefs>
+        </widget>
+        <widget name="DialogPopUp" type="ui">
+            <widgetrefs>
+                <widgetref ref="PopUp"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+        </widget>
+         <widget name="ViolationPopUp" type="ui">
+            <widgetrefs>
+                <widgetref ref="PopUp"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+        </widget>
+         <widget name="AlertPopUp" type="ui">
+            <widgetrefs>
+                <widgetref ref="PopUp"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+        </widget>
+        <widget name="ConfirmationPopUp" type="ui">
+            <widgetrefs>
+                <widgetref ref="PopUp"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+        </widget>
+        <widget name="WarningPopUp" type="ui">
+            <widgetrefs>
+                <widgetref ref="PopUp"/>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+        </widget>
+        <widget name="PopUp" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="LoginForm" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+             <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="datatable"/>
+                 </libraryrefs>
+        </widget>
+        <widget name="LoginFormFail" type="ui">
+            <widgetrefs>
+                <widgetref ref="Buttons"/>
+            </widgetrefs>
+             <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="datatable"/>
+                 </libraryrefs>
+        </widget>
+        <widget name="LoginHeader" type="ui">
+        </widget>
+        <widget name="FleetMap" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="openlayers"/>
+            </libraryrefs>
+        </widget>
+        <widget name="SimpleDialog" type="ui">
+        </widget>
+        <widget name="ReportPopUp" type="ui">
+         <libraryrefs>
+                <libraryref ref="base"/>
+                <libraryref ref="openlayers"/>
+            </libraryrefs>
+        </widget>
+        <widget name="SystemSettings" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+          <widget name="Upload" type="ui">
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="IdlePointsReport" type="ui">
+            <widgetrefs>
+                <widgetref ref="VehicleReport"/>
+                <widgetref ref="Report"/>
+                <widgetref ref="SimpleDialog"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+        <widget name="VehicleStatistics" type="ui">
+            <widgetrefs>
+                <widgetref ref="VehicleReport"/>
+                <widgetref ref="SimpleDialog"/>
+				<widgetref ref="ViolationPopUp" />
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="base"/>
+            </libraryrefs>
+        </widget>
+    </widgetconfig>
+    <libraries>
+        <library name="base" base="true">
+            <scripts>
+                <script name="yahoo">
+                    lib/yui/yahoo/yahoo.js
+                </script>
+                <script name="dom">
+                    lib/yui/dom/dom.js
+                </script>
+                <script name="event">
+                    lib/yui/event/event.js
+                </script>
+                <script name="bubbling">
+                    lib/bubbling/bubbling/bubbling.js
+                </script>
+                <script name="container">
+                    lib/yui/container/container.js
+                </script>
+                <script name="element">
+                    lib/yui/element/element.js
+                </script>
+                <script>
+                    js/base.js
+                </script>
+                <script>
+                    js/json.js
+                </script>
+                <script>
+                    js/com/i10n/fleet/init/Loader.js
+                </script>
+                <script>
+                    js/com/i10n/fleet/pushlet/pushlet.js
+                </script>
+                <script>
+                    js/com/i10n/fleet/utils/utils.js
+                </script>
+                <script>
+                    skins/default/com/i10n/fleet/views/base/baseview.js
+                </script>
+                <script>
+                    skins/default/com/i10n/fleet/views/base/basesubnavview.js
+                </script>
+            </scripts>
+            <stylesheets>
+                <stylesheet name="container">
+                    lib/yui/container/assets/container-core.css
+                </stylesheet>
+                <stylesheet name="base">
+                    css/base.css
+                </stylesheet>
+                <stylesheet>
+                    css/rounded.css
+                </stylesheet>
+                <stylesheet>
+                    css/icons.css
+                </stylesheet>
+                <stylesheet>
+                    css/maps.css
+                </stylesheet>
+            </stylesheets>
+        </library>
+        <library name="gmap2api">
+            <scripts>
+                <script name="gmap2api">
+                    http://maps.google.com/maps?file=api&amp;v=2
+                </script>
+            </scripts>
+            <stylesheets>
+                <stylesheet>
+                    css/maps.css
+                </stylesheet>
+            </stylesheets>
+        </library>
+		<library name="ginteractivegraphs">
+			<scripts>
+				<script name="ginteractivegraphs">
+					http://www.google.com/jsapi
+                </script>
+			</scripts>
+		</library>
+        <library name="openlayers">
+            <scripts>
+                <script name="openlayers" merge="false" min="false">
+                    lib/openlayers/OpenLayers.js
+                </script>
+                <script name="maps.openlayers" merge="false" min="false">
+                    js/com/i10n/fleet/lib/maps/Maps.OpenLayers.js
+                </script>
+            </scripts>
+            <stylesheets>
+                <stylesheet>
+                    css/maps.css
+                </stylesheet>
+            </stylesheets>
+        </library>
+        <library name="googlemap">
+            <scripts>
+                <script name="gmap2" merge="false" min="false">
+					<!--Generated a unique key for all servers using this link http://code.google.com/apis/maps/signup.html for google map loading-->
+					<!--URL for localhost server-->
+<!--               		http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAWfIsDQAjav41OJhoM83i9RTwM0brOpm-All5BF6PoaKBxRWWERTargGUnTT2dmy1zbsJfdNjVGbXPQ-->
+                	<!--URL for fleet.ksp.gov.in server-->
+<!--                    http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAWfIsDQAjav41OJhoM83i9RSurXaVzq8Zd_5Hev0bMvlcLX0dYhRysUDMe6hJGChFhxLUGTmbvDshwg-->
+					<!--URL for mailer.gwtrack.com server-->
+<!--                    http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAWfIsDQAjav41OJhoM83i9RSvOlrilQlj5bg-URYG7-bA6HIrMhT5a8T96sHfGkPGp-lcr7pfw5a1lg-->
+                    <!--URL for gwtrack.com server-->
+<!--                    http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAWfIsDQAjav41OJhoM83i9RQlAUaY5eENPjwF3Wu8JXcknRzoEhQJlYhrK0fFQNZu9_NBA0PY1EYQKg-->
+                    <!--URL for kp.gwtrack.com server-->
+ <!--                     	http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAWfIsDQAjav41OJhoM83i9RTxiIPNMWOhefkpcAfGJsZSDUcBwBRZ6fNXHUzVWcJXtI9LBtT97KmQBQ -->
+					<!--URL for kp2.gwtrack.com server-->
+                    http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAWfIsDQAjav41OJhoM83i9RR7WIWl30i6AN1TaDPNkKrzLwgNORRwgUR4qBnM-YH1aPAPjTRA0UdalA
+					<!--URL for bp2.ksp.gov.in server-->
+<!--                    http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAWfIsDQAjav41OJhoM83i9RS7i3CA8Evl9vICaC9OkjMI78viUxQRiir1a_KEqgp3RYUUwnayrwLCVw-->
+					<!--URL for bpl.gwtrack.com server-->
+<!--                    http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAWfIsDQAjav41OJhoM83i9RR0bfufDXAU6-BOcicq6zGSjokqvRTzt85lywPwT2Z-vuIlJf3JIyw1_A-->
+					<!--URL for dl86.gwtrack.com server-->
+<!--                    http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAWfIsDQAjav41OJhoM83i9RTq8XXqiDlf5xOjYXYoJSKChfKflxR0GuiPGvRi0tt3rsieysBRjykJAw-->
+                </script>
+                <script name="maps.gmap2" merge="false" min="false">
+                    js/com/i10n/fleet/lib/maps/Maps.Google.V2.js
+                </script>
+            </scripts>
+            <stylesheets>
+                <stylesheet>
+                    css/maps.css
+                </stylesheet>
+            </stylesheets>
+        </library>
+        <library name="googlemapv3">
+            <scripts>
+                <script name="gmap3" merge="false" min="false">
+                    http://maps.google.com/maps/api/js?sensor=false
+                </script>
+                <script name="maps.gmap3" merge="false" min="false">
+                    js/com/i10n/fleet/lib/maps/Maps.Google.V3.js
+                </script>
+            </scripts>
+        </library>
+        <library name="calendar">
+            <scripts>
+                <script name="button">
+                    lib/yui/button/button.js
+                </script>
+                <script name="calendar">
+                    lib/yui/calendar/calendar.js
+                </script>
+            </scripts>
+            <stylesheets>
+                <stylesheet>
+                    lib/yui-skins/assets/skins/sam/container.css
+                </stylesheet>
+                <stylesheet>
+                    lib/yui-skins/assets/skins/sam/button.css
+                </stylesheet>
+                <stylesheet>
+                    lib/yui-skins/assets/skins/sam/calendar.css
+                </stylesheet>
+            </stylesheets>
+        </library>
+        <library name="accordion">
+            <scripts>
+                <script name="accordion">
+                    lib/bubbling/accordion/accordion.js
+                </script>
+            </scripts>
+            <stylesheets>
+                <stylesheet>
+                    lib/yui-skins/assets/skins/sam/accordion.css
+                </stylesheet>
+            </stylesheets>
+        </library>
+        <library name="autocomplete">
+            <scripts>
+                <script name="datasource">
+                    lib/yui/datasource/datasource.js
+                </script>
+                <script name="animation">
+                    lib/yui/animation/animation.js
+                </script>
+                <script name="autocomplete">
+                    lib/yui/autocomplete/autocomplete.js
+                </script>
+            </scripts>
+            <stylesheets>
+                <stylesheet>
+                    lib/yui/autocomplete/assets/autocomplete-core.css
+                </stylesheet>
+                <stylesheet>
+                    lib/yui/autocomplete/assets/skins/sam/autocomplete.css
+                </stylesheet>
+            </stylesheets>
+        </library>
+        <library name="tabview">
+            <scripts>
+                <script name="connection">
+                    lib/yui/connection/connection.js
+                </script>
+                <script name="tabview">
+                    lib/yui/tabview/tabview.js
+                </script>
+            </scripts>
+        </library>
+        <library name="datatable">
+            <scripts>
+                <script name="connection">
+                    lib/yui/connection/connection.js
+                </script>
+                <script name="paginator">
+                    lib/yui/paginator/paginator.js
+                </script>
+                <script name="datasource">
+                    lib/yui/datasource/datasource.js
+                </script>
+                <script name="datatable">
+                    lib/yui/datatable/datatable.js
+                </script>
+            </scripts>
+        </library>
+        <library name="yahoo-dom-event">
+            <scripts>
+                <script>
+                    lib/yui/yahoo-dom-event/yahoo-dom-event.js
+                </script>
+            </scripts>
+        </library>
+        <library name="connection">
+            <scripts>
+                <script>
+                    lib/yui/connection/connection.js
+                </script>
+            </scripts>
+        </library>
+    </libraries>
+</skin>

@@ -1,0 +1,42 @@
+<#import "/macros/skin.ftm" as skin>
+<#include "/mock/SiteData.ftd">
+<#macro init params={}>
+	<#local users =view.user>
+    <@skin.widget name="Header" params={}/>
+    <div class="dashboard-container">
+        <div class="hd">
+            <div class="title inline-block"></div>
+            <div class="welcome-block inline-block">
+                <div>
+                    <div class="welcome-text inline-block"><table><tr><td><br><br>Welcome ${users.username}!</div>
+                    <div class="clock inline-block">&nbsp;</div>
+                    <div class="lastlogin inline-block">Your last login is ${users.lastlogin}</td></tr></table></div>
+                </div>
+            </div>
+        </div>
+        <div class="bd">
+            <div class="left-bd inline-block">
+                <div>
+                    <div class="quicklinks-widget">
+                        <@skin.widget name="QuickLinks" params={
+                            "maxLinks" : 5
+                        }/>
+                    </div>
+                </div>
+            </div>
+            <div class="main-bd inline-block">
+                <div>
+                    <div class="userinfo-widget">
+                        <@skin.widget name="UserInfo"/>
+                        </div>
+                    
+                <div>
+            </div>
+            <div class="right-bd inline-block">
+            </div>
+        </div>
+    </div>
+    <div id="flip-container" class="flip-container">
+        <@skin.widget name="AddLinks" params={}/>
+    </div>
+</#macro>

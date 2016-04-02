@@ -1,0 +1,5 @@
+<#import "/macros/json-publish.ftm" as json/>
+<#macro init params={}>
+    <!-- <div id="veh-maps-rpt cnt-resizable" class="veh-maps-rpt cnt-resizable" layers="I10N|I10NTMSV2|GoogleStreetsTiles|GooglePhysicalTiles|GoogleHybridTiles|GoogleSatelliteTiles" defaultLayer="I10N">-->
+    <div id="veh-maps-rpt cnt-resizable" class="veh-maps-rpt cnt-resizable" />
+</#macro>

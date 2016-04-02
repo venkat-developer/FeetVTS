@@ -1,0 +1,20 @@
+<#macro init params={}>
+    <@skin.widget name="ActionManager" params= {
+        "title" : "Users",
+        "tabs" : {
+            "add" : {
+                "title" : "Add User",
+                "widget" : "AddUser",
+                "default" : true
+            },
+            "edit" : {
+                "title" : "Edit User",
+                "widget" : "EditUser"
+            },
+            "delete" : {
+                "title" : "Delete User",
+                "widget" : "DeleteUser"
+            }
+        }
+    }/>
+</#macro>

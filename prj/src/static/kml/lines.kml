@@ -1,0 +1,2374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="stationIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://kp.gwtrack.com/kmlimages/policestn.png</href>
+        </Icon>
+      </IconStyle>
+ </Style>
+<Placemark>
+	<name>Ashok Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.815252,17.325875,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>MB Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.867556,17.32717,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Gulbarga University Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.876589,17.309894,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Shahabad Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.934691,17.130225,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Chitapur Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.082805,17.116309,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Afzalpur Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.358472,17.201864,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Aland Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.56099,17.561883,678</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+	<name>Dandeli Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.621214,15.257272,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Mallapur Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.332739,14.900342,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Market Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.128763,14.807395,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Ankola Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.305743,14.6597,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Gokarna Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.322464,14.544002,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Sirsi Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.825389,14.621245,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Honnavar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.450998,14.281778,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Bhatkal Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.553284,13.990296,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>City Police Station Hassan</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.100205,13.003518,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Chowki</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.113769,13.007004,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Alur Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.990763,12.977479,678</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+	<name>Commissioner Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.140567, 15.351192,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Hubli Sub-Urban Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.139604, 15.350599,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Kamaripet Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.136844, 15.344469,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Vikas Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.135181, 15.355201,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Vidya Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.124467, 15.364532,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>VidyaGiri Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.013847, 15.453018,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Navgiri  Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.083199, 15.40801,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Commissioner Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.078966, 15.398711,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Keshvapuri Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.149255, 15.365479,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Kasbhapet Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.133116, 15.337141,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Old Hubli Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.126861, 15.336709,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Bagalkot Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.691913,16.506006,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Town Police STation Jamkhandi</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.289215,16.506006,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Jamkhandi Old Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.280627,16.510468,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Jamkhandi New Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.280455,16.509457,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Hanamsagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.047655,15.872753,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Raybag Police Station Tahashildar Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.773069,16.4928,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Kohalli</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.24987,16.779446,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Tikota Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.517884,16.845029,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Adarsh Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.710598,16.849991,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SP Quarters</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.718382,16.820157,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Commissioner Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.593694,12.984193,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>High Ground Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.588587,12.986673,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Asst Commissioner of Traffic Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.596872,12.983106,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Ulsoor Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.625263,12.974826,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>RamaMurthy Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.667731,13.012212,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>JC Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.593402,13.005624,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SR Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.59184,12.963155,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Halasuru Gate Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.586854,12.96666,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Srirampuram Police station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.564844,12.990103,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Basaveshwarnagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.542515,12.985422,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Malleshwaram Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.569567,12.996681,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Halasuru Gate Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.58686,12.966668,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Cubbon Park Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.598326,12.976292,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Karnataka Head Quatere Wireless</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.601073,12.976909,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Out Post</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.605474,12.975623,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Director General Of Police</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.587552,12.969512,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Cottonpet Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.570061,12.968221,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Central Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.57203,12.960175,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Traffic Police Check Point</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.565228,12.960633,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Of Chamarajpet</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.564356,12.960622,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>JJR Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.554944,12.964295,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Magadi Road Police Chowk</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.545884,12.967011,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Telecom Layout Police Chowki</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.546661,12.966741,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Vijaynagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.537732,12.970798,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Vijayanagar Traffic Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.541439,12.973336,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Magadi Road Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.551476,12.974557,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>KP Agrahara Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.560212,12.971248,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Chikpet Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.573658,12.970759,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Upparpet Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.573658,12.970759,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Seshadripuram Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.574352,12.987946,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Vyalikaval Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.578572,13.001751,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Sadashiv Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.572515,13.014925,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Yeswanthpur Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.558168,13.018171,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Sanjaynagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.575726,13.033327,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Amruthahalli Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.604881,13.068356,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Kodigehalli Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.574039,13.062106,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Vidyaranyapura</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.564232,13.083408,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Yelahanka Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.594085,13.095127,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Yelahanka NewTown Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.580497,13.100263,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Armed Police Traning Centre</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.604216,13.123863,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Rajan Kunte Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.564171,13.17376,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Devanahalli Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.712441,13.245431,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.537923,13.30841,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Town Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.544607,13.308728,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Hennur Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.637524,13.033228,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>KG Halli Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.619231,13.020975,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Banaswadi Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.640187,13.019809,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>KR Puram Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.693139,13.00927,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Traffic Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.693958,13.008149,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Baiyapannahalli Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.656439,12.991252,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Old Baiyapannahalli Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.642987,12.995818,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Indira Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.638449,12.983059,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Jeevan Bheema Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.655747,12.967761,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Jeevan Bheema Nagar Traffic Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.655908,12.967424,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Airport Road POlice Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.667321,12.958766,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>HAL Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.682743,12.955078,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Vivek Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.622214,12.951599,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Koramangala Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.621275,12.94118,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Dog Training Grounds</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.616737,12.938244,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Adugodi Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.610101,12.939258,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Madivala Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.620709,12.921037,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Madivala Traffic Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.620913,12.921194,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Mico Layout Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.610581,12.908598,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Mico Layout Traffic Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.600217,12.913979,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>JP Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.587656,12.911869,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Tilak Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.590521,12.928493,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Banashankari 2nd Stage Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.565279,12.922799,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Kumaraswamy Layout Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.563106,12.905625,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Subramanyapura Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.544296,12.90122,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Rajarajeshwari Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.520553,12.912912,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Jnanabharati Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.510004,12.935656,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Girinagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.543979,12.936032,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Ashoka Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.560864,12.936966,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Hanumantha Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.559193,12.936607,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>HanumanthNagar Police Staion</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.561569,12.936315,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Chennamanakere Achukattu Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.560539,12.930153,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Banashankari Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.565273,12.92281,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Thyagarajanagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.567963,12.929332,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Womens Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.567929,12.92912,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>ACP Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.579307,12.936479,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>JayaNagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.581332,12.928545,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Wilson Garden Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.596084,12.950224,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Jayanagar</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.585516,12.943253,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Siddapura Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.592414,12.938816,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Karnataka State Reserve Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.628576,12.921479,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>HSR Lay Out Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.651334,12.921244,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Varthur Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.747167,12.939054,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Whitefield Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.727131,12.973171,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Circle Inspector Of Police</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.74919,12.970712,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Hulimavu Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.599852,12.876674,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Bangalore Central Jail</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.664346,12.878021,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Electronic City Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.663131,12.839978,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Hebbagodi Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.682083,12.826319,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Attibele Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.771125,12.778976,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Hosur Traffic Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.820094,12.740298,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Town Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.827301,12.726759,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Traffic Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.827274,12.728363,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Check Post</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.82048,12.851213,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Bannerghatta Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.581353,12.813575,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Kengeri Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.481363,12.910143,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>POlice Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.481792,12.910786,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Thavarekere Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.400623,12.966239,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Byadarahalli Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.491132,12.98671,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Malmaruti Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.529211,15.881755,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Market Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.519695,15.862472,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Belgaum Traffic Police Station Women Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.51308,15.863295,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Khade Bazar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.510578,15.862338,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Traffic Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.505366,15.85741,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Camp Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.504551,15.854533,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Tilakwadi Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.50152,15.835947,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Belgaum Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.516395,15.832154,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.925067,15.1445,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Gandhi Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.930695,15.145168,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Brucepet Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.9251,15.138154,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Gymkhana</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.922745,15.153709,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Cowl Bazar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.90317,15.137763,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>NCC Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.897502,15.149745,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>New Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.835031,15.343665,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Sandur</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.54384,15.083206,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>New Town Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.509212,17.923516,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Traffic Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.518576,17.916725,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Market Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.520928,17.913621,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Gandhi Ganj Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.511801,17.90819,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Town Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.53097,17.912781,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Bidar Rural Police Station and Circle Inspectors Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.531062,17.907399,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Bidar Traffic Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.53236,17.907312,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.535806,17.909397,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SP Quarters</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.718393,16.820165,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Gandhi Chowk Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.714383,16.829302,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Adarsh Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.710603,16.850006,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Tikota Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.517876,16.845024,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Horti</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.784901,17.117893,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.249913,16.77952,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Indi</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.95422,17.176908,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Talikoti</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.310565,16.479809,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.931301,11.925391,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Town Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.936872,11.927168,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SP Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.937569,11.926407,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>District Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.948078,11.929711,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>District Commissioner Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.946488,11.930742,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>East Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.95381,11.929519,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.20038,12.653754,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Karnataka State Police Academy</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.22758,12.674496,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Town Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.280291,12.718976,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Head Quarters</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.28726,12.729001,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Ramanagara Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.285194,12.729614,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Santhanur Police station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.320693,12.451839,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.419224,12.554043,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Old Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.422502,12.54883,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>City Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.422657,12.546693,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Vijayapura Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.802815,13.29426,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Gbd Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.50822,13.601427,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Chintamani Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>78.053475,13.400889,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Bettalahalli Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>78.130694,13.582077,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Traffic Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.391053,14.22975,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.403608,14.236286,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Superintendent Of Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.407457,14.227657,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Town Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.403453,14.223999,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Control Room</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.405502,14.222254,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Kote Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.387561,14.217597,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Extension Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.919926,14.464771,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Traffic Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.930842,14.460293,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Harihar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.806672,14.514909,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Malebennur Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.73859,14.351801,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Traffic Police Station Ranebennur</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.621393,14.620326,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.625996,14.620376,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>City Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.635472,14.621749,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Sub Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.158361,14.614988,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Harpanahalli</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.986359,14.789141,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Bank Rd</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.632546,15.42974,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Panchaxri Nagar</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.641783,15.42651,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Shivaji Nagar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.396656,14.792969,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Traffic Plice Station Ranebennur</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.62138,14.620313,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.626001,14.620373,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Hangal Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.12527,14.77163,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Kolar Town Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>78.133384,13.132237,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Bangarpet Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>78.177603,12.989099,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>BEML Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>78.238765,12.979306,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Oorgaum Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>78.259171,12.954958,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Robertsonpet Police station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>78.271729,12.957567,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Champion Reef Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>78.260158,12.932911,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Superintendent Of Police Head Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>78.261626,12.932017,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Marikuppam Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>78.265917,12.927115,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SP Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.154828,15.351543,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Hampi Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.466257,15.334154,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>City Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.599112,15.406088,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Sandur Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.543834,15.083221,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>New police station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.83502,15.34367,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Diputy SP Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.761657,15.770776,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Sindhanur Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.757649,15.772049,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Sindhanur Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.769019,15.78655,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Check Post Abbey Falls</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.716799,12.45825,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Suntikoppa</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.828905,12.45247,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Kodagu Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.725326,12.429633,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Office Of the Superintendent Of Police</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.737839,12.425714,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Madikeri S P Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.736774,12.422752,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Office Of The Deputy Superintendent Of Police</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.736881,12.422804,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.736953,12.422812,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Society</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.737206,12.422843,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.740438,12.42096,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Check Post Sudharshan Circle</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.749766,12.416677,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.884521,12.519421,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Superintendent Of Police Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.885301,12.524082,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Kavoor Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.849351,12.92424,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Urwa Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.835774,12.902224,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Old Urva Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.829605,12.890064,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Kankanady Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.874385,12.882934,678</coordinates>
+	</Point>Details about station
+</Placemark>
+<Placemark>
+	<name>Barke Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.831992,12.886586,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Kadri Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.852881,12.890234,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Bunder Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.833602,12.864217,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Port Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.832003,12.863108,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>IGP Western Range Mangalore</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.837668,12.859238,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Ullal Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.841573,12.819501,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Bajpe Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.892503,12.980853,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Surathkal Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.799774,12.992123,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>District Police Headquaters</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.837923,12.860245,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Bantwal Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.031103,12.881433,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Puttur Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.198953,12.762802,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Puttur Rural Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.220304,12.729658,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Sulya Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.392839,12.556475,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Kadaba Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.468049,12.742161,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Nelyady Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.404711,12.838156,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Bellare Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.370464,12.663834,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Belthangady Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.282459,12.989982,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Moodabidri Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.999936,13.066449,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Padubidri Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.770012,13.140664,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Mulki</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.789192,13.090681,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Singatagere Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.173998,13.516276,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Outpost</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.350305,16.273202,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SP Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.355101,16.221443,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Head Quarters Old Line</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.352161,16.222816,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Chowki</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.560271,13.950428,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Chowki</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.545438,13.931901,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station BH Rd</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.807887,13.71255,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Lingadahalli Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.841361,13.59656,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Hosanagara Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.065884,13.915843,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Sagara</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>75.023081,14.167725,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.105459,13.348157,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.103445,13.34503,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Vivekananda Rd</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.105765,13.342619,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>NEPS</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.109775,13.338686,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SP Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.122135,13.334027,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Sira</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.90335,13.74413,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Koratagere Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.242166,13.526287,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Pavagada Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.285138,14.102498,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Deputy Superintedent Of Police</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.611075,13.959167,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Superintendent Of Police Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.73827,13.343344,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>District Commissioner Office</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.739376,13.342708,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Town Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.748173,13.330765,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Malpe Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.70338,13.360613,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Shirva Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.832223,13.211125,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Manipal Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.786097,13.34918,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Brahmavar Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>74.744027,13.4382,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Station Yadgir</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.137724,16.771505,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Police Staion Chitapur</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>77.082805,17.116314,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Shahapur Police Station</name>
+	<description>Details about station</description>
+	<styleUrl>#stationIcon</styleUrl>
+	<Point>
+	<coordinates>76.841616,16.700119,678</coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

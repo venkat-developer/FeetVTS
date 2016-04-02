@@ -1,0 +1,103 @@
+/**
+ * TotalCount Vehicles UI Widget CSS
+ */
+.countvehicles {
+    padding: 0 10px 0 10px;
+    width: 194px;
+}
+
+.countvehicles .totalcount-vehicles-container {
+    width: 194px;
+    height: 120px;
+}
+
+.countvehicles .totalcount-vehicles-container .hd {
+    padding-top: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+   
+}
+
+.countvehicles .totalcount-vehicles-container .bd {
+	color: #4F5054;
+	font-size: 1.1em;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.countvehicles .totalcount-vehicles-container .bd .assign {
+    background-image: url("/static/img/icons/widget-header-icons.png");
+    background-position: 0px 2px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-left: 19px;
+    height: 14px;
+    color: #1F5A85;
+}
+
+.countvehicles .totalcount-vehicles-container .rounded-rect .nested {
+    font-weight: bold;
+    font-size: 1.2em;
+    height: 23px;
+    background-color: #53A81A;
+    border-color: #53A81A;
+    padding-left: 14px;
+    padding-top: 7px;
+}
+
+.countvehicles .totalcount-vehicles-container .rounded-rect .cap {
+    background-color: #53A81A;
+    border-color: #53A81A;
+}
+
+.countvehicles .totalcount-vehicles-container .bd .vehicle-item {
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 6px;
+    padding-top: 2px;
+    margin-left: 4px;
+    width: 187px;
+}
+
+.countvehicles .totalcount-vehicles-container .bd .text {
+
+	color: #4F5054;
+    padding-left: 85px;
+    padding-right: 6px;
+    padding-top: 0;
+    width: 116px;
+}
+.countvehicles .totalcount-vehicles-container .ft {
+	color: #4F5054;
+	font-size: 1.1em;
+	padding-left: 0px;
+	padding-top: 4px;
+	padding-right : 4px;
+	height : 20px;
+}
+.countvehicles .totalcount-vehicles-container .maintaince {
+	color: #4F5054;
+	font-size: 1.009em;
+	padding-left: 1px;
+	padding-top: 6px;
+	padding-right : 7px;
+}
+.countvehicles .totalcount-vehicles-container .ft .view-all {
+    background-image: url("/static/img/icons/arrows.png");
+    background-position: 47px -161px;
+    background-repeat: no-repeat;
+    color: #4F5054;
+    cursor: pointer;
+    padding-left: 8px;
+    width: 63px;
+}
+
+.countvehicles .totalcount-vehicles-container .ft .text {
+	color: #4F5054;
+    padding-left: 85px;
+    padding-right: 6px;
+    padding-top: 0;
+    width: 116px;
+}
+
+

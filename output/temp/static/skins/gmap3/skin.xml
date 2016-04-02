@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<skin name="gmap3" depends="default">
+    <widgetconfig>
+        <widget name="FleetMap" type="ui">
+            <libraryrefs>
+                <libraryref ref="googlemapv3"/>
+                <filterset>
+                    <filter element="libraryref" removeby="attribute" key="ref:googlemap"/>
+                </filterset>
+            </libraryrefs>
+        </widget>
+        <widget name="VehicleMapReport" type="ui">
+            <libraryrefs>
+                <libraryref ref="googlemapv3"/>
+                <filterset>
+                    <filter element="libraryref" removeby="attribute" key="ref:googlemap"/>
+                </filterset>
+            </libraryrefs>
+        </widget>
+    </widgetconfig>
+</skin>

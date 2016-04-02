@@ -1,0 +1,63 @@
+<#import "/macros/rounded.ftm" as round>
+<#import "/macros/print.ftm" as printskin>
+<#macro init params={}>
+    <#local printTitle = ""/>
+    <#local groupSel = ""/>
+    <#if (params.reportTitle)??>
+        <#local printTitle = params.reportTitle/>
+    </#if>
+    <#if (params.groupSelect)??>
+        <#local groupSel = params.groupSelect/>
+    </#if>
+    <div class="hd item-border">
+        <@round.cssRounding params={"radius":5,"bottom":false}>
+            <div class="inline-block select-text">
+                Select 
+                <a href="#all" class="select-all select-option">All</a>
+                <a href="#none" class="select-none select-option">None</a>
+                <a href="#page" class="select-page select-option last">Page</a>
+            </div>
+            <#if groupSel == "true">
+            <div class="inline-block group-select"></div>
+            </#if> 
+            <div class="inline-block"><div class="print-preview">Print Preview</div></div>
+            <div><div class="paginator"></div></div>
+            <div class="vehiclestatspageButtons inline-block" >
+            <a href="#" class="vehiclestatsprevious inline-block" id="vehiclestatsprevious" rel="item" style="text-decoration: underline">Previous</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#" class="vehiclestatsnext inline-block" id="vehiclestatsnext" rel="item" style="text-decoration: underline">Next</a>
+            </div>
+        </@round.cssRounding>
+    </div>
+    <div class="bd">
+        <#-- Body of the Report-->   
+    </div>
+    <div class="ft item-border">
+        <@round.cssRounding params={"radius":5,"top":false}>
+            <div class="inline-block select-text">
+                Select 
+                <a href="#all" class="select-all select-option">All</a>
+                <a href="#none" class="select-none select-option">None</a>
+                <a href="#page" class="select-page select-option last">Page</a>
+            </div>
+            <div class="inline-block paginator"></div>
+        </@round.cssRounding>
+    </div>
+    <div class = "print-skin-template markup-template">
+        <@printskin.printSkinDefault params={"title":"${printTitle}"}/>
+    </div>
+    <div class="print-section"></div>
+    
+    <@json.publish data=getStyleSheets() publishAs="stylesheets" context="report"/>
+     
+</#macro>
+<#function getStyleSheets>
+    <#local stylesheets = []/>
+    <#local viewName=parameters.view/>
+    <#if (skins[parameters.skin]["//views/view[./@name=$viewName]"][0])??>
+        <#local currentView = skins[parameters.skin]["//views/view[./@name=$viewName]"]/>
+        <#local stylesheets = currentView.libraries.library.mergedset.stylesheets.stylesheet + currentView.mergedset.stylesheets.stylesheet />
+        <#local stylesheets = stylesheets + ["@STATIC_DIR@/css/print.css"]/>
+    </#if>
+    <#return stylesheets/>
+</#function>

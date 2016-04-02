@@ -1,0 +1,203 @@
+/**
+ * Assign Vehicle Ui Widget CSS
+ */
+.assigndriver {
+    padding: 20px;
+    height: 500px;
+}
+
+.assigndriver .state-view {
+    padding-bottom: 10px;
+}
+
+.assigndriver .state-item {
+    background-image: url("@STATIC_DIR@/img/login/dot.png");
+    background-repeat: no-repeat;
+    color: #172834;
+    font-weight: bold;
+    height: 20px;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+.assigndriver .state-item.disabled {
+    background-image: url("@STATIC_DIR@/img/login/dot-disabled.png");
+    color: #8497A4;
+}
+
+.assigndriver .state-item-index {
+    color: #FFFFFF;
+    padding-right: 8px;
+}
+
+.assigndriver .list-cnt {
+    padding-right: 20px;
+    width: 220px;
+    _width: 240px;
+}
+
+.assigndriver .list {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.assigndriver .search-item-userlist {
+    padding-bottom: 17px;
+}
+
+.assigndriver  .search-item-userlist .search-item-input-userlist {
+    width: 216px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.assigndriver .search-autocomplete-userlist {
+    position: absolute;
+    margin-top: 4px;
+    width: 215px;
+    font-size: 1em;
+}
+
+.assigndriver .list-cnt .search-item-assigndriver{
+	padding-bottom: 17px;
+}
+
+.assigndriver .list-cnt .search-item-assigndriver .search-item-input-assigndriver {
+    width: 216px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.assigndriver .list-cnt .search-autocomplete-assigndriver {
+    position: absolute;
+    margin-top: 4px;
+    width: 215px;
+    font-size: 1em;
+}
+
+.assigndriver .list-cnt .search-item-vacantdriver{
+	padding-bottom: 17px;
+}
+
+.assigndriver .list-cnt .search-item-vacantdriver .search-go-button-vacantdriver {
+    cursor: pointer;
+    width: 32px;
+    height: 19px;
+    margin-top: 2px;
+    margin-left: 184px;
+    background-image: url("@STATIC_DIR@/img/buttons/search-go-button.png");
+}
+
+.assigndriver .list-cnt .search-item-vacantdriver .search-item-input-vacantdriver {
+    width: 216px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.assigndriver .list-cnt .search-autocomplete-vacantdriver {
+    position: absolute;
+    margin-top: 4px;
+    width: 215px;
+    font-size: 1em;
+}
+
+.assigndriver .list .list-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+    *height:auto !important;
+    *height:25px;
+}
+
+.assigndriver .assignment-control.disabled {
+    display: none;
+}
+
+.assigndriver .list .list-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.assigndriver .list .list-item.selected {
+    background-color: #ECF4FA;
+}
+
+.assigndriver .list .list-item.selected, .assigndriver .list .list-item.selected.moved {
+    background-color: #ECF4FA;
+}
+
+.assigndriver .list .list-item.disabled{
+	display:none;
+}
+.assigndriver .list .list-item.moved {
+    background-color: #FFECFA;
+}
+
+.assigndriver .list-cnt .list-title {
+    color: #172834;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+
+.assigndriver .ft {
+    padding-top: 20px;
+}
+
+.assigndriver .ft .buttons.remove-button {
+    padding-left: 360px;
+    _padding-left: 375px;
+}
+
+.assigndriver .ft .buttons.add-button {
+    padding-left: 35px;
+}
+
+.assigndriver .ft .buttons.save-button {
+    padding-left: 65px;
+}
+
+.assigndriver .ft .buttons .rem-text {
+    background-image: url("@STATIC_DIR@/img/icons/action-icons.png");
+    background-repeat: no-repeat;
+    background-position: 100% -400px;
+    padding-right: 21px;
+}
+
+.assigndriver .ft .buttons .add-text {
+    background-image: url("@STATIC_DIR@/img/icons/action-icons.png");
+    background-repeat: no-repeat;
+    background-position: 0% -462px;
+    padding-left: 21px;
+}

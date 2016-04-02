@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<skin name="default">
+    <views>
+        <view name="dashboard" title="Dashboard">
+            <widgetrefs>
+                <widgetref ref="VehicleList"/>
+            </widgetrefs>
+        </view>
+    </views>
+    <widgetconfig>
+        <widget name="VehicleList" type="ui">
+            <scripts>
+                <script name="VehicleList">
+                    com/i10n/fleet/widgets/ui/vehiclelist/VehicleList.js
+                </script>
+            </scripts>
+            <stylesheets>
+                <stylesheet name="VehicleList">
+                    com/i10n/fleet/widgets/ui/vehiclelist/VehicleList.css
+                </stylesheet>
+            </stylesheets>
+            <template name="VehicleList">
+                com/i10n/fleet/widgets/ui/vehiclelist/VehicleList.ftm
+            </template>
+            <widgetrefs>
+                <widgetref ref="SortableList"/>
+            </widgetrefs>
+            <libraryrefs>
+                <libraryref ref="accordion"/>
+                <libraryref ref="autocomplete"/>
+            </libraryrefs>
+        </widget>
+        <widget name="SortableList" type="ui">
+        </widget>
+    </widgetconfig>
+    <libraries>
+        <library name="base" base="true">
+            <scripts>
+                <script name="yahoo">
+                    lib/yui/yahoo/yahoo.js
+                </script>
+                <script name="dom">
+                    lib/yui/dom/dom.js
+                </script>
+                <script name="event">
+                    lib/yui/event/event.js
+                </script>
+                <script name="bubbling">
+                    lib/bubbling/bubbling/bubbling.js
+                </script>
+            </scripts>
+            <stylesheets>
+                <stylesheet name="VehicleList">
+                    css/base.css
+                </stylesheet>
+            </stylesheets>
+        </library>
+        <library name="accordion">
+            <scripts>
+                <script name="utilities">
+                    lib/yui/utilities/utilities.js
+                </script>
+                <script name="accordion">
+                    lib/bubbling/accordion/accordion.js
+                </script>
+            </scripts>
+        </library>
+        <library name="autocomplete">
+            <scripts>
+                <script name="datasource">
+                    lib/yui/datasource/datasource.js
+                </script>
+                <script name="autocomplete">
+                    lib/yui/autocomplete/autocomplete.js
+                </script>
+            </scripts>
+        </library>
+    </libraries>
+</skin>

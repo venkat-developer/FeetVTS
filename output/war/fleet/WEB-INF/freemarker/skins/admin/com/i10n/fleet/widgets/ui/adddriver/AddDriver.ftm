@@ -1,0 +1,67 @@
+<#import "/macros/skin.ftm" as skin/>
+<#macro init params={}>
+    <div class="note mesg"><span class="title">Please Note:</span> All fields are mandatory.</div>
+    <div class="form-add-drv">
+        <form name="form-add-drv" class="input-form" enctype="multipart/form-data" id="formid">
+            <div class="frm-item-cnt">
+                <div class="frm-lbl inline-block">First Name</div>
+                <div class="frm-inp inline-block"><input class="input-element txt" name="firstname" type="text"></input></div>
+                <div class="frm-inp inline-block">Max. 50 characters</div>
+            </div>
+            <div class="frm-item-cnt">
+                <div class="frm-lbl inline-block">Last Name</div>
+                <div class="frm-inp inline-block"><input class="input-element txt" name="lastname" type="text"></input></div>
+                <div class="frm-inp inline-block">Max. 50 characters</div>
+            </div>
+            <div class="frm-item-cnt">
+                <div class="frm-lbl inline-block">License No.</div>
+                <div class="frm-inp inline-block"><input class="input-element txt" name="licenseno" type="text"></input></div>
+                <div class="frm-inp inline-block">Max. 20 digits</div>                
+            </div>
+            <div class="frm-item-cnt">
+                <div class="frm-lbl inline-block">Photo</div>
+                <div class="frm-inp inline-block"><input class="input-element txt file" name="photo" type="file"></input></div>
+            </div>
+             <input class="input-element txt" name="command_type" value="add_driver" type="hidden" id="formvalue"/>
+             <@skin.widget name="Buttons" params={"cssClass":"inline-block save-button buttons","style":"blue","class":"save-but"}>Add</@skin.widget>
+        </form>
+    </div>
+    
+	<div class="add-driver-empty-popup disabled">
+    	<@skin.widget name="PopUp" params={
+      		"containerID":"Alert",
+       		"header": "Fields is/are Empty"
+    	}>
+      		Mandatory fields is/are empty .....!!!!
+    	</@skin.widget>
+    </div>
+    
+    <div class="add-driver-firstname-popup disabled">
+    	<@skin.widget name="PopUp" params={
+       		"containerID":"Alert",
+       		"header": "Invalid FirstName"
+    	}>
+      		Enter valid FirstName for driver .....!!!!
+    	</@skin.widget>
+    </div>
+    
+       
+    <div class="add-driver-lastname-popup disabled">
+    	<@skin.widget name="PopUp" params={
+       		"containerID":"Alert",
+       		"header": "Invalid LastName"
+    	}>
+      		Enter valid LastName for driver .....!!!!
+    	</@skin.widget>
+    </div>
+    
+    <div class="add-driver-licenseno-popup disabled">
+    	<@skin.widget name="PopUp" params={
+       		"containerID":"Alert",
+       		"header": "Invalid License Number"
+    	}>
+      		Enter valid License Number .....!!!!
+    	</@skin.widget>
+    </div>
+    
+</#macro>

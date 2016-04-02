@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+    "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+    "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+    <!--
+        Checkstyle is very configurable. Be sure to read the documentation at http://checkstyle.sf.net (or in your
+        downloaded distribution). Most Checks are configurable, be sure to consult the documentation and it is worth
+        reading the documentation.
+    -->
+<module name="Checker">
+    <!-- checks for duplicate code -->
+    <module name="StrictDuplicateCode">
+        <property name="min" value="22" />
+    </module>
+
+    <!-- Checks that property files contain the same keys.         -->
+    <!-- See http://checkstyle.sf.net/config_misc.html#Translation -->
+    <module name="Translation" />
+    <module name="TreeWalker">
+        
+
+        <!-- Complexity metrics of code  See http://checkstyle.sourceforge.net/config_metrics.html -->
+        <!--
+            Restrict the number of number of conditional operators in an expression. Rationale: Too many conditions
+            leads to code that is difficult to read and hence debug and maintain.
+        -->
+        <module name="BooleanExpressionComplexity" />
+        <!--
+            Check cyclomatic complexity Generally 1-4 is considered good, 5-7 ok, 8-10 consider re-factoring, and 11+
+            re-factor now!
+        -->
+        <module name="CyclomaticComplexity">
+            <property name="max" value="10" />
+        </module>
+
+        <!--Determines complexity of methods, classes and files by counting the Non Commenting Source Statements (NCSS). -->
+        <module name="JavaNCSS">
+            <property name="methodMaximum" value="45" />
+            <property name="classMaximum " value="300" />
+            <property name="fileMaximum " value="600" />
+        </module>
+        <module name="ClassDataAbstractionCoupling" />
+        <!-- The number of other classes a given class relies on. -->
+        <module name="ClassFanOutComplexity" />
+        <!-- checks the number of possible execution paths through a function -->
+        <module name="NPathComplexity">
+            <property name="max" value="128" />
+        </module>
+
+        <!-- Checks that a class which has only private constructors is declared as final. -->
+        <module name="FinalClass" />
+        <module name="InterfaceIsType" />
+        <module name="HideUtilityClassConstructor" />
+        <!--<module name="DesignForExtension"/>-->
+
+        <!-- Checks for Naming Conventions.                  -->
+        <!-- See http://checkstyle.sf.net/config_naming.html -->
+        <module name="ConstantName">
+            <!-- s_logger is the only exception for constants. -->
+            <property name="format" value="^([A-Z0-9_]+)|(g_logger)$" />
+        </module>
+        <module name="LocalFinalVariableName" />
+        <module name="LocalVariableName" />
+        <module name="MemberName">
+            <property name="format" value="^m_[a-zA-Z0-9]*$" />
+        </module>
+        <module name="MethodName" />
+        <module name="PackageName" />
+        <module name="ParameterName" />
+        <module name="StaticVariableName">
+            <property name="format" value="^g_[a-zA-Z0-9]*$" />
+        </module>
+        <module name="TypeName" />
+
+        <!-- Checks for imports                              -->
+        <!-- See http://checkstyle.sf.net/config_import.html -->
+        <module name="AvoidStarImport" />
+        <module name="IllegalImport" /> <!-- defaults to sun.* packages -->
+        <module name="RedundantImport" />
+        <module name="UnusedImports" />
+
+        <!-- Modifier Checks                                    -->
+        <!-- See http://checkstyle.sf.net/config_modifiers.html -->
+        <module name="ModifierOrder" />
+        <module name="RedundantModifier" />
+
+        <!-- Checks for blocks. You know, those {}'s         -->
+        <!-- See http://checkstyle.sf.net/config_blocks.html -->
+        <module name="AvoidNestedBlocks" />
+        <module name="EmptyBlock" />
+        <!--module name="LeftCurly"/-->
+        <module name="NeedBraces" />
+        <!--module name="RightCurly"/-->
+
+
+        <!-- Checks for common coding problems               -->
+        <!-- See http://checkstyle.sf.net/config_coding.html -->
+        <!-- drm 2008-07-02 - Remove this.
+             <module name="AvoidInlineConditionals"/>
+        -->
+        <module name="DoubleCheckedLocking" />    <!-- MY FAVOURITE -->
+        <module name="EmptyStatement" />
+        <module name="EqualsHashCode" />
+        <module name="HiddenField" />
+        <module name="IllegalInstantiation" />
+        <!-- Vitaliy 03/20/2009 - It's so wonderful 
+            module name="InnerAssignment"/ 
+        -->
+        <module name="MagicNumber" />
+        <!--
+            Remove 2008-11-24 - IDE warns when enumerated cases are missing; this is a better check than forcing a
+            default that may miss cases <module name="MissingSwitchDefault"/>
+        -->
+        <!-- Removed 2008-11-09 - Causes false error reports for custom exceptions
+        <module name="RedundantThrows"/> -->
+        <module name="SimplifyBooleanExpression" />
+        <module name="SimplifyBooleanReturn" />
+
+        <!-- Checks for class design                         -->
+        <!-- See http://checkstyle.sf.net/config_design.html -->
+        <!--<module name="DesignForExtension"/>-->
+        <module name="FinalClass" />
+        <module name="HideUtilityClassConstructor" />
+        <module name="InterfaceIsType" />
+        <!-- checks visibility of class members Only static final members may be public; other class members must be private-->
+        <!--<module name="VisibilityModifier"/>-->
+
+
+        <!-- Miscellaneous other checks.                   -->
+        <!-- See http://checkstyle.sf.net/config_misc.html -->
+        <!--<module name="ArrayTypeStyle"/>-->
+        <!--<module name="FinalParameters"/>-->
+        <!--<module name="TodoComment"/>-->
+        <module name="UpperEll" />
+
+        <!-- Checks for if (x == "something") -->
+        <module name="StringLiteralEquality" />
+    </module>
+</module>

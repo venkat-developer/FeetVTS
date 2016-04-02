@@ -1,0 +1,62 @@
+<#import "/macros/skin.ftm" as skin/>
+<#import "/macros/rounded.ftm" as round>
+<#import "/macros/print.ftm" as printskin>
+<#import "/macros/json-publish.ftm" as json/>
+<#macro init params={}>
+    <div class="report-cnt cnt-resizable minht empty">
+    <div class="inline-block rpt-select-cnt">
+    <div>
+    	<div class="exportreports">
+    	<form  id="input-form">
+    	 Export Report to : 
+    	<input type="radio" class="driveridlepdf" id="driveridlepdf" name="export" value ="pdf" >PDF</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<input type="radio" class="driveridleexcel" id="driveridleexcel" name="export" value ="excel">Excel</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<input type="button" class="exportdriveridlepoints" id="exportdriveridlepointsreport" name="exportdriveridlepointsreport" value ="Export"></input>
+    	</form>
+    	</div>
+    </div>
+    </div>
+        <div class="report">
+            <div class="hd">
+                <@round.cssRounding params={"radius":5,"bottom":false}>
+                    <div class="inline-block title">IDLE POINT SUMMARY of </div>
+					<div class="inline-block drivername"> Select a driver</div>
+					  <div class="inline-block print-preview">Print Preview</div>
+	                    <div class="inline-block paginator" ></div>
+	                    <div class="inline-block driveridlepageButtons" >
+	                    <a href="#" class="driveridlepointsprevious inline-block" rel="item" style="text-decoration: underline">Previous</a>
+	                    &nbsp;&nbsp;&nbsp;
+	                    <a href="#" class="driveridlepointsnext inline-block" rel="item" style="text-decoration: underline">Next</a>
+	                    </div>
+                </@round.cssRounding>
+            </div>
+            <div class="bd">
+            </div>
+            <div class="ft">
+                <@round.cssRounding params={"radius":5,"top":false}>
+                    <div class="inline-block paginator"></div>
+                </@round.cssRounding>
+            </div>
+            <div class = "print-skin-template markup-template"><@printskin.printSkinDefault params={"title" : "Driver Idle Points Report"}/></div>
+            <div class="print-section">
+            </div>
+            <@json.publish data=getStyleSheets() publishAs="stylesheets" context="report"/>
+        </div>
+    </div>
+    <@skin.widget name="SimpleDialog" params={"cssClass" : "simpledialog","title" : "Driver Report"}>
+        <div class="icon inline-block"></div
+        ><div class="text inline-block"><div>Please select a driver from the driver list that you want to generate report of.</div></div
+        ><@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-done boldface"}>Done</@skin.widget>
+    </@skin.widget>
+</#macro>
+
+<#function getStyleSheets>
+    <#local stylesheets = []/>
+    <#local viewName=parameters.view/>
+    <#if (skins[parameters.skin]["//views/view[./@name=$viewName]"][0])??>
+        <#local currentView = skins[parameters.skin]["//views/view[./@name=$viewName]"]/>
+        <#local stylesheets = currentView.libraries.library.mergedset.stylesheets.stylesheet + currentView.mergedset.stylesheets.stylesheet />
+        <#local stylesheets = stylesheets + ["/static/css/print.css"]/>
+    </#if>
+    <#return stylesheets/>
+</#function>

@@ -1,0 +1,25 @@
+<#import "/macros/rounded.ftm" as round>
+<#macro init params={}>
+ <!--  <div id="map-container" class="map-container" layers="I10N|I10NTMSV2|GoogleStreetsTiles|GooglePhysicalTiles|GoogleHybridTiles|GoogleSatelliteTiles" defaultLayer="I10N"> -->
+    <!-- uncomment the below div and comment the above div for openlayers map -->
+    <div id="map-container" class="map-container" layers="I10N|I10NTMSV2|GooglePhysicalTiles|GoogleSatelliteTiles" defaultLayer="I10N">  
+    </div>
+    <div id="template-info-window" class="markup-template template-info-window">
+        <div class="marker-info-window" id="marker-info-window">
+             <div class="bd" >
+                 <@round.cssRounding params={"radius":5}>
+                     <div class="top-bd" id="top-bd">
+                         <div class="close-button" id="close-button"></div>
+                      </div>
+                       <div id="overview" class="tabcontent-overview" >
+                        </div>
+                        
+                    
+                </@round.cssRounding>
+            </div>
+            <div class="ft" id="ft" >
+            
+            </div>
+        </div>
+    </div>
+</#macro>

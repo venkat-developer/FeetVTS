@@ -1,0 +1,125 @@
+/*
+ * This file contains the style information for the trip settings sub-navpage
+ * in the control panel
+ */
+.tripsettings .flip-container {
+    display: block;
+}
+
+.tripsettings .bd .simpledialog {
+    height: 130px;
+    position: absolute;
+    top: 150px;
+    left: 430px;
+    z-index: 1550;
+    width: 300px;
+}
+
+.tripsettings .bd .simpledialog.disabled {
+    display: none;
+}
+
+.tripsettings .bd .simpledialog .icon {
+    background-image: url(/static/img/icons/widget-header-icons.png);
+    background-position: 8px -575px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 44px;
+}
+
+.tripsettings .bd .simpledialog .text {
+    width: 246px
+}
+
+.tripsettings .bd .simpledialog .buttons {
+    font-size: 0.8em;
+    padding-left: 116px;
+    padding-top: 15px;
+}
+
+.tripsettings .layout {
+    width: 100%;
+}
+
+.tripsettings .layout .side-pane {
+    vertical-align: top;
+    background-color: #E6EDF3;
+}
+
+.tripsettings .layout .main-pane {
+    width: 100%;
+    background-color: #FFFFFF;
+    vertical-align: top;
+}
+
+.tripsettings .information .popup-markup .bd {
+    line-height: 50px;
+    height: 105px;
+}
+
+.tripsettings .flip-container .popup {
+    color: #152836;
+}
+
+.tripsettings .flip-container .popup .dialog-buttons {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.tripsettings .flip-container .create-trip .popup .hd .rounded-rect .nested .label .text {
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    height: 21px;
+    padding-left: 25px;
+}
+
+.tripsettings .flip-container .create-trip .popup .bd .dialog-form .inline-block {
+    vertical-align: middle;
+}
+
+.tripsettings .flip-container .create-trip .popup .bd .dialog-form .label {
+    vertical-align: super;
+    width: 190px;
+}
+
+.tripsettings .flip-container .create-trip .popup .bd .dialog-form .content {
+    padding-left: 12px;
+}
+
+.tripsettings .flip-container .create-trip .popup .bd .dialog-form .content .comment-item{
+    width:200px;
+    height:20px;
+    color:#ff0000;
+    font-style:oblique;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.tripsettings .flip-container .create-trip .popup .bd .dialog-form .content .comment-item.disabled{
+display:none;
+}
+
+.tripsettings .flip-container .create-trip .popup .bd .dialog-form .content .table {
+    width: 98%;
+}
+
+.tripsettings .flip-container .create-trip .popup .bd .dialog-form .content .table .input {
+    padding-top: 11px;
+}
+
+.tripsettings .flip-container .create-trip .popup .bd .dialog-form .content .input-element {
+    width: 175px;
+    background-color: #E1ECF2;
+    border-color: #D9D9D9;
+    border-style: solid;
+    height: 23px;
+}
+
+.tripsettings .flip-container .create-trip .popup .bd .dialog-form .content .input-element.text-box {
+    width: 100px;
+    height: 20px;
+    _height: 23px;
+    padding-top: 3px;
+}

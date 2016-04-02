@@ -1,0 +1,45 @@
+<#macro init params={}>
+    <#local marketingData = [
+        <!--{
+            "title" : "Live Tracking",
+            "description" : "Track your vehicles realtime on the map"
+        },
+        {
+            "title" : "Vehicle Status",
+            "description" : "Keep Tab of Fuel and Speed Status in each vehicle"
+        },
+        {
+            "title" : "Manage",
+            "description" : "Create & Manage Trips, Vehicles, Drivers & Users"
+        },
+        {
+            "title" : "Reports",
+            "description" : "Generate & download Reports of Vehicles & Drivers"
+        },
+        {
+            "title" : "Get Alerts",
+            "description" : "On your mobile & e-mail for over speeding vehicles, crossing geofencing and panic alerts"
+        },
+        {
+            "title" : "Customization",
+            "description" : "Get hardware & software as per your companies requirements"
+        },
+        {
+            "title" : "24x7 Support",
+            "description" : "Get Online and Offline Hardware, Software support "
+        }-->
+        
+        
+    ]/>
+    <div class="login-banner-container">
+        <ul
+            <#list marketingData as element>
+                ><li class="data-item">
+                    <div class="index inline-block">${element_index+1}</div
+                    ><div class="title inline-block">${element.title}</div>
+                    <div class="description">${element.description}</div>
+                </li
+            </#list>
+        ></ul>
+    </div>
+</#macro>

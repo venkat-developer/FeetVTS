@@ -1,0 +1,19 @@
+/**
+ * Stylesheet for the Confirmation PopUp utility Widget
+ */
+.confirmationpopup .message {
+    height: 55%;
+}
+
+.confirmationpopup .confirmation-buttons {
+    text-align: center;
+    width: 99%;
+}
+
+.confirmationpopup .confirmation-buttons .buttons .fleet-buttons.yes-button.button-blue a .ct {
+    width: 45px;
+}
+
+.confirmationpopup .confirmation-buttons .buttons .fleet-buttons.no-button.button-blue a .ct {
+    width: 44px;
+}

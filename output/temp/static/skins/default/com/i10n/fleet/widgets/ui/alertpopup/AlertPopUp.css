@@ -1,0 +1,23 @@
+/**
+ * Stylesheet for the alert Popup Uitlity Widget
+ */
+.alert-popup .content {
+    height: 55%;
+}
+
+.alert-popup .dialog-form {
+    height: 100%;
+}
+
+.alert-popup .dialog-buttons {
+    text-align: center;
+    width: 99%;
+}
+
+.alert-popup .dialog-buttons .buttons .fleet-buttons.yes-button.button-blue a .ct {
+    width: 45px;
+}
+
+.alert-popup.dialog-buttons .buttons .fleet-buttons.no-button.button-blue a .ct {
+    width: 44px;
+}

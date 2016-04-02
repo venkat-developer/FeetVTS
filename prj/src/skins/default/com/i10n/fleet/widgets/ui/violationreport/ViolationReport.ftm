@@ -1,0 +1,63 @@
+<#import "/macros/skin.ftm" as skin/>
+<#include "/mock/ViolationsData.ftd"/>
+
+<#macro init params={}>
+    <@skin.widget name="ReportTimeFrame" params={"showminuteinterval":"false","showstatus":"true","showviolationtype":"true"}>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="inline-block rpt-select-cnt">
+        <div>
+        	<div class="input exportreports-vehicle">
+        	<form  id="input-form">
+        	 Export Report to : 
+        	<input type="radio" class="violationReportPdf" id="violationpdf" name="export" value ="pdf" >PDF</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        	<input type="radio" class="violationReportExcel" id="violationexcel" name="export" value ="excel">Excel</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        	<input type="button" class="exportviolationreport" id="exportviolationreport" name="exportviolationreport" value ="Export"></input>
+        	</form>
+        	</div>
+        </div>
+    </div>
+    </@skin.widget>
+    <#local selectedTab = "alertstatus"/>
+    <#if (params.selectedTab)??>
+        <#local selectedTab = params.selectedTab/>
+    </#if>  
+     <div class="rpt-container">
+ 
+        <div id="tabview" class="violations-tabview yui-navset">
+            <ul class="yui-nav"> 
+            </ul>
+            <div class="yui-content">
+                   <div id="alertstatus" class="alertstatus-content <#if selectedTab != "alertstatus">yui-hidden</#if>">
+                    <@skin.widget name="GroupReportViolation" params={
+                        "cssClass" : "groupreportviolation report alertstatus-rpt",
+                        "attrs" : "report='alertstatus'",
+                        "reportTitle" : "Alert Status Report"
+                       }/>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+    <div class="comments disabled">
+            <@skin.widget name="ViolationPopUp"params={
+                "cssClass": "violationpopup popup",
+                "containerID":"comments-popup",
+                "header":"Comments",
+                "submitButtonText":"Submit",
+                "cancelButtonText":"Cancel"
+            }>
+              <div class="input comments-vehicle">
+             <form  class="input-form">
+              <TEXTAREA name="comments-name" class="comments-input" id="comments-id">
+              </TEXTAREA>
+              </form>
+             
+                </div>
+           
+             </@skin.widget>
+        </div>
+     
+    <@json.publish data=chargerViolations context="report" publishAs="violations.chargerstatus"/>
+    <@json.publish data=geoFencingViolations context="report" publishAs="violations.geofencing"/>
+    <@json.publish data=overSpeedViolations context="report" publishAs="violations.overspeeding"/>
+</#macro>

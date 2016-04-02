@@ -1,0 +1,116 @@
+
+/**
+ * Login Form UI Widget CSS
+ */
+.loginformfail {
+    height: 280px;
+    width: 368px;
+    background-color: #F5F5F5;
+    border: 1px solid #EDEDED;
+}
+
+.loginformfail .login-form-container {
+    padding: 15px 10px 15px 10px;
+}
+
+.loginformfail .css-rounding .cap {
+    background-color: #1D5B89;
+    border-color: #1D5B89;
+}
+
+.loginformfail .css-rounding .nested {
+    height: 27px;
+    _height: 34px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #1D5B89;
+    border-color: #1D5B89;
+    padding-left: 23px;
+    padding-top: 7px;
+}
+
+.loginformfail .buttons {
+    padding-top: 15px;
+}
+
+.loginformfail .title-box {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #4F5054;
+    font-weight: bold;
+}
+
+.loginformfail .input-box {
+    background-color: transparent;
+    border: 1px solid #BFBFC1;
+    height: 21px;
+    padding-top: 5px;
+    color: #4F5054;
+    width: 100%;
+}
+.loginformfail .input-box.disabled {
+	display:none;
+}
+
+.loginformfail .message{
+	padding:4px;
+}
+
+.loginformfail .user-message{
+	width:200px;
+	height:20px;
+	color:#ff0000;
+	font-style:oblique;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.loginformfail .password-message{
+	width:200px;
+	height:20px;
+	color:#ff0000;
+	font-style:oblique;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.loginformfail .user-message.disabled{
+   display:none;
+}
+
+.loginformfail .password-message.disabled{
+   display:none;
+}
+
+.loginformfail .user-example {
+    color: #A7AAAC;
+    padding-top: 8px;
+    font-size: 0.9em;
+}
+
+.loginformfail .keep-signed {
+    color: #4F5054;
+    font-size: 0.9em;
+    padding-top: 1px;
+}
+
+.loginformfail .keep-signed input {
+    height: 15px;
+    width: 15px;
+}
+
+.loginformfail .keep-signed .keep-signed-text {
+    line-height: 15px;
+}
+
+.loginformfail .forgot-pass {
+    color: #1187AE;
+    font-size: 0.9em;
+    margin-left: 145px;
+    padding-top: 2px;
+}
+
+.loginformfail .login-form {
+    display: inline;
+}

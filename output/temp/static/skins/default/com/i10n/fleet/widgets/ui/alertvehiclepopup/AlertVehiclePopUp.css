@@ -1,0 +1,238 @@
+/**
+ * Stylesheet for the Dialog Popup Uitlity Widget
+ */
+.alert-vehicle-popup .content {
+    height: 55%;
+}
+
+.alert-vehicle-popup .dialog-form {
+    height: 100%;
+}
+
+.alert-vehicle-popup .dialog-buttons {
+    text-align: center;
+    width: 99%;
+}
+
+.alert-vehicle-popup .dialog-buttons .buttons .fleet-buttons.yes-button.button-blue a .ct {
+    width: 50px;
+}
+
+.alert-vehicle-popup.dialog-buttons .buttons .fleet-buttons.no-button.button-blue a .ct {
+    width: 49px;
+}
+
+
+/**
+ * Assign Vehicle Ui Widget CSS
+ */
+.alert-vehicle-popup {
+    padding: 20px;
+    height: 458px;
+}
+
+.alert-vehicle-popup .state-view {
+    padding-bottom: 10px;
+}
+
+.alert-vehicle-popup .state-item {
+    background-image: url("@STATIC_DIR@/img/login/dot.png");
+    background-repeat: no-repeat;
+    color: #172834;
+    font-weight: bold;
+    height: 20px;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+.alert-vehicle-popup .state-item.disabled {
+    background-image: url("@STATIC_DIR@/img/login/dot-disabled.png");
+    color: #8497A4;
+}
+
+.alert-vehicle-popup .state-item-index {
+    color: #FFFFFF;
+    padding-right: 8px;
+}
+
+.alert-vehicle-popup .assignment-control.disabled {
+    display: none;
+}
+
+.alert-vehicle-popup .list-cnt {
+    padding-right: 20px;
+    width: 220px;
+    _width: 240px;
+}
+
+.alert-vehicle-popup .list {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.alert-vehicle-popup .state-view {
+    padding-bottom: 10px;
+}
+
+.alert-vehicle-popup .sel-hd, .alert-vehicle-popup .frm-hd {
+    color: #172834;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.alert-vehicle-popup .user-sel-disp {
+    padding-left: 20px;
+}
+
+.alert-vehicle-popup .user-sel {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.alert-vehicle-popup .user-sel .user-sel-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+	*height:auto !important;
+	*height:25px;
+}
+
+.alert-vehicle-popup .user-sel .user-sel-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.alert-vehicle-popup .user-sel .user-sel-item.selected {
+    background-color: #ECF4FA;
+}
+
+.alert-vehicle-popup .vehicle-sel-disp {
+    padding-left: 20px;
+}
+
+.alert-vehicle-popup .vehicle-sel {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.alert-vehicle-popup .vehicle-sel .vehicle-sel-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+	*height:auto !important;
+	*height:25px;
+}
+
+.alert-vehicle-popup .vehicle-sel .vehicle-sel-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.alert-vehicle-popup .vehicle-sel .vehicle-sel-item.selected {
+    background-color: #ECF4FA;
+}
+
+.alert-vehicle-popup .list .list-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+    *height:auto !important;
+    *height:25px;
+}
+
+.alert-vehicle-popup .list .list-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.alert-vehicle-popup .list .list-item.selected, .alert-vehicle-popup .list .list-item.selected.moved {
+    background-color: #ECF4FA;
+}
+
+.alert-vehicle-popup .list .list-item.moved {
+    background-color: #FFECFA;
+}
+
+.alert-vehicle-popup .list-cnt .list-title {
+    color: #172834;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.alert-vehicle-popup .ft {
+    padding-top: 20px;
+}
+
+.alert-vehicle-popup .ft .buttons.remove-button {
+    padding-left: 379px;
+    _padding-left: 375px;
+}
+
+.alert-vehicle-popup .ft .buttons.add-button {
+    padding-left: 21px;
+}
+
+.alert-vehicle-popup .ft .buttons.save-button {
+    padding-left: 57px;
+}
+
+.alert-vehicle-popup .ft .buttons .rem-text {
+    background-image: url("@STATIC_DIR@/img/icons/action-icons.png");
+    background-repeat: no-repeat;
+    background-position: 100% -400px;
+    padding-right: 21px;
+}
+
+.alert-vehicle-popup .ft .buttons .add-text {
+    background-image: url("@STATIC_DIR@/img/icons/action-icons.png");
+    background-repeat: no-repeat;
+    background-position: 0% -462px;
+    padding-left: 21px;
+}
+
+

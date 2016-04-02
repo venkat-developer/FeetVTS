@@ -1,0 +1,63 @@
+/**
+ * Vehicle Map Report UI Widget CSS
+ */
+.vehiclemapreport {
+    color: #FFFFFF;
+    height: 340px;
+}
+
+.vehiclemapreport.widget .widget.simpledialog {
+    position: absolute;
+    top: 190px;
+    left: 440px;
+    z-index: 1500;
+    width: 300px;
+}
+
+.vehiclemapreport .simpledialog {
+    height: 130px;
+}
+
+.vehiclemapreport .simpledialog.disabled {
+    display: none;
+}
+
+.vehiclemapreport .simpledialog .icon {
+    background-image: url(@STATIC_DIR@/img/icons/widget-header-icons.png);
+    background-position: 8px -575px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 44px;
+}
+
+.vehiclemapreport .simpledialog .text {
+    width: 246px
+}
+
+.vehiclemapreport .simpledialog .buttons {
+    font-size: 0.8em;
+    padding-left: 116px;
+    padding-top: 15px;
+}
+/**
+ * LiveTrack UI Widget CSS
+ */
+.vehiclemapreport .widget .reportpopup .marker-info-window .bd .yui-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.9em;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+}
+
+
+
+#oddrow {
+    background-color: #485763;
+}
+th{
+	padding-left:20px;
+	}
+

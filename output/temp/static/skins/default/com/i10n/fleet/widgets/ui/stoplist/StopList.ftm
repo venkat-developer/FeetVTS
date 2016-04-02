@@ -1,0 +1,8 @@
+<#import "/macros/skin.ftm" as skin>
+<#macro init params={}>
+    <@skin.widgetBody name="ETASidePaneList" params={
+     "cssClass": "inactive minimizable sidepanelist",       
+     "listTitle": "Stops"      
+    }/>   
+    <@json.publish data=view.stops.groupsdata publishAs="stopData" context="stops"/>
+</#macro>

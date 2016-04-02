@@ -1,0 +1,74 @@
+/**
+ * Grouped Report UI Widget CSS
+ */
+ 
+.groupedreport .group-select {
+    float: left;
+    padding-left: 25px;
+    margin-top: -5px;
+}
+.groupedreport .title-button{
+	float: left;
+    padding-left: 25px;
+    margin-top: -5px;
+	}
+.groupedreport .select-violation
+	{
+	border: 1px;
+    background-color: #B7CBDC;
+    margin-top: -5px;
+    }
+
+.groupedreport .vehiclestatspageButtons {
+	margin-top: -15px;
+	margin-right:20px;
+	float:right;
+}
+
+.groupedreport .paginator {
+	margin-top:0px;
+	margin-right:10px;
+	text-align: center;
+}
+.groupedreport .select-status
+	{
+	border: 1px;
+    background-color: #B7CBDC;
+    margin-top: -5px;
+    }
+.groupedreport .title-select select{
+	background-color: #B7CBDC;
+    border: 1px solid #FFFFFF;
+    color: #234A68;
+    font-size: 1em;
+    height: 24px;
+    padding-left: 2px;
+    padding-top: 1px;
+    width: 150px;
+	}
+.groupedreport .title-button select{
+	background-color: #B7CBDC;
+    border: 1px solid #FFFFFF;
+    color: #234A68;
+    font-size: 1em;
+    height: 24px;
+    padding-left: 2px;
+    padding-top: 1px;
+    width: 150px;
+	
+	}
+.groupedreport .group-select select {
+	position: absolute;
+	
+    background-color: #B7CBDC;
+    border: 1px solid #FFFFFF;
+    color: #234A68;
+    font-size: 1em;
+    height: 24px;
+    padding-left: 2px;
+    padding-top: 1px;
+    width: 150px;
+}
+.groupedreport .comments.disabled{
+	display: none;
+}

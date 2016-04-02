@@ -1,0 +1,1050 @@
+<?xml version="1.0"?>
+<!DOCTYPE project [
+<!ENTITY dep SYSTEM "dep.xml" >
+]>
+<project name="fleet" basedir="." default="all" xmlns:sonar="antlib:org.sonar.ant" xmlns:ac="antlib:net.sf.antcontrib" xmlns:ivy="antlib:org.apache.ivy.ant">
+
+    <!-- Build Properties-->
+    <property file="${basedir}/build.properties" />
+	
+	<!-- Sonar Mysql Server DB Connections  -->
+	
+	<property name="sonar.jdbc.url" value="jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;characterEncoding=utf8" />
+	<property name="sonar.jdbc.username" value="sonar" />
+	<property name="sonar.jdbc.password" value="sonar4tbu@hmn" />
+	
+	<!-- Sonar Prperties -->
+	
+	<property name="sonar.projectKey" value="org.codehaus.sonar:example-java-ant" />
+	<property name="sonar.projectName" value="FleetCheckV2" />
+	<property name="sonar.projectVersion" value="1.0" />
+	
+	<!-- Sonar Source Directory -->
+	
+	<property name="sonar.sources" value="${src.java.dir}" />
+
+    <!-- ivy properties -->
+    <property name="ivy.lib" value="../../ivy-lib" />
+    <property name="ivy.fleet.lib" value="${ivy.lib}/fleetlibs" />
+    <property name="ivy.tools.lib" value="${ivy.lib}/tools" />
+    <property name="ivy.test.lib" value="${ivy.lib}/test" />
+
+    <property name="coverage.dir" value="${basedir}/coverage" />
+    <property name="emma.verbosity" value="info" />
+    <property name="emma.filter" value="" />
+    <property name="series.output" value="series.out" />
+    <property name="test.run.dir" value="." />
+    <property name="subject" value="Error in Fleetcheck" />
+    <fileset id="fleet.lib.path" dir="${ivy.fleet.lib}">
+        <include name="*.jar" />
+    </fileset>
+    <fileset id="fleet.tools.lib" dir="${ivy.tools.lib}">
+        <include name="*.jar" />
+    </fileset>
+
+    <!-- Quality Properties -->
+    <property name="nightlyreports"  value="${basedir}/nightlyReports"/>
+    <property name="logs.out.dir" value="${out.dir}/logs" />
+    <property name="quality.config.dir" value="${build.res.dir}/quality" />
+    <property name="quality.out.dir" value="${logs.out.dir}/quality" />
+    <property name="STATIC_DIR" value="/static" />
+    <property name="APP_CONTEXT" value="/fleet" />
+    <path id="checkstyle.lib" description="Checkstyle classpath pattern">
+        <fileset dir="${ivy.tools.lib}">
+            <include name="checkstyle*.jar" />
+        </fileset>
+    </path>
+
+    <property name="checkstyle.out.dir" value="${reports.dir}/checkstyle" />
+    <property name="checkstyle.error.threshold" value="600" />
+    <property name="findbugs.out.dir" value="${reports.dir}/findbugs" />
+    <path id="findbugs.lib" description="Checkstyle classpath pattern">
+        <fileset dir="${ivy.tools.lib}">
+            <include name="**/findbugs*.jar" />
+        </fileset>
+    </path>
+
+    <path id="jslint.lib" description="Checkstyle classpath pattern">
+        <fileset dir="${ivy.tools.lib}">
+            <include name="**/jslint*.jar" />
+        </fileset>
+    </path>
+
+    <!-- ivy properties -->
+    <property name="build.lib.dir" value="${basedir}/prj/build/lib" />
+    <path id="ivy.lib.path">
+        <fileset dir="${build.lib.dir}">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+
+   <taskdef resource="net/sf/antcontrib/antlib.xml"/>
+   
+    <taskdef name="svn" classname="org.tigris.subversion.svnant.SvnTask"> 
+		<classpath>
+			<pathelement location="${ant.home}/lib/svnant.jar" />
+		</classpath>
+	</taskdef>
+
+    <taskdef resource="org/apache/ivy/ant/antlib.xml" uri="antlib:org.apache.ivy.ant">
+        <classpath>
+            <path refid="ivy.lib.path" />
+        </classpath>
+    </taskdef>
+    <property file="${build.res.dir}/ivy/ivysettings.properties" />
+    <ivy:settings id="basic" file="${build.res.dir}/ivy/ivysettings.xml" />
+    <property name="ivy.dep.file" value="${build.res.dir}/ivy/ivy.xml" />
+
+    <!-- Global set/path definitions -->
+
+    <!-- all out dirs: -->
+    <path id="core.out.classpath">
+        <dirset dir="${classes.dir}" />
+    </path>
+
+
+    <path id="test.compile.classpath">
+        <dirset dir="${classes.dir}" />
+        <fileset refid="fleet.lib.path" />
+        <fileset file="${fleet.core.lib}" />
+        <fileset dir="${ivy.test.lib}">
+            <include name="**/*.jar" />
+            <exclude name="selenium-server.jar" />
+        </fileset>
+    </path>
+    <!-- all test out dirs: -->
+    <path id="test.out.classpath">
+        <dirset dir="${test.out.classes.instr.dir}" />
+        <dirset dir="${classes.dir}" />
+        <dirset dir="${test.out.classes.dir}" />
+        <path location="${test.out.res.dir}" />
+        <fileset refid="fleet.lib.path" />
+        <fileset file="${fleet.core.lib}" />
+        <fileset dir="${ivy.test.lib}">
+            <include name="**/*.jar" />
+            <exclude name="selenium-server.jar" />
+        </fileset>
+    </path>
+    <path id="test.out.noninstr.classpath">
+        <dirset dir="${classes.dir}" />
+        <dirset dir="${test.out.classes.dir}" />
+        <path location="${test.out.res.dir}" />
+        <fileset refid="fleet.lib.path" />
+        <fileset file="${fleet.core.lib}" />
+        <fileset dir="${ivy.test.lib}">
+            <include name="**/*.jar" />
+            <exclude name="selenium-server.jar" />
+        </fileset>
+    </path>
+    <path id="emma.lib">
+        <pathelement location="${ivy.test.lib}/emma.jar" />
+        <pathelement location="${ivy.test.lib}/emma_ant.jar" />
+    </path>
+
+
+    <patternset id="patternset.src.js">
+        <include name="**/*.js" />
+    </patternset>
+
+    <patternset id="patternset.src">
+        <include name="**/*.css" />
+        <include name="**/*.js" />
+        <include name="**/*.xml" />
+        <include name="**/*.htc" />
+    </patternset>
+
+    <patternset id="patternset.bin">
+        <include name="**/*.swf" />
+        <include name="**/*.png" />
+        <include name="**/*.gif" />
+        <include name="**/*.jpg" />
+    </patternset>
+
+    <patternset id="patternset.ftl">
+        <include name="**/*.ftl" />
+        <include name="**/*.ftm" />
+        <include name="**/*.ftd" />
+    </patternset>
+
+
+    <!-- Cleanup -->
+    <target name="clean" description="Cleanup generated files/output/classes etc.">
+        <delete dir="${out.dir}" />
+        <delete file="${coverage.em}" />
+    </target>
+
+
+    <target name="create.tools.dirs">
+        <mkdir dir="${logs.out.dir}" />
+        <mkdir dir="${tools.out.dir}" />
+        <mkdir dir="${tools.classes.dir}" />
+        <mkdir dir="${tools.resources.dir}" />
+        <mkdir dir="${temp.static.skins.dir}" />
+        <mkdir dir="${jslint.out.reports.dir}" />
+    </target>
+
+    <target name="create.dirs" description="Create temporary output directories.">
+        <mkdir dir="${out.dir}" />
+        <mkdir dir="${war.dir}" />
+        <mkdir dir="${dist.dir}" />
+        <mkdir dir="${classes.dir}" />
+        <mkdir dir="${webapp.dir}" />
+        <mkdir dir="${webapp.webinf.dir}" />
+        <mkdir dir="${webapp.classes.dir}" />
+        <mkdir dir="${webapp.lib.dir}" />
+        <mkdir dir="${reports.dir}" />
+
+    </target>
+    <target name="configure.skins" description="Configure all the build time tools">
+        <!--Setting default properties-->
+
+        <property name="cycle.chk" value="true" />
+
+        <mkdir dir="${temp.static.skins.dir}" />
+        <copy todir="${temp.static.skins.dir}">
+            <fileset dir="${skins.dir}" />
+        </copy>
+        <copy todir="${temp.static.dir}" filtering="true">
+            <fileset dir="${static.dir}">
+                <patternset refid="patternset.src" />
+            </fileset>
+            <filterset begintoken="@" endtoken="@">
+                <filter token="STATIC_DIR" value="${STATIC_DIR}" />
+                <filter token="APP_CONTEXT" value="${APP_CONTEXT}" />
+            </filterset>
+        </copy>
+        <copy todir="${temp.static.dir}">
+            <fileset dir="${static.dir}">
+                <patternset refid="patternset.bin" />
+            </fileset>
+        </copy>
+        <copy todir="${tools.resources.dir}" filtering="true">
+            <fileset dir="${tools.dir}/res/" />
+            <filterset begintoken="@" endtoken="@">
+                <filter token="temp.skins.dir" value="${temp.skins.dir}" />
+                <filter token="cycle.chk" value="${cycle.chk}" />
+                <filter token="static.compress" value="${static.compress}" />
+                <filter token="static.merge" value="${static.merge}" />
+                <filter token="compress.munge" value="${compress.munge}" />
+                <filter token="compress.verbose" value="${compress.verbose}" />
+                <filter token="compress.preservesemicolons" value="${compress.preservesemicolons}" />
+                <filter token="compress.optimize" value="${compress.optimize}" />
+            </filterset>
+        </copy>
+    </target>
+    <!-- Intialize the build process -->
+    <target name="init" depends="init.build,init.tools,init.test,buildType,updateBuildVersion,detemp" description="Initialize Fleet build" />
+    <target name="nightly.init" depends="init.build,init.tools,init.test,nightly.buildType,updateBuildVersion,detemp" description="Initialize Fleet build" />
+    <target name="init.build" depends="create.dirs,ivy.resolve" description="Initialize build process.">
+    </target>
+
+    <!-- Compile Java source filess -->
+    <target name="core.compile" description="Compile Java sources">
+        <javac srcdir="${src.java.dir}" destdir="${classes.dir}" debug="true">
+            <classpath>
+                <path location="${res.dir}" />
+                <fileset refid="fleet.lib.path" />
+                <fileset file="${fleet.core.lib}" />
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="build" depends="ui.build,java.build" description="Publish the application to the distribution directory.">
+    <property file="${temp.res.dir}/deployment.properties" />
+    </target>
+	   <target name="java.build" depends="core.compile" description="builds the non ui stuffs to the distribution directory.">
+        <copy todir="${webapp.dir}" preservelastmodified="true" filtering="true">
+            <fileset dir="${app.site.dir}" />
+            <filterset begintoken="@" endtoken="@">
+                <filter token="STATIC_DIR" value="${STATIC_DIR}" />
+                <filter token="APP_CONTEXT" value="${APP_CONTEXT}" />
+            </filterset>
+        </copy>
+
+        <!-- Copy Java Classes -->
+        <copy todir="${webapp.classes.dir}">
+            <fileset dir="${classes.dir}">
+                <include name="**/*.class" />
+            </fileset>
+        </copy>
+	    <!-- copy environment properties -->
+	   	<copy todir="${webapp.classes.dir}">
+            <fileset dir="${res.dir}">
+            	<include name="**/*" />
+            </fileset>
+        </copy>
+	    <!-- copying log4j properties -->
+    		
+
+        <!-- Copy jars -->
+        <copy todir="${webapp.lib.dir}">
+         	<fileset id="fleet.lib.path" dir="${ivy.fleet.lib}">
+         	        <include name="*.jar" />
+           	    	<!-- <exclude name="postgis.jar" /> -->
+           	</fileset>
+        </copy>
+
+        <!-- Copy source file jar from fleet project -->
+        <copy todir="${webapp.lib.dir}">
+            <fileset dir="${war.dir}">
+                <include name="fleet.jar" />
+            </fileset>
+        </copy>
+    </target>
+
+	<target name="detemp" description="Detemplatize task">
+                        
+			<if>
+				<equals arg1="${build.type.local}" arg2="true" />
+				<then>
+					<echo message="Detemplatizing properties for local build" />
+					<property name="templatedefinition.properties" value="local-deployment.properties"/>
+				</then>
+				<else>
+					<echo message="Detemplatizing properties for server build" />
+					<property name="templatedefinition.properties" value="production-deployment.properties"/>
+				</else>
+			</if>
+
+			<delete dir="${temp.res.dir}" />
+			<mkdir dir="${temp.res.dir}"/>
+
+			<filter filtersfile="${res.dir}/${templatedefinition.properties}"/>
+			<copy overwrite="yes" todir="${temp.res.dir}" filtering="true" >
+				<fileset dir="${res.dir}">
+					<include name="**/*"/>
+					<exclude name="production-deployment.properties,local-deployment.properties"/>
+				</fileset>
+				<globmapper from="*.template" to="*"/>
+			</copy>
+
+			<copy overwrite="false" todir="${temp.res.dir}">
+				<fileset dir="${res.dir}" >
+					<exclude name="**/*.template"/>
+				</fileset>
+			</copy>
+			<property file="${temp.res.dir}/deployment.properties" />
+
+			<!--<if>
+			<equals arg1="${war}" arg2="local"/>
+			<then>
+				<echo message="Copying default properties files" />
+				<copy file="${temp.res.dir}/clients/local.properties" tofile="${temp.res.dir}/location.properties" overwrite="true" />
+				<copy file="${temp.res.dir}/location.properties" todir="${webapp.dir}/WEB-INF/classes" overwrite="true" />
+			</then>
+			<else>
+				<echo message="Copying properties files ${prop}" />
+				<copy file="${temp.res.dir}/clients/${prop}.properties" tofile="${temp.res.dir}/location.properties" overwrite="true" />
+				<copy file="${temp.res.dir}/location.properties" todir="${webapp.dir}/WEB-INF/classes" overwrite="true" />
+			</else> 
+		</if> -->
+
+			<!-- Include the dep jars 
+			&dep;-->
+	</target>
+
+	<target name="buildType" >
+		<fail unless="war">You must specify the war property ( -Dwar=local OR -Dwar=server ) when you run ant war.</fail>
+		<condition property="build.type.local">
+			<equals casesensitive="false" arg1="${war}" arg2="local" />
+		</condition>
+		<echo>Building fleetcheckv2 for ${war} system</echo>
+	</target>
+
+        <target name="nightly.buildType" >
+		<property name="build.type.local" value="false"/>
+		<echo>Building fleetcheckv2 for server system</echo>
+	</target>
+
+	<target name="updateBuildVersion">
+		<propertyfile file="build.number" comment="Build version info">
+			<entry key="version.buildDate" type="date" value="now"/>
+			<entry key="version.buildNum" default="0" type="int" operation="+" value="1"/>
+		</propertyfile>
+	</target>
+
+    <target name="ui.build" depends="create.skin" description="Copies CSS,JS,FTL,Images,Flash to war structure">
+
+        <copy todir="${webapp.static.dir}" filtering="true">
+            <fileset dir="${static.site.dir}" />
+        </copy>
+        <!-- Copy static content to webapp dir -->
+        <copy todir="${webapp.static.dir}" filtering="true">
+            <fileset dir="${temp.static.dir}">
+                <patternset refid="patternset.src" />
+                <exclude name="**/*.xml" />
+            </fileset>
+            <filterset begintoken="@" endtoken="@">
+                <filter token="STATIC_DIR" value="${STATIC_DIR}" />
+                <filter token="APP_CONTEXT" value="${APP_CONTEXT}" />
+            </filterset>
+        </copy>
+        <copy todir="${webapp.static.dir}">
+            <fileset dir="${temp.static.dir}">
+                <patternset refid="patternset.bin" />
+            </fileset>
+        </copy>
+        <copy todir="${webapp.skins.dir}" filtering="true">
+            <fileset dir="${temp.static.skins.dir}">
+                <include name="**/*.xml" />
+                <exclude name="**/skin.xml" />
+            </fileset>
+            <globmapper from="*.out.xml" to="*.xml" />
+            <filterset begintoken="@" endtoken="@">
+                <filter token="STATIC_DIR" value="${STATIC_DIR}" />
+                <filter token="APP_CONTEXT" value="${APP_CONTEXT}" />
+            </filterset>
+        </copy>
+        <copy file="${temp.static.skins.dir}/skins.xml" tofile="${webapp.skins.dir}/skins.xml" />
+        <copy todir="${webapp.ftl.dir}" filtering="true">
+            <fileset dir="${freemarker.dir}">
+                <patternset refid="patternset.ftl" />
+            </fileset>
+            <filterset begintoken="@" endtoken="@">
+                <filter token="STATIC_DIR" value="${STATIC_DIR}" />
+                <filter token="APP_CONTEXT" value="${APP_CONTEXT}" />
+            </filterset>
+        </copy>
+        <copy todir="${webapp.ftl.dir}/skins" overwrite="true" filtering="true">
+            <fileset dir="${skins.dir}">
+                <patternset refid="patternset.ftl" />
+            </fileset>
+            <filterset begintoken="@" endtoken="@">
+                <filter token="STATIC_DIR" value="${STATIC_DIR}" />
+                <filter token="APP_CONTEXT" value="${APP_CONTEXT}" />
+            </filterset>
+        </copy>
+
+    </target>
+
+<!-- New subversion stuff -->
+ <target name="svnUpdate" description="Update from subversion. Run with -Dsvn_username=username -Dsvn_password=password ">
+    <svn username="${svn_username}" password="${svn_password}">
+       <update recurse="false" dir="." />                               
+    </svn>
+ </target>
+
+ <!-- This target is used for an automated nightly/weekly build job -->
+  <target name="nightly_build"
+          depends="clean"
+          description="Does a svn checkout, builds, runs unit tests, and mails the output to mail recipients (run ant with -Dsvn_username=username -Dsvn_password=password -Dbranch_name=branchname -Dmail_recipients=recipient1,recipient2">
+
+     <mkdir dir="${nightlyreports}"/>
+     <!-- svn update --> 
+     <ant antfile="build.xml" target="svnUpdate" output="${nightlyreports}/nightly_build-init.txt">
+       <property name="mail_recipients" value="${mail_recipients}"/>
+       <property name="svn_username" value="${svn_username}"/>
+       <property name="svn_password" value="${svn_password}"/>
+       <property name="branch_name" value="${branch_name}"/>
+     </ant>
+
+     <!-- run the build process -->
+     <ant antfile="build.xml" target="nightly.checkedout.build" output="${nightlyreports}/nightly_build-compiled.txt">
+       <property name="mail_recipients" value="${mail_recipients}"/>
+     </ant>
+
+     <ant antfile="build.xml" target="nightly.checkedout.test" output="${nightlyreports}/nightly_build-testresults.txt">
+       <property name="mail_smtp_host" value="${mail_smtp_host}"/>
+       <property name="mail_sender" value="${mail_sender}"/>
+       <property name="mail_recipients" value="${mail_recipients}"/>
+       <property name="run_tests_fail" value="false"/>
+       <property name="headless" value="${headless}"/>
+     </ant>
+      <copy todir="${nightlyreports}">
+            <fileset dir="${findbugs.out.dir}">
+                <include name="**/*" />
+            </fileset>
+            <fileset dir="${coverage.out.report.dir}">
+                <include name="index.html" />
+                <include name="emma-run.xml" />
+            </fileset>
+
+        </copy>
+
+     <!-- mail the results -->
+	<mail mailhost="smtp.gmail.com" mailport="465" subject="nightly build results of ${branch_name}" charset="ISO-8859-1" user="i10nfleetcheckcustomercare@gmail.com" password="fleetcheck" tolist="${mail_recipients}" ssl="true">
+  	<from address="i10nfleetcheckcustomercare@gmail.com"/>
+  	<replyto address="i10nfleetcheckcustomercare@gmail.com"/>
+  	<message>The nightly build has completed</message>
+  	<attachments>
+   	<fileset dir="${nightlyreports}">
+         <include name="**/*"/>
+       	</fileset>
+  	</attachments>
+	</mail>
+  </target>
+
+<target name="nightly.checkedout.build" depends="nightly.init,build,publish" description="Used for nightly build">
+</target>
+
+<target name="nightly.checkedout.test" depends="check.findbugs,check.coverage" description="Used for nightly build quality test">
+</target>
+
+    <target name="compress">
+        <property name="compress.enabled" value="true" />
+    </target>
+
+    <target name="versioncache">
+        <property name="versioncache.enabled" value="true" />
+    </target>
+
+    <target name="static.war" description="Publish a Static WAR file.">
+        <war destfile="${dist.dir}/${webapp.static.name}.war" needxmlfile="false">
+            <fileset dir="${webapp.static.dir}" />
+            <!-- add version and time stamps: -->
+            <manifest>
+                <attribute name="Created-By" value="JDK_${ant.java.version}" />
+                <attribute name="Specification-Title" value="${webapp.name}" />
+                <attribute name="Specification-Vendor" value="(C) Interchain Solutions" />
+            </manifest>
+
+        </war>
+    </target>
+    <target name="app.war" description="Publish the APP WAR file.">
+        <war destfile="${dist.dir}/${webapp.name}.war" needxmlfile="false">
+            <fileset dir="${webapp.dir}" />
+            <!-- add version and time stamps: -->
+            <manifest>
+                <attribute name="Created-By" value="JDK_${ant.java.version}" />
+                <attribute name="Specification-Title" value="${webapp.name}" />
+                <attribute name="Specification-Vendor" value="(C) Interchain Solutions" />
+            </manifest>
+
+        </war>
+    </target>
+    <target name="war" depends="build,static.war,app.war" description="Publish a WAR file.">
+
+    </target>
+
+    <target name="publish" description="Publish to the servlet runner">
+        <mkdir dir="${publish.dir}" />
+        <copy todir="${publish.dir}">
+            <fileset dir="${webapp.dir}">
+                <include name="**/*" />
+            </fileset>
+        </copy>
+        <copy todir="${publish.static.dir}">
+            <fileset dir="${webapp.static.dir}">
+                <include name="**/*" />
+            </fileset>
+        </copy>
+
+    </target>
+
+    <target name="publish.test" description="Publish Test War to the servlet runner">
+        <mkdir dir="${publish.dir}" />
+        <copy todir="${publish.dir}">
+            <fileset dir="${jetty.fleet.war.dir}">
+                <include name="**/*" />
+            </fileset>
+        </copy>
+        <copy todir="${publish.static.dir}">
+            <fileset dir="${jetty.static.war.dir}">
+                <include name="**/*" />
+            </fileset>
+        </copy>
+
+    </target>
+
+    <target name="install" description="Install application in Tomcat">
+        <deploy url="${tomcat.manager.url}" username="${tomcat.username}" password="${tomcat.password}" path="/${webapp.name}" war="file:/${webapp.war}" />
+    </target>
+
+    <target name="remove" description="Remove application in Tomcat">
+        <undeploy url="${tomcat.manager.url}" username="${tomcat.username}" password="${tomcat.password}" path="/${webapp.name}" />
+    </target>
+
+    <target name="reload" description="Reload application in Tomcat">
+        <reload url="${tomcat.manager.url}" username="${tomcat.username}" password="${tomcat.password}" path="/${webapp.name}" />
+    </target>
+
+    <target name="start" description="Start Tomcat application">
+        <start url="${tomcat.manager.url}" username="${tomcat.username}" password="${tomcat.password}" path="/${webapp.name}" />
+    </target>
+
+    <target name="stop" description="Stop Tomcat application">
+        <stop url="${tomcat.manager.url}" username="${tomcat.username}" password="${tomcat.password}" path="/${webapp.name}" />
+    </target>
+
+    <target name="list" description="List Tomcat applications">
+        <list url="${tomcat.manager.url}" username="${tomcat.username}" password="${tomcat.password}" />
+    </target>
+
+    <target name="all" depends="war" description="Run a clean build process to generate a deployable WAR." />
+
+    <!-- Quality Targets Starts Here -->
+
+    <target name="init.quality" depends="init.tools,init.test">
+    </target>
+
+    <target name="init.tools" depends="create.tools.dirs,ivy.resolve.tools,init.build,compile.tools,core.compile">
+    </target>
+
+    <target name="quality" depends="init.quality,check.jslint,check.style,check.findbugs,check.coverage">
+    </target>
+
+    <target name="check.jslint" depends="check.jslint.windows,check.jslint.linux">
+    </target>
+
+    <target name="check.jslint.windows">
+        <record name="${jslint.out.reports.dir}/jslint.txt" action="start" />
+        <apply executable="${ivy.tools.lib}/jsl/jsl.exe" failonerror="true" parallel="false" osfamily="windows">
+            <arg value="conf" />
+            <arg value="${quality.config.dir}/jsl.default.conf" />
+            <arg value="-process" />
+            <fileset dir="${static.dir}/js">
+                <patternset refid="patternset.src.js" />
+            </fileset>
+            <fileset dir="${skins.dir}">
+                <patternset refid="patternset.src.js" />
+            </fileset>
+        </apply>
+        <record name="${jslint.out.reports.dir}/jslint.txt" action="stop" />
+    </target>
+
+    <target name="check.jslint.linux">
+        <record name="${jslint.out.reports.dir}/jslint.txt" action="start" />
+        <apply executable="wine" failonerror="true" parallel="false" osfamily="unix">
+            <arg value="${ivy.tools.lib}/jsl/jsl.exe" />
+            <arg value="conf" />
+            <arg value="${quality.config.dir}/jsl.default.conf" />
+            <arg value="-process" />
+            <fileset dir="${static.dir}/js">
+                <patternset refid="patternset.src.js" />
+            </fileset>
+            <fileset dir="${skins.dir}">
+                <patternset refid="patternset.src.js" />
+            </fileset>
+        </apply>
+        <record name="${jslint.out.reports.dir}/jslint.txt" action="stop" />
+    </target>
+
+    <target name="check.style" description="Prepares the checkstyle report.">
+        <taskdef resource="checkstyletask.properties">
+            <classpath>
+                <path refid="checkstyle.lib" />
+            </classpath>
+        </taskdef>
+        <mkdir dir="${checkstyle.out.dir}" description="Be sure that Check style report folder exists" />
+
+        <checkstyle maxErrors="${checkstyle.error.threshold}" failOnViolation="false" failureProperty="checkstyle.fail.prop" config="${quality.config.dir}/sun_checks.xml" description="Run the Checkstyle">
+
+            <fileset dir="${src.java.dir}" includes="**/*.java" />
+
+            <classpath>
+                <pathelement location="${classes.dir}" />
+                <path refid="checkstyle.lib" />
+            </classpath>
+
+            <formatter type="xml" toFile="${checkstyle.out.dir}/checkstyle.xml" />
+        </checkstyle>
+
+        <xslt in="${checkstyle.out.dir}/checkstyle.xml" out="${checkstyle.out.dir}/checkstyle.html" style="${quality.config.dir}/checkstyle-noframes.xsl" />
+
+        <java classname="com.i10n.tools.quality.CheckstyleChecker" fork="true" failonerror="true">
+            <arg value="${checkstyle.out.dir}/checkstyle.xml" />
+            <arg value="${build.res.dir}/threshold/checkstyle.properties" />
+            <arg value="false" />
+            <classpath>
+                <pathelement location="${tools.classes.dir}" />
+                <path location="${res.dir}" />
+                <fileset refid="fleet.lib.path" />
+                <fileset file="${fleet.core.lib}" />
+            </classpath>
+        </java>
+    </target>
+
+    <target name="check.findbugs" description="Prepares the findbugs report.">
+
+        <taskdef resource="edu/umd/cs/findbugs/anttask/tasks.properties">
+            <classpath>
+                <path refid="findbugs.lib" />
+            </classpath>
+        </taskdef>
+
+        <mkdir dir="${findbugs.out.dir}" />
+        <findbugs home="${ivy.tools.lib}" output="xml:withMessages" outputFile="${findbugs.out.dir}/findbugs-errors.xml" jvmargs="-Xmx1024M" projectName="${ant.project.name}">
+
+            <class location="${classes.dir}" />
+            <sourcePath path="${src.java.dir}" />
+            <auxClasspath>
+                <path refid="findbugs.lib" />
+                <fileset refid="fleet.lib.path" />
+            </auxClasspath>
+        </findbugs>
+
+        <xslt in="${findbugs.out.dir}/findbugs-errors.xml" out="${findbugs.out.dir}/findbugs-report.html" style="${quality.config.dir}/findbugs-fancy-hist.xsl" />
+
+        <java classname="com.i10n.tools.quality.FindbugsChecker" fork="true" failonerror="false">
+            <arg value="${findbugs.out.dir}/findbugs-errors.xml" />
+            <arg value="${build.res.dir}/threshold/findbugs.properties" />
+            <arg value="false" />
+            <classpath>
+                <pathelement location="${tools.classes.dir}" />
+                <path location="${res.dir}" />
+                <fileset refid="fleet.lib.path" />
+                <fileset file="${fleet.core.lib}" />
+            </classpath>
+        </java>
+    </target>
+
+    <target name="compile.tools">
+        <javac srcdir="${tools.src.dir}" destdir="${tools.classes.dir}" debug="true">
+            <classpath>
+                <path location="${res.dir}" />
+                <fileset refid="fleet.tools.lib" />
+                <fileset refid="fleet.lib.path" />
+                <fileset file="${fleet.core.lib}" />
+            </classpath>
+        </javac>
+    </target>
+
+
+
+    <!-- Quality Targets Ends Here -->
+
+
+    <!-- Ivy targets -->
+    <target name="ivy.resolve">
+        <ivy:retrieve settingsRef="basic" pattern="${ivy.fleet.lib}/[artifact].[ext]" conf="fleetlibs" />
+    </target>
+
+    <target name="ivy.resolve.tools">
+        <ivy:retrieve settingsRef="basic" pattern="${ivy.tools.lib}/[artifact].[ext]" conf="tools" />
+        <unzip src="${ivy.tools.lib}/findbugs.zip" dest="${ivy.tools.lib}/lib/">
+            <patternset>
+                <include name="**/*.jar" />
+            </patternset>
+            <mapper type="flatten" />
+        </unzip>
+        <unzip src="${ivy.tools.lib}/jsl.zip" dest="${ivy.tools.lib}/jsl/">
+            <mapper type="flatten" />
+        </unzip>
+        <move file="${ivy.tools.lib}/lib/coreplugin.jar" todir="${ivy.tools.lib}/plugin" />
+    </target>
+
+    <target name="ivy.resolve.test">
+        <ivy:retrieve settingsRef="basic" pattern="${ivy.test.lib}/[artifact].[ext]" conf="test" />
+        <unzip src="${ivy.test.lib}/jsunit.zip" dest="${ivy.test.lib}/">
+            <patternset>
+                <include name="**/*" />
+            </patternset>
+        </unzip>
+    </target>
+
+
+
+    <target name="create.local.props" description="Helps in creating local build properties for updating local settings">
+        <echo message="Creating local build properties" />
+        <input message="Value of tomcat.dir : " addproperty="tomcat.dir.template" defaultvalue="${tomcat.dir}" />
+        <input message="Value of compress.enabled : " addproperty="compress.enabled.template" defaultvalue="${compress.enabled}" />
+        <input message="Value of test.env : " addproperty="test.env.template" defaultvalue="test.env" />
+        <input message="Value of jsunit.browser.names : " addproperty="jsunit.browser.names.template" defaultvalue="${jsunit.browser.names}" />
+
+
+        <copy file="${basedir}/build-local.properties.template" tofile="${basedir}/build-local.properties" overwrite="true" filtering="true">
+            <filterset begintoken="@" endtoken="@">
+                <filter token="tomcat.dir.template" value="${tomcat.dir.template}" />
+                <filter token="compress.enabled.template" value="${compress.enabled.template}" />
+                <filter token="test.env.template" value="${test.env.template}" />
+                <filter token="jsunit.browser.names.template" value="${jsunit.browser.names.template}" />
+            </filterset>
+        </copy>
+
+
+    </target>
+
+    <!-- Test Targets -->
+    <target name="test.java" depends="test.compile" description="tests the java project">
+        <junit failureproperty="test.unit.failure.status" haltonfailure="false" printsummary="yes" fork="true" forkmode="once" maxmemory="512m" dir="${out.dir}">
+
+            <formatter type="xml" />
+            <!-- This property ensures that properties are de-templatized as per the file testenvironment.properties -->
+
+            <classpath>
+                <path refid="test.out.classpath" />
+            </classpath>
+            <batchtest todir="${test.out.report.dir}">
+                <fileset dir="${test.out.classes.dir}">
+                    <include name="**/*Test.*" />
+                    <exclude name="**/*Abstract.*" />
+                    <exclude name="**/*FleetJSUnitStandAloneTest.*" />
+                    <exclude name="**/selenium/**" />
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="test.dev" depends="test.compile" if="test.name" description="allows the developer to test just a specific test">
+        <junit failureproperty="test.unit.failure.status" haltonfailure="false" printsummary="yes" fork="true" forkmode="once" maxmemory="512m" dir="${out.dir}">
+
+            <formatter type="xml" />
+            <!-- This property ensures that properties are de-templatized as per the file testenvironment.properties -->
+
+            <classpath>
+                <path refid="test.out.classpath" />
+            </classpath>
+            <batchtest todir="${test.out.report.dir}">
+                <fileset dir="${test.out.classes.dir}">
+                    <include name="**/*${test.name}.*" />
+                    <exclude name="**/*Abstract.*" />
+                    <exclude name="**/*FleetJSUnitStandAloneTest.*" />
+                    <exclude name="**/selenium/**" />
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="test.compile" depends="emma.compile" description="Compiles the test cases source">
+        <javac destdir="${test.out.classes.dir}" includes="**/*.java" debug="${build.debug}" deprecation="${build.deprecation}">
+            <src path="${test.src.dir}" />
+            <classpath>
+                <path refid="test.compile.classpath" />
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="test.compile.selenium" depends="test.compile" description="Compiles the test cases source">
+        <javac destdir="${test.out.classes.dir}" includes="**/*.java" debug="${build.debug}" deprecation="${build.deprecation}">
+            <src path="${test.selenium.src.dir}" />
+            <classpath>
+                <path refid="test.compile.classpath" />
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="test.run.java.htmlreport" description="Generates an HTML report for JUnit tests.">
+        <taskdef name="junitreport" classname="org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator" />
+        <junitreport todir="${test.out.report.dir}">
+            <fileset dir="${test.out.report.dir}" includes="TEST-*.xml" />
+            <report format="frames" todir="${test.out.report.dir}" />
+        </junitreport>
+    </target>
+
+    <target name="test.run.selenium.htmlreport" description="Generates an HTML report for JUnit tests.">
+        <taskdef name="junitreport" classname="org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator" />
+        <junitreport todir="${selenium.out.report.dir}">
+            <fileset dir="${selenium.out.report.dir}" includes="TEST-*.xml" />
+            <report format="frames" todir="${selenium.out.report.dir}" />
+        </junitreport>
+    </target>
+
+    <target name="test.run" depends="test.java,test.jsunit,test.selenium,test.run.java.htmlreport,test.run.selenium.htmlreport" description="Runs all the test cases">
+        <fail if="test.unit.failure.status" message="Tests Failed. Target: test.run" />
+        <fail if="test.selenium.failure.status" message="Selenium Tests Failed. Target: test.run" />
+        <fail if="test.jsunit.failure.status" message="Jsunit Tests Failed. Target: test.run" />
+    </target>
+
+
+    <target name="test.selenium" depends="test.compile.selenium,build.test.war,start.selenium.server" description="Runs the selenium test cases">
+        <copy todir="${jetty.fleet.war.dir}/WEB-INF/classes" overwrite="true" filtering="true">
+            <fileset dir="${selenium.res.dir}">
+                <include name="**/*" />
+            </fileset>
+        </copy>
+        <junit showoutput="true" failureproperty="test.selenium.failure.status" haltonfailure="false" printsummary="yes" fork="true" forkmode="once" maxmemory="512m" dir="${out.dir}">
+            <formatter type="xml" />
+            <classpath>
+                <path refid="test.out.noninstr.classpath" />
+            </classpath>
+            <test todir="${selenium.out.report.dir}" name="com.i10n.fleet.selenium.FleetSeleniumTestCases" />
+        </junit>
+        <antcall target="stop.selenium.server" />
+    </target>
+
+    <target name="start.selenium.server">
+        <java jar="${ivy.test.lib}/selenium-server.jar" fork="true" spawn="true">
+            <arg line="-port ${selenium.port}" />
+            <arg line="-timeout 30" />
+        </java>
+    </target>
+
+    <target name="stop.selenium.server">
+        <get taskname="selenium-shutdown" src="http://localhost:${selenium.port}/selenium-server/driver/?cmd=shutDownSeleniumServer" dest="${reports.dir}/selenium/shutdown-log.txt" ignoreerrors="true" />
+        <echo taskname="selenium-shutdown" message="DGF Errors during shutdown are expected" />
+    </target>
+
+    <target name="test.jsunit" depends="build.test.war,test.compile" description="Runs JsUnit tests on the local machine as configured by the url and browserfilenames properties">
+        <copy todir="${jetty.fleet.war.dir}/WEB-INF/classes" overwrite="true" filtering="true">
+            <fileset dir="${jsunit.res.dir}">
+                <include name="**/*" />
+            </fileset>
+        </copy>
+        <junit showoutput="true" failureproperty="test.jsunit.failure.status" haltonfailure="false" printsummary="yes" fork="true" forkmode="once" maxmemory="512m" dir="${out.dir}">
+            <classpath>
+                <path refid="test.out.noninstr.classpath" />
+            </classpath>
+            <sysproperty key="browserFileNames" value="${jsunit.browser.names}" />
+            <sysproperty key="url" value="${jsunit.url}" />
+            <sysproperty key="port" value="${jsunit.port}" />
+            <sysproperty key="resourceBase" value="${jsunit.res.base}" />
+            <sysproperty key="logsDirectory" value="${jsunit.logs.dir}" />
+            <sysproperty key="FLEETCHK_ENV" value="${test.env}" />
+            <formatter type="xml" />
+            <test todir="${jsunit.logs.dir}" name="com.i10n.fleet.jsunit.FleetJSUnitStandAloneTest" />
+        </junit>
+    </target>
+
+    <target name="test" depends="init.test,test.run" description="Runs the whole projects test cases">
+    </target>
+
+    <target name="init.test" depends="init.build,ivy.resolve.test,core.compile" description="Initialize build test process.">
+        <mkdir dir="${test.out.dir}" />
+        <mkdir dir="${test.out.classes.dir}" />
+        <mkdir dir="${test.out.res.dir}" />
+        <mkdir dir="${test.out.report.dir}" />
+        <mkdir dir="${selenium.out.report.dir}" />
+        <mkdir dir="${jsunit.logs.dir}" />
+        <copy todir="${test.out.res.dir}" overwrite="true" filtering="true">
+            <fileset dir="${res.dir}">
+                <include name="**/*" />
+                <exclude name="**/environment/*" />
+            </fileset>
+            <filterset begintoken="@" endtoken="@">
+                <filter token="STATIC_DIR" value="${STATIC_DIR}" />
+                <filter token="APP_CONTEXT" value="${APP_CONTEXT}" />
+            </filterset>
+        </copy>
+        <copy todir="${test.out.res.dir}/WEB-INF" overwrite="true" filtering="true">
+            <fileset dir="${app.site.dir}/WEB-INF">
+                <include name="**/*.xml" />
+            </fileset>
+            <filterset begintoken="@" endtoken="@">
+                <filter token="STATIC_DIR" value="${STATIC_DIR}" />
+                <filter token="APP_CONTEXT" value="${APP_CONTEXT}" />
+            </filterset>
+        </copy>
+        <copy todir="${test.out.res.dir}" overwrite="true" filtering="true">
+            <fileset dir="${test.res.dir}">
+                <include name="**/*" />
+            </fileset>
+            <filterset begintoken="@" endtoken="@">
+                <filter token="test.out.res.dir" value="${test.out.res.dir}" />
+                <filter token="jetty.fleet.war.dir" value="${jetty.fleet.war.dir}" />
+                <filter token="jetty.static.war.dir" value="${jetty.static.war.dir}" />
+                <filter token="jetty.port" value="${jetty.port}" />
+                <filter token="jetty.start" value="${jetty.start}" />
+                <filter token="selenium.port" value="${selenium.port}" />
+                <filter token="selenium.host" value="${selenium.host}" />
+                <filter token="selenium.host.port" value="${selenium.host.port}" />
+            </filterset>
+        </copy>
+        <copy todir="${test.out.res.dir}" overwrite="true">
+            <fileset dir="${test.data.dir}">
+                <include name="**/*" />
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="build.test.war" depends="build">
+        <copy todir="${jetty.static.war.dir}">
+            <fileset dir="${webapp.static.dir}">
+                <include name="**/*" />
+            </fileset>
+        </copy>
+        <copy todir="${jetty.static.war.dir}/jsunit">
+            <fileset dir="${ivy.test.lib}/jsunit">
+                <include name="**/*" />
+            </fileset>
+        </copy>
+        <copy todir="${jetty.fleet.war.dir}">
+            <fileset dir="${webapp.dir}">
+                <include name="**/*" />
+            </fileset>
+        </copy>
+        <copy todir="${jetty.fleet.war.dir}/WEB-INF/freemarker/tests" filtering="true">
+            <fileset dir="${jsunit.test.dir}">
+                <include name="**/*.ftm" />
+                <include name="**/*.ftd" />
+                <include name="**/*.ftl" />
+            </fileset>
+            <filterset begintoken="@" endtoken="@">
+                <filter token="STATIC_DIR" value="${STATIC_DIR}" />
+                <filter token="APP_CONTEXT" value="${APP_CONTEXT}" />
+            </filterset>
+        </copy>
+
+    </target>
+
+    <target name="emma.compile" depends="emma.include" description="Apply emma instrumentation to the classes in instrpath and copy to destdir">
+        <emma verbosity="verbose">
+            <!-- "info"> -->
+            <instr instrpath="${classes.dir}" destdir="${test.out.classes.instr.dir}" merge="true" mode="copy">
+                <filter excludes="com.i10n.fleet.util.Constants*, com.i10n.fleet.util.Constants, com.i10n.fleet.providers.mock*" />
+            </instr>
+        </emma>
+    </target>
+
+    <target name="emma.include">
+        <taskdef resource="emma_ant.properties" classpathref="emma.lib" />
+    </target>
+
+    <target name="emma.run" depends="emma.include" description="Runs the emma task to prepare coverage report">
+        <!-- Move the runtime coverage metadata to the coverage dir -->
+        <move file="${coverage.ec}" todir="${coverage.out.report.dir}" />
+        <copy file="${coverage.em}" todir="${coverage.out.report.dir}" failonerror="false" />
+        <!-- Generate code coverage report -->
+        <emma>
+            <report sourcepath="${src.java.dir}" depth="method" metrics="method:80,block:80,line:80,class:100">
+                <infileset dir="${coverage.out.report.dir}" includes="coverage.em,coverage.ec" />
+                <html outfile="${coverage.out.report.dir}/index.html" />
+                <xml outfile="${coverage.out.report.dir}/emma-run.xml" />
+            </report>
+        </emma>
+
+        <java classname="com.i10n.tools.quality.CoverageChecker" fork="true" failonerror="false">
+            <arg value="${coverage.out.report.dir}/emma-run.xml" />
+            <arg value="${build.res.dir}/threshold/coverage.properties" />
+            <arg value="false" />
+            <classpath>
+                <pathelement location="${tools.classes.dir}" />
+                <path location="${res.dir}" />
+                <fileset refid="fleet.lib.path" />
+                <fileset file="${fleet.core.lib}" />
+            </classpath>
+        </java>
+    </target>
+
+    <target name="check.coverage" depends="test.java,test.run.java.htmlreport, emma.run" description="Prepares the coverage report after testing">
+       <!-- <fail if="test.unit.failure.status" message="Tests Failed. Target: check.coverage" />-->
+    </target>
+
+    <target name="create.skin" depends="configure.skins" description="Creates skin files">
+        <java classname="com.i10n.tools.skins.SkinParser" fork="true" failonerror="true">
+            <arg value="${temp.skins.dir}" />
+            <classpath>
+                <pathelement location="${tools.classes.dir}" />
+                <path location="${tools.resources.dir}" />
+                <path location="${res.dir}" />
+                <fileset refid="fleet.tools.lib" />
+                <fileset refid="fleet.lib.path" />
+                <fileset file="${fleet.core.lib}" />
+            </classpath>
+        </java>
+    </target>
+
+    <target name="eclipse" description="Creates project specific eclipse setting">
+        <mkdir dir="${eclipse.out.dir}" />
+        <mkdir dir="${eclipse.lib.dir}" />
+        <copy todir="${eclipse.lib.dir}" flatten="true">
+            <fileset dir="${ivy.lib}">
+                <include name="**/*.jar" />
+            </fileset>
+        </copy>
+        <copy file="${eclipse.dir}/.classpath.template" tofile="${basedir}/.classpath" failonerror="false" overwrite="true" />
+        <copy file="${eclipse.dir}/.project.template" tofile="${basedir}/.project" failonerror="false" />
+    </target>
+	
+	<!--Sonar Ant Libs -->
+	
+	<target name="sonar">
+		    <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+		        <!-- Update the following line, or put the "sonar-ant-task-*.jar" file in your "$HOME/.ant/lib" folder -->
+		        <classpath path="${ant.home}/lib/sonar-ant-task-2.1.jar" />
+		    </taskdef>
+		 
+		    <!-- Execute Sonar -->
+		    <sonar:sonar />
+		</target>
+	
+</project>

@@ -1,0 +1,98 @@
+<#import "/macros/rounded.ftm" as round>
+<#assign userInfoKeyConfig = [{
+    "key": "userid",
+    "title": "USER ID"
+}, {
+    "key": "status",
+    "title": "STATUS"
+}, {
+    "key": "vehicleAllotted",
+    "title": "VEHICLE ALLOTTED"
+}, {
+    "key": "lastLogin",
+    "title": "LAST LOGIN"
+}, {
+    "key": "addUser",
+    "title": "",
+    "format": "picture",
+    "urlKey": "@APP_CONTEXT@/view/controlpanel/?subpage=user&action=add"
+}, {
+    "key": "editUser",
+    "title": "",
+    "format": "picture",
+    "urlKey": "@APP_CONTEXT@/view/controlpanel/?subpage=user&action=edit"
+}, {
+    "key": "deleteUser",
+    "title": "",
+    "format": "picture",
+    "urlKey": "@APP_CONTEXT@/view/controlpanel/?subpage=user&action=delete"
+}]/>
+<#include "/mock/UserInfo.ftd">
+<#macro init params={}>
+    <#local recordCount = 5/>
+    <#if (params.recordCount)??>
+        <#local recordCount = params.recordCount/>
+    </#if>
+    <#local columnDefs = userInfoKeyConfig/>
+    <#local userInfos = view.userInforms/>
+    <div class="userinfo-container">
+        <div class = "hd">
+            <@round.cssRounding params={"radius":5}>
+                <div class="widget-header-label inline-block"></div>
+                <div class="widget-header-content inline-block">USER INFORMATION</div>
+                <a class="adduser-link" href="@APP_CONTEXT@/view/controlpanel/?subpage=user">
+                    <div class="adduser">
+                        <@round.cssRounding params={"radius":5}>
+                            <div>ADD USER</div> 
+                        </@round.cssRounding>
+                    </div>
+                </a>
+            </@round.cssRounding>    
+        </div>
+        <table class="table-${columnDefs?size}-cols table-${userInfos?size}-rows">
+            <thead>
+                <tr class="table-head-row">
+                    <#list columnDefs as columnDef>
+                        <th class="table-head-col table-head-${columnDef.key}-col">${columnDef.title?upper_case}</td>
+                    </#list>
+                </tr>
+            </thead>
+            <tbody>
+                <#list userInfos as user>
+                    <tr class="table-item-row 
+                        <#if user_index%2 == 0>even<#else>odd</#if> 
+                        <#if user_index == 0>table-first-row</#if>
+                        <#if user_index == (userInfos?size -1)>table-last-row</#if>"
+                    >
+                        <#list columnDefs as columnDef>
+                            <td class="table-item-col
+                                table-item-${columnDef.key}-col <#if (columnDef.format)??> ${columnDef.format} </#if>
+                                <#if columnDef_index == 0>table-first-col</#if>
+                                <#if columnDef_index == (columnDefs?size - 1)>table-last-col</#if>" 
+                                <#if (columnDef.format)??>format=${columnDef.format}</#if>
+                            >   
+                                <#if (columnDef.format)?? && columnDef.format == "picture">
+                                    <a href = "<#if (columnDef.urlKey)??>${columnDef.urlKey}</#if>">
+                                        <div class="${columnDef.key}"></div>
+                                    </a>
+                                <#elseif (user["${columnDef.key}"])??>
+                                    ${user[columnDef.key]}
+                                </#if>
+                            </td>
+                        </#list>
+                    </tr>
+                    <#if user_index == (recordCount -1 )>
+                        <#break/>
+                    </#if>
+                </#list>
+            </tbody>
+        </table>
+        <div class="ft">
+            <@round.cssRounding params={"radius":5,"top":false}>
+                <div class="label">
+                    <a href="@APP_CONTEXT@/view/controlpanel/?subpage=user">View All</a>
+                </div>
+            </@round.cssRounding>
+        </div>
+    </div>
+</#macro>

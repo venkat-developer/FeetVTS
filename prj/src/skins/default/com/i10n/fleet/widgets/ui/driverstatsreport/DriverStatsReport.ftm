@@ -1,0 +1,27 @@
+<#import "/macros/rounded.ftm" as round>
+<#import "/macros/skin.ftm" as skin/>
+<#macro init params={}>
+    <div class ="main-bd disabled">
+         <div class="driverstatistics">       
+            <div class="hd">
+                <@round.cssRounding params={"radius":5}>
+                  <div class="widget-header-label"> DRIVER STATISTICS</div>
+                </@round.cssRounding>
+            </div>
+            <div class="bd">
+               <div>
+                   <div class = "info-label total-dist inline-block">Total Distance Travelled :</div>
+                   <div class = "info total-dist inline-block" attr="distance"> Total Distance Travelled </div> 
+               </div>
+               <div>
+                   <div class = "info-label max-speed inline-block">Max Speed :</div>
+                   <div class = "info max-speed inline-block" attr="maxspeed">Max Speed</div> 
+               </div>
+               <div>
+                   <div class = "info-label avg-speed inline-block"> Average Speed :</div>
+                   <div class = "info avg-speed inline-block" attr="avgspeed">Average Speed </div>
+               </div> 
+            </div>
+         </div>
+    </div>
+</#macro>

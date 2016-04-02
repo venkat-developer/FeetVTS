@@ -1,0 +1,4 @@
+<#import "/macros/skin.ftm" as skin/>
+<#macro init params={}>
+   <@skin.widget name="Report" params={"cssClass":"report select-enabled page-disabled print-disabled"}/>  
+  </#macro>

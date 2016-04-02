@@ -1,0 +1,287 @@
+/*************************************************************************************************\
+ Base Styles
+ 
+ This section provides default definitions for the basic HTML entities and entity combinations
+ \*************************************************************************************************/
+html {
+    background: #fff;
+    color: #000;
+}
+
+body {
+    font-size: 12px;
+    font-family: Tahoma, Verdana;
+    margin: auto;
+}
+
+div {
+    padding: 0;
+    margin: 0px;
+}
+
+hr {
+    clear: both;
+    background-color: #d0d1d1;
+    color: #d0d1d1;
+    width: 100%;
+    height: 1px;
+    border: none;
+    margin: 0em 0em 1em 0em;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+em {
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+sup {
+    font-style: italic;
+    font-size: 70%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 1px;
+}
+
+li {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+html {
+	background-color: gray;
+    height: 100%;
+}
+body {
+    background-color: gray;
+    height: 100%;
+    margin:0;
+    padding:0;
+  
+}
+#bg {
+	position:fixed;
+	 top:0; 
+	 left:0; 
+	 width:100%; 
+	 height:100%;}
+#content {
+	position:relative;
+	 z-index:1;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+table td {
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    padding: 0px;
+    margin: 0px;
+}
+
+.flip-container {
+    display: none;
+    position: absolute;
+    top: 0px;
+    z-index: 1600;
+   
+}
+
+.fleet-container {
+    min-height: 100%;
+}
+
+.hover {
+    behavior: url("/static/css/csshover3.htc");
+}
+
+.fleet-container .view-container.list-minimized .side-pane {
+    width: 0px;
+    *width: 1px;
+}
+
+.fleet-container .fleet-container-layout {
+    width: 100%;
+    height: 100%;
+}
+
+.fleet-container .fleet-bd-col.side-pane {
+    width: 255px;
+    background-color: #E6EDF3;
+}
+
+.fleet-container .fleet-bd-col.main-pane {
+	*width: 100%;
+    height: 100%;
+}
+
+.fleet-container .fleet-bd-col {
+    vertical-align: top;
+}
+
+.print-body {
+    background-color: white;
+}
+
+.print-body .overlay {
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    display: none;
+}
+
+.fleet-body .print-skin-template {
+    display: none;
+}
+
+.fleet-body .overlay {
+    position: fixed;
+    background-color: white;
+    z-index: 1600;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    opacity: 0.60;
+    display: block;
+    background-image: url(/static/img/icons/LoaderAnimation-1.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    *filter: alpha( opacity = 60);
+}
+
+.fleet-body .overlay.popup {
+    z-index: 1600;
+    background-image: none;
+}
+
+.markup-template {
+    display: none;
+}
+
+/*************************************************************************************************\
+ CSS Snippets
+ 
+ The CSS declarations contained in this section include idiomatic expressions that are
+ reusable across pages to achieve particular desired effects.  This section should NOT
+ contain any definition-sets that are unique to a particular page or data context.
+ \*************************************************************************************************/
+/**
+ * The inline-block style, introduced with CSS2.1, is an invaluable layout tool that is
+ *  unfortunately not supported by Gecko <= version 1.8 (Firefox <= 2.x). The following
+ *  declarations can be used to simulate the effect in a nicely cross-browser manner.
+ *
+ * Thanks to Isaac Schlueter for popularizing the workaround:
+ *  http://foohack.com/2007/11/cross-browser-support-for-inline-block-styling/
+ *
+ *
+ * Please note that the workaround, based on -moz-inline-stack, requires that the actual
+ *  content of the inline-block be contained in a single 'extra' child div with relative
+ *  positioning. The need to manipulate the markup is compensated by the greater ease in
+ *  creating and maintaining layouts made possible by getting rid of all the unnecessary
+ *  uses of floating elements.
+ *
+ * (We're including the 'inline-block' as a class in the markup as well. As long as we're
+ *  manipulating the markup, we might as well get the benefit of this shorthand).
+ */
+.inline-block { /* For Gecko browsers */
+    display: -moz-inline-stack;
+    /* For non-Gecko, non-IE browsers that support inline-block properly */
+    display: inline-block;
+    /* By default, align to the top, just like text beside an image. */
+    vertical-align: top;
+    /* For IE - change the display to 'inline', which will allow inline-block to be applied to block-level elements. */ 
+    *display: inline;
+    *zoom: 1;
+    /* For IEv6- only - add an explicit width, so that the browser does not resize list elements to the width of the container. */
+    _width: 1px;
+    _white-space: nowrap;
+}
+
+/**
+ * From the link above...
+ *  If an element is inside of an inline block, and lies outside the line box, then it
+ *  won't be clickable in Mozilla. Give the child element position:relative to correct
+ *  the problem.
+ *
+ * Since the fix is for Mozilla only, we can use the child selector to limit the impact
+ *  of the property to the artificial div.
+ */
+.inline-block > div, .inline-block > ul , .inline-block > select > a {
+    position: relative;
+    /* Child selector works on IE7 and above. Hence overriding relative positioning. */ 
+    *position: static;
+}
+
+/**
+ * The SPACER div is intended for one specific purpose:
+ *  Clear both left and right as the last content element inside a block-level element
+ *  containing floating children. The sole purpose of this element is to force-include
+ *  all siblings beneath its containing div (thus the content reset).
+ */
+div.spacer {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Fix's #container not clearing inner floats in firefox */
+.floatfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/ 
+* html .floatfix {
+    height: 1%;
+}
+
+/**
+ *  Following rules are placed to avoid the strange box in IE-7
+ *  TODO : This will be removed once the Interval Calendar
+ *  will be integrated with Popup
+ */
+.yui-panel-container.yui-overlay-hidden table { 
+    *display: none;
+}
+
+/**
+ * The Following specify the initial state of the editable div triggers
+ *
+ */
+.editableDiv-trigger.disabled {
+    display: none;
+}

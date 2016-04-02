@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>DHARMAPURI SWC</name>
+	<description> DHARMAPURI SWC, KRISHNAGIRI</description>
+	<Point>
+	<coordinates>78.158004,12.127236,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>SALEM FSD</name>
+	<description> SALEM FSD, KRISHNAGIRI</description>
+	<Point>
+	<coordinates>78.146009,11.665602,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>MORAPPUR</name>
+	<description> MORAPPUR, KRISHNAGIRI</description>
+	<Point>
+	<coordinates>78.391871,12.128285,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>ARAKONAM FSD</name>
+	<description> ARAKONAM FSD, THIRUVALLORE</description>
+	<Point>
+	<coordinates>79.669418,13.081318,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>AVADI FSD</name>
+	<description> AVADI FSD, THIRUVALLORE</description>
+	<Point>
+	<coordinates>80.101147,13.116178,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>EGMORE FSD</name>
+	<description> EGMORE FSD, THIRUVALLORE</description>
+	<Point>
+	<coordinates>80.258045,13.070783,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>Krishnagiri</name>
+	<description> Krishnagiri, G234</description>
+	<Point>
+	<coordinates>78.216305,12.518034,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>Hosur</name>
+	<description> Hosur, G239</description>
+	<Point>
+	<coordinates>77.83144,12.732949,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>Tenkanikottai</name>
+	<description> Tenkanikottai, G243</description>
+	<Point>
+	<coordinates>77.789598,12.528423,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>Pochampalli</name>
+	<description> Pochampalli, G249</description>
+	<Point>
+	<coordinates>78.364835,12.332288,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>Uthangarai</name>
+	<description> Uthangarai, G238</description>
+	<Point>
+	<coordinates>78.535938,12.266205,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>Thiruvellore</name>
+	<description> Thiruvellore, G486</description>
+	<Point>
+	<coordinates>79.909015,13.142173,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>Tirutani</name>
+	<description> Tirutani, G480</description>
+	<Point>
+	<coordinates>79.61689,13.173139,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>Pallipattu</name>
+	<description> Pallipattu, G484</description>
+	<Point>
+	<coordinates>79.445915,13.336342,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>Nazarathpet</name>
+	<description> Nazarathpet, G483</description>
+	<Point>
+	<coordinates>80.08029,13.047195,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>Uthukottai</name>
+	<description> Uthukottai, G535</description>
+	<Point>
+	<coordinates>79.903564,13.312121,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>Gummidipoondi</name>
+	<description> Gummidipoondi, G485</description>
+	<Point>
+	<coordinates>80.109816,13.406152,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>SEMBULIVARAM</name>
+	<description> SEMBULIVARAM, G481</description>
+	<Point>
+	<coordinates>80.251522,13.061586,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>godown.png</href></Icon></IconStyle></Style>
+	<name>KATCHUR</name>
+	<description> KATCHUR, G535</description>
+	<Point>
+	<coordinates>79.925537,13.261333,678</coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,15 @@
+/**
+ * Driver Report UI Widget CSS
+ */
+.driverreport .rpt-hidden {
+    display: none;
+}
+
+.driverreport .rpt-select-cnt {
+    padding-left: 1px;
+    padding-top: 3px;
+}
+
+.driverreport .rpt-select-cnt .rpt-select {
+    height: 25px;
+}

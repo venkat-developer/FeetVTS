@@ -1,0 +1,11 @@
+.groupmanager .ft .refresh {
+    margin-right: 300px;
+    float: right;
+}
+
+.groupmanager .ft .refresh .refreshtxt {
+    background-image: url(/static/img/icons/action-icons.png);
+    background-position: 100% -1734px;
+    background-repeat: no-repeat;
+    padding-right: 23px;
+}

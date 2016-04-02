@@ -1,0 +1,97 @@
+/**
+ * Driver Report UI Widget CSS.
+ */
+.driverstatsreport .main-bd.disabled {
+    display: none;
+}
+
+.driverstatsreport .driverstatistics {
+    height: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.driverstatsreport .driverstatistics .hd {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 13px;
+    position: relative;
+}
+
+.driverstatsreport .driverstatistics .hd .widget-header-label {
+    background-image: url(/static/img/icons/widget-header-icons.png);
+    background-position: 5px -722px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 18px;
+    padding-left: 35px;
+}
+
+.driverstatsreport .driverstatistics .hd .rounded-rect .nested {
+    padding: 7px 2px 2px 2px;
+    height: 23px;
+    background-color: #8ABCDE;
+    border-color: #8ABCDE;
+}
+
+.driverstatsreport .driverstatistics .hd .rounded-rect .cap {
+    background-color: #8ABCDE;
+    border-color: #8ABCDE;
+}
+
+.driverstatsreport .driverstatistics .bd {
+    color: #1F5A85;
+    font-weight: bold;
+    padding-left: 24px;
+}
+
+.driverstatsreport .driverstatistics .bd .info-label {
+    padding-top: 20px;
+}
+
+.driverstatsreport .driverstatistics .bd .info {
+    padding-left: 1px;
+    padding-top: 20px;
+}
+
+.driverstatsreport.widget .widget.simpledialog {
+    position: absolute;
+    top: 190px;
+    left: 440px;
+    z-index: 1500;
+    width: 300px;
+}
+
+.driverstatsreport .simpledialog {
+    height: 130px;
+}
+
+.driverstatsreport .simpledialog.disabled {
+    display: none;
+}
+
+.driverstatsreport .simpledialog .icon {
+    background-image: url(/static/img/icons/widget-header-icons.png);
+    background-position: 8px -575px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 44px;
+}
+
+.driverstatsreport .simpledialog .text {
+    width: 246px
+}
+
+.driverstatsreport .simpledialog .buttons {
+    font-size: 0.8em;
+    padding-left: 116px;
+    padding-top: 15px;
+}
+
+.print.popup .driverstatsreport {
+    background-color: white;
+}

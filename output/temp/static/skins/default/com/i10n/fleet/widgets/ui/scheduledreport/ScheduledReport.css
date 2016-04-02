@@ -1,0 +1,77 @@
+.scheduledreport .report-bar-container {
+    height: 32px;
+    _height: 38px;
+    width: 100%;
+   /*  background-image: url("@STATIC_DIR@/img/toolbar/toolbar-bg.jpg"); */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    padding-top: 6px;
+    font-size: 0.9em
+}
+
+.scheduledreport .report-bar-container .button-generate-report {
+    padding-left: 5px;
+    margin-left: 600px;
+}
+
+.scheduledreport.widget .widget.simpledialog {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    z-index: 1550;
+    width: 300px;
+}
+
+.scheduledreport .simpledialog {
+    height: 130px;
+}
+
+.scheduledreport .simpledialog.disabled {
+    display: none;
+}
+
+.scheduledreport .simpledialog .icon {
+    background-image: url(@STATIC_DIR@/img/icons/widget-header-icons.png);
+    background-position: 8px -575px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 44px;
+}
+
+.scheduledreport .simpledialog .text {
+    width: 246px
+}
+
+.scheduledreport .simpledialog .buttons {
+    font-size: 0.8em;
+    padding-left: 116px;
+    padding-top: 15px;
+}
+
+.scheduledreport .vehiclescheduledreport {
+    background-color: #FFFFFF;
+}
+
+.scheduledreport .vehiclescheduledreport.empty {
+    display: none;
+}
+
+.scheduledreport .vehiclescheduledreport .hd .rounded-rect .nested .title {
+    padding-left: 10px;
+    color: #1C5E90;
+    padding-top: 2px;
+    font-size: 1.1em;
+}
+
+.scheduledreport .vehiclescheduledreport .hd .rounded-rect .nested .vehiclename {
+    font-size: 1.2em;
+    color: #1C5E90;
+    width: 130px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.scheduledreport .vehiclescheduledreport .hd .paginator {
+    margin-top: 0px;
+}

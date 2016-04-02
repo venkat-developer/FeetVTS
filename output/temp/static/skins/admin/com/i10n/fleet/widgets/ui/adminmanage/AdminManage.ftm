@@ -1,0 +1,9 @@
+<#import "/macros/json-publish.ftm" as json/>
+<#macro init params={}>
+    <div class="adm-cnt yui-navset">
+        
+    </div>
+    <#local sites = skin.getWidgetData("Header",{}).sites/>
+    <#local manageTabs = sites["${parameters.view}"].subnav.adminmanage.subpage/>
+    <@json.publish data=manageTabs publishAs="manage" context="admin"/>
+</#macro>

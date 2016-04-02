@@ -1,0 +1,19 @@
+<#assign mockGeoFenceData = {
+
+    "fence-1" : {
+        "name":"india"      
+    },
+    
+    "fence-2" : {
+        "name":"Bangalore"   
+    },
+
+    "fence-3" : {
+        "name":"Bangalore-North"   
+    },
+
+    "fence-4" : {
+        "name":"Bangalore-South"   
+    }
+}
+/>

@@ -1,0 +1,210 @@
+<#import "/macros/rounded.ftm" as round/>
+<#macro init params={}>
+    <#local tripID=""/>
+    <#if (parameters.tripID)??>
+        <#local tripID="${parameters.tripID}"/>
+        <#--Getting the trip details-->
+        <#if (view.tripsettings.trips['${tripID}'])??>
+           <#local tripDetails=view.tripsettings.trips['${tripID}']/>
+        </#if>
+    </#if>
+    <#if (tripDetails)??>
+        <div class="trip-details-container">
+            <div class="hd">
+                <@round.cssRounding params={"radius":5}>
+                    <div class="inline-block  label">
+                        Selected Trip :
+                    </div>
+                    <div class="inline-block tripname">
+                        ${tripDetails.name}
+                    </div>
+                </@round.cssRounding>
+            </div>
+            <div class="bd">
+                <div class="details trip">
+                    <div class="trip-details-header">
+                        <div class="background">
+                            TRIP DETAILS 
+                        </div>
+                    </div>
+                    <div class="trip-details-body">
+                        <div class="details-record">          
+                            <div class="inline-block content label">
+                                Trip Name
+                            </div>
+                            :
+                            <div class="inline-block content data">
+                                ${tripDetails.name}
+                            </div>  
+                        </div>
+                        <div class="details-record">          
+                            <div class="inline-block content label">
+                                Started At
+                            </div>
+                            :
+                            <div class="inline-block content data">
+                                ${tripDetails.startdate}
+                            </div>  
+                        </div>
+                        <div class="details-record">          
+                            <div class="inline-block content label">
+                                Last Updated At
+                            </div>
+                            :
+                            <div class="inline-block content data">
+                                ${tripDetails.lastupdated}
+                            </div>  
+                        </div>
+                        <div class="details-record">          
+                            <div class="inline-block content label">
+                                Last Location
+                            </div>
+                            :
+                            <div class="inline-block content data">
+                                ${tripDetails.location}
+                            </div>  
+                        </div>
+                        <div class="details-record">          
+                            <div class="inline-block content label">
+                                Total Distance
+                            </div>
+                            :
+                            <div class="inline-block content data">
+                                ${tripDetails.distance}
+                            </div>  
+                        </div>
+                        <div class="editable editableDiv details-record">          
+                            <div class="inline-block content label">
+                                Max Speed Limit
+                            </div>
+                            :
+                            <div class="inline-block editableDiv-target-speed content data" id = 'speed-edit'>
+                                ${tripDetails.maxspeed}
+                            </div>
+                            <div class="inline-block content units">
+                                kmph
+                            </div>
+                            <div class="inline-block content icon">
+                            </div>
+                            <a class="inline-block editableDiv-trigger-speed edit event-source content link">Edit</a>
+                            <a class="inline-block editableDiv-trigger-speed disabled submit event-source content link">Submit</a>  
+                        </div>
+                        <div class="last-record editable editableDiv  details-record">          
+                            <div class="inline-block content label">
+                                Idle Point Limit
+                            </div>
+                            :
+                            <div class="inline-block editableDiv-target-idle content data" id = 'idle-edit'>
+                                ${tripDetails.idlepointlimit}
+                            </div>
+                            <div class="inline-block content units">
+                                minutes
+                            </div>
+                            <div class="inline-block content icon">
+                            </div>
+                            <a class="inline-block editableDiv-trigger-idle  edit event-source content link">Edit</a>
+                            <a class="inline-block editableDiv-trigger-idle disabled submit event-source content link">Submit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="details vehicle">
+                    <div class="trip-details-header">
+                        <div class="background">
+                            VEHICLE DETAILS 
+                        </div>
+                    </div>
+                    <div class="trip-details-body">
+                        <div class="details-record">          
+                            <div class="inline-block content label">
+                                Make
+                            </div>
+                            :
+                            <div class="inline-block content data">
+                                ${tripDetails.vehiclemake}
+                            </div>  
+                        </div>
+                        <div class="details-record">          
+                            <div class="inline-block content label">
+                                Model
+                            </div>
+                            :
+                            <div class="inline-block content data">
+                                ${tripDetails.vehiclemodel}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="details driver">
+                    <div class="trip-details-header">
+                        <div class="background">
+                            DRIVER DETAILS 
+                        </div> 
+                    </div>
+                    <div class="trip-details-body">
+                        <div class="details-record">          
+                            <div class="inline-block content label">
+                                Name
+                            </div>
+                            :
+                            <div class="inline-block content data">
+                                ${tripDetails.drivername}
+                            </div>  
+                        </div>
+                        <div class="details-record">          
+                            <div class="inline-block content label">
+                                Surname
+                            </div>
+                            :
+                            <div class="inline-block content data">
+                                ${tripDetails.driverlastname}
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--        <div class="ft">
+                <#local tripStatus =tripDetails.status/>
+                <#local defaultClass = "submit-button">
+                <#local pauseCSSClass = defaultClass + " pause-button"/>
+                <#local stopCSSClass = defaultClass + " stop-button"/>
+                <#local startCSSClass = defaultClass + " start-button"/>
+                <#if tripStatus == "paused">
+                    <#local pauseCSSClass = pauseCSSClass + " disabled"/>
+                <#elseif tripStatus == "started">
+                    <#local startCSSClass = startCSSClass + " disabled"/>
+                <#elseif tripStatus == "stopped">
+                    <#local pauseCSSClass = pauseCSSClass + " disabled"/>
+                    <#local stopCSSClass = stopCSSClass + " disabled"/>
+                 </#if>
+                <@skin.widget name="Buttons" params={"style":"red","class":stopCSSClass,"cssClass":"buttons event-source inline-block stop"}>
+                    Stop Trip
+                </@skin.widget>
+                <@skin.widget name="Buttons" params={"style":"blue","class":pauseCSSClass,"cssClass":"buttons event-source inline-block pause"}>
+                    Pause Trip
+                </@skin.widget>
+                <@skin.widget name="Buttons" params={"style":"green","class":startCSSClass,"cssClass":"buttons event-source inline-block start"}>
+                    StartTrip
+                </@skin.widget>
+            </div>	-->
+        </div>
+    </#if>
+    <div class="trip-details-flip-container">
+        <div class="trip-details-information">
+            <@skin.widget name="SimpleDialog"params={
+                "cssClass" : "simpledialog disabled", 
+                "title" : "Error Processing Request"
+            }>
+                <div class="text inline-block">
+                    <div>
+                        There seems to be an error processing your request<br/>
+                        You can<br/>
+                        1. Try refreshing the page<br/>
+                        2. write to us through the support desk<br/>
+                        3. contact our customer support<br/>
+                    </div>
+                </div>
+                <@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-done boldface"}>&nbsp;Done&nbsp;</@skin.widget>
+            </@skin.widget>
+        </div>
+    </div>
+</#macro>

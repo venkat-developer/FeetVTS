@@ -1,0 +1,91 @@
+/**
+ * 
+ *  @author Mrunal
+ *	UI of Delete RouteSchedules which fetches the data of existing RouteSchedules 
+ *	and allows to delte requested routeschedule
+ */
+<#macro init params={}>
+
+<#local routeScheduleIDs = []/>
+	<#if (view.routeschedulemanage.routeScheduleIDs)??>
+		<#local routeScheduleIDs = view.routeschedulemanage.routeScheduleIDs>
+	</#if>
+
+
+     <div class="state-view">
+        <div class="state-item inline-block">
+            <span class="state-item-index">1</span>
+            Select the routeschedules that you need to delete
+        </div>
+        <div class="state-item inline-block disabled">
+            <span class="state-item-index">2</span>
+            Click Delete RouteSchedule or Click Cancel to deselect all RouteSchedules
+        </div>
+        <div class="state-item inline-block disabled">
+            <span class="state-item-index">3</span>
+            Confirm Deletion
+        </div>
+    </div>
+    <div class="note info"><span class="title">Please Note:</span> On deleting a routeschedule, all the associated details will be deleted.</div>
+    <div class="bd">
+        <div class="title">RouteScheduleList (<span class="routeschedule-count list-count">${routeScheduleIDs?values?size}</span>)</div>
+        <div class="routeschedule-list input-list">
+            <table class="tlist">
+                <tbody>
+                    <tr class="l-row hd-row">
+	                    <td class="l-col routescheduleid first">
+	                    	Route ScheduleID
+	                    </td
+	                    ><td class="l-col routename">
+                            Route Name
+                        </td
+                        ><td class="l-col stopname">
+                            Stop Name
+                        </td
+                        ><td class="l-col sequenceno">
+                            Sequence No
+                        </td
+                        ><td class="l-col time">
+							Time
+                        </td
+                        ><td class="l-col estimateddistance">
+                            Estimated Distance
+                        </td
+                        ><td class="l-col spanday">
+                            Span Day
+                        </td
+                        >
+                    </tr>
+                    <#list routeScheduleIDs?values?sort_by("routescheduleid") as routeschedule>
+                        <tr class="l-row entity-record slist-item <#if routeschedule_index==0>first</#if>">
+                            <td class="l-col routescheduleid first"><input name="routescheduleid" value="${routeschedule.id}" class="input-element delete-entity-checkbox" type="checkbox"></input>${routeschedule.routename}-${routeschedule.time}</td
+                            ><td class="l-col routename"><value="${routeschedule.routeid}"></input>${routeschedule.routename}</td
+                            ><td class="l-col stopname"><value="${routeschedule.stopid}"></input>${routeschedule.stopname}</td
+                            ><td class="l-col sequenceno">${routeschedule.sequenceno}</td
+                            ><td class="l-col time">${routeschedule.time}</td
+                            ><td class="l-col estimateddistance">${routeschedule.estimateddistance}</td
+                            ><td class="l-col spanday">${routeschedule.spanday}</td
+                            >                            
+                        </tr>
+                    </#list>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="ft">
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block delete-button buttons","style":"red","class":"del-button"}>Delete routeschedule</@skin.widget>
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block cancel-button buttons","style":"blue","class":"can-button"}>Cancel</@skin.widget>
+    </div>
+    <@skin.widget name="ConfirmationPopUp" params={
+       "containerID":"DeleteRouteScheduleConfirmation",
+       "header": "Confirm Deletion of routeschedule"
+    }>
+      Are you sure you want to delete all the selected routeschedules?
+    </@skin.widget>
+     <@skin.widget name="WarningPopUp" params={
+       "containerID":"warningtoselect",
+       "header": "Warning"
+    }>
+      Please select atleast one routeschedule.....
+    </@skin.widget>
+</#macro>

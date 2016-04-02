@@ -1,0 +1,28 @@
+<#import "/macros/skin.ftm" as skin/>
+<#macro init params={}>
+    <div class="search-bar-container">
+    <#if (params.showassignvehicle)?? && (params.showassignvehicle=="true")>
+
+    <div class="inline-block assign-button-cnt"> 
+     <@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-assign-vehicle"}>
+            Assign Vehicles
+        </@skin.widget>
+        <@skin.widget name="GroupedReport" params={"cssClass":"report groupedreport","reportTitle":"Report"}/>
+        </div>
+        </#if>
+        <div class="float-right">
+            <div>
+                <div class="title-button inline-block"><#nested/></div  
+                ><div class="search-box inline-block">              
+                    <div><input type="text" class="search-input" id="search-string" value=${params.svalue} /></div>
+                </div
+                ><div class="inline-block search-button-cnt">      
+                    <@skin.widget name="Buttons" params={"style":"blue","class":"search-button"}>
+                        Go
+                    </@skin.widget> 
+               </div>
+           </div>
+           <div class="search-autocomplete"></div>
+        </div> 
+    </div>
+</#macro>

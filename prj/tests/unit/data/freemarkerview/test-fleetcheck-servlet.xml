@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+    
+    <!-- The urlMapping bean defines how URLs from the browser are mapped to the
+    controllers that implement the resulting page.
+    -->
+    <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <value>
+                view/* basicViewController
+            </value>
+        </property>
+    </bean>
+    
+    <!-- View Controllers -->
+    
+    <bean id="basicViewController" class="com.i10n.fleet.web.controllers.ViewController">
+        <property name="viewName" value="basic"/>
+        <property name="dataProviders">
+            <list>
+            </list>
+        </property>
+    </bean>
+    
+    <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+        <property name="templateLoaderPath" value=""/>
+        <property name="defaultEncoding" value="UTF-8"/>
+        <property name="freemarkerVariables">
+            <map>
+                <!-- <entry key="whitespace_stripping" value="true"/> -->
+                <!-- TODO : Add support for environmentalizing such entries -->
+                <!-- <entry key="compression" value="true"/>
+                <entry key="single_line" value="true"/> -->
+            </map>
+        </property>
+        
+    </bean>
+    
+    <bean id="viewBasicResolver" class="com.i10n.fleet.web.servlet.view.freemarker.FleetFreeMarkerViewResolver">
+        <property name="viewClass" value="com.i10n.fleet.web.servlet.view.freemarker.FleetFreeMarkerView"/>
+        <property name="cache" value="true"/>
+        <property name="prefix" value=""/>
+        <property name="suffix" value=".ftl"/>
+    </bean>
+    <bean id="viewMacroResolver" class="com.i10n.fleet.web.servlet.view.freemarker.FleetFreeMarkerViewResolver">
+        <property name="viewClass" value="com.i10n.fleet.web.servlet.view.freemarker.FleetFreeMarkerView"/>
+        <property name="cache" value="true"/>
+        <property name="prefix" value=""/>
+        <property name="suffix" value=".ftm"/>
+    </bean>
+    <bean id="viewDataResolver" class="com.i10n.fleet.web.servlet.view.freemarker.FleetFreeMarkerViewResolver">
+        <property name="viewClass" value="com.i10n.fleet.web.servlet.view.freemarker.FleetFreeMarkerView"/>
+        <property name="cache" value="true"/>
+        <property name="prefix" value=""/>
+        <property name="suffix" value=".ftd"/>
+    </bean>
+    
+</beans>

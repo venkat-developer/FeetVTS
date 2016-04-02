@@ -1,0 +1,284 @@
+/**
+ * AlertSettings Widget CSS
+ */
+.mobilealertsettings {
+    height: 100%;
+}
+
+.mobilealertsettings .flip-container {
+    display: block;
+}
+
+.mobilealertsettings .mobilealertsettings-container {
+    width: 100%;
+    height: 100%;
+}
+
+.mobilealertsettings .mobilealertsettings-container .fleet-content-row {
+    vertical-align: top;
+}
+
+.mobilealertsettings .subnav-main-pane {
+    background-color: #FFFFFF;
+}
+
+.mobilealertsettings .mobilealertsettings-body .body-content {
+    width: 100%;
+}
+
+.mobilealertsettings .body-content .searchtoolbar {
+    z-index: 2;
+}
+
+.mobilealertsettings .report .ft .fleet-buttons {
+    position: relative;
+    left: 50%;
+    width: 75px;
+}
+
+.mobilealertsettings .subnav-side-pane {
+    width: 255px;
+    background-color: #E6EDF3;
+    position: relative;
+    z-index: 2;
+}
+
+.list-minimized .mobilealertsettings .subnav-side-pane {
+    width: 0px;
+    *width: 1px;
+}
+
+.mobilealertsettings .flip-container .popup {
+    color: #152836;
+}
+
+.mobilealertsettings .flip-container .popup .dialog-buttons {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .name-list.assignment-control-list {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .name-list.assignment-control-list .user-list-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+	*height:auto !important;
+	*height:25px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .name-list.assignment-control-list .user-list-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .name-list.assignment-control-list .user-list-item.selected {
+    background-color: #ECF4FA;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .name-list.assignment-control-list .user-list-item.disabled {
+    display:none;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .hd .rounded-rect .nested .label .text {
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    height: 21px;
+    padding-left: 25px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .dialog-form .inline-block {
+    vertical-align: middle;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .dialog-form .label {
+    vertical-align: super;
+    width: 190px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .dialog-form .content {
+    padding-left: 12px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .dialog-form .content .table {
+    width: 200%;
+    font-size: 15px;
+    font-style:normal;
+    font-family:serif;
+    font-weight:400px;
+    font-variant:normal;
+    line-spacing:0.4ex;
+    text-align:left;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .dialog-form .content .table .input {
+    padding-top: 11px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .dialog-form .content .input-element {
+    width: 175px;
+    background-color: #E1ECF2;
+    border-color: #D9D9D9;
+    border-style: solid;
+    height: 23px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .dialog-form .content .input-element.text-box {
+    width: 100px;
+    height: 20px;
+    _height: 23px;
+    padding-top: 3px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .list-cnt {
+    padding-right: 20px;
+    width: 220px;
+    _width: 240px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .list {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .state-view {
+    padding-bottom: 10px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .sel-hd, .mobilealertsettings .frm-hd {
+    color: #172834;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .list .mobile-list-item {
+    display: block;
+    width: 300px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+    *height:auto !important;
+    *height:20px;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .list .mobile-list-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .list .mobile-list-item.selected, .mobilealertsettings .list .mobile-list-item.selected.moved {
+    background-color: #ECF4FA;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .list .mobile-list-item.moved {
+    background-color: #FFECFA;
+}
+
+.mobilealertsettings .flip-container .assign-vehicle .popup .bd .list-cnt .list-title {
+    color: #172834;
+    font-size: 1.0em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+/**
+ * Assign Vehicle Ui Widget CSS
+ 
+.mobilealertsettings {
+    padding: 20px;
+    height: 458px;
+}*/
+
+.mobilealertsettings .state-view {
+    padding-bottom: 10px;
+}
+
+.mobilealertsettings .state-item {
+    background-image: url("/static/img/login/dot.png");
+    background-repeat: no-repeat;
+    color: #172834;
+    font-weight: bold;
+    height: 20px;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+.mobilealertsettings .state-item.disabled {
+    background-image: url("/static/img/login/dot-disabled.png");
+    color: #8497A4;
+}
+
+.mobilealertsettings .state-item-index {
+    color: #FFFFFF;
+    padding-right: 8px;
+}
+
+.mobilealertsettings .assignment-control.disabled {
+    display: none;
+}
+
+.mobilealertsettings .ft {
+    padding-top: 20px;
+}
+
+.mobilealertsettings .ft .buttons.mobileremove-button {
+    padding-left: 300px;
+    _padding-left: 200px;
+}
+
+.mobilealertsettings .ft .buttons.mobileadd-button {
+    padding-left: 150px;
+}
+
+.mobilealertsettings .ft .buttons.save-button {
+    padding-left: 57px;
+}
+
+.mobilealertsettings .ft .buttons .rem-text {
+    background-image: url("/static/img/icons/action-icons.png");
+    background-repeat: no-repeat;
+    background-position: 100% -400px;
+    padding-right: 21px;
+}
+
+.mobilealertsettings .ft .buttons .add-text {
+    background-image: url("/static/img/icons/action-icons.png");
+    background-repeat: no-repeat;
+    background-position: 0% -462px;
+    padding-left: 21px;
+}
+

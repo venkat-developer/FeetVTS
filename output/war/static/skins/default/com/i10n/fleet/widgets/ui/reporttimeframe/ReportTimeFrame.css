@@ -1,0 +1,74 @@
+/**
+ * ReportTimeFrame Widget CSS
+ */
+.reporttimeframe .report-bar-container {
+    height: 32px;
+    _height: 38px;
+    width: 100%;
+   /*  background-image: url("/static/img/toolbar/toolbar-bg.jpg"); */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    padding-top: 6px;
+    font-size: 0.9em
+}
+
+.reporttimeframe .report-bar-container .title-button {
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.reporttimeframe .report-bar-container .radio-button-list {
+    padding-top: 5px;
+    *padding-top: 3px;
+}
+
+.reporttimeframe .report-bar-container .select-interval {
+    border: 1px;
+    background-color: #FCDFFF;
+    margin-top: 4px;
+}
+
+.reporttimeframe .report-bar-container .radio-button-list form {
+    vertical-align: middle;
+}
+
+.reporttimeframe .report-bar-container .img {
+    background-image: url(/static/img/icons/report-icons.png);
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.reporttimeframe .report-bar-container .button-generate-report {
+    padding-left: 5px;
+}
+
+.reporttimeframe .report-bar-container .radio-button {
+    margin-right: 5px;
+    vertical-align: bottom;
+    *vertical-align: middle;
+}
+
+.yui-panel-container .bd form {
+    clear: left;
+}
+
+.yui-panel-container .bd {
+    padding: 0;
+}
+
+.yui-panel-container .hd {
+    text-align: left;
+}
+
+/* Center buttons in the footer */
+.yui-panel-container .ft .button-group {
+    text-align: center;
+}
+
+

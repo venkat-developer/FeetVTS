@@ -1,0 +1,59 @@
+<#macro init params={}>
+    <div class="resizer">
+        <a href="" class="minimizer">&nbsp;</a>
+    </div>
+   
+    <div id="sidepane-list" class="sidepane-list minimizable-content">
+        <div class="list-container">
+            <div class="search-autocomplete yui-skin-sam"></div>
+            <div class="search-item">
+                <div class="search-title title">Search</div>
+                    <input type="text" value="Search..." id="search-item-string" class="search-item-input inline-block"/>
+                    <div class="search-go-button inline-block">&nbsp;</div>
+                </div>
+                <div class="hd-list">
+                    <div class="pins">
+                        <div class="list-title title inline-block">List of ${params.listTitle}
+                         <div class="count inline-block"></div>
+                         </div>
+                        <div class="hd-item list-pin inline-block">&nbsp;</div>
+                    </div>
+                    <div class="groupings">
+                      <div class="hd-item list-group list-bullet inline-block">&nbsp;</div>
+                      <div class="hd-item list-group list-grouping inline-block">&nbsp;</div>
+                      <div class="hd-item select-group inline-block">
+                        <div class="select-group-container"></div>
+                      </div>
+                    </div>
+                </div>
+            <div id="data-accordion" class="data-accordion yui-cms-accordion fast fixIE" >
+                <div class="data-accordion-container"></div>
+            </div>    
+        </div>
+    </div>
+
+    <div class="markup-template">
+        <div class="markup-group-template">
+             <div group={groupId} class="slist-item group-item list-item-type">
+             <div class="group-name inline-block">{groupTitle}</div>
+             <div class="group-openclose inline-block">&nbsp;</div>
+            </div>
+        </div>
+
+        
+        
+    <div class="markup-item-template">
+          <div group={groupId} item="{itemKey}" itemname="{itemName}" class="slist-item list-item-type item yui-cms-item">
+             <h3 class="item-header hd">
+                 <a href="#" class="item-name inline-block" rel="item">{itemName}</a>
+                 <p vehicle="{itemKey}" class="pin inline-block">&nbsp;</p>
+                 <a href="#" class="accordionToggleItem openclose inline-block" rel="item">&nbsp;</a>
+             </h3>
+             <div class="bd">
+                  <ul class="fixed item-details">{itemBody}</ul>
+             </div>
+          </div>
+        </div>
+        
+    </div>      
+</#macro>

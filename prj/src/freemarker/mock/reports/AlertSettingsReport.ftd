@@ -1,0 +1,18 @@
+<#assign mockAlertSettings = {
+    "sub-1" : {
+        "id": "sub-1",
+        "name": "Vishnu",
+        "email": "vishnu@i10n.com",
+        "overspeeding": true,
+        "geofencing": true,
+        "chargerdc": false
+    },
+    "sub-2" : {
+        "id": "sub-2",
+        "name": "Sabarish",
+        "email": "sabarish@i10n.com",
+        "overspeeding": true,
+        "geofencing": true,
+        "chargerdc": false
+    }
+}/>

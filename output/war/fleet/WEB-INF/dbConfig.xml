@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="ledToBusStopDao" class="com.i10n.db.dao.LEDToBusStopDAOImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+	<bean id="routeScheduleDao" class="com.i10n.db.dao.RouteScheduleDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+	<bean id="vehicleToRouteScheduleDao" class="com.i10n.db.dao.VehicleToRouteScheduleDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+	<bean id="digitaleventDao" class="com.i10n.db.dao.DigitalEventsDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="digitalIdIncrementer">
+			<ref bean="digitalIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="digitalIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				digital_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+	<bean id="addressDao" class="com.i10n.db.dao.AddressDaoimpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="addressIdIncrementer">
+			<ref bean="addressIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="addressIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				address_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="geoFenceRegionsDao" class="com.i10n.db.dao.GeoFenceRegionsDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="geoFenceRegionsIdIncrementer">
+			<ref bean="geoFenceRegionsIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="geoFenceRegionsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				geofenceregions_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+	<bean id="GWTrackModuledatabeandao" class="com.i10n.db.dao.GWTrackModuleDataBeanDAOimpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="GWTrackModuledatabeanIdIncrementer">
+			<ref bean="GWTrackModuledatabeanIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="GWTrackModuledatabeanIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				gwtrackmoduledata_id_seq
+			</value>
+		</constructor-arg>
+	</bean>
+
+
+	<bean id="vehicleGeofenceRegionsDao" class="com.i10n.db.dao.VehicleGeofenceRegionsDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+
+
+	<bean id="imeisequencedao" class="com.i10n.db.dao.ImeiSequenceMapDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+
+
+	<bean id="gtlatestpacketdetailDao" class="com.i10n.db.dao.GWLatestPacketDetailDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="GTlatestPacketIdIncrementer">
+			<ref bean="GTlatestPacketIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="GTlatestPacketIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				GTlatestpacket_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+	<bean id="AclatestpacketdetailDao" class="com.i10n.db.dao.AccelerometerLatestPacketDetailDAOImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="aclatestPacketIdIncrementer">
+			<ref bean="aclatestPacketIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="aclatestPacketIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				AClatestpacket_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="overrideFuelDao" class="com.i10n.db.dao.OverrideFuelCalibrationDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="overrideIdIncrementer">
+			<ref bean="overrideIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="overrideIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				override_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+	<bean id="logsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				log_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="logsDao" class="com.i10n.db.dao.LogsDaoImp" singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="logsIdIncrementer">
+			<ref bean="logsIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="alertDao" class="com.i10n.db.dao.AlertDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="alertIdIncrementer">
+			<ref bean="alertIdIncrementer" />
+		</property>
+
+	</bean>
+
+	<bean id="alertIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				alert_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="vehiclecreationandstatusinfoDao" class="com.i10n.db.dao.VehicleCreationAndStatusInfoDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="vehiclecreationandstatusinfoIdIncrementer">
+			<ref bean="vehiclecreationandstatusinfoIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="vehiclecreationandstatusinfoIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				vehiclecreation_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+
+	<bean id="employeesDao" class="com.i10n.db.dao.EmployeesDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="employeesIdIncrementer">
+			<ref bean="employeesIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="employeesIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				emp_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="smsProvidersDao" class="com.i10n.db.dao.SmsProvidersDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="smsIdIncrementer">
+			<ref bean="smsIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="smsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				sms_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+	<bean id="providersDao" class="com.i10n.db.dao.ProvidersDetailsDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="providersDetailsIdIncrementer">
+			<ref bean="providersDetailsIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="providersDetailsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				provider_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="userFeatureListDao" class="com.i10n.db.dao.UserFeatureListDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="userFeatureListIdIncrementer">
+			<ref bean="userFeatureListIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="userFeatureListIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				userfeaturelist_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+
+	<bean id="vehiclebusDao" class="com.i10n.db.dao.VehicleToBusRouteAssociationDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="vehicletobusIdIncrementer">
+			<ref bean="vehicletobusIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="vehicletobusIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				vehicletobus_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+
+
+
+	<bean id="digitaleventoccurDao" class="com.i10n.db.dao.DigitalEventOccurDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="digitaleventoccurIdIncrementer">
+			<ref bean="digitaleventoccurIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="digitaleventoccurIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				digitaloccur_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="userDao" class="com.i10n.db.dao.UserDaoImp" singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="userIdIncrementer">
+			<ref bean="userIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="busStopDao" class="com.i10n.db.dao.BusStopsDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="busstopsIdIncrementer">
+			<ref bean="busstopsIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="busRoutesDao" class="com.i10n.db.dao.BusRoutesDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="busrouteIdIncrementer">
+			<ref bean="busrouteIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="fuelcalibrationdetailsDao" class="com.i10n.db.dao.FuelCalibrationDetailsDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="fuelcalibrationdetailsIdIncrementer">
+			<ref bean="fuelcalibrationdetailsIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="fuelcalibrationvaluesDao" class="com.i10n.db.dao.FuelCalibrationValuesDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="fuelcalibrationvaluesIdIncrementer">
+			<ref bean="fuelcalibrationvaluesIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="trackHistoryDao" class="com.i10n.db.dao.TrackHistoryDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="trackHistoryIdIncrementer">
+			<ref bean="trackHistoryIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="violationOverSpeedDao" class="com.i10n.db.dao.ViolationOverSpeedDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="violationOverSpeedIdIncrementer">
+			<ref bean="violationOverSpeedIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="timeDeviationDao" class="com.i10n.db.dao.TimeDeviationDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="timeDeviationIdIncrementer">
+			<ref bean="timeDeviationIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="routeDeviationDao" class="com.i10n.db.dao.RouteDeviationDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="routeDeviationIdIncrementer">
+			<ref bean="routeDeviationIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="stopDeviationDao" class="com.i10n.db.dao.StopDeviationDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="stopDeviationIdIncrementer">
+			<ref bean="stopDeviationIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="tripMissDeviationDao" class="com.i10n.db.dao.TripMissDeviationDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+
+	<bean id="studentHistoryDao" class="com.i10n.db.dao.StudentHistoryDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="studentHistoryIdIncrementer">
+			<ref bean="studentHistoryIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="violationGeoFenceDao" class="com.i10n.db.dao.ViolationGeoFenceDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="violationGeoFenceIdIncrementer">
+			<ref bean="violationGeoFenceIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="violationChargerDisconnectedDao" class="com.i10n.db.dao.ViolationChargerDisconnectedDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="violationChargerDisconnectedIdIncrementer">
+			<ref bean="violationChargerDisconnectedIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="mailinglistReportDao" class="com.i10n.db.dao.MailinglistReportDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="mailinglistreportsIdIncrementer">
+			<ref bean="mailinglistreportsIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="mailinglistAlertDao" class="com.i10n.db.dao.MailinglistAlertDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="mailinglistalertsIdIncrementer">
+			<ref bean="mailinglistalertsIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="mobileNumberDao" class="com.i10n.db.dao.MobileNumberDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="mobilenumberIdIncrementer">
+			<ref bean="mobilenumberIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="driverDao" class="com.i10n.db.dao.DriverDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="driverIdIncrementer">
+			<ref bean="driverIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="vehicleDao" class="com.i10n.db.dao.VehicleDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="vehicleIdIncrementer">
+			<ref bean="vehicleIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="vehiclehistoryDao" class="com.i10n.db.dao.VehicleHistoryDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="vehiclehistoryIdIncrementer">
+			<ref bean="vehiclehistoryIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="liveVehicleStatusDao" class="com.i10n.db.dao.LiveVehicleStatusDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+
+	<bean id="aclVehicleDao" class="com.i10n.db.dao.ACLVehicleDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+	<bean id="aclreportsdao" class="com.i10n.db.dao.ACLReportsDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+	<bean id="aclalertsdao" class="com.i10n.db.dao.ACLAlertsDAOImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+	<bean id="aclmobiledao" class="com.i10n.db.dao.ACLMobileDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+	<bean id="aclDriverDao" class="com.i10n.db.dao.ACLDriverDaoimpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+
+	<bean id="vehicleToStudentDao" class="com.i10n.db.dao.VehicleToStudentDaoimpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+
+	<bean id="vehicleToRouteDao" class="com.i10n.db.dao.VehicleToRouteDaoimpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+	<bean id="tripDao" class="com.i10n.db.dao.TripDaoImp" singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="tripsIdIncrementer">
+			<ref bean="tripsIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="tripDetailsDao" class="com.i10n.db.dao.TripDetailsDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+
+	<bean id="groupDao" class="com.i10n.db.dao.GroupDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="groupIdIncrementer">
+			<ref bean="groupIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="groupValuesDao" class="com.i10n.db.dao.GroupValuesDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="groupValuesIdIncrementer">
+			<ref bean="groupValuesIdIncrementer" />
+		</property>
+
+	</bean>
+	<bean id="routesDao" class="com.i10n.db.dao.RoutesDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="routesIdIncrementer">
+			<ref bean="routesIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="studentsDao" class="com.i10n.db.dao.StudentsDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="studentsIdIncrementer">
+			<ref bean="studentsIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="stopsDao" class="com.i10n.db.dao.StopsDaoImp" singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="stopsIdIncrementer">
+			<ref bean="stopsIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="stopHistoryDao" class="com.i10n.db.dao.StopHistoryDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="stopHistoryIdIncrementer">
+			<ref bean="stopHistoryIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="etaDisplayDao" class="com.i10n.db.dao.EtaDisplayDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+	<bean id="etaAryaDao" class="com.i10n.db.dao.EtaAryaDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="etaAryaIdIncrementer">
+			<ref bean="etaAryaIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="routeTrackDao" class="com.i10n.db.dao.RouteTrackDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+
+	<bean id="etdofvehiclestostopsDao" class="com.i10n.db.dao.EtdOfVehiclesToStopsDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+
+	<bean id="emrirajasthanDao" class="com.i10n.db.dao.EmriVehiclesBaseStationDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+	<bean id="hardwareModulesDao" class="com.i10n.db.dao.HardwareModuleDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="hwModuleIdIncrementer">
+			<ref bean="hwModuleIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="latestPacketDetailsDao" class="com.i10n.db.dao.LatestPacketDetailsDaoImpl"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+	</bean>
+
+	<bean id="idlePointsDao" class="com.i10n.db.dao.IdlePointsDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="idlePointsIdIncrementer">
+			<ref bean="idlePointsIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="drivercreationandstatusinfoDao" class="com.i10n.db.dao.DriverCreationAndStatusInfoDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="drivercreationandstatusinfoIdIncrementer">
+			<ref bean="drivercreationandstatusinfoIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="driverhistoryDao" class="com.i10n.db.dao.DriverHistoryDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="driverhistoryIdIncrementer">
+			<ref bean="driverhistoryIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="hardwaremodulehistoryDao" class="com.i10n.db.dao.HardwareModuleHistoryDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="hardwaremodulehistoryIdIncrementer">
+			<ref bean="hardwaremodulehistoryIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="userhistoryDao" class="com.i10n.db.dao.UserHistoryDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="userhistoryIdIncrementer">
+			<ref bean="userhistoryIdIncrementer" />
+		</property>
+	</bean>
+	<bean id="usercreditdetailsDao" class="com.i10n.db.dao.UserCreditDetailsDaoImp"
+		singleton="false">
+		<property name="jdbcTemplate">
+			<ref bean="initTemplate" />
+		</property>
+		<property name="usercreditdetailsIdIncrementer">
+			<ref bean="usercreditdetailsIdIncrementer" />
+		</property>
+	</bean>
+
+	<bean id="initTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+	</bean>
+
+
+	<bean id="busrouteIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				bus_route_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="fuelcalibrationdetailsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				fuel_calibration_details_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="fuelcalibrationvaluesIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				fuel_calibration_values_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+
+	<bean id="busstopsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				bus_stops_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="userIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				user_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+
+	<bean id="idlePointsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				idlepoints_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="vehicleIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				vehicle_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+
+	<bean id="tripsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				trips_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="vehiclehistoryIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				vehiclehistory_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="hwModuleIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				hwmodule_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="driverIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				driver_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="trackHistoryIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				trackhistory_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="violationOverSpeedIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				violation_overspeed_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="timeDeviationIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				violation_timedeviation_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="routeDeviationIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				violation_routedeviation_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="stopDeviationIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				violation_stopdeviation_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="studentHistoryIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				studenthistory_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="violationGeoFenceIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				violation_geofence_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="violationChargerDisconnectedIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				violation_chargerdisconnected_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="mailinglistreportsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				mailinglist_report_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="mailinglistalertsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				mailinglist_alert_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="mobilenumberIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				mobilenumber_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="groupIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				group_id_sequence
+			</value>
+
+		</constructor-arg>
+	</bean>
+
+	<bean id="groupValuesIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				group_values_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="drivercreationandstatusinfoIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				driver_creation_and_status_info_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+	<bean id="driverhistoryIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				driver_history_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+	<bean id="hardwaremodulehistoryIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				hardware_module_history_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+	<bean id="userhistoryIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				user_history_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+	<bean id="usercreditdetailsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				user_credit_details_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="routesIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				routes_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="stopsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				stops_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="studentsIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				students_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="stopHistoryIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				stophistory_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="etaAryaIdIncrementer"
+		class="org.springframework.jdbc.support.incrementer.PostgreSQLSequenceMaxValueIncrementer">
+		<constructor-arg>
+			<ref bean="datasource" />
+		</constructor-arg>
+		<constructor-arg>
+			<value>
+				etaarya_id_sequence
+			</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass" value="org.postgresql.Driver" />
+		 <property name="jdbcUrl" value="jdbc:postgresql://localhost/fleetv2" 
+			/> 
+	<!--	<property name="jdbcUrl"
+			value="jdbc:postgresql://frs-rajasthan.gwtrack.com/fleetv2" /> -->
+		<property name="user" value="postgres" />
+		<property name="password" value="i10n" />
+		<!-- <property name="initialPoolSize" value="20"/> -->
+		<property name="minPoolSize" value="2" />
+		<property name="maxPoolSize" value="500" />
+		<property name="maxIdleTime" value="2" />
+		<property name="maxAdministrativeTaskTime" value="120" />
+		<property name="numHelperThreads" value="10" />
+		<property name="maxIdleTimeExcessConnections" value="1" />
+		<!-- <property name="checkoutTimeout" value="300"/> -->
+		<!-- <property name="maxStatements" value="500"/> -->
+		<property name="testConnectionOnCheckin" value="true" />
+		<property name="maxConnectionAge" value="60" />
+		<property name="unreturnedConnectionTimeout" value="1000" />
+		<property name="debugUnreturnedConnectionStackTraces" value="true" />
+	</bean>
+</beans>

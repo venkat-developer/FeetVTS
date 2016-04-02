@@ -1,0 +1,102 @@
+/**
+ * Violation Report UI Widget CSS
+ */
+.sasviolations .rpt-container {
+	background-color: #FFFFFF;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 2px;
+	padding-top: 0px;
+}
+
+.sasviolations .rpt-container .violations-tabview.yui-navset .yui-content
+	{
+	width: 100%;
+	margin-top: -5px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.sasviolations .rpt-container .report {
+	padding: 0px;
+	background-color: transparent;
+}
+
+.sasviolations .rpt-container .yui-content,.violationreport .rpt-container .yui-navset
+	{
+	height: auto;
+}
+
+.sasviolations .yui-navset .yui-nav .tab-label {
+	padding-left: 24px;
+	padding-right: 5px;
+	background-repeat: no-repeat;
+	background-image: url("/static/img/icons/widget-header-icons.png");
+	padding-top: 17px;
+	height: 38px;
+}
+
+.sasviolations .yui-navset .yui-nav .time-deviation .tab-label.time-deviation
+	{
+	background-position: 1px -94px;
+}
+
+.sasviolations .yui-navset .yui-nav .route-deviation .tab-label.route-deviation
+	{
+	background-position: 1px -262px;
+}
+
+.sasviolations .yui-navset .yui-nav .stop-deviation .tab-label.stop-deviation
+	{
+	background-position: 1px -152px;
+}
+
+.sasviolations .yui-navset .yui-nav li {
+	/*     background-image: url(/static/img/buttons/set-buttons.png);
+ */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+	/* 	background-position: 0 -1508px; */
+	background-repeat: no-repeat;
+	margin-left: 1px;
+}
+
+.sasviolations .yui-navset .yui-nav li a {
+	font-size: 1.2em;
+	/*     background-image: url(/static/img/buttons/set-buttons.png);
+ */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+/* 	background-position: 0 -1567px;
+ */	background-repeat: repeat-x;
+	display: block;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.sasviolations .yui-navset .yui-nav li div {
+	color: #172834;
+	/*     background-image: url(/static/img/buttons/set-buttons.png);
+ */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+/* 		background-position: 100% -1626px;
+ */	height: auto;
+	background-repeat: no-repeat;
+}
+
+.sasviolations .yui-navset .yui-nav li.selected {
+	background-position: 0 -1687px;
+}
+
+.sasviolations .yui-navset .yui-nav li.selected div {
+	background-position: 100% -1807px;
+}
+
+.sasviolations .yui-navset .yui-nav li.selected a {
+	background-position: 0 -1748px;
+	background-repeat: repeat-x;
+}
+
+.sasviolations .report .hd .rounded-rect .nested,.report .ft .rounded-rect .nested,.sasviolations .report .hd .rounded-rect .cap,.report .ft .rounded-rect .cap
+	{
+	background-color: #B3D9F0;
+	border-color: #B3D9F0;
+}

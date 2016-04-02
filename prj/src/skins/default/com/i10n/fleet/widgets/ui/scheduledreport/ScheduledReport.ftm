@@ -1,0 +1,54 @@
+<#import "/macros/skin.ftm" as skin/>
+<#import "/macros/json-publish.ftm" as json/>
+<#import "/macros/rounded.ftm" as round>
+<#import "/macros/print.ftm" as printskin>
+<#macro init params={}>
+           <div class="report-bar-container">
+            <div class="inline-block">
+             <@skin.widget name="Buttons" params={"style":"blue","class":"button-generate-report", "tag": "div"}>
+                &nbsp;Generate Report&nbsp;
+             </@skin.widget>
+            </div> 
+            </div> 
+    <div id="vehiclescheduledreport" class="vehiclescheduledreport cnt-resizable minht report empty">
+        <div class="hd">
+            <@round.cssRounding params={"radius":5,"bottom":false}>
+                <div class="inline-block title">VEHICLE NO :</div>
+                <div class="inline-block vehiclename"> Select a vehicle</div>
+                <div class="inline-block print-preview">Print Preview</div>
+                <div class="inline-block paginator"></div>
+            </@round.cssRounding>
+        </div>
+        <div class="bd">
+        </div>
+        <div class="ft">
+            <@round.cssRounding params={"radius":5,"top":false}>
+                <div class="inline-block paginator"></div>
+            </@round.cssRounding>
+        </div>
+        <div class = "print-skin-template markup-template">
+            <@printskin.printSkinDefault params={"title":"Scheduled Report"}/>
+        </div>
+        <div class="print-section">
+        </div>
+        <@json.publish data=getStyleSheets() publishAs="stylesheets" context="report"/>
+    </div>
+    <@skin.widget name="SimpleDialog" params={
+            "cssClass" : "simpledialog", 
+            "title" : "Scheduled Report"
+        }>
+            <div class="icon inline-block"></div
+            ><div class="text inline-block"><div>Please select a vehicle from the vehicle list that you want to generate report of.</div></div
+            ><@skin.widget name="Buttons" params={"cssClass":"inline-block buttons", "style":"blue","class":"button-done boldface"}>&nbsp;Done&nbsp;</@skin.widget>
+    </@skin.widget>  
+</#macro>
+<#function getStyleSheets>
+    <#local stylesheets = []/>
+    <#local viewName=parameters.view/>
+    <#if (skins[parameters.skin]["//views/view[./@name=$viewName]"][0])??>
+        <#local currentView = skins[parameters.skin]["//views/view[./@name=$viewName]"]/>
+        <#local stylesheets = currentView.libraries.library.mergedset.stylesheets.stylesheet + currentView.mergedset.stylesheets.stylesheet />
+        <#local stylesheets = stylesheets + ["@STATIC_DIR@/css/print.css"]/>
+    </#if>
+    <#return stylesheets/>
+</#function>

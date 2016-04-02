@@ -1,0 +1,102 @@
+/**
+ * Dashboard View CSS
+ */
+.dashboard .dashboard-container {
+    width: 1024px;
+    padding-left: 12px;
+}
+
+.dashboard .hd {
+    padding-top: 10px;
+    padding-bottom: 7px;
+    color: #FFFFFF;
+}
+
+.dashboard .hd .title {
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 240px;
+    vertical-align: baseline;
+}
+
+.dashboard .hd .welcome-block {
+    font-weight: bold;
+    font-size: 0.9em;
+    vertical-align: baseline;
+}
+
+.dashboard .bd .left-bd  .vacant-widget{
+    background-color: #F7F7F7;
+      background-image: linear-gradient(to bottom, #f2f2f2 0%, #f7f7f7 100%);
+    background-repeat: repeat-x;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 325px;
+}
+
+.dashboard .bd .left-bd .vehiclestatus {
+    width: 214px;
+    height: 193px;
+}
+
+.dashboard .bd .left-bd .vacantvehicles {
+    height: 263px;
+}
+
+.dashboard .bd .left-bd  .totalcount-widget{
+    background-color: #F7F7F7;
+     /** background-image: url("/static/img/backgrounds/dashboard-sd-vh-bg.jpg");*/
+      background-image: linear-gradient(to bottom, #f2f2f2 0%, #f7f7f7 100%);
+    background-repeat: repeat-x;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height:300px;
+}
+
+
+.dashboard .bd .left-bd .totalcountvehicles {
+    height: 263px;
+}
+.dashboard .bd .left-bd .quicklinks-widget {
+    background-color: #F7F7F7;
+     /** background-image: url("/static/img/backgrounds/dashboard-sd-vh-bg.jpg");*/
+      background-image: linear-gradient(to bottom, #f2f2f2 0%, #f7f7f7 100%);
+    background-repeat: repeat-x;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 268px;
+}
+.dashboard .bd .left-bd .quicklinks {
+    width: 214px;
+}
+
+.dashboard .bd .main-bd {
+    padding-left: 25px;
+    width: 716px;
+}
+
+.dashboard .bd .main-bd .violations-widget {
+    padding-bottom: 30px;
+    height:300px;
+}
+
+.dashboard .bd .main-bd .violations {
+    width: 716px;
+    height: 263px;
+}
+
+.dashboard .bd .main-bd .health-widget {
+    padding-right: 25px;
+}
+
+.dashboard .bd .main-bd .support {
+    background-image: url(@STATIC_DIR@/img/mock/dashboard/support.jpg);
+    width: 367px;
+    height: 259px;
+}

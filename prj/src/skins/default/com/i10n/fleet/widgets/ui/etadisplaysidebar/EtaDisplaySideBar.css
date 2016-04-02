@@ -1,0 +1,184 @@
+/**
+ * The Stylesheet for the sas report settings sidebar
+ */
+.etadisplaysidebar {
+    width: 255px;
+    background-color: #E6EDF3;
+    overflow: hidden;
+}
+
+.etadisplaysidebar.inactive {
+    display: none;
+}
+
+.etadisplaysidebar .stops-sidebar {
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+.etadisplaysidebar .hd-list .hd-item {
+    cursor: pointer;
+    width: 30px;
+}
+
+.etadisplaysidebar .title {
+    color: #A81A23;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.etadisplaysidebar .select-text {
+    float: left;
+    font-size:12px;
+    font-weight:bold;
+    display: block;
+}
+
+.etadisplaysidebar .select-text .select-option {
+    border-right: 1px dotted;
+    padding-right: 2px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #000000;
+}
+
+.etadisplaysidebar .select-text .select-option.last {
+    border-right: 0px none;
+    padding-right: 0px;
+}
+
+.etadisplaysidebar.select-enabled .select-text {
+    display: block;
+}
+
+.etadisplaysidebar.select-enabled.delete-disabled .select-text .select-delete {
+    display: none;
+}
+
+.etadisplaysidebar .search-item {
+    padding-bottom: 17px;
+}
+
+.etadisplaysidebar .search-item .search-title {
+    padding-bottom: 5px;
+}
+
+.etadisplaysidebar .search-item .search-go-button {
+    cursor: pointer;
+    width: 32px;
+    height: 19px;
+    margin-top: 2px;
+    margin-left: 184px;
+    background-image: url("@STATIC_DIR@/img/buttons/search-go-button.png");
+}
+
+.etadisplaysidebar .search-item .search-item-input {
+    width: 175px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.etadisplaysidebar .hd-list .list-pin {
+    width: 27px;
+    height: 24px;
+    background-image: url("@STATIC_DIR@/img/icons/group-icons.png");
+    background-repeat: no-repeat;
+    background-position: -60px -26px;
+    margin-top: 20px;
+}
+
+.etadisplaysidebar .hd-list .list-title {
+	margin-top: 20px;
+    width: 181px;
+}
+
+.etadisplaysidebar .hd-list .pins {
+	
+    padding-bottom: 10px;
+}
+
+.etadisplaysidebar .pinning-disabled .hd-list .list-pin {
+	
+    background-position: -60px 0px;
+}
+
+.etadisplaysidebar .stops-sidebar.inactive .data {
+    display: none;
+}
+
+.etadisplaysidebar .list-container {
+    position: relative;
+    zoom: 1;
+}
+
+.etadisplaysidebar .data {
+    overflow-y: scroll;
+}
+
+.etadisplaysidebar .data .data-container {
+    width: 213px;
+    height: 410px;
+}
+
+.etadisplaysidebar .data .input-element {
+    margin-right: 6px;
+    margin-top: -3px;
+    vertical-align: middle;
+    
+}
+.etadisplaysidebar .data .list-item-type.disabled {
+    display: none;
+}
+
+.etadisplaysidebar .data .item.closed {
+    display: none;
+}
+
+.etadisplaysidebar .data .item .pin {
+   padding-right: 4px;
+    width: 17px;
+    height: 21px;
+    cursor: pointer;
+    font-weight: normal;
+    background-image: url("@STATIC_DIR@/img/icons/pin-icons.png");
+    background-repeat: no-repeat;
+    background-position: -22px 0px;
+    margin-left: 10px;
+}
+
+.etadisplaysidebar .data .item.pin-enabled .pin {
+    background-position: 0px 0px;
+}
+
+.etadisplaysidebar .data .item-header {
+    height: 19px;
+    font-size: 1em;
+    font-weight: normal;
+    border-bottom: 2px solid #CEDBE6;
+    padding-left: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    color: #000000;
+}
+
+.etadisplaysidebar .data .item.selected {
+    border-bottom: none;
+}
+
+.etadisplaysidebar .data .item-name {
+    color: #000000;
+    width: 145px;
+}
+
+.etadisplaysidebar .search-autocomplete {
+    position: absolute;
+    margin-top: 26px;
+    width: 171px;
+    font-size: 1em;
+}

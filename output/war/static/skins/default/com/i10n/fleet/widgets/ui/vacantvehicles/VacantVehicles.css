@@ -1,0 +1,89 @@
+/**
+ * Vacant Vehicles UI Widget CSS
+ */
+.vacantvehicles {
+    padding: 0 10px 0 10px;
+    width: 194px;
+}
+
+.vacantvehicles .vacant-vehicles-container {
+    width: 194px;
+    height: 251px;
+}
+
+.vacantvehicles .vacant-vehicles-container .hd {
+    padding-top: 15px;
+    padding-right: 3px;
+    padding-left: 3px;
+   
+}
+
+.vacantvehicles .vacant-vehicles-container .bd {
+    padding-top: 7px;
+    font-size: 0.9em;
+}
+
+.vacantvehicles .vacant-vehicles-container .bd .assign {
+    background-image: url("/static/img/icons/widget-header-icons.png");
+    background-position: 0px 2px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-left: 19px;
+    height: 14px;
+    color: #1F5A85;
+}
+
+.vacantvehicles .vacant-vehicles-container .rounded-rect .nested {
+    font-weight: bold;
+    font-size: 1.2em;
+    height: 23px;
+    background-color: #53A81A;
+    border-color: #53A81A;
+    padding-left: 14px;
+    padding-top: 7px;
+}
+
+.vacantvehicles .vacant-vehicles-container .rounded-rect .cap {
+    background-color: #53A81A;
+    border-color: #53A81A;
+}
+
+.vacantvehicles .vacant-vehicles-container .bd .vehicle-item {
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 6px;
+    padding-top: 2px;
+    margin-left: 4px;
+    width: 187px;
+}
+
+.vacantvehicles .vacant-vehicles-container .bd .text {
+    padding-top: 4px;
+    padding-left: 7px;
+    padding-right: 6px;
+    color: #4f5054;
+    width: 115px;
+}
+
+.vacantvehicles .vacant-vehicles-container .ft {
+    padding-top: 10px;
+    font-size: 0.9em
+}
+
+.vacantvehicles .vacant-vehicles-container .ft .view-all {
+    background-image: url("/static/img/icons/arrows.png");
+    background-position: 47px -161px;
+    background-repeat: no-repeat;
+    color: #4F5054;
+    cursor: pointer;
+    padding-left: 8px;
+    width: 63px;
+}
+
+.vacantvehicles .vacant-vehicles-container .ft .text {
+    color: #798D9F;
+    margin-left: 12px;
+    width: 107px;
+}
+
+

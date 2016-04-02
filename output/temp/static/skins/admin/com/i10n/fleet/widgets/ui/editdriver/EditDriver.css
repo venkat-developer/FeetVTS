@@ -1,0 +1,248 @@
+/**
+ * Add Vehicle UI Widget CSS
+ */
+.editdriver {
+    padding: 20px;
+}
+
+.editdriver .disabled {
+    display: none;
+}
+
+.editdriver .note {
+    height: 30px;
+    border: 1px solid #95D0E9;
+    color: #5A6065;
+    margin-top: 3px;
+    line-height: 28px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+}
+
+.editdriver .state-item {
+    background-image: url("@STATIC_DIR@/img/login/dot.png");
+    background-repeat: no-repeat;
+    color: #172834;
+    font-weight: bold;
+    height: 20px;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+.editdriver .state-item.disabled {
+    background-image: url("@STATIC_DIR@/img/login/dot-disabled.png");
+    color: #8497A4;
+}
+
+.editdriver .state-item-index {
+    color: #FFFFFF;
+    padding-right: 8px;
+}
+
+
+.editdriver .search-item-driver {
+    padding-bottom: 17px;
+}
+
+.editdriver .search-item-driver .search-title {
+    padding-bottom: 5px;
+}
+
+.editdriver .search-item-driver .search-go-button-driver {
+    cursor: pointer;
+    width: 32px;
+    height: 19px;
+    margin-top: 2px;
+    margin-left: 184px;
+    background-image: url("@STATIC_DIR@/img/buttons/search-go-button.png");
+}
+
+.editdriver .search-item-driver .search-item-input-driver {
+    width: 175px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+
+.editdriver .search-autocomplete-driver{
+    position: absolute;
+    margin-top: 75px;
+    width: 172px;
+    font-size: 1em;
+}
+
+
+.editdriver .note .title {
+    color: #BB0813;
+    font-weight: bold;
+}
+
+.editdriver .note.disabled {
+    display: none;
+}
+
+.editdriver .note.mesg {
+    background-color: #BFF19A;
+    border: 1px solid #FFFFFF;
+}
+
+.editdriver .frm-edit-bd {
+    padding-top: 25px;
+}
+
+.editdriver .frm-edit-bd .pic-cur-img {
+    width: 124px;
+    height: 124px;
+}
+
+.editdriver .frm-edit-bd .frm-lbl {
+    width: 120px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.editdriver .frm-edit-bd .input-element {
+    width: 240px;
+    height: 19px;
+}
+
+.editdriver .frm-edit-bd .input-element.txt {
+    padding-top: 2px;
+}
+
+.editdriver .frm-edit-bd .frm-inp {
+    padding-right: 5px;
+}
+
+.editdriver .frm-edit-bd .frm-imp {
+    color: #39444C;
+    font-size: 0.9em;
+    line-height: 21px;
+}
+
+.editdriver .frm-edit-bd .frm-item-cnt {
+    padding-bottom: 10px;
+}
+
+.editdriver .buttons {
+    padding-left: 160px;
+}
+
+.editdriver .state-view {
+    padding-bottom: 10px;
+}
+
+.editdriver .sel-hd, .editdriver .frm-hd {
+    color: #172834;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.editdriver .drv-sel-disp {
+    padding-left: 20px;
+}
+
+.editdriver .drv-sel {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.editdriver .drv-sel .drv-sel-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+	*height:auto !important;
+	*height:25px;
+}
+
+.editdriver .drv-sel .drv-sel-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.editdriver .drv-sel .drv-sel-item.selected {
+    background-color: #ECF4FA;
+}
+
+.editdriver .drv-sel .drv-sel-item.disabled{
+	display:none;
+}
+
+.editdriver .buttons.save-but {
+    padding-left: 120px;
+}
+
+.editdriver .buttons.cancel-but {
+    padding-left: 30px;
+}
+
+.editdriver .frm-edit-bd .pic-del-link {
+    vertical-align: bottom;
+    font-size: 0.9em;
+}
+
+.editdriver .frm-edit-bd .input-element.file {
+    height: 24px;
+}
+
+#myAutoComplete {
+    width:15em; /* set width here or else widget will expand to fit its container */
+    padding-bottom:2em;
+}
+.match {
+    font-weight:bold;
+}
+
+.editdriver .edit-driver-empty-popup {
+    display: block;
+}
+
+.editdriver .edit-driver-firstname-popup {
+    display: block;
+}
+
+.editdriver .edit-driver-lastname-popup {
+    display: block;
+}
+
+.editdriver .edit-driver-licenseno-popup {
+    display: block;
+}
+
+.editdriver .edit-driver-empty-popup.disabled{
+    display: none;
+}
+
+.editdriver .edit-driver-firstname-popup.disabled{
+    display: none;
+}
+
+.editdriver .edit-driver-lastname-popup.disabled{
+    display: none;
+}
+
+.editdriver .edit-driver-licenseno-popup.disabled{
+    display: none;
+}
+

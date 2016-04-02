@@ -1,0 +1,12 @@
+/**
+ * Vehicle Stats Report UI Widget CSS
+ */
+.vehiclestatsreport .bd .yui-dt-data .yui-dt-col-fuel, .vehiclestatsreport .bd .yui-dt-data .yui-dt-col-startfuel {
+    width: 150px;
+}
+
+.vehiclestatsreport .bd .yui-dt-data .yui-dt-col-fuel .yui-dt-liner, .vehiclestatsreport .bd .yui-dt-data .yui-dt-col-startfuel .yui-dt-liner {
+    width: 100px;
+    margin-left: 25px;
+    text-align: left;
+}

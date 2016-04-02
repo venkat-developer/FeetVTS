@@ -1,0 +1,58 @@
+<#assign mockDriverData = {
+    "driver-1" : {
+        "id" : "driver-1",
+        "firstname" : "Rama",
+        "lastname" : "Rao",
+        "licenseNo" : "123",
+        "status" : "assigned"
+    },
+    "driver-2" : {
+        "id" : "driver-2",
+        "firstname" : "Krish",
+        "lastname" : "",
+        "licenseNo" : "20334",
+        "status" : "vacant"
+    },
+    "driver-4" : {
+        "id" : "driver-4",
+        "firstname" : "Bhima",
+        "lastname" : "Ganesh",
+        "licenseNo" : "324423",
+        "status" : "vacant"
+    },
+    "driver-3" : {
+        "id" : "driver-3",
+        "firstname" : "Prabhu",
+        "lastname" : "M",
+        "licenseNo" : "2313",
+        "status" : "assigned"
+    },
+    "driver-6" : {
+        "id" : "driver-6",
+        "firstname" : "Ashwin",
+        "lastname" : "Kumar",
+        "licenseNo" : "32432",
+        "status": "assigned"
+    },
+    "driver-8" : {
+        "id" : "driver-8",
+        "firstname" : "Bangaro",
+        "lastname" : "Rao",
+        "licenseNo" : "44313",
+        "status":"vacant"
+    },
+    "driver-7" : {
+        "id" : "driver-7",
+        "firstname" : "Himesh",
+        "lastname" : "Singh",
+        "licenseNo" : "353565",
+        "status": "assigned"
+    },
+    "driver-5" : {
+        "id" : "driver-5",
+        "firstname" : "Annamalai",
+        "lastname" : "Manikam",
+        "licenseNo" : "22678",
+        "status" : "assigned" 
+    }
+}/>

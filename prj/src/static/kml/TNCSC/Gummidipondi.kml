@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>G.N.T.ROAD</name>
+	<description> CB001, Gummidipondi</description>
+	<Point>
+	<coordinates>80.127164,13.407707,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Valliyamannagar</name>
+	<description> CB002, Gummidipondi</description>
+	<Point>
+	<coordinates>80.125437,13.407654,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Vivekananthanagar</name>
+	<description> CB003, Gummidipondi</description>
+	<Point>
+	<coordinates>80.121853,13.408823,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Saranyanagar</name>
+	<description> CB004, Gummidipondi</description>
+	<Point>
+	<coordinates>80.128741,13.416087,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thervoy</name>
+	<description> CCP039, Gummidipondi</description>
+	<Point>
+	<coordinates>79.998493,13.375174,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kollanur</name>
+	<description> CCP040, Gummidipondi</description>
+	<Point>
+	<coordinates>80.015273,13.373755,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>karadiputhur</name>
+	<description> CCP041, Gummidipondi</description>
+	<Point>
+	<coordinates>79.991026,13.386614,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Tapal Street</name>
+	<description> CP002, Gummidipondi</description>
+	<Point>
+	<coordinates>80.125716,13.406986,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Eguvarpalayam</name>
+	<description> CP003, Gummidipondi</description>
+	<Point>
+	<coordinates>80.055892,13.434203,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sanaputhur</name>
+	<description> CP004, Gummidipondi</description>
+	<Point>
+	<coordinates>80.056086,13.435622,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Allipukulumam</name>
+	<description> CP004P1, Gummidipondi</description>
+	<Point>
+	<coordinates>80.056365,13.436228,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>pappankuppam</name>
+	<description> CP005, Gummidipondi</description>
+	<Point>
+	<coordinates>80.052845,13.432867,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>sinthalakuppam.11</name>
+	<description> CP005P1, Gummidipondi</description>
+	<Point>
+	<coordinates>80.053704,13.433556,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>sinthalakuppam</name>
+	<description> CP006, Gummidipondi</description>
+	<Point>
+	<coordinates>80.055614,13.433494,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>soorapondi</name>
+	<description> CP007, Gummidipondi</description>
+	<Point>
+	<coordinates>80.054991,13.435455,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Chithurnatham</name>
+	<description> CP008, Gummidipondi</description>
+	<Point>
+	<coordinates>80.055828,13.4322,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thiervali</name>
+	<description> CP009, Gummidipondi</description>
+	<Point>
+	<coordinates>80.133805,13.416421,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Pethikuppam</name>
+	<description> CP010, Gummidipondi</description>
+	<Point>
+	<coordinates>80.131187,13.401351,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>PuduGummidipoondi</name>
+	<description> CP011, Gummidipondi</description>
+	<Point>
+	<coordinates>80.133816,13.388524,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Balayokinagar</name>
+	<description> CP011PI, Gummidipondi</description>
+	<Point>
+	<coordinates>80.131423,13.388231,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>sirupuzhalpattai</name>
+	<description> CP012, Gummidipondi</description>
+	<Point>
+	<coordinates>80.128773,13.388451,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thandalachery</name>
+	<description> CP013, Gummidipondi</description>
+	<Point>
+	<coordinates>80.123634,13.373254,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Gatnamalli</name>
+	<description> CP014, Gummidipondi</description>
+	<Point>
+	<coordinates>80.118141,13.379266,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Palaswarankandaigai</name>
+	<description> CP015, Gummidipondi</description>
+	<Point>
+	<coordinates>80.11548,13.411662,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Ayyanallore</name>
+	<description> CP016, Gummidipondi</description>
+	<Point>
+	<coordinates>80.179682,13.408072,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kuruviagaram</name>
+	<description> CP017, Gummidipondi</description>
+	<Point>
+	<coordinates>80.169146,13.428631,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Vazhuthalambedu</name>
+	<description> CP018, Gummidipondi</description>
+	<Point>
+	<coordinates>80.154963,13.426439,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Athupakkam</name>
+	<description> CP019, Gummidipondi</description>
+	<Point>
+	<coordinates>80.146208,13.425479,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Mangavaram</name>
+	<description> CP020, Gummidipondi</description>
+	<Point>
+	<coordinates>80.145693,13.43533,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Appavaram</name>
+	<description> CP021, Gummidipondi</description>
+	<Point>
+	<coordinates>80.14535,13.438669,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Chirattur</name>
+	<description> CP022, Gummidipondi</description>
+	<Point>
+	<coordinates>80.185518,13.390747,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kavarapattai</name>
+	<description> CP023, Gummidipondi</description>
+	<Point>
+	<coordinates>80.148525,13.359976,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Puduvoyal</name>
+	<description> CP024, Gummidipondi</description>
+	<Point>
+	<coordinates>80.147924,13.331832,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Peruvoyal</name>
+	<description> CP025, Gummidipondi</description>
+	<Point>
+	<coordinates>80.141659,13.338347,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>kizhilmutalambedu</name>
+	<description> CP026, Gummidipondi</description>
+	<Point>
+	<coordinates>80.133505,13.35555,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Ariyathurai</name>
+	<description> CP027, Gummidipondi</description>
+	<Point>
+	<coordinates>80.125437,13.348201,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Melmuthalambedu</name>
+	<description> CP028, Gummidipondi</description>
+	<Point>
+	<coordinates>80.119772,13.362231,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Panapakkam</name>
+	<description> CP029, Gummidipondi</description>
+	<Point>
+	<coordinates>80.142603,13.378431,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Enathimelpakkam</name>
+	<description> CP030, Gummidipondi</description>
+	<Point>
+	<coordinates>80.154104,13.393794,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kuruvattucheri</name>
+	<description> CP031, Gummidipondi</description>
+	<Point>
+	<coordinates>80.142603,13.396717,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Verkadu</name>
+	<description> CP032, Gummidipondi</description>
+	<Point>
+	<coordinates>80.128613,13.385445,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Poovalambedu</name>
+	<description> CP033, Gummidipondi</description>
+	<Point>
+	<coordinates>80.036688,13.490213,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Vaniyamallai</name>
+	<description> CP034, Gummidipondi</description>
+	<Point>
+	<coordinates>80.034027,13.489796,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thanipundi</name>
+	<description> CP034PI, Gummidipondi</description>
+	<Point>
+	<coordinates>80.032504,13.491684,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Panjali</name>
+	<description> CP035, Gummidipondi</description>
+	<Point>
+	<coordinates>80.030465,13.491413,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Periyapuliur</name>
+	<description> CP036, Gummidipondi</description>
+	<Point>
+	<coordinates>80.038662,13.479613,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Chinnapuliur</name>
+	<description> CP037, Gummidipondi</description>
+	<Point>
+	<coordinates>80.042353,13.479446,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Amirthamangalam</name>
+	<description> CP038, Gummidipondi</description>
+	<Point>
+	<coordinates>80.039263,13.48604,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Madarpakkam</name>
+	<description> CP042, Gummidipondi</description>
+	<Point>
+	<coordinates>80.002334,13.443282,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Pathirivedu 1</name>
+	<description> CP043, Gummidipondi</description>
+	<Point>
+	<coordinates>80.002077,13.447956,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Pathirivedu 2</name>
+	<description> CP044, Gummidipondi</description>
+	<Point>
+	<coordinates>80.008299,13.447664,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Manallore.1</name>
+	<description> CP045, Gummidipondi</description>
+	<Point>
+	<coordinates>80.014844,13.455323,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Pallavada</name>
+	<description> CP046, Gummidipondi</description>
+	<Point>
+	<coordinates>80.016003,13.456993,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kannambakkam</name>
+	<description> CP047, Gummidipondi</description>
+	<Point>
+	<coordinates>80.017312,13.458349,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Pundavakkam</name>
+	<description> CP048, Gummidipondi</description>
+	<Point>
+	<coordinates>80.012569,13.459247,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Bommajikulam</name>
+	<description> CP049, Gummidipondi</description>
+	<Point>
+	<coordinates>79.993687,13.424185,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nemalore</name>
+	<description> CP050, Gummidipondi</description>
+	<Point>
+	<coordinates>80.00257,13.442301,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sethilpakkam</name>
+	<description> CP051, Gummidipondi</description>
+	<Point>
+	<coordinates>79.97961,13.44397,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kannankottai</name>
+	<description> CP052, Gummidipondi</description>
+	<Point>
+	<coordinates>80.016861,13.429027,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Budur</name>
+	<description> CP053, Gummidipondi</description>
+	<Point>
+	<coordinates>79.941673,13.437876,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Siruvada</name>
+	<description> CP054, Gummidipondi</description>
+	<Point>
+	<coordinates>80.008965,13.433368,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Arambakkam 1</name>
+	<description> CP055, Gummidipondi</description>
+	<Point>
+	<coordinates>80.065999,13.537949,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Arambakkam 2</name>
+	<description> CP056, Gummidipondi</description>
+	<Point>
+	<coordinates>80.073638,13.534903,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Arumbakkam 2</name>
+	<description> CP056P1, Gummidipondi</description>
+	<Point>
+	<coordinates>80.071707,13.527643,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Eadur</name>
+	<description> CP057, Gummidipondi</description>
+	<Point>
+	<coordinates>80.098915,13.470098,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nelvoy</name>
+	<description> CP061, Gummidipondi</description>
+	<Point>
+	<coordinates>80.054111,13.329327,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Mukarambakkam</name>
+	<description> CP062, Gummidipondi</description>
+	<Point>
+	<coordinates>80.051537,13.332584,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Erukkuvoy</name>
+	<description> CP063, Gummidipondi</description>
+	<Point>
+	<coordinates>80.062137,13.332793,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Puthupalayam</name>
+	<description> CP064, Gummidipondi</description>
+	<Point>
+	<coordinates>80.064926,13.329536,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Karani</name>
+	<description> CP065, Gummidipondi</description>
+	<Point>
+	<coordinates>80.062737,13.330955,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Mangalam</name>
+	<description> CP066, Gummidipondi</description>
+	<Point>
+	<coordinates>80.078144,13.331707,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kanloor</name>
+	<description> CP067, Gummidipondi</description>
+	<Point>
+	<coordinates>80.076385,13.339224,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Palavakkam</name>
+	<description> CP068, Gummidipondi</description>
+	<Point>
+	<coordinates>80.076513,13.335966,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Periyaobalapuram</name>
+	<description> CP069, Gummidipondi</description>
+	<Point>
+	<coordinates>80.108657,13.439087,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Chinnaobalapuram</name>
+	<description> CP070, Gummidipondi</description>
+	<Point>
+	<coordinates>80.107498,13.442504,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kayalarmedu</name>
+	<description> CP070P1, Gummidipondi</description>
+	<Point>
+	<coordinates>80.116736,13.437459,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thurapplam -1</name>
+	<description> CP071, Gummidipondi</description>
+	<Point>
+	<coordinates>80.122175,13.464964,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Ellavour</name>
+	<description> CP072, Gummidipondi</description>
+	<Point>
+	<coordinates>80.119085,13.462752,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Sunnambukulam</name>
+	<description> CP073, Gummidipondi</description>
+	<Point>
+	<coordinates>80.120502,13.465361,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Obasamuthiram</name>
+	<description> CP074, Gummidipondi</description>
+	<Point>
+	<coordinates>80.120491,13.467082,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Salayankandgai</name>
+	<description> CP074P1, Gummidipondi</description>
+	<Point>
+	<coordinates>80.120212,13.46822,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Melakazhani</name>
+	<description> CP075, Gummidipondi</description>
+	<Point>
+	<coordinates>80.119386,13.476066,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nattam</name>
+	<description> CP076, Gummidipondi</description>
+	<Point>
+	<coordinates>80.124278,13.47448,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Methipalayam</name>
+	<description> CP077, Gummidipondi</description>
+	<Point>
+	<coordinates>80.112712,13.470077,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Chennavaram</name>
+	<description> CP078, Gummidipondi</description>
+	<Point>
+	<coordinates>80.121017,13.477735,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>A.N. Kuppam</name>
+	<description> CP079, Gummidipondi</description>
+	<Point>
+	<coordinates>80.138505,13.354757,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>R.N. Kandigai</name>
+	<description> CP080, Gummidipondi</description>
+	<Point>
+	<coordinates>80.128634,13.352419,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>K.N.pettai</name>
+	<description> CP081, Gummidipondi</description>
+	<Point>
+	<coordinates>80.056493,13.434412,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Pathapalayam</name>
+	<description> CP082, Gummidipondi</description>
+	<Point>
+	<coordinates>80.055206,13.433076,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>G.R.kandigai</name>
+	<description> CP083, Gummidipondi</description>
+	<Point>
+	<coordinates>80.042696,13.482868,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Billakuppam</name>
+	<description> CP083P1, Gummidipondi</description>
+	<Point>
+	<coordinates>80.079517,13.412914,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Rajapalayam</name>
+	<description> CP084, Gummidipondi</description>
+	<Point>
+	<coordinates>80.144792,13.428902,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Guruthalambedu</name>
+	<description> CP085, Gummidipondi</description>
+	<Point>
+	<coordinates>80.121274,13.378639,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Manallore 2</name>
+	<description> CP086, Gummidipondi</description>
+	<Point>
+	<coordinates>80.012677,13.453716,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nemalore colony</name>
+	<description> CP087, Gummidipondi</description>
+	<Point>
+	<coordinates>79.983945,13.438002,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thurappallam -2</name>
+	<description> CP088, Gummidipondi</description>
+	<Point>
+	<coordinates>80.114665,13.458954,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Chiinasozhipakkam</name>
+	<description> CP089, Gummidipondi</description>
+	<Point>
+	<coordinates>80.135146,13.419729,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kondamanellore</name>
+	<description> CP090, Gummidipondi</description>
+	<Point>
+	<coordinates>80.056858,13.435727,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Kumbali</name>
+	<description> CP091, Gummidipondi</description>
+	<Point>
+	<coordinates>80.105395,13.467427,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nethaji Nagar</name>
+	<description> CP093, Gummidipondi</description>
+	<Point>
+	<coordinates>80.137024,13.415502,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Tambreaddy palayam</name>
+	<description> CP094, Gummidipondi</description>
+	<Point>
+	<coordinates>80.134706,13.40252,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nagarajakandgai</name>
+	<description> CP096, Gummidipondi</description>
+	<Point>
+	<coordinates>80.105309,13.438962,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Thalayaripalayam</name>
+	<description> CP097, Gummidipondi</description>
+	<Point>
+	<coordinates>80.117497,13.467677,678</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+<Style><IconStyle><Icon><href>http://tpds.gwtrack.com/static/kml/FPS.png</href></Icon></IconStyle></Style>
+	<name>Nochikuppam</name>
+	<description> CP098, Gummidipondi</description>
+	<Point>
+	<coordinates>80.081406,13.547044,678</coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

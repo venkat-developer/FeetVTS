@@ -1,0 +1,65 @@
+
+
+.customreporttimeframe .customreport-container {
+    background-color: #F4F4F4;
+    color: #1F5A85;
+    font-size: 0.9em;
+}
+
+.customreporttimeframe .customreport-container .input {
+    padding-top: 10px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+}
+
+.customreporttimeframe .customreport-container .content {
+    padding-bottom: 20px;
+}
+
+.customreporttimeframe .customreport-container .dialog-buttons {
+    text-align: center;
+}
+
+.customreporttimeframe .customreport-container .title {
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.customreporttimeframe .customreport-container .start-date .startdate-date select, .customreporttimeframe .customreport-container .end-date .enddate-date select {
+    background-color: #B7CBDC;
+    border: 1px solid #FFFFFF;
+    color: #234A68;
+    height: 24px;
+    padding-left: 10px;
+    padding-top: 1px;
+    width: 80px;
+}
+
+.customreporttimeframe .customreport-container .start-time .starttime-time select, .customreporttimeframe .customreport-container .end-time .endtime-time select {
+    background-color: #B7CBDC;
+    border: 1px solid #FFFFFF;
+    color: #234A68;
+    height: 24px;
+    padding-left: 10px;
+    padding-top: 1px;
+    width: 100px;
+}
+
+.customreporttimeframe .customreport-container .input .calendar-image {
+    background-image: url(/static/img/icons/report-icons.png);
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.customreporttimeframe .customreport-container .input.start-time, .customreporttimeframe .customreport-container .input.end-time {
+    width: 215px;
+}
+
+
+
+
+

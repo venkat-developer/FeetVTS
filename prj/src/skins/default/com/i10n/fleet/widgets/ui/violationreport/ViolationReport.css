@@ -1,0 +1,137 @@
+/**
+ * Violation Report UI Widget CSS
+ */
+.violationreport .rpt-container {
+	padding-bottom: 1px;
+	padding-left: 0px;
+	padding-right: 1px;
+	padding-top: 6px;
+	background-color: #FFFFFF;
+}
+
+.violationreport .rpt-container .violations-tabview.yui-navset .yui-content
+	{
+	width: 100%;
+	margin-top: -5px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.violationreport .rpt-container .report {
+	padding: 0px;
+	background-color: transparent;
+}
+
+.violationreport .rpt-container .yui-content,.violationreport .rpt-container .yui-navset
+	{
+	height: auto;
+}
+
+.violationreport .yui-navset .yui-nav .tab-label {
+	padding-left: 24px;
+	padding-right: 5px;
+	background-repeat: no-repeat;
+	background-image: url("@STATIC_DIR@/img/icons/widget-header-icons.png");
+	padding-top: 17px;
+	height: 38px;
+}
+
+.violationreport .yui-navset .yui-nav .overspeed .tab-label.overspeed {
+	background-position: 1px -94px;
+}
+
+.violationreport .yui-navset .yui-nav .geo-fencing .tab-label.geo-fencing
+	{
+	background-position: 1px -262px;
+}
+
+.violationreport .yui-navset .yui-nav .chargerstatus .tab-label.chargerstatus
+	{
+	background-position: 1px -152px;
+}
+
+.violationreport .yui-navset .yui-nav .vehiclestatus .tab-label.vehiclestatus
+	{
+	background-position: 1px -705px;
+}
+
+.violationreport .yui-navset .yui-nav .alertstatus .tab-label.alertstatus
+	{
+	background-position: 1px -410px;
+}
+
+.violationreport .yui-navset .yui-nav li {
+	/*     background-image: url(@STATIC_DIR@/img/buttons/set-buttons.png);
+ */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+/* 		background-position: 0 -1508px;
+ */	background-repeat: no-repeat;
+	margin-left: 1px;
+}
+
+.violationreport .comments {
+	display: block;
+	visibility: visible;
+	position: absolute;
+	top: 200px;
+	left: 450px;
+}
+
+.violationreport .comments.disabled {
+	display: none;
+}
+
+.violationreport .comments .input.comments-vehicle .comments-input {
+	width: 280px;
+	height: 80px;
+}
+
+.close-button {
+	/*     background-image: url(@STATIC_DIR@/img/buttons/set-buttons.png);
+ */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+	/* 	 background-position: 0 -1508px;
+ */
+	background-repeat: no-repeat;
+	margin-left: 1px;
+}
+
+.violationreport .yui-navset .yui-nav li a {
+	font-size: 1.2em;
+	/*     background-image: url(@STATIC_DIR@/img/buttons/set-buttons.png);
+ */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%);
+/* 	background-position: 0 -1567px;
+ */	background-repeat: repeat-x;
+	display: block;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.violationreport .yui-navset .yui-nav li div {
+	color: #172834;
+	/*     background-image: url(@STATIC_DIR@/img/buttons/set-buttons.png);
+ */
+	background-image: linear-gradient(to bottom, #a81b24 0%, #81141a 100%); /* background-position: 100% -1626px; */
+	height: auto;
+	background-repeat: no-repeat;
+}
+
+.violationreport .yui-navset .yui-nav li.selected {
+	background-position: 0 -1687px;
+}
+
+.violationreport .yui-navset .yui-nav li.selected div {
+	background-position: 100% -1807px;
+}
+
+.violationreport .yui-navset .yui-nav li.selected a {
+	background-position: 0 -1748px;
+	background-repeat: repeat-x;
+}
+
+.violationreport .report .hd .rounded-rect .nested,.report .ft .rounded-rect .nested,.violationreport .report .hd .rounded-rect .cap,.report .ft .rounded-rect .cap
+	{
+	*background-color: #B3D9F0;
+	*border-color: #B3D9F0;
+}

@@ -1,0 +1,86 @@
+/**
+ * Stylesheet for the Quick Links widget in the dashboard
+ */
+.groupsdata .groupsdata-container {
+    background-color: #F7F7F7;
+    color: #1F5A85;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.groupsdata .groupsdata-container .rounded-rect .nested {
+    padding: 7px 1px 0 0px;
+    font-weight: bold;
+    font-size: 1.2em;
+    height: 23px;
+    background-color: #53A81A;
+    border-color: #53A81A;
+    text-align: center;
+    background-image: url(/static/img/icons/widget-header-icons.png);
+    background-position: 14px -323px;
+    background-repeat: no-repeat;
+}
+
+.groupsdata .groupsdata-container .rounded-rect .cap {
+    background-color: #53A81A;
+    border-color: #53A81A;
+}
+
+.groupsdata .groupsdata-container .bd {
+    font-size: 0.9em;
+}
+
+.groupsdata .groupsdata-container .bd .link-element {
+    width: 167px;
+    border-bottom: 1px solid #E6E6E6;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    zoom: 1;
+    min-height: 20px;
+    *height: auto !important;
+    *height: 28px;
+}
+
+.groupsdata .groupsdata-container .bd .link-element .content {
+    min-height: 17px;
+    *height: auto !important;
+    *height: 17px;
+}
+
+.groupsdata .groupsdata-container .bd .link-element .content.link {
+    width: 155px;
+    display: block;
+}
+
+.groupsdata .groupsdata-container .bd .link-element .content.close {
+    width: 12px;
+    background-image: url(/static/img/icons/action-icons.png);
+    background-position: 0px -1px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.groupsdata .groupsdata-container .ft {
+    width: 169px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.groupsdata .groupsdata-container .ft a {
+    background-image: url(/static/img/icons/action-icons.png);
+    background-position: 0px -50px;
+    background-repeat: no-repeat;
+    padding-left: 17px;
+    display: block;
+    font-size: 0.9em;
+}
+
+.groupsdata .groupsdata-container.add-link-disabled .ft {
+    display: none;
+}
+

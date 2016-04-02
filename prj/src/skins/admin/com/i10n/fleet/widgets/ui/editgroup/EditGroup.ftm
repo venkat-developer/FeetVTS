@@ -1,0 +1,81 @@
+<#include "/mock/VehicleData.ftd" />
+<#macro init params={}>
+    
+    <#local groups = []/>
+     <#if (view.groupmanage.groups)??>
+        <#local groups = view.groupmanage.groups/>
+    </#if>
+   <div>
+    <div class="state-view">
+        <div class="state-item inline-block">
+            <span class="state-item-index">1</span>
+            Select the Group from the list
+       </div>
+        <div class="state-item inline-block disabled">
+            <span class="state-item-index">2</span>
+            Edit Group Details
+        </div>
+        <div class="state-item inline-block disabled">
+            <span class="state-item-index">3</span>
+            Save Changes
+        </div>
+    </div>
+    <div class="search-autocomplete-group yui-skin-sam"></div>
+    <div class="search-item-group">
+        <div class="search-title title">Search</div>
+        <input type="text" value="Search..." id="search-item-string" class="search-item-input-group event-source inline-block"/>
+        <div class="search-go-button-group event-source inline-block">&nbsp;</div>
+    </div>
+    <div class="grp-sel-cnt inline-block">
+        <div>
+            <div class="sel-hd">Select Group</div>
+            <div class="grp-sel" size="12">
+                
+                    <#list groups?values as group>
+                        <div class="grp-sel-item slist-item list-item" value="${group.id}">${group.name}</div>
+                    </#list>
+              
+            </div>
+        </div>
+    </div>
+    <div class="grp-sel-disp edit-sheet inline-block disabled"><div>
+        <div class="frm-hd">
+            Group Selected : <span class="sel-grp-name"></span>
+        </div>
+        <div class="note mesg"><span class="title">Please Note:</span> All fields are mandatory.</div>
+        <div class="frm-edit-bd">
+            <form name="frm-edit-grp" class="input-form">
+                <div class="frm-item-cnt">
+                    <div class="frm-lbl inline-block">Group Name</div>
+                    <div class="frm-inp inline-block"><input class="input-element txt" name="name" type="text"></input></div>
+                    <div class="frm-imp inline-block">Max. 20 characters</div>
+                </div>
+               
+            <input class="input-element txt" name="command_type" value="edit_group" type="hidden"/>
+            </form>
+        </div>
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block save-button buttons","style":"blue","class":"save-button"}>Save Changes</@skin.widget>
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block cancel-button buttons","style":"blue","class":"cancel-button"}>Cancel</@skin.widget>
+    </div></div>
+    <div class="markup-template template-group-list-item">
+        <div class="grp-sel-item slist-item list-item" value="{id}">{name}</div>
+    </div>
+   </div>
+   <div class="edit-group-empty-popup disabled">
+    	<@skin.widget name="PopUp" params={
+      		"containerID":"Alert",
+       		"header": "Fields is/are Empty"
+    	}>
+      		Mandatory fields is/are empty .....!!!!
+    	</@skin.widget>
+    </div>
+    
+    <div class="edit-group-groupname-popup disabled">
+    	<@skin.widget name="PopUp" params={
+       		"containerID":"Alert",
+       		"header": "Invalid GroupName"
+    	}>
+      		Enter valid GroupName .....!!!!
+    	</@skin.widget>
+    </div>
+</#macro>

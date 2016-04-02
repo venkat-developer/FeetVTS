@@ -1,0 +1,27 @@
+<#import "/macros/rounded.ftm" as round>
+<#macro init params={}>
+    <div class="support-desk-container">
+        <div class="hd">
+            <@round.cssRounding params={"radius":5}>SUPPORT DESK</@round.cssRounding>
+        </div>
+        <form id="support-desk-form" class="support-desk-form">
+            <div class="bd">
+                Having trouble with the module? Write to us.
+                 <div id="msg"></div>
+                    <select id="issue-type" class="issue-type">
+                    <option value="Anonymous">Select Issue</option>
+                    <option value="Support">Support</option>
+                    <option value="Bug">Bug</option>
+                    <option value="Performance">Performance</option>
+					<option value="Suggestion">Suggestion</option>
+                 </select>
+                <textarea id="issue-description" class="issue-description" wrap="soft" placeholder="Select issue type." ></textarea>
+            </div>
+            <div class="ft">
+                <div class="text inline-block" >Note: Please add your contact details.</div>
+                <div class="send-button inline-block" id="send">Send&nbsp;</div>
+                <div class="cancel-button inline-block" id="cancel">Cancel&nbsp;</div>
+            </div>
+        </form>
+    </div>
+</#macro>

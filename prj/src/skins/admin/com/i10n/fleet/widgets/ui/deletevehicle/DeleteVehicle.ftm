@@ -1,0 +1,75 @@
+<#macro init params={}>
+    
+   <#local vehicles = []/>
+     <#if (view.vehiclemanage.vehicles)??>
+        <#local vehicles = view.vehiclemanage.vehicles/>
+        <#else>
+        <#local vehicles = mockVehicleData/>
+    </#if>
+    <div class="state-view">
+        <div class="state-item inline-block">
+            <span class="state-item-index">1</span>
+            Select the vehicles that you need to delete
+        </div>
+        <div class="state-item inline-block disabled">
+            <span class="state-item-index">2</span>
+            Click Delete Vehicle or Click Cancel to deselect all vehicles
+        </div>
+        <div class="state-item inline-block disabled">
+            <span class="state-item-index">3</span>
+            Confirm Deletion
+        </div>
+    </div>
+    <div class="note info"><span class="title">Please Note:</span> Before deleting a vehicle make sure that there is no active/paused trip for the selected vehicle.</div>
+    <div class="bd">
+        <div class="title">Vehicle List (<span class="veh-count list-count">${vehicles?values?size}</span>)</div>
+        <div class="search-autocomplete-vehiclelist yui-skin-sam"></div>
+            <div class="search-item-vehiclelist">
+              <input type="text" value="Search..." id="search-item-string" class="search-item-input-vehiclelist event-source inline-block"/>
+            </div>
+        <div class="veh-list input-list">
+            <table class="tlist">
+                <tbody>
+                    <tr class="l-row hd-row">
+                        <td class="l-col name first">
+                            Display Name
+                        </td
+                        ><td class="l-col make">
+                            Make
+                        </td
+                        ><td class="l-col model">
+                            Model
+                        </td
+                        ><td class="l-col yearlast">
+                            Year
+                        </td>
+                    </tr>
+                    <#list vehicles?values?sort_by("name") as vehicle>
+                        <tr class="l-row entity-record slist-item <#if vehicle_index==0>first</#if>" sortBy="${vehicle.name}">
+                            <td class="l-col name first"><input name="vehicle" value="${vehicle.id}" class="input-element delete-entity-checkbox" type="checkbox"></input>${vehicle.name}</td
+                            ><td class="l-col make">${vehicle.make}</td
+                            ><td class="l-col model">${vehicle.model}</td
+                            ><td class="l-col year last">${vehicle.year}</td>
+                        </tr>
+                    </#list>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="ft">
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block delete-button buttons","style":"red","class":"del-button"}>Delete Vehicle</@skin.widget>
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block cancel-button buttons","style":"blue","class":"can-button"}>Cancel</@skin.widget>
+    </div>
+    <@skin.widget name="ConfirmationPopUp" params={
+       "containerID":"DeleteVehicleConfirmation",
+       "header": "Confirm Deletion of Vehicles"
+    }>
+      Are you sure you want to delete all the selected vehicles?
+    </@skin.widget>
+     <@skin.widget name="WarningPopUp" params={
+       "containerID":"warningtoselect",
+       "header": "Warning"
+    }>
+      Please select atleast one Vehicle......
+    </@skin.widget>
+</#macro>

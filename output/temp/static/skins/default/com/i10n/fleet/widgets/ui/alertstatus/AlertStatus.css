@@ -1,0 +1,54 @@
+/**
+ * Vehicle Status UI Widget CSS
+ */
+.alertstatus .bd .yui-dt-data .cell-custom.cell-gps {
+    padding-top: 2px;
+}
+
+.alertstatus .bd .yui-dt-data .cell-custom.cell-gsm {
+    padding-top: 4px;
+}
+
+.alertstatus .bd .yui-dt-data .cell-custom.cell-battery {
+    padding-top: 6px;
+}
+
+.alertstatus .bd .yui-dt-data .cell-custom.cell-status {
+    text-transform: capitalize;
+}
+.alertstatus .bd .yui-dt-data .cell-custom.cell-seatbelt {
+    text-transform: capitalize;
+}
+.alertstatus .bd .yui-dt-data .yui-dt-col-battery, .alertstatus .bd .yui-dt-data .yui-dt-col-gps, .alertstatus .bd .yui-dt-data .yui-dt-col-gsm {
+    width: 150px;
+}
+
+.alertstatus .bd .yui-dt-data .yui-dt-col-battery .yui-dt-liner, .alertstatus .bd .yui-dt-data .yui-dt-col-gps .yui-dt-liner, .alertstatus .bd .yui-dt-data .yui-dt-col-gsm .yui-dt-liner {
+    width: 100px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.alertstatus .bd .yui-dt-data .yui-dt-liner .data {
+    padding-left: 6px;
+    padding-top: 6px;
+}
+.alertstatus .comments{
+  display: block;
+    visibility: visible;
+    position: absolute;
+    top:200px;
+    left: 450px;
+}
+.alertstatus .comments.disabled{
+	display: none;
+}
+.alertstatus .comments .input.comments-vehicle .comments-input{
+
+	width:280px;
+	height:80px;
+	
+	}
+.alertstatus .bd .yui-dt-data .yui-dt-col-gps .yui-dt-liner .data {
+    padding-top: 4px;
+}

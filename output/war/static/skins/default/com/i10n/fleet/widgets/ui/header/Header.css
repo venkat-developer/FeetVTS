@@ -1,0 +1,144 @@
+/**
+ * Header Widget CSS
+ */
+.header {
+	width: 100%;
+	height: 93px;
+}
+
+.header .header-container {
+	background-image: linear-gradient(to bottom, #162633 0%, #1d5a87 100%);
+	background-repeat: repeat-x;
+}
+
+.header .header-container .logo {
+	width: 250px;
+	height: 93px;
+	 background-image: url("/static/img/header/fleet-logo.png"); 
+	/* background-image : url("k1.gwtrack.com/docs/images/fleet-logo.png") */
+	background-repeat: no-repeat;
+	background-position: 28px 13px;
+}
+
+.hr {
+	margin: 10px;
+	width: 80%;
+	height: 3px;
+	border: 0;
+	box-shadow: 0 0 20px 5px #06c;
+}
+/*box-shadow: inset 0 3px 3px -3px rgba(0, 0, 0, 0.5);*/
+
+.header .header-container .globalnav {
+	width: 774px;
+	height: 93px;
+}
+
+.header .header-container .globalnav .link-list {
+	padding-left: 11px;
+}
+
+.header .header-container .globalnav .globalnav-item {
+	cursor: pointer;
+	display: block;
+	height: 50px;
+}
+
+.header .header-container .globalnav .globalnav-item.selected {
+	cursor: default;
+}
+
+.header .header-container .globalnav .dashboard {
+	width: 144px;
+	background-image: url("/static/img/header/globalnav.jpg");
+	/*background-image: linear-gradient(to bottom, #162633 0%, #1d5a87 100%);*/
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+
+.header .header-container .globalnav .item-dashboard .selected {
+	background-position: 0px -64px;
+}
+
+.header .header-container .globalnav .livetrack {
+	width: 165px;
+	background-image: url("/static/img/header/globalnav.jpg");
+	background-repeat: no-repeat;
+	background-position: -144px 0px;
+	border-radius: 10px;
+}
+
+.header .header-container .globalnav .item-livetrack .selected {
+	background-position: -144px -64px;
+}
+
+.header .header-container .globalnav .reports {
+	width: 145px;
+	background-image: url("/static/img/header/globalnav.jpg");
+	background-repeat: no-repeat;
+	background-position: -309px 0px;
+	border-radius: 10px;
+}
+
+.header .header-container .globalnav .item-reports .selected {
+	background-position: -309px -64px;
+}
+
+.header .header-container .globalnav .controlpanel {
+	width: 145px;
+	background-image: url("/static/img/header/globalnav.jpg");
+	background-repeat: no-repeat;
+	background-position: -454px 0px;
+	border-radius: 10px;
+}
+
+.header .header-container .globalnav .item-controlpanel .selected {
+	background-position: -454px -64px;
+}
+
+.header .header-container .header-links {
+	padding-top: 5px;
+	font-size: 0.9em;
+	float: right;
+	margin-top: -93px;
+	color: #84B8DE;
+}
+
+.header .header-container .globalnav .sas {
+	width: 145px;
+	background-image: url("/static/img/header/globalnav.jpg");
+	background-repeat: no-repeat;
+	background-position: -599px 0px;
+	border-radius: 10px;
+}
+
+.header .header-container .globalnav .item-sas .selected {
+	background-position: -599px -64px;
+}
+
+.header .header-container .header-links {
+	padding-top: 5px;
+	font-size: 0.9em;
+	float: right;
+	margin-top: -93px;
+	color: #84B8DE;
+}
+
+.header .header-container .header-links a {
+	color: #84B8DE;
+	text-decoration: underline;
+	padding-left: 2px;
+	padding-right: 3px;
+	border-right: 1px solid;
+}
+
+.header .header-container .header-links .last {
+	border: 0px none;
+}
+
+.header .header-container .header-links .help-link {
+	padding-right: 23px;
+	background-image: url(/static/img/icons/widget-header-icons.png);
+	background-position: 100% -533px;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,123 @@
+/**
+ * Support Desk Widget CSS
+ */
+.supportdesk .support-desk-container {
+	/** background-image: url("/static/img/backgrounds/dashboard-sd-vh-bg.jpg");*/
+	background-image: linear-gradient(to bottom, #f2f2f2 0%, #f7f7f7 100%);
+	background-repeat: repeat-x;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-bottom: 15px;
+	height: 245px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 7px;
+	width: 353px;
+}
+
+.supportdesk .support-desk-container .hd {
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+
+.supportdesk .support-desk-container .rounded-rect .nested {
+	padding: 7px 1px 0 37px;
+	font-weight: bold;
+	font-size: 1.2em;
+	height: 23px;
+	background-color: #8ABCDE;
+	border-color: #8ABCDE;
+	background-image: url(/static/img/icons/widget-header-icons.png);
+	background-position: 16px -218px;
+	background-repeat: no-repeat;
+}
+
+.supportdesk .support-desk-container .rounded-rect .cap {
+	background-color: #8ABCDE;
+	border-color: #8ABCDE;
+}
+
+.supportdesk .support-desk-container .bd {
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+	color: #4F5054;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.supportdesk .support-desk-container .bd .issue-type {
+	width: 100%;
+	background-color: #DDE7EE;
+	border: 1px solid #CBD0D4;
+	margin-top: 5px;
+	display: block;
+}
+
+.supportdesk .support-desk-container .bd .issue-description {
+	margin-top: 10px;
+	width: 100%;
+	height: 100px;
+	border: 1px solid #CBD0D4;
+	background-color: #F7F7F7;
+	color: #A7AAAC;
+	font-size: 0.9em;
+	padding: 3px;
+	resize: none;
+}
+
+.supportdesk .support-desk-container .ft {
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.supportdesk .support-desk-container .ft .text {
+	color: #FF0000;
+	font-size: 0.9em;
+	width: 229px;
+}
+
+.supportdesk .support-desk-container .ft .send-button {
+	width: 40px;
+	height: 20px;
+	/* 	background-image: url("/static/img/supportdesk/cancel-send-buttons.png");
+ */
+	background-image: linear-gradient(to bottom, #162633 0%, #1D5B89 100%);
+	color: white;
+	font-weight: bold;
+	border-radius: 3px 3px 3px 3px;
+	padding-left: 7px;
+	padding-top: 2px;
+	padding-right: 0px;
+	/* 	background-position: -36px 0px; */
+	cursor: pointer;
+}
+
+.supportdesk .support-desk-container .ft .send-button:hover {
+	background-image: linear-gradient(to bottom, #1e5f8e 0%, #1D5B89 100%);
+	border-radius: 3px 3px 3px 3px;
+}
+
+.supportdesk .support-desk-container .ft .cancel-button {
+	width: 45px;
+	height: 20px;
+	/* 	background-image: url("/static/img/supportdesk/cancel-send-buttons.png"); */
+	background-image: linear-gradient(to bottom, #162633 0%, #1D5B89 100%);
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 3px 3px 3px 3px;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-top: 2px;
+}
+
+.supportdesk .support-desk-container .ft .cancel-button:hover {
+	background-image: linear-gradient(to bottom, #1e5f8e 0%, #1D5B89 100%);
+	border-radius: 3px 3px 3px 3px;
+}

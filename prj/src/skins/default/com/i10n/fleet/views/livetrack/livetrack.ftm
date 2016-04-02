@@ -1,0 +1,67 @@
+<#import "/macros/skin.ftm" as skin>
+<#macro init params={}>
+    <table class="fleet-container-layout">
+        <tr class="fleet-hd-row">
+            <td colspan="2" class="fleet-hd-col"><@skin.widget name="Header" params={}/></td>
+        </tr>
+        <tr class="fleet-bd-row">
+            <td class="fleet-bd-col side-pane cnt-resizable">
+                <@skin.widget name="VehicleList" params={"cssClass":"inactive minimizable sidepanelist vehiclelist"}/>
+            </td>
+            <td class="fleet-bd-col main-pane cnt-resizable">
+                <@skin.widget name="HeaderSubNav"/>
+            </td>
+        </tr>
+    </table>
+	<div class="flip-container">
+        <div class="create-trip disabled">
+            <@skin.widget name="AlertPopUp"params={
+                "cssClass": "alertpopup popup",
+                "containerID":"create-trip-popup",
+                "header":"Alert",
+                "submitButtonText":"Previous",
+                "cancelButtonText":"Next"
+            }>
+                <div class="table">
+                <tr>
+                    <div class="input vehicle">
+                        <td><div class="vehiclename" id="vehiclename"></div></td>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="input driver">
+                        <td><div classname="drivername" id="drivername"></div></td>
+                    </div>
+                 </tr> 
+                <!-- Use this for GVK client
+                <tr>
+                    <div class="input baselocation">
+                        <td><div classname="baselocation" id="baselocation"></div></td>
+                    </div>
+                 </tr> 
+                 <tr>
+                    <div class="input mobilenumber">
+                        <td><div classname="mobilenumber" id="mobilenumber"></div></td>
+                    </div>
+                 </tr>
+                  -->
+                 <tr>  
+                    <div class="input alert-time">
+                        <td><div  class="alerttime" id="alerttime"></div></td>
+                    </div>
+                 </tr>
+                 <tr>
+                    <div class="input alert-type">
+                        <td><div  class="alerttype" id="alerttype"></div></td>
+                    </div>
+                 </tr>
+                 <tr>
+                    <div class="input alert-value">
+                        <td><div  class="alertvalue" id="alertvalue"></div></td>
+                    </div>
+                 </tr>
+                </div>
+            </@skin.widget>
+        </div>
+    </div>
+</#macro>

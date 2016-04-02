@@ -1,0 +1,296 @@
+/**
+ * Assign Vehicle Ui Widget CSS
+ */
+.assignrouteschedule {
+    padding: 20px;
+    height: 500px;
+}
+
+.assignrouteschedule .state-view {
+    padding-bottom: 10px;
+}
+
+.assignrouteschedule .state-item {
+    background-image: url("/static/img/login/dot.png");
+    background-repeat: no-repeat;
+    color: #172834;
+    font-weight: bold;
+    height: 20px;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+.assignrouteschedule .state-item.disabled {
+    background-image: url("/static/img/login/dot-disabled.png");
+    color: #8497A4;
+}
+
+.assignrouteschedule .state-item-index {
+    color: #FFFFFF;
+    padding-right: 8px;
+}
+
+
+
+.assignrouteschedule .assignment-control.disabled {
+    display: none;
+}
+
+.assignrouteschedule .list-cnt {
+    padding-right: 20px;
+    width: 220px;
+    _width: 240px;
+}
+
+.assignrouteschedule .list {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.assignrouteschedule .search-item-vehicle {
+    padding-bottom: 17px;
+}
+
+.assignrouteschedule .search-item-vehicle .search-item-input-vehicle {
+    width: 216px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.assignrouteschedule .search-autocomplete-vehicle {
+    position: absolute;
+    margin-top: 4px;
+    width: 215px;
+    font-size: 1em;
+}
+
+.assignrouteschedule .list-cnt .search-item-assignrouteschedule{
+    padding-bottom: 17px;
+}
+
+.assignrouteschedule .list-cnt .search-item-assignrouteschedule .search-title-assign {
+    padding-bottom: 5px;
+}
+
+.assignrouteschedule .list-cnt .search-item-assignrouteschedule .search-item-input-assignrouteschedule {
+    width: 216px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.assignrouteschedule .list-cnt .search-autocomplete-assignrouteschedule {
+    position: absolute;
+    margin-top: 4px;
+    width: 215px;
+    font-size: 1em;
+}
+
+.assignrouteschedule .list-cnt .search-item-vacantrouteschedule {
+    padding-bottom: 17px;
+}
+
+.assignrouteschedule .list-cnt .search-item-vacantrouteschedule .search-title-vacant {
+    padding-bottom: 5px;
+}
+
+.assignrouteschedule .list-cnt .search-item-vacantrouteschedule .search-item-input-vacantrouteschedule {
+    width: 216px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.assignrouteschedule .list-cnt .search-autocomplete-vacantrouteschedule {
+    position: absolute;
+    margin-top: 4px;
+    width: 215px;
+    font-size: 1em;
+}
+
+.assignrouteschedule .state-view {
+    padding-bottom: 10px;
+}
+
+.assignrouteschedule .sel-hd, .assignrouteschedule .frm-hd {
+    color: #172834;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+
+.assignrouteschedule .vehicle-sel-disp {
+    padding-left: 20px;
+}
+
+.assignrouteschedule .vehicle-sel {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.assignrouteschedule .vehicle-sel .vehicle-list-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+	*height:auto !important;
+	*height:25px;
+}
+
+.assignrouteschedule .vehicle-sel .vehicle-list-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.assignrouteschedule .vehicle-sel .vehicle-list-item.selected {
+    background-color: #ECF4FA;
+}
+
+.assignrouteschedule .vehicle-sel .vehicle-list-item.disabled {
+    display:none;
+}
+.assignrouteschedule .routeschedule-sel-disp {
+    padding-left: 20px;
+}
+
+.assignrouteschedule .routeschedule-sel {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.assignrouteschedule .routeschedule-sel .routeschedule-sel-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+	*height:auto !important;
+	*height:25px;
+}
+
+.assignrouteschedule .routeschedule-sel .routeschedule-sel-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.assignrouteschedule .routeschedule-sel .routeschedule-sel-item.selected {
+    background-color: #ECF4FA;
+}
+
+.assignrouteschedule .list .list-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+    *height:auto !important;
+    *height:25px;
+}
+
+.assignrouteschedule .list .list-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.assignrouteschedule .list .list-item.selected, .assignrouteschedule .list .list-item.selected.moved {
+    background-color: #ECF4FA;
+}
+
+.assignrouteschedule .list .list-item.disabled{
+	display:none;
+}
+
+.assignrouteschedule .list .list-item.moved {
+    background-color: #FFECFA;
+}
+
+.assignrouteschedule .list-cnt .list-title {
+    color: #172834;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+
+.assignrouteschedule .ft {
+    padding-top: 20px;
+}
+
+.assignrouteschedule .ft .buttons.remove-button {
+    padding-left: 345px;
+    _padding-left: 375px;
+}
+
+.assignrouteschedule .ft .buttons.add-button {
+    padding-left: 35px;
+}
+
+.assignrouteschedule .ft .buttons.save-button {
+    padding-left: 70px;
+}
+
+.assignrouteschedule .ft .buttons .rem-text {
+    background-image: url("/static/img/icons/action-icons.png");
+    background-repeat: no-repeat;
+    background-position: 100% -400px;
+    padding-right: 21px;
+}
+
+.assignrouteschedule .ft .buttons .add-text {
+    background-image: url("/static/img/icons/action-icons.png");
+    background-repeat: no-repeat;
+    background-position: 0% -462px;
+    padding-left: 21px;
+}

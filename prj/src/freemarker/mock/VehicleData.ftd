@@ -1,0 +1,19 @@
+<#assign mockVehicleData = {
+	"vehicle-1"  : {
+        "id" : "vehicle-1",
+        "name" : "XYZ",
+        "make" : "maruti",
+        "model" : "suzuki",
+        "year" : "2010",
+        "imei" : "1"
+    },
+    "vehicle-2"  : {
+        "id" : "vehicle-2",
+        "name" : "XYZ",
+        "make" : "maruti",
+        "model" : "van",
+        "year" : "2009",
+        "imei" : "2"
+    }
+    
+}/>

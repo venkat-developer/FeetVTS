@@ -1,0 +1,133 @@
+/**
+ * Action Manager Ui Widget CSS
+ */
+.actionmanager .am-cnt {
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+
+.actionmanager .hd,.actionmanager .hd,.actionmanager .am-cnt,.actionmanager .am-cnt .tabview-cnt,.actionmanager .ft,.actionmanager .ft .rounded-rect
+	{
+	position: relative;
+	zoom: 1;
+}
+
+.actionmanager .hd .rounded-rect .nested,.actionmanager .ft .rounded-rect .nested
+	{
+	background-color: #8ABCDE;
+	border-color: #8ABCDE;
+	height: 29px;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+.actionmanager .ft .rounded-rect .nested {
+	height: 10px;
+	zoom: 1;
+}
+
+.actionmanager .hd .rounded-rect .cap,.actionmanager .ft .rounded-rect .cap
+	{
+	background-color: #8ABCDE;
+	border-color: #8ABCDE;
+}
+
+.actionmanager .am-cnt .tabview-cnt {
+	background-color: #8ABCDE;
+	padding-left: 8px;
+}
+
+.actionmanager .am-cnt .tabview-cnt .yui-nav {
+	height: 33px;
+	padding-top: 0px;
+	padding-left: 0px;
+	background-color: transparent;
+}
+
+.actionmanager .am-cnt .tabview-cnt .yui-content {
+	background-color: #D0E4F2;
+}
+
+.actionmanager .am-cnt .tabview-cnt.yui-navset .yui-nav li {
+	/*     
+	background-image: url(/static/img/buttons/set-buttons.png) */
+	background-image: linear-gradient(to bottom, #ddedf9 0%, #daebf8 100%);
+/* 	background-position: 0 -2053px;
+ */	background-repeat: no-repeat;
+	height: 33px;
+	margin-left: 0px;
+	margin-right: 1px;
+}
+
+.actionmanager .am-cnt .tabview-cnt.yui-navset .yui-nav li div {
+	/*     
+	background-image: url(/static/img/buttons/set-buttons.png) */
+	background-image: linear-gradient(to bottom, #ddedf9 0%, #daebf8 100%);
+	/*  background-position: 100% -2131px; */
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.actionmanager .am-cnt .tabview-cnt.yui-navset .yui-nav li div a {
+	/*     
+	background-image: url(/static/img/buttons/set-buttons.png) */
+	background-image: linear-gradient(to bottom, #ddedf9 0%, #daebf8 100%);
+/* 	background-position: 0 -2092px;
+ */	background-repeat: repeat-x;
+	height: 100%;
+	display: block;
+}
+
+.actionmanager .am-cnt .tabview-cnt.yui-navset .yui-nav li.selected {
+	background-position: 0 -2171px;
+}
+
+.actionmanager .am-cnt .tabview-cnt.yui-navset .yui-nav li.selected div
+	{
+	background-position: 100% -2249px;
+}
+
+.actionmanager .am-cnt .tabview-cnt.yui-navset .yui-nav li.selected div a
+	{
+	background-position: 0 -2210px;
+}
+
+.actionmanager .am-cnt .tabview-cnt.yui-navset .yui-nav li div a .tab-label
+	{
+	background-image: url(/static/img/icons/action-icons.png);
+	color: #000000;
+	font-size: 1.2em;
+	padding-top: 8px;
+	height: 25px;
+	padding-left: 25px;
+	padding-right: 5px;
+}
+
+.actionmanager .am-cnt .tabview-cnt.yui-navset .yui-nav li.driver div a .tab-label
+	{
+	background-position: 0px -171px;
+}
+
+.actionmanager .am-cnt .tabview-cnt.yui-navset .yui-nav li.assign div a .tab-label
+	{
+	background-position: 0px -171px;
+}
+
+.actionmanager .am-cnt .tabview-cnt.yui-navset .yui-nav li.add div a .tab-label
+	{
+	background-position: 0px -223px;
+}
+
+.actionmanager .am-cnt .tabview-cnt.yui-navset .yui-nav li.edit div a .tab-label
+	{
+	background-position: 0px -279px;
+}
+
+.actionmanager .am-cnt .tabview-cnt.yui-navset .yui-nav li.delete div a .tab-label
+	{
+	background-position: 0px -335px;
+}

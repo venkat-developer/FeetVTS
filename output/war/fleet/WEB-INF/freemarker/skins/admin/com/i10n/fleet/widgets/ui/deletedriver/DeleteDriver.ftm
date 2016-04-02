@@ -1,0 +1,65 @@
+<#include "/mock/DriverData.ftd" />
+<#macro init params={}>
+    <#local drivers = []/>
+    <#if (view.drivermanage.drivers)??>
+         <#local drivers = view.drivermanage.drivers/>
+    </#if>
+    <div class="state-view">
+        <div class="state-item inline-block">
+            <span class="state-item-index">1</span>
+            Select the drivers that you need to delete
+        </div>
+        <div class="state-item inline-block disabled">
+            <span class="state-item-index">2</span>
+            Click Delete Driver or Click Cancel to deselect all users
+        </div>
+        <div class="state-item inline-block disabled">
+            <span class="state-item-index">3</span>
+            Confirm Deletion
+        </div>
+    </div>
+    <div class="note info"><span class="title">Please Note:</span> Before deleting a driver make sure that there is no active/paused trip for the selected driver.</div>
+    <div class="bd">
+        <div class="title">Driver List (<span class="drv-count list-count">${drivers?values?size}</span>)</div>
+        <div class="search-autocomplete-driverlist yui-skin-sam"></div>
+            <div class="search-item-driverlist">
+              <input type="text" value="Search..." id="search-item-string" class="search-item-input-driverlist event-source inline-block"/>
+            </div>
+        <div class="drv-list input-list">
+            <table class="tlist">
+                <tbody>
+                    <tr class="l-row hd-row">
+                        <td class="l-col firstname first">
+                            First Name
+                        </td
+                        ><td class="l-col lastname">
+                            Last Name
+                        </td>
+                    </tr>
+                    <#list drivers?values?sort_by("firstname") as driver>
+                        <tr class="l-row entity-record slist-item <#if driver_index==0>first</#if>">
+                            <td class="l-col firstname first"><input name="driver" value="${driver.id}" class="input-element delete-entity-checkbox" type="checkbox"></input>${driver.firstname}</td
+                            ><td class="l-col lastname">${driver.lastname}</td>
+                        </tr>
+                    </#list>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="ft">
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block delete-button buttons","style":"red","class":"del-button"}>Delete Driver</@skin.widget>
+        <@skin.widget name="Buttons" params={"cssClass":"inline-block cancel-button buttons","style":"blue","class":"can-button"}>Cancel</@skin.widget>
+    </div>
+    <@skin.widget name="ConfirmationPopUp" params={
+       "containerID":"DeleteDriverConfirmation",
+       "header": "Confirm Deletion of Drivers"
+    }>
+      Are you sure you want to delete all the selected drivers?
+    </@skin.widget>
+     <@skin.widget name="WarningPopUp" params={
+       "containerID":"warningtoselect",
+       "header": "Warning"
+    }>
+      Please select atleast one Driver......
+    </@skin.widget>
+</#macro>

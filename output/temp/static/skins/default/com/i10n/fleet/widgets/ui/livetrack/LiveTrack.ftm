@@ -1,0 +1,69 @@
+<#import "/macros/skin.ftm" as skin>
+<#macro init params={}>
+    <@skin.widget name="FleetMap"/>
+    <div class="markup-template iw-template-livetrack-container">
+        <div class="overview iw-template-livetrack iw-template-livetrack-overview">
+            <table class='info-table'>
+                <tr class='info-tbl-row odd'>
+                    <td class='info-tbl-col first'>Vehicle Name</td>
+                    <td class='info-tbl-col info-tbl-vehiclename-col'>{vehicleName}</td>
+                </tr>
+                 <tr class='info-tbl-row even'>
+                    <td class='info-tbl-col first'>Allotted to</td>
+                    <td class='info-tbl-col info-tbl-drivername-col'>{driverName}</td>
+                </tr>
+                <tr class='info-tbl-row odd'>
+                    <td class='info-tbl-col first'>Location</td>
+                    <td class='info-tbl-col info-tbl-location-col'  id="popuplocation" title="Click on the value to get the address."><u>{location}</u></td>
+                </tr>
+                <tr class='info-tbl-row even'>
+                    <td class='info-tbl-col first'>Speed</td>
+                    <td class='info-tbl-col info-tbl-speed-col'>{speed}</td>
+                </tr>
+                <tr class='info-tbl-row odd'>
+                    <td class='info-tbl-col first'>Time</td>
+                    <td class='info-tbl-col info-tbl-time-col'>{time}</td>
+                </tr>
+                <!--  Use this for GVK client
+                <tr class='info-tbl-row even'>
+                	<td class='info-tbl-col first'>Mobile Number</td>
+                	<td class='info-tbl-col info-tbl-mobilenumber-col'>{crewno}</td>
+                </tr>
+                -->
+                 <!-- Use this for client needing driver mobile 
+                 <tr class='info-tbl-row even'>
+                    <td class='info-tbl-col first'>Mobile Number</td>
+                    <td class='info-tbl-col info-tbl-drivername-col'>{mobileNumber}</td>
+                </tr>
+                -->
+                
+            </table>
+        </div>
+        <div class="details iw-template-livetrack iw-template-livetrack-details">
+        	<table class='info-table'>
+	        	<tr class='info-tbl-row odd'>
+	               	<td class='info-tbl-col first'>GPS SS</td>
+	               	<td class='info-tbl-col info-tbl-gps-col'>{gps}</td>
+	            </tr>
+	            <tr class='info-tbl-row even'>
+	            	<td class='info-tbl-col first'>GSM SS</td>
+	                <td class='info-tbl-col info-tbl-gsm-col'>{gsm}</td>
+	          	</tr>
+	          	<tr class='info-tbl-row odd'>
+	               	<td class='info-tbl-col first'>Charger Connected</td>
+	               	<td class='info-tbl-col info-tbl-cc-col'>{cc}</td>
+	            </tr>
+	            <tr class='info-tbl-row even'>
+	            	<td class='info-tbl-col first'>Battery</td>
+	                <td class='info-tbl-col info-tbl-battery-col'>{battery}</td>
+	          	</tr>
+	          	<!-- Enable this for GVK Client
+             	<tr class='info-tbl-row odd'>
+                	<td class='info-tbl-col first'>Latest Button Pressed</td>
+                	<td class='info-tbl-col info-tbl-latestbuttonpressed-col'>{latestButtonPressed}</td>
+                </tr>
+                -->
+			</table> 
+        </div>
+    </div>
+</#macro>

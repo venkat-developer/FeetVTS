@@ -1,0 +1,150 @@
+/**
+ * Delete Vehicle UI Widget CSS
+ */
+.deletedriver {
+    padding: 20px;
+}
+
+.deletedriver .note {
+    height: 30px;
+    border: 1px solid #95D0E9;
+    color: #5A6065;
+    margin-top: 3px;
+    line-height: 28px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+}
+
+.deletedriver .note .title {
+    color: #BB0813;
+    font-weight: bold;
+}
+
+.deletedriver .search-item-driverlist {
+    padding-bottom: 30px;
+}
+
+.deletedriver  .search-item-driverlist .search-item-input-driverlist {
+    width: 216px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.deletedriver .search-autocomplete-driverlist {
+    position: absolute;
+    margin-top: 4px;
+    width: 215px;
+    font-size: 1em;
+    padding-top:27px;
+}
+.deletedriver .note.disabled {
+    display: none;
+}
+
+.deletedriver .state-view {
+    padding-bottom: 10px;
+}
+
+.deletedriver .state-item {
+    background-image: url("@STATIC_DIR@/img/login/dot.png");
+    background-repeat: no-repeat;
+    color: #172834;
+    font-weight: bold;
+    height: 20px;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+.deletedriver .state-item.disabled {
+    background-image: url("@STATIC_DIR@/img/login/dot-disabled.png");
+    color: #8497A4;
+}
+
+.deletedriver .state-item-index {
+    color: #FFFFFF;
+    padding-right: 8px;
+}
+
+.deletedriver .drv-list {
+    height: 312px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.deletedriver .drv-list .tlist {
+    width: 100%;
+}
+
+.deletedriver .drv-list .l-row .l-col {
+    width: 27%;
+    padding-left: 3%;
+    border-right: 1px dotted #9BA2BE;
+    border-bottom: 1px dotted #9BA2BE;
+    line-height: 30px;
+    color: #011A5D;
+    min-height: 30px;
+    *height: auto !important;
+    *height: 30px;
+}
+
+.deletedriver .drv-list .l-row.hd-row .l-col {
+    font-weight: bold;
+}
+
+.deletedriver .drv-list .l-row {
+    cursor: pointer;
+    min-height: 30px;
+    *height: auto !important;
+    *height: 30px;
+}
+
+.deletedriver .drv-list .l-row.hd-row, .deletedriver .drv-list .l-row.hd-row:hover {
+    background-color: #ECF3F9;
+    border-bottom: none;
+    cursor: default;
+}
+
+.deletedriver .drv-list .l-row .l-col.last {
+    border-right: none;
+}
+
+.deletedriver .drv-list .l-row.first {
+    height: 35px;
+}
+
+.deletedriver .drv-list .l-row.first .l-col {
+    line-height: 35px;
+}
+
+.deletedriver .drv-list .l-row .l-col .input-element {
+    margin-right: 8px;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+
+.deletedriver .bd .title {
+    font-size: 1.2em;
+    color: #172834;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.deletedriver .ft {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.deletedriver .drv-list .l-row:hover {
+    background-color: #ECF4FA;
+}

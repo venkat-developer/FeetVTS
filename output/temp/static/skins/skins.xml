@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skins>
+    <skin name="default" dir="default/" config="skin.xml"/>
+    <skin name="admin" dir="admin/" config="skin.xml"/>
+    <skin name="openlayers" dir="openlayers/" config="skin.xml"/>
+    <skin name="gmap3" dir="gmap3/" config="skin.xml"/>
+</skins>

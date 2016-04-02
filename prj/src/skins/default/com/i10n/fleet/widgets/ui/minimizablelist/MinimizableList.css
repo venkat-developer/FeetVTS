@@ -1,0 +1,45 @@
+/**
+ * Minimizable List UI Widget CSS
+ */
+.minimizable.minimized {
+    width: 1px;
+    margin: 0px;
+    height: 0px;
+    overflow: visible;
+}
+
+.minimizable .resizer {
+    position: absolute;
+    z-index: 1500;
+}
+
+.minimizable .minimizable-content {
+    position: relative;
+	*zoom: 1
+}
+
+.minimizable.minimized .minimizable-content {
+    width: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.minimizable .resizer .minimizer {
+    background-image: url("@STATIC_DIR@/img/vehiclelist/list-resize.png");
+    background-repeat: no-repeat;
+    background-position: 0px -2px;
+    width: 18px;
+    height: 38px;
+    margin-left: 237px;
+    cursor: pointer;
+    display: block;
+}
+
+.minimizable.minimized .resizer .minimizer {
+    background-position: -20px -2px;
+    margin-left: 0px;
+}
+
+.minimizable.state-disabled .resizer {
+    display: none;
+}

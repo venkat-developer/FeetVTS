@@ -1,0 +1,66 @@
+/**
+ * ReportPopUp UI Widget CSS
+ */
+#map-container {
+    background-color: #E5E3DF;
+    width: 100%;
+    height: 100%;
+    zoom: 1;
+}
+
+#map-container div {
+    zoom: 1;
+}
+
+#template-info-window {
+    display: none;
+}
+
+
+#marker-info-window {
+    height: 280px;
+    width: 290px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+
+#overview {
+    background-color: #20323F;
+	*background-color:    #182834;
+}
+
+#top-bd {
+    width: 100%;
+    height: 17px;
+}
+
+#close-button {
+    float: right;
+    height: 17px;
+    width: 17px;
+    background-image: url("@STATIC_DIR@/img/icons/action-icons.png");
+    background-position: 0px -82px;
+    cursor: pointer;
+}
+
+#marker-info-window .bd .rounded-rect .nested {
+    height: 180px;
+}
+
+#marker-info-window .rounded-rect .cap, #marker-info-window .rounded-rect .nested {
+    border-color: #20323F;
+    background-color: #20323F;
+	*border-color: #182834;
+	* background-color: #182834;
+}
+
+
+#ft {
+    width: 100%;
+    height: 200px;
+    background-image: url(@STATIC_DIR@/img/maps/info-tooltip-tip.png);
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,215 @@
+/**
+ * Add Vehicle UI Widget CSS
+ */
+.editgroup {
+    padding: 20px;
+}
+.editgroup .grp-sel .grp-sel-item.disabled{
+	display:none;
+}
+.editgroup .note {
+    height: 30px;
+    border: 1px solid #95D0E9;
+    color: #5A6065;
+    margin-top: 3px;
+    line-height: 28px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+}
+
+.editgroup .state-item {
+    background-image: url("/static/img/login/dot.png");
+    background-repeat: no-repeat;
+    color: #172834;
+    font-weight: bold;
+    height: 20px;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+.editgroup .state-item.disabled {
+    background-image: url("/static/img/login/dot-disabled.png");
+    color: #8497A4;
+}
+
+.editgroup .search-item-group {
+    padding-bottom: 17px;
+}
+
+.editgroup .search-item-group .search-title {
+    padding-bottom: 5px;
+}
+
+.editgroup .search-item-group .search-go-button-group {
+    cursor: pointer;
+    width: 32px;
+    height: 19px;
+    margin-top: 2px;
+    margin-left: 184px;
+    background-image: url("/static/img/buttons/search-go-button.png");
+}
+
+.editgroup .search-item-group .search-item-input-group {
+    width: 175px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    color: #011A5D;
+    font-size: 0.9em;
+    background-color: #B7CBDC;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+
+.editgroup .search-autocomplete-group{
+    position: absolute;
+    margin-top: 75px;
+    width: 172px;
+    font-size: 1em;
+}
+
+.editgroup .state-item-index {
+    color: #FFFFFF;
+    padding-right: 8px;
+}
+
+.editgroup .note .title {
+    color: #BB0813;
+    font-weight: bold;
+}
+
+.editgroup .disabled {
+    display: none;
+}
+
+.editgroup .note.mesg {
+    background-color: #BFF19A;
+    border: 1px solid #FFFFFF;
+}
+
+.editgroup .disabled {
+    display: none;
+}
+
+.editgroup .frm-edit-bd {
+    padding-top: 25px;
+}
+
+.editgroup .frm-edit-bd .frm-lbl {
+    width: 120px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.editgroup .frm-edit-bd .input-element {
+    width: 240px;
+    height: 19px;
+}
+
+.editgroup .frm-edit-bd .input-element.txt {
+    padding-top: 2px;
+}
+.editgroup .frm-edit-bd .input-element.list {
+    padding-top: 2px;
+    height: 26px;
+    color: #39444C;
+    
+}
+
+.editgroup .frm-edit-bd .frm-inp {
+    padding-right: 5px;
+}
+
+.editgroup .frm-edit-bd .frm-imp {
+    color: #39444C;
+    font-size: 0.9em;
+    line-height: 21px;
+}
+
+.editgroup .frm-edit-bd .frm-item-cnt {
+    padding-bottom: 10px;
+}
+
+.editgroup .buttons {
+    padding-left: 160px;
+}
+
+.editgroup .state-view {
+    padding-bottom: 10px;
+}
+
+.editgroup .sel-hd, .editgroup .frm-hd {
+    color: #172834;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.editgroup .grp-sel-disp {
+    padding-left: 20px;
+}
+
+.editgroup .grp-sel {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid #C4D4ED;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.editgroup .grp-sel .grp-sel-item {
+    display: block;
+    width: 180px;
+    color: #011A5D;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    min-height: 20px;
+	*height:auto !important;
+	*height:25px;
+}
+
+.editgroup .grp-sel .grp-sel-item:hover {
+    background-color: #ECF4FA;
+    font-weight: bold;
+}
+
+.editgroup .grp-sel .grp-sel-item.selected {
+    background-color: #ECF4FA;
+}
+
+.editgroup .buttons.save-button {
+    padding-left: 120px;
+}
+
+.editgroup .buttons.cancel-button {
+    padding-left: 30px;
+}
+.editgroup .buttons.edit-button {
+    padding-right: 0px;
+    padding-left:0px;
+}
+
+.editgroup .edit-group-empty-popup {
+    display: block;
+}
+
+.editgroup .edit-group-groupname-popup {
+    display: block;
+}
+
+.editgroup .edit-group-empty-popup.disabled{
+    display: none;
+}
+
+.editgroup .edit-group-groupname-popup.disabled{
+    display: none;
+}

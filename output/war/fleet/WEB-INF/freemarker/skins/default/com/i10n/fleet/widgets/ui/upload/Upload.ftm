@@ -1,0 +1,58 @@
+<#import "/macros/skin.ftm" as skin/>
+<#import "/macros/rounded.ftm" as round>
+<#macro init params={}>
+<html>
+<head>
+<script>
+function OnUploadCheck()
+	{
+		var fileValue =new String(document.dummy.myfile.value);
+		if(fileValue.contains('jpeg') || fileValue.contains('jpg') || fileValue.contains('png') || fileValue.contains('kml')){
+		return true;
+	}else{
+		alert('Please upload KML/PNG/JPG/JPEG format');
+		return false;
+		}
+		
+	}
+</script>
+</head>
+<body>
+<form action="/fleet/form/upload/?folderSize=false" class="dummy" name="dummy" enctype="multipart/form-data" onSubmit="return OnUploadCheck();" method="POST" >
+<div align=center style="padding: 6px;color:#FFFFFF">
+<!--<input type="submit" value="Upload" style="background-color:#AF1C26;border-color:#AF1C26;color:#FFFFFF;height: 22px; width: 100px;border-radius:6px 6px 6px 6px"> -->
+<!--<a href="https://drive.google.com/folderview?id=0B1tnl87LUMlTNHhMTmoxbkxrUFk&usp=sharing" target="_blank"><input type="button" value="Download" style="background-color:#AF1C26;border-color:#AF1C26;color:#FFFFFF;height: 22px; width: 100px;border-radius:4px 4px 4px 4px"></a>-->
+<li class="data-item"> <div align=left style="padding-left: 22px;font-family: Verdana;padding-top: 22px;font-size: 0.4cm;color:#FFFFFF">
+<div class="title inline-block"><strong>Steps For KML Creation</strong></div> <div class="description"></div> 
+</li>
+<li class="data-item">
+		<div align=left style="padding-left: 30px;font-family: Verdana;padding-top: 22px;color:#FFFFFF">
+		<div class="title inline-block">1.Install Jdk <a href="https://drive.google.com/folderview?id=0B-kI9EOk31DONTdvYnUxX2d0blE&usp=sharing" target="_blank" style="color:#D4A017">Click Here</a></div> 
+		<div class="description"></div>
+</li>
+<li class="data-item"> 
+        <div align=left style="padding-left: 30px;font-family: Verdana;padding-top: 22px;color:#FFFFFF">
+        <div class="title inline-block">2.Download CSV To KML Converter Tool <a href="http://k1.gwtrack.com/kml/CSVToKML.jar" target="_blank" style="color:#D4A017">Click Here</a></div> <div class="description">
+		</div> 
+</li>
+<li class="data-item"> 
+		<div align=left style="padding-left: 30px;font-family: Verdana;padding-top: 22px;color:#FFFFFF">
+		<div class="title inline-block">3.POI Creation Procedure Guide <a href="http://k1.gwtrack.com/kml/POICreationProcedureGuide.pdf" target="_blank" style="color:#D4A017">Click Here</a></div> <div class="description">
+		</div>
+</li>
+<li class="data-item"> 
+		<div align=left style="padding-left: 30px;font-family: Verdana;padding-top: 22px;color:#FFFFFF">
+		<div class="title inline-block">4.Click On Browse Button And Select The KML File <input id="myfile" name="myfile" type="file" style="padding-left: 30px;border-radius:6px 6px 6px 6px"></div> <div class="description">
+		</div> 
+</li>
+<li class="data-item"> 
+		<div align=left style="padding-left: 30px;font-family: Verdana;padding-top: 22px;color:#FFFFFF">
+		<div class="title inline-block">5.Click On Submit Button <input type="submit" value="Submit" style="background-color:#AF1C26;border-color:#AF1C26;color:#FFFFFF;height: 22px; width: 100px;border-radius:6px 6px 6px 6px"></div> <div class="description">
+		</div> 
+</li>
+</form> 
+</body>
+</html>
+</#macro>
+
+

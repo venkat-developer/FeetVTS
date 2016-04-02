@@ -1,0 +1,144 @@
+<#import "/macros/skin.ftm" as skin>
+<#macro daysData params={}>
+    <option value="day">Day</option>
+    <#list 1..31 as i>
+        <option value="${i}">${i}</option>
+    </#list>
+</#macro>
+<#macro monthsData params={}>
+    <#assign months = ["Jan","Feb","March","April","May","June","July","Aug","Sept","Oct","Nov","Dec"]>
+    <option value="month">Month</option>
+    <#list months as i>
+        <option value="${i}">${i}</option>
+        <#if !(i_has_next)>
+            <#break>
+        </#if>
+    </#list>
+</#macro>
+<#macro yearsData params={}>
+    <option value="year">Year</option>                            
+    <#list 2000..2026 as i>
+        <option value="${i?c}">${i?c}</option>
+    </#list>
+</#macro>
+<#macro hoursData params={}>
+    <option value="hour">Hour</option>
+    <#list 0..23 as i>
+        <option value="<#if (i <= 9)>0</#if>${i}"><#if (i <= 9)>0</#if>${i}</option>
+    </#list>
+</#macro>
+<#macro minsData params={}>
+    <option value="min">Minutes</option>
+    <#list 00..59 as i>
+        <option value="<#if (i <= 9)>0</#if>${i}"><#if (i <= 9)>0</#if>${i}</option>
+    </#list>
+</#macro>
+<#macro init params={}>
+    <div class="customreport-container">
+        <@skin.widget name="DialogPopUp" params={
+            "cssClass": "dialogpopup popup",
+            "containerID":"customreport",
+            "header":"CUSTOMIZED REPORT",
+            "submitButtonText":"Update Report",
+            "cancelButtonText":"Cancel"
+        }>
+            <div class="start-date input inline-block">
+                <div>
+                    <div class="startdate-markup title">
+                         Start Date 
+                    </div>
+                    <div class="startdate-date">
+                        <div class="day-input inline-block">
+                            <div><select class="input-element" name="startDay">
+                                <@daysData></@daysData>
+                            </select></div>
+                        </div>
+                        <div class="month-input inline-block">
+                            <div><select class="input-element" name="startMonth">
+                                <@monthsData></@monthsData>
+                            </select></div>
+                        </div>
+                        <div class="year-input inline-block">
+                            <div><select class="input-element" name="startYear">
+                                <@yearsData></@yearsData>
+                            </select></div>
+                        </div>
+                        <div class ="calendar inline-block">
+                            <div>
+                                <div class="calendar-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="start-time input inline-block">
+                <div>    
+                    <div class="starttime-markup title">
+                        Start Time
+                    </div>
+                    <div class="starttime-time">
+                         <div class="hour-input inline-block">
+                             <div><select class="input-element" name="startHour">
+                                 <@hoursData></@hoursData>
+                             </select></div>
+                         </div>
+                         <div class="min-input inline-block">
+                             <div><select class="input-element" name="startMin">
+                                 <@minsData></@minsData>
+                             </select></div>
+                         </div>      
+                    </div>
+                </div>
+            </div>
+            <div class="end-date input inline-block">
+                <div>        
+                    <div class="enddate-markup title">
+                        End Date
+                    </div>
+                    <div class="enddate-date">
+                        <div class="day-input inline-block">
+                            <div><select class="input-element" name="endDay">
+                                <@daysData></@daysData>
+                            </select></div>
+                        </div>
+                        <div class="month-input inline-block">
+                            <div><select class="input-element" name="endMonth">
+                                <@monthsData></@monthsData>
+                            </select></div>
+                        </div>
+                        <div class="year-input inline-block">
+                            <div><select class="input-element" name="endYear">
+                                <@yearsData></@yearsData>
+                            </select></div>
+                        </div>
+                        <div class ="calendar inline-block">
+                            <div>
+                                <div class="calendar-image"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="end-time input inline-block">
+                <div>
+                    <div class="endtime-markup title">
+                        End Time
+                    </div>
+                    <div class="endtime-time">
+                        <div class="hour-input inline-block">
+                            <div><select class="input-element" name="endHour">
+                                <@hoursData></@hoursData>
+                            </select></div>
+                        </div>
+                        <div class="min-input inline-block">
+                            <div><select class="input-element" name="endMin">
+                                <@minsData></@minsData>
+                            </select></div>
+                        </div>
+                    </div>
+                </div> 
+            </div>   
+        </@skin.widget>  
+    </div>
+</#macro>
