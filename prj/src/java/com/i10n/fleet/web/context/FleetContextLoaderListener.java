@@ -39,9 +39,9 @@ public class FleetContextLoaderListener extends ContextLoaderListener {
 		LOG.debug("Cache Loaded successfully");
 		
 		
-		LOG.debug("Initializing Pushlet handler");
-		PushletHandler.getInstance();
-		LOG.debug("Successfully initialized PushletHandler");
+		//LOG.debug("Initializing Pushlet handler");
+		//PushletHandler.getInstance();
+		//LOG.debug("Successfully initialized PushletHandler");
 		
 		CometQueue.getCometQueue().startCometQueue();
 		LOG.debug("Pushlet thread started");

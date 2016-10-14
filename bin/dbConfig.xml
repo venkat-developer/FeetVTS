@@ -1229,7 +1229,7 @@
 	<bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
 		<property name="driverClass" value="org.postgresql.Driver" />
 		<property name="jdbcUrl"
-			value="jdbc:postgresql://localhost/fleetv2" />
+			value="jdbc:postgresql://localhost/vtsdb" />
 		<property name="user" value="postgres" />
 		<property name="password" value="i10n" />
 		<!-- <property name="initialPoolSize" value="20"/> -->
