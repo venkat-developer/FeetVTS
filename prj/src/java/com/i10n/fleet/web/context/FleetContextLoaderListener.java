@@ -43,7 +43,7 @@ public class FleetContextLoaderListener extends ContextLoaderListener {
 		//PushletHandler.getInstance();
 		//LOG.debug("Successfully initialized PushletHandler");
 		
-		CometQueue.getCometQueue().startCometQueue();
+		//CometQueue.getCometQueue().startCometQueue();
 		LOG.debug("Pushlet thread started");
 			
 		super.contextInitialized(event);
@@ -51,7 +51,7 @@ public class FleetContextLoaderListener extends ContextLoaderListener {
 
 
 	private void loadCachedDataProviders ()  {
-		CacheManager.loadCache();
+		//CacheManager.loadCache();
 	}
 
 	@Override

@@ -98,7 +98,7 @@ public class CacheManager {
 	}
 
 	private static void loadFundamentalCacheList() {
-		//LoadHardwareModuleDetails.getInstance();
+		LoadHardwareModuleDetails.getInstance();
 		LoadUserDetails.getInstance();
 		LOG.debug("Loading cache provider for Group Details");
 		LoadGroupDetails.getInstance();
