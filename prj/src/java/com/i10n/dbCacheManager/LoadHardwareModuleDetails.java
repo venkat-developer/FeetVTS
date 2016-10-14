@@ -46,14 +46,16 @@ public class LoadHardwareModuleDetails {
 	}
 
 	private void loadHardwareModuleDetails(){
-		LOG.debug("Caching hardwaremodule details");
+		LOG.info("Caching hardwaremodule details");
 		List<HardwareModule> hardwareModuleList = ((HardwareModuleDaoImp)DBManager.getInstance().getDao(DAOEnum.HARDWARE_MODULES_DAO)).loadAll();
 		processCacheUpdate(hardwareModuleList);
+		LOG.info("Processed  hardwareModuleList data ... ");
 	}
 
 	private void processCacheUpdate(List<HardwareModule> hardwareModuleList) {
 		if(hardwareModuleList != null){
 			for(HardwareModule hardwareModule : hardwareModuleList){
+				LOG.info("hardwareModule.getId().getId() is "+hardwareModule.getId().getId());		
 				cacheHardwareModules.put(hardwareModule.getId().getId(), hardwareModule);	
 			}
 		}
