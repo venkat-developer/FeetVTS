@@ -12,6 +12,7 @@ public class HardwareModuleRowMapper implements RowMapper{
 	private static Logger LOG = Logger.getLogger(HardwareModuleRowMapper.class);
 	@Override
 	public Object mapRow(ResultSet rs, int rownum) throws SQLException {
+		LOG.info("HardwareModuleRowMapper "+rs.getLong("id"));
 		HardwareModule hm = new HardwareModule(rs.getLong("id"),
 												rs.getString("imei"),
 												rs.getFloat("moduleversion"),
