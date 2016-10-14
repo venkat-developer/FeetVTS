@@ -24,13 +24,13 @@ public class CacheManager {
 
 	public static void loadCache() {
 		loadFundamentalCacheList();
-		
+		LOG.info("Loaded loadFundamentalCacheList");
 		loadAlertsCacheList();
-
-		loadETACacheList();
+		LOG.info("Loaded loadAlertsCacheList");
+		//loadETACacheList();
 		
 		loadOtherCacheList();
-		
+		LOG.info("Loaded loadAlertsCacheList");
 		refreshCache();
 	}
 	
