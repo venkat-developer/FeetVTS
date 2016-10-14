@@ -1,7 +1,0 @@
-<#import "/macros/skin.ftm" as skin>
-<#macro init params={}>
-    <div class="header-container">
-        <div class="logo inline-block"></div>
-        <div class="header-text inline-block">Hassle Free Fleet Management</div>
-    </div>
-</#macro>

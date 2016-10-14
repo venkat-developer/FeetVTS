@@ -1,8 +1,0 @@
-<#import "/macros/print.ftm" as printskin>
-<#import "/macros/rounded.ftm" as round>
-<#import "/macros/json-publish.ftm" as json/>
-<#macro init params={}>
-    <@skin.widget name="VehicleGraphReport" params={
-        "title":"Speed Graph"
-    }/>
-</#macro>

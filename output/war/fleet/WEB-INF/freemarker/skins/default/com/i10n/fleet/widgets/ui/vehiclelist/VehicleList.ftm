@@ -1,9 +1,0 @@
-<#import "/macros/skin.ftm" as skin>
-<#import "/macros/json-publish.ftm" as json/>
-<#macro init params={}>
-    <@skin.widgetBody name="SidePaneList" params={
-        "cssClass": "inactive minimizable sidepanelist",
-        "listTitle":"vehicles"
-    }/>
-    <@json.publish data=view.vehicles.groupsdata publishAs="vehicleData" context="vehicles"/>
-</#macro>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<skins>
-    <skin name="default" dir="default/" config="default.out.xml"/>
-    <skin name="skin1" dir="skin1/" config="skin1.xml"/>
-</skins>

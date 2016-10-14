@@ -1,5 +1,0 @@
-<htmlasxml>
-<body>
-Hello World
-</body>
-</htmlasxml>

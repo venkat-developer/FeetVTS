@@ -1,9 +1,0 @@
-<#import "/macros/skin.ftm" as skin/>
-<--
-    author : N.Balaji
--->
-<#macro init params={}>
-    <@skin.widget name="GraphReport" params={
-        "title":params.title
-    }/>
-</#macro>
