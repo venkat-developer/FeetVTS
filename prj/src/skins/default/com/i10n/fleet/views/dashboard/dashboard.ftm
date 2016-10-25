@@ -17,64 +17,9 @@
         </div>
         <div class="bd">
             <div class="left-bd inline-block">
-                <div>
-<!--
-                    <div class="vehicle-status-widget">
-                        <@skin.widget name="DashboardVehicleStatus" />
-                    </div>
--->
-                   <!-- Vehicle Count Enabling for EMRI Rajasthan Server-->
-		<#if  vehicleCountEnabled == "true">
-					<div class="totalcount-widget">
-					<@skin.widget name="CountVehicles"/>
-					</div><br><br>
-		<#else>
-			<div></div><br><br>
-		</#if>
-		
-		<!-- Comment this for SHSM client -->
-		<div class="vacant-widget">
-			<@skin.widget name="VacantVehicles"/>
-        </div>
-        <br><br>
-        <!-- -->
-
-        <!-- Uncomment for SHSM client -->
-		<!-- 
-		<div class="groupsdata-widget">
-        	<@skin.widget name="GroupsData"/>
-		</div>
-		<br><br>  
-		-->
-                    <div class="quicklinks-widget">
-                        <@skin.widget name="QuickLinks" params={
-                            "maxLinks" : 3
-                        }/>
-                    </div>
-                </div>
-            </div>
-            <div class="main-bd inline-block">
-                <div>
-                    <div class="violations-widget">
-                        <div class="violations">
-                             <@skin.widget name="DashboardViolations"/>
-                        </div>
-                    </div>
-                    <div class="health-widget inline-block">
-                        <div class="health">
-                            <@skin.widget name="DashboardVehicleHealth" />
-                        </div>
-                    </div>
-                    <div class="support-widget inline-block">
-                        <@skin.widget name="SupportDesk"/>
-                    </div>
-                <div>
-            </div>
+            <div class="main-bd inline-block"></div>
             <div class="right-bd inline-block">
             </div>
         </div>
-    </div>
-    <div id="flip-container" class="flip-container">
-        <@skin.widget name="AddLinks" params={}/>
     </div>
 </#macro>
