@@ -12,7 +12,7 @@
 .loginheader .header-container .logo {
 	width: 250px;
 	height: 93px;
-	/*background-image: url("/static/img/header/fleet-logo.png");*/
+	background-image: url(/static/img/header/fleet-logo.png);
 	background-repeat: no-repeat;
 	background-position: 28px 13px;
 }

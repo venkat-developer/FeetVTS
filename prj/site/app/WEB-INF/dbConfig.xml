@@ -1228,7 +1228,7 @@
 
 	<bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
 		<property name="driverClass" value="org.postgresql.Driver" />
-		 <property name="jdbcUrl" value="jdbc:postgresql://localhost/vtsdb" 
+		 <property name="jdbcUrl" value="jdbc:postgresql://localhost/fleetv2" 
 			/> 
 	<!--	<property name="jdbcUrl"
 			value="jdbc:postgresql://frs-rajasthan.gwtrack.com/fleetv2" /> -->

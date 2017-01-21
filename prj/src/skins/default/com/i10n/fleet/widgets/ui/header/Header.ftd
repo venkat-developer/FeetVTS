@@ -198,8 +198,35 @@
                     }
 					 
                 }
-            }
+            <!-- -->
+			},
 			
+            "sas" : {
+                "title" : "SAS",
+                "link" : "/fleet/view/sas/",
+                "subnav" : {
+                    "etadisplay" : {
+                        "title" : "ETA Display",
+                        "default" : true,
+                        "widget" : "EtaDisplay",
+                        "request" : "markup=EtaDisplay&report=etadisplay",
+                        "link" : "/fleet/view/sas/?subnav=etadisplay"
+                    },
+                    "scheduledreport" : {
+                        "title" : "Scheduled Report",
+                        "widget" : "ScheduledReport",
+                        "request" : "markup=ScheduledReport&report=scheduledreport",
+                        "link" : "/fleet/view/sas/?subnav=scheduledreport"
+                    },
+                    "sasviolations" : {
+                      "title" : "Violations",
+                        "widget" : "SasViolations",
+                         "request" : "markup=SasViolations&report=sasviolations",
+                        "link" : "/fleet/view/sas/?subnav=sasviolations"
+                    }
+                }
+            <!-- -->	
+            }
         }
     }/>
     <#return subNavData/>

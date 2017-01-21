@@ -3,7 +3,7 @@
     <#local sites = skin.getWidgetData("Header",{}).sites/>
     <div class="header-container">
         <div class="header-body">
-            <div class="logo inline-block">GPS Tracker</div>
+            <div class="logo inline-block"></div>
             <div class="globalnav inline-block">
                 <ul class="link-list">
                     <#list sites?keys as viewKey>
@@ -19,7 +19,7 @@
         </div>
         <div class="header-links">
             <div class="inline-block"><a class="user-link" href="#user"><#if (parameters.username)??>${parameters.username}</#if></a></div>
-            <div class="inline-block"><a class="logout-link" href="@APP_CONTEXT@/form/login/?logout=true">Sign Out</a></div>
+            <div class="inline-block"><a class="logout-link" href="/fleet/form/login/?logout=true">Sign Out</a></div>
             <!--<div class="inline-block"><a class="help-link last" href="#help">Help</a></div>-->
         </div>
     </div>
