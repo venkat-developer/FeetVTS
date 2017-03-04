@@ -8,7 +8,7 @@
     width: 33px;
     position: absolute;
     height: 31px;
-    background-image: url("@STATIC_DIR@/img/maps/zoom-pan-icons.png");
+    background-image: url("/static/img/maps/zoom-pan-icons.png");
     background-repeat: no-repeat;
     position: absolute;
     cursor: pointer;
@@ -20,7 +20,7 @@
     width: 30px;
     height: 31px;
     position: absolute;
-    background-image: url("@STATIC_DIR@/img/maps/zoom-pan-icons.png");
+    background-image: url("/static/img/maps/zoom-pan-icons.png");
     background-repeat: no-repeat;
     background-position: -94px 50%;
     cursor: pointer;
@@ -32,7 +32,7 @@
     width: 30px;
     height: 31px;
     position: absolute;
-    background-image: url("@STATIC_DIR@/img/maps/zoom-pan-icons.png");
+    background-image: url("/static/img/maps/zoom-pan-icons.png");
     background-repeat: no-repeat;
     background-position: -65px 50%;
     cursor: pointer;
@@ -44,7 +44,7 @@
     width: 30px;
     height: 31px;
     position: absolute;
-    background-image: url("@STATIC_DIR@/img/maps/zoom-pan-icons.png");
+    background-image: url("/static/img/maps/zoom-pan-icons.png");
     background-repeat: no-repeat;
     background-position: -34px 50%;
     cursor: pointer;
@@ -56,7 +56,7 @@
     width: 30px;
     height: 31px;
     position: absolute;
-    background-image: url("@STATIC_DIR@/img/maps/zoom-pan-icons.png");
+    background-image: url("/static/img/maps/zoom-pan-icons.png");
     background-repeat: no-repeat;
     background-position: -126px 50%;
     cursor: pointer;
@@ -68,7 +68,7 @@
     width: 30px;
     height: 31px;
     position: absolute;
-    background-image: url("@STATIC_DIR@/img/maps/zoom-pan-icons.png");
+    background-image: url("/static/img/maps/zoom-pan-icons.png");
     background-repeat: no-repeat;
     background-position: -155px 50%;
     cursor: pointer;
@@ -81,7 +81,7 @@
     height: 212px;
     cursor: pointer;
     position: absolute;
-    background-image: url("@STATIC_DIR@/img/maps/zoombar.png");
+    background-image: url("/static/img/maps/zoombar.png");
     background-repeat: repeat-y;
 } 
 
@@ -93,7 +93,7 @@
     z-index: 2;
     cursor: pointer;
     position: absolute;
-    background-image: url("@STATIC_DIR@/img/maps/slider.png");
+    background-image: url("/static/img/maps/slider.png");
     background-repeat: no-repeat;
 }
 
@@ -105,7 +105,7 @@
     position: absolute;
     cursor: pointer;
     background-position: 21px 50%;
-    background-image: url(@STATIC_DIR@/img/maps/zoom-pan-icons.png);
+    background-image: url(/static/img/maps/zoom-pan-icons.png);
 }
 
 .layerswitcher {

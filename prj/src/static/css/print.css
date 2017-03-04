@@ -2,7 +2,7 @@
  * Printpreview css
  */
 div.print.popup .print-header-template .fleet-logo {
-    background-image: url("@STATIC_DIR@/img/header/fleet-logo2.png");
+    background-image: url("/static/img/header/fleet-logo2.png");
     background-repeat: no-repeat;
     height: 75px;
     width: 180px;
@@ -16,7 +16,7 @@ div.print.popup .print-header-template .print-option {
 }
 
 div.print.popup .print-header-template .print-option .printtxt {
-    background-image: url("@STATIC_DIR@/img/icons/widget-header-icons.png");
+    background-image: url("/static/img/icons/widget-header-icons.png");
     background-repeat: no-repeat;
     background-position: 0px -482px;
     padding-left: 26px;
