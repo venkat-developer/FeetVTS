@@ -33,24 +33,17 @@
 		</#if>
 		
 		<!-- Comment this for SHSM client -->
-		<div class="vacant-widget">
-			<@skin.widget name="VacantVehicles"/>
-        </div>
+		<!-- <div class="vacant-widget"></div> -->
         <br><br>
-        <!-- -->
-
+        
         <!-- Uncomment for SHSM client -->
 		<!-- 
 		<div class="groupsdata-widget">
         	<@skin.widget name="GroupsData"/>
-		</div>
+		</div> 		-->
 		<br><br>  
-		-->
-                    <div class="quicklinks-widget">
-                        <@skin.widget name="QuickLinks" params={
-                            "maxLinks" : 3
-                        }/>
-                    </div>
+
+		<!-- <div class="quicklinkspp-widget"> </div> -->
                 </div>
             </div>
             <div class="main-bd inline-block">
@@ -62,19 +55,14 @@
                     </div>
                     <div class="health-widget inline-block">
                         <div class="health">
-                            <@skin.widget name="DashboardVehicleHealth" />
+                           
                         </div>
                     </div>
-                    <div class="support-widget inline-block">
-                        <@skin.widget name="SupportDesk"/>
-                    </div>
+
                 <div>
             </div>
             <div class="right-bd inline-block">
             </div>
         </div>
-    </div>
-    <div id="flip-container" class="flip-container">
-        <@skin.widget name="AddLinks" params={}/>
     </div>
 </#macro>
