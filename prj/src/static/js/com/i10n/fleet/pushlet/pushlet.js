@@ -367,30 +367,12 @@ _init: function () {
 		};
 	}
 	//		PL.pushletURL = PL._getWebRoot() +'fleet/pushlet.srv';
-	PL.pushletURL =  'http://localhost:8080/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://mailer.gwtrack.com/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://bp2.ksp.gov.in/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://kp.gwtrack.com/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://bpl.gwtrack.com/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://kp2.gwtrack.com/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://gwtrack.com/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://fleet.gwtrack.com/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://fleet.ksp.gov.in/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://dl86.gwtrack.com/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://mbmc.gwtrack.com/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://mbmt.gwtrack.com/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://shsm.gwtrack.com/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://frs.gwtrack.com/fleet//pushlet.srv';	
-	//		PL.pushletURL =  'http://frs-rajasthan.gwtrack.com/fleet//pushlet.srv';	
-	//		PL.pushletURL =  'http://frs-assam.gwtrack.com/fleet//pushlet.srv';
-	//		PL.pushletURL =  'http://frs-gvk.gwtrack.com/fleet//pushlet.srv';	
-	//	PL.pushletURL =  'http://vts21c.sc.gwtrack.com/fleet//pushlet.srv'; // for Southern command Client
-	// Auto update URL for For KP Intranet
-	//		PL.pushletURL =  'http://10.7.9.40/fleet//pushlet.srv';				
-	PL._setStatus('initialized');
-	PL.state = PL.STATE_READY;
+	//		PL.pushletURL =  'http://localhost:8080/fleet//pushlet.srv';
+	//		PL.pushletURL =  'http://http://ec2-35-161-33-229.us-west-2.compute.amazonaws.com:8080/fleet//pushlet.srv';
+			PL._setStatus('initialized');
+			PL.state = PL.STATE_READY;
 },
-
+	
 /** Handle incoming events from server. */
 _onEvent: function (event) {
 	//console.debug('On event '+event);
