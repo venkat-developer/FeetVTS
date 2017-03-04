@@ -10,7 +10,7 @@
         <@skin.widget name="LoginBanner"   params={"cssClass":"loginbanner inline-block "}/>
         <@skin.widget name="LoginForm" params={"cssClass":"loginform inline-block"}/>
 		
-		<img src="/static/img/login/ambulance.png" alt="GPS Tracking" style="height:308px;width:874px">
+		<img src="/static/img/login/ambulance.png" alt="GPS Tracking" style="height:305px;width:600px">
 		
     </div>
 </#macro>
