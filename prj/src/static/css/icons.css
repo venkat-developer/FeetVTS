@@ -3,7 +3,7 @@
 .icons {
     display: -moz-inline-stack;
     vertical-align: middle;
-    background-image: url("@STATIC_DIR@/img/vehiclehealth/allhealthicons.png");
+    background-image: url("/static/img/vehiclehealth/allhealthicons.png");
     height: 21px;
     width: 25px;
     margin-left: 5px;
