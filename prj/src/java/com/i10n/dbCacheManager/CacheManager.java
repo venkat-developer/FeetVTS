@@ -24,13 +24,13 @@ public class CacheManager {
 
 	public static void loadCache() {
 		loadFundamentalCacheList();
-		LOG.info("Loaded loadFundamentalCacheList");
+		
 		loadAlertsCacheList();
-		LOG.info("Loaded loadAlertsCacheList");
-		//loadETACacheList();
+
+		loadETACacheList();
 		
 		loadOtherCacheList();
-		LOG.info("Loaded loadAlertsCacheList");
+		
 		refreshCache();
 	}
 	
@@ -100,15 +100,15 @@ public class CacheManager {
 	private static void loadFundamentalCacheList() {
 		LoadHardwareModuleDetails.getInstance();
 		LoadUserDetails.getInstance();
-		LOG.debug("Loading cache provider for Group Details");
+		//LOG.debug("Loading cache provider for Group Details");
 		LoadGroupDetails.getInstance();
 		LoadDriverDetails.getInstance();
-		LOG.debug("Loading cached providers of LoadDriverDetails");
+		//LOG.debug("Loading cached providers of LoadDriverDetails");
 		LoadVehicleDetails.getInstance();
 		LoadTripDetails.getInstance();
-		LOG.debug("Loading cached providers of LoadVehicleDetails");
+		//LOG.debug("Loading cached providers of LoadVehicleDetails");
 		LoadLiveVehicleStatusRecord.getInstance();
-		LOG.debug("Loading cached providers of LoadLiveVehicleStatusRecord");
+		//LOG.debug("Loading cached providers of LoadLiveVehicleStatusRecord");
 
 		// Loading acl tables into cache
 		LOG.debug("Loading cache provider of aclvehicle and acldrivers");

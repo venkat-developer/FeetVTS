@@ -87,7 +87,6 @@ public class HardwareModuleDaoImp implements IHardwareModuleDAO {
 
 	public List<HardwareModule> loadAll() {
 		String sql = "select * from hardwaremodules where deleted = false";
-		LOG.info("Hardware modules loadAll "+sql);
 		return jdbcTemplate.query(sql, new HardwareModuleRowMapper());
 	}
 

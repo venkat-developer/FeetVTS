@@ -3,7 +3,7 @@
     <#local sites = skin.getWidgetData("Header",{}).sites/>
     <div class="header-container">
         <div class="header-body">
-            <div class="logo inline-block">GPS Tracker</div>
+            <div class="logo inline-block"></div>
             <div class="globalnav inline-block">
                 <ul class="link-list">
                     <#list sites?keys as viewKey>

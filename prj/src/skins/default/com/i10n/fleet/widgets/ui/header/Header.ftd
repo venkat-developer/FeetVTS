@@ -3,29 +3,29 @@
         "sites" : {
             "dashboard" : {
                 "title" : "Dashboard",
-                "link" : "/fleet/view/dashboard/",
+                "link" : "@APP_CONTEXT@/view/dashboard/",
                 "subnav" : {}
             },
             "livetrack" : {
                 "title" : "Live Tracking",
-                "link" : "/fleet/view/livetrack/",
+                "link" : "@APP_CONTEXT@/view/livetrack/",
                 "subnav" : {
                     "livetrack" : {
                         "title" : "Live Tracking",
                         "default" : true,
                         "widget" : "LiveTrack",
-                        "link" : "/fleet/view/livetrack/"
+                        "link" : "@APP_CONTEXT@/view/livetrack/"
                     },
                     "vehiclestatus" : {
                         "title" : "Vehicle Status",
                         "widget" : "VehicleStatus",
-                        "link" : "/fleet/view/livetrack/?subnav=vehiclestatus"
+                        "link" : "@APP_CONTEXT@/view/livetrack/?subnav=vehiclestatus"
                     <!--
                     },
                     "alertstatus" : {
                         "title" : "Live Alerts",
                         "widget" : "AlertStatus",
-                        "link" : "/fleet/view/livetrack/?subnav=alertstatus"
+                        "link" : "@APP_CONTEXT@/view/livetrack/?subnav=alertstatus"
                     -->                        
                     }
                 }
@@ -33,47 +33,47 @@
          
             "reports" : {
                 "title" : "Reports",
-                "link" : "/fleet/view/reports/",
+                "link" : "@APP_CONTEXT@/view/reports/",
                 "subnav" : {
                     "vehiclereport" : {
                         "title" : "Vehicle Report",
                         "default" : true,
                         "widget" : "VehicleReport",
                         "request" : "markup=VehicleReport&report=vehiclereport",
-                        "link" : "/fleet/view/reports/",
+                        "link" : "@APP_CONTEXT@/view/reports/",
                         "subpage" : {
                             "vehiclemapreport" : {
                                 "title": "Map Report",
                                 "widget": "VehicleMapReport",
                                 "default" : true,
                                 "dataType" : "json",
-                                "link" : "/fleet/view/reports/?subnav=vehiclereport&subpage=vehiclemapreport"
+                                "link" : "@APP_CONTEXT@/view/reports/?subnav=vehiclereport&subpage=vehiclemapreport"
                             },
                             "idlepointsreport" : {
                                 "title": "Idle Points Report",
                                 "widget": "IdlePointsReport",
                                 "dataType" : "json",
-                                "link" : "/fleet/view/reports/?subnav=vehiclereport&subpage=idlepointsreport"
+                                "link" : "@APP_CONTEXT@/view/reports/?subnav=vehiclereport&subpage=idlepointsreport"
                             },
                             "vehiclestatistics" : {
                                 "title": "Vehicle Statistics",
                                 "widget": "VehicleStatistics",
                                 "dataType": "json",
-                                "link": "/fleet/view/reports/?subnav=vehiclereport&subpage=vehiclestatistics"
+                                "link": "@APP_CONTEXT@/view/reports/?subnav=vehiclereport&subpage=vehiclestatistics"
                             <!-- 
                             },
                             "fuelgraph" : {
                                 "title": "Fuel Graph Report",
                                 "widget": "FuelGraph",
                                 "dataType" : "json",
-                                "link" : "/fleet/view/reports/?subnav=vehiclereport&subpage=fuelgraph"
+                                "link" : "@APP_CONTEXT@/view/reports/?subnav=vehiclereport&subpage=fuelgraph"
                             -->
                             },
                             "speedgraphreport" : {
                                 "title": "Speed Graph Report",
                                 "widget": "SpeedGraphReport",
                                 "dataType" : "json",
-                                "link" : "/fleet/view/reports/?subnav=vehiclereport&subpage=speedgraphreport"
+                                "link" : "@APP_CONTEXT@/view/reports/?subnav=vehiclereport&subpage=speedgraphreport"
                             }
                         }
                     },
@@ -81,31 +81,31 @@
                         "title" : "Driver Report",
                         "widget" : "DriverReport",
                         "request" : "markup=DriverReport&report=driverreport",
-                        "link" : "/fleet/view/reports/",
+                        "link" : "@APP_CONTEXT@/view/reports/",
                          "subpage" : {
                          "drivermapreport" : {
                                 "title": "Driver Map Report",
                                 "widget": "DriverMapReport",
                                 "dataType" : "json",
-                                "link" : "/fleet/view/reports/?subnav=driverreport&subpage=drivermapreport"
+                                "link" : "@APP_CONTEXT@/view/reports/?subnav=driverreport&subpage=drivermapreport"
                             },
                           "driverspeedgraphreport" : {
                                 "title": "Driver Speed Graph Report",
                                 "widget": "DriverSpeedGraphReport",
                                 "dataType" : "json",
-                                "link" : "/fleet/view/reports/?subnav=driverreport&subpage=driverspeedgraphreport"
+                                "link" : "@APP_CONTEXT@/view/reports/?subnav=driverreport&subpage=driverspeedgraphreport"
                             },
                             "driverstatsreport" : {
                                 "title": "Driver Statistics Report",
                                 "widget": "DriverStatsReport",
                                 "dataType" : "json",
-                                "link" : "/fleet/view/reports/?subnav=driverreport&subpage=driverstatsreport"
+                                "link" : "@APP_CONTEXT@/view/reports/?subnav=driverreport&subpage=driverstatsreport"
                             },
                             "driveridlepointsreport" : {
                                 "title": "Driver Idle Points Report",
                                 "widget": "DriverIdlePointsReport",
                                 "dataType" : "json",
-                                "link" : "/fleet/view/reports/?subnav=driverreport&subpage=driveridlepointsreport"
+                                "link" : "@APP_CONTEXT@/view/reports/?subnav=driverreport&subpage=driveridlepointsreport"
                             }
                         }
                     },
@@ -113,32 +113,32 @@
                         "title" : "Vehicle Stats",
                         "widget" : "VehicleStatsReport",
                         "request" : "markup=VehicleStatsReport&report=vehiclestatsreport",
-                        "link" : "/fleet/view/reports/?subnav=vehiclestats"
+                        "link" : "@APP_CONTEXT@/view/reports/?subnav=vehiclestats"
                     },
                     "violationreport" : {
                         "title" : "Violation Report",
                         "widget" : "ViolationReport",
                         "request" : "markup=ViolationReport&report=violationreport",
-                        "link" : "/fleet/view/reports/?subnav=violationreport"
+                        "link" : "@APP_CONTEXT@/view/reports/?subnav=violationreport"
                     },
                     "activityreport" : {
                         "title" : "Activity Report",
                         "widget" : "ActivityReport",
                         "request" : "markup=ActivityReport&report=activityreport",
-                        "link" : "/fleet/view/reports/?subnav=activityreport"
+                        "link" : "@APP_CONTEXT@/view/reports/?subnav=activityreport"
                     },
                     "vehiclehistory" : {
                         "title" : "Vehicle History",
                         "widget" : "VehicleHistory",
                         "request" : "markup=VehicleHistory&report=vehiclehistory",
-                        "link" : "/fleet/view/reports/?subnav=vehiclehistory"
+                        "link" : "@APP_CONTEXT@/view/reports/?subnav=vehiclehistory"
                     <!--
                     },
                     "activityreportvehicle" : {
 	                    "title" : "Activity Report Vehicle",
 	                    "widget" : "ActivityReportVehicle",
 	                    "request" : "markup=ActivityReportVehicle&report=activityreportvehicle",
-	                    "link" : "/fleet/view/reports/?subnav=activityreportvehicle"
+	                    "link" : "@APP_CONTEXT@/view/reports/?subnav=activityreportvehicle"
 	                -->
 	                <!--
 	                },
@@ -146,7 +146,7 @@
                         "title" : "Tncsc",
                         "widget" : "Tncsc",
                         "request" : "markup=Tncsc&report=tncsc",
-                        "link" : "/fleet/view/reports/?subnav=tncsc"
+                        "link" : "@APP_CONTEXT@/view/reports/?subnav=tncsc"
                    	-->
                     } 
                 }
@@ -154,52 +154,79 @@
             
             "controlpanel" : {
                 "title" : "Control Panel",
-                "link" : "/fleet/view/controlpanel/",
+                "link" : "@APP_CONTEXT@/view/controlpanel/",
                 "subnav" : {
                     "tripsettings" : {
                         "title" : "Trip Settings",
                         "default" : true,
                         "widget" : "TripSettings",
-                        "link" : "/fleet/view/controlpanel/?subnav=tripsettings"
+                        "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=tripsettings"
                     },
                     "geofencing" : {
                         "title" : "Geo Fencing",
                         "widget" : "GeoFencing",
-                        "link" : "/fleet/view/controlpanel/?subnav=geofencing"
+                        "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=geofencing"
                     },
                     "reportsettings" : {
                         "title" : "Report Settings",
                         "widget" : "ReportSettings",
-                        "link" : "/fleet/view/controlpanel/?subnav=reportsettings"
+                        "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=reportsettings"
                     },
                     "alertsettings" : {
                         "title" : "Alert Settings",
                         "widget" : "AlertSettings",
-                        "link" : "/fleet/view/controlpanel/?subnav=alertsettings"
+                        "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=alertsettings"
                     },
                      "mobilealertsettings" : {
                         "title" : "Mobile Alert Settings",
                         "widget" : "MobileAlertSettings",
-                        "link" : "/fleet/view/controlpanel/?subnav=mobilealertsettings"
+                        "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=mobilealertsettings"
                     <!-- 
                     },
                     "systemsettings" : {
                         "title" : "System Settings",
                         "widget" : "SystemSettings",
-                        "link" : "/fleet/view/controlpanel/?subnav=systemsettings"
+                        "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=systemsettings"
                     --> 
                     <!--
                     },
                     "uploadkml" : {
                         "title" : "Upload KML",
                         "widget" : "Upload",
-                        "link" : "/fleet/view/controlpanel/?subnav=uploadKML"
+                        "link" : "@APP_CONTEXT@/view/controlpanel/?subnav=uploadKML"
                     -->
                     }
 					 
                 }
-            }
+            <!--
+			},
 			
+            "sas" : {
+                "title" : "SAS",
+                "link" : "@APP_CONTEXT@/view/sas/",
+                "subnav" : {
+                    "etadisplay" : {
+                        "title" : "ETA Display",
+                        "default" : true,
+                        "widget" : "EtaDisplay",
+                        "request" : "markup=EtaDisplay&report=etadisplay",
+                        "link" : "@APP_CONTEXT@/view/sas/?subnav=etadisplay"
+                    },
+                    "scheduledreport" : {
+                        "title" : "Scheduled Report",
+                        "widget" : "ScheduledReport",
+                        "request" : "markup=ScheduledReport&report=scheduledreport",
+                        "link" : "@APP_CONTEXT@/view/sas/?subnav=scheduledreport"
+                    },
+                    "sasviolations" : {
+                      "title" : "Violations",
+                        "widget" : "SasViolations",
+                         "request" : "markup=SasViolations&report=sasviolations",
+                        "link" : "@APP_CONTEXT@/view/sas/?subnav=sasviolations"
+                    }
+                }
+            -->	
+            }
         }
     }/>
     <#return subNavData/>

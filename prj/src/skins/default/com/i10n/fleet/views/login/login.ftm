@@ -5,8 +5,12 @@
     <div class="hd">
         <@skin.widget name="LoginHeader"/>
     </div>
+	<div class="logo inline-block"></div>
     <div class="bd">
         <@skin.widget name="LoginBanner"   params={"cssClass":"loginbanner inline-block "}/>
         <@skin.widget name="LoginForm" params={"cssClass":"loginform inline-block"}/>
+		
+		<img src="/static/img/login/ambulance.png" alt="GPS Tracking" style="height:308px;width:874px">
+		
     </div>
 </#macro>
