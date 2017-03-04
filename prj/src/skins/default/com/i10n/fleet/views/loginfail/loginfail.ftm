@@ -8,5 +8,6 @@
     <div class="bd">
         <@skin.widget name="LoginBanner" params={"cssClass":"loginbanner inline-block"}/>
         <@skin.widget name="LoginFormFail" params={"cssClass":"loginformfail inline-block"}/>
+        <img src="/static/img/login/ambulance.png" alt="GPS Tracking" style="height:305px;width:600px">
     </div>
 </#macro>
