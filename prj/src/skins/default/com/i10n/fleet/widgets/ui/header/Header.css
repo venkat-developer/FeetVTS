@@ -7,14 +7,14 @@
 }
 
 .header .header-container {
-	background-image: linear-gradient(to bottom, gray 0%, gray 100%);
+	background-image: linear-gradient(to bottom, black 10%, red 100%);
 	background-repeat: repeat-x;
 }
 
 .header .header-container .logo {
 	width: 250px;
 	height: 93px;
-	 /*background-image: url("/static/img/header/fleet-logo.png"); */
+	background-image: url("/static/img/header/logo.png");
 	/* background-image : url("k1.gwtrack.com/docs/images/fleet-logo.png") */
 	background-repeat: no-repeat;
 	background-position: 28px 13px;
