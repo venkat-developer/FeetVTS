@@ -120,7 +120,7 @@ form {
 }
 
 .hover {
-    behavior: url("@STATIC_DIR@/css/csshover3.htc");
+    behavior: url("/static/css/csshover3.htc");
 }
 
 .fleet-container .view-container.list-minimized .side-pane {
@@ -174,7 +174,7 @@ form {
     width: 100%;
     opacity: 0.60;
     display: block;
-    background-image: url(@STATIC_DIR@/img/icons/LoaderAnimation-1.gif);
+    background-image: url(/static/img/icons/LoaderAnimation-1.gif);
     background-position: center;
     background-repeat: no-repeat;
     *filter: alpha( opacity = 60);
