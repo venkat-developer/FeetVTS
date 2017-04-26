@@ -14,6 +14,7 @@
 	var toPointLat = null;
 	var toPointLng = null;
 	var isKPserver=false;
+var icon = new google.maps.MarkerImage("/static/img/vehicles/jeep/stopped.png");
 
 	/**
 	 * Vehicle Map Report
@@ -24,9 +25,10 @@
 	$W.VehicleMapReport = function(el, oArgs){
 
 		$W.VehicleMapReport.superclass.constructor.call(this, el, oArgs);
+//alert("VehicleMapReport");
 
 		this.initVehicleMapReport();
-
+      //  this.replay();
 		live=this;
 //		$V.BaseView.subscribeFn("vehiclemapreport",this.callback);
 
@@ -441,6 +443,7 @@
 	 */
 	_addRoute: function(oData){
 		if (oData) {
+			//alert("Coming to route");
 			var oMap = this._oMap.get($WL.Maps.ATTR_MAP);
 			map=oMap;
 			var oArgs=this.get($W.BaseReport.ATTR_SELECTED_ITEM);
@@ -449,9 +452,9 @@
 			var oBounds= new google.maps.LatLngBounds();
 
 			var nColorIndex = 0;
+			var aLatLng = [];
 			for (var tripID in oData) {
 				var oTripData = oData[tripID];
-				var aLatLng = [];
 				if (oTripData.track && oTripData.track.positions) {
 					var oPositions = oTripData.track.positions;
 					for (var i = 0; i < oPositions.length; i++) {
@@ -481,9 +484,44 @@
 					map.setZoom(8);
 				}
 			}
+				//		alert("replay");
+
+		   var i, route, marker;
+
+           /* route = new google.maps.Polyline({
+                path: [],
+                geodesic : true,
+                strokeColor: '#FF0000',
+                strokeOpacity: 1.0,
+                strokeWeight: 2,
+                editable: false,
+                map:map
+            });*/
+
+            marker=new google.maps.Marker({map:map,icon:icon});
+				var count = 0;
+
+            for (i = 0; i < aLatLng.length; i++) {
+                setTimeout(function (aLatLng)
+                {
+					//alert(length);
+                    //route.getPath().push(new google.maps.LatLng(aLatLng.lat(), aLatLng.lng()));
+                  //  this.moveMarker(map, marker, coords.lat, coords.lng);
+				  marker.setPosition(new google.maps.LatLng(aLatLng.lat(), aLatLng.lng()));
+           // map.panTo(new google.maps.LatLng(aLatLng.lat(), aLatLng.lng()));
+              //  alert(i+" count:"+count)
+				count++;
+				if(count>=i){
+					marker.setMap(null);
+				//	alert("making null");
+				}
+				}, 100 * i, aLatLng[i]);
+            }
+			//marker.setMap(null);
 			if (isExtended) {
 				oMap.fitBounds(oBounds);
 			}
+			//marker.setMap(null);
 		}
 	},
 	_addTripMarkersForV2: function(oViolations, oPositions, oMap){
@@ -584,7 +622,42 @@
 		}
 
 	},
+     replay : function(){
+		 map = this._oMap.get($WL.Maps.ATTR_MAP)
+	var controlDiv = document.createElement('div');
 
+        controlDiv.index = 1;
+        // Set CSS for the control border.
+        var controlUI = document.createElement('div');
+        controlUI.style.backgroundColor = '#fff';
+        controlUI.style.border = '2px solid #fff';
+        controlUI.style.borderRadius = '3px';
+        controlUI.style.boxShadow = '0 2px 6px rgba(0,0,0,.3)';
+        controlUI.style.cursor = 'pointer';
+        controlUI.style.marginBottom = '22px';
+        controlUI.style.textAlign = 'center';
+        controlUI.title = 'Click to recenter the map';
+        controlDiv.appendChild(controlUI);
+
+        // Set CSS for the control interior.
+        var controlText = document.createElement('div');
+        controlText.style.color = 'rgb(25,25,25)';
+        controlText.style.fontFamily = 'Roboto,Arial,sans-serif';
+        controlText.style.fontSize = '16px';
+        controlText.style.lineHeight = '38px';
+        controlText.style.paddingLeft = '5px';
+        controlText.style.paddingRight = '5px';
+        controlText.innerHTML = 'Replay';
+        controlUI.appendChild(controlText);
+        		map.controls[google.maps.ControlPosition.TOP_CENTER].push(controlDiv);
+
+		// Setup the click event listeners: simply set the map to Chicago.
+        google.maps.event.addDomListener(controlUI, 'click', function() {
+      //  alert("replay");
+        
+        });
+
+	},
 	_addTrackPntsForV2: function(otrack,oViolations,oMap){
 		var oMarker;
 		var j=parseInt(oViolations.length/300);
@@ -846,6 +919,7 @@
 
 
 	addInfoWindowListenerTrack:function(oMarker,oGMap,oInfoWindow,gpssignal,gsmsignal,date,speed,oSelf){
+	//	alert("draw");
 		$WL.Maps.Event.addListener(oMarker, "click", function(e) {
 			oInfoWindow.drawAndMoveTo({
 				position: oMarker.getPosition(),
@@ -1001,6 +1075,7 @@
 		 * @param {Object} oArgs
 		 */
 		initVehicleMapReport: function(el, oArgs){
+//alert("VehicleMapReport");
 
 		var aElButtons = $D.getElementsByClassName("button-done", null, el);
 
