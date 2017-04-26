@@ -76,7 +76,7 @@
                                 "link" : "@APP_CONTEXT@/view/reports/?subnav=vehiclereport&subpage=speedgraphreport"
                             }
                         }
-                    },
+                    }<!-- ,
                     "driverreport" : {
                         "title" : "Driver Report",
                         "widget" : "DriverReport",
@@ -108,7 +108,7 @@
                                 "link" : "@APP_CONTEXT@/view/reports/?subnav=driverreport&subpage=driveridlepointsreport"
                             }
                         }
-                    },
+                    }-->,
                     "vehiclestats" : {
                         "title" : "Vehicle Stats",
                         "widget" : "VehicleStatsReport",
