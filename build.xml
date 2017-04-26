@@ -2,6 +2,7 @@
 <!DOCTYPE project [
 <!ENTITY dep SYSTEM "dep.xml" >
 ]>
+
 <project name="fleet" basedir="." default="all" xmlns:sonar="antlib:org.sonar.ant" xmlns:ac="antlib:net.sf.antcontrib" xmlns:ivy="antlib:org.apache.ivy.ant">
 
     <!-- Build Properties-->
