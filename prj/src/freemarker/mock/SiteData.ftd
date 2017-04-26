@@ -40,13 +40,7 @@
                     "widget" : "VehicleReport",
                     "request" : "markup=VehicleReport&report=vehiclereport",
                     "deeplink" : "/fleet/view/reports/"
-                }<!-- ,
-                "driverreport" : {
-                    "title" : "Driver Report",
-                    "widget" : "DriverReport",
-                    "request" : "markup=DriverReport&report=driverreport",
-                    "deeplink" : "/fleet/view/reports/?subnav=driverreport"
-                } -->,
+                },
                 "vehiclestats" : {
                     "title" : "Vehicle Stats",
                     "widget" : "VehicleStatsReport",
@@ -64,19 +58,6 @@
                     "widget" : "ActivityReport",
                     "request" : "markup=ActivityReport&report=activityreport",
                     "deeplink" : "/fleet/view/reports/?subnav=activityreport"
-                },"vehiclehistory" : {
-                    "title" : "Vehicle History",
-                    "widget" : "VehicleHistory",
-                    "request" : "markup=VehicleHistory&report=vehiclehistory",
-                    "deeplink" : "/fleet/view/reports/?subnav=vehiclehistory"
-                <!--
-                },
-                "activityreportvehicle" : {
-                    "title" : "Trip Report",
-                    "widget" : "ActivityReportVehicle",
-                    "request" : "markup=ActivityReportVehicle&report=activityreportvehicle",
-                    "deeplink" : "/fleet/view/reports/?subnav=activityreportvehicle"
-                -->
                 }
             }
         },

@@ -20,14 +20,7 @@
                         "title" : "Vehicle Status",
                         "widget" : "VehicleStatus",
                         "link" : "@APP_CONTEXT@/view/livetrack/?subnav=vehiclestatus"
-                    <!--
-                    },
-                    "alertstatus" : {
-                        "title" : "Live Alerts",
-                        "widget" : "AlertStatus",
-                        "link" : "@APP_CONTEXT@/view/livetrack/?subnav=alertstatus"
-                    -->                        
-                    }
+                     }
                 }
             },
          
@@ -60,14 +53,6 @@
                                 "widget": "VehicleStatistics",
                                 "dataType": "json",
                                 "link": "@APP_CONTEXT@/view/reports/?subnav=vehiclereport&subpage=vehiclestatistics"
-                            <!-- 
-                            },
-                            "fuelgraph" : {
-                                "title": "Fuel Graph Report",
-                                "widget": "FuelGraph",
-                                "dataType" : "json",
-                                "link" : "@APP_CONTEXT@/view/reports/?subnav=vehiclereport&subpage=fuelgraph"
-                            -->
                             },
                             "speedgraphreport" : {
                                 "title": "Speed Graph Report",
@@ -126,30 +111,8 @@
                         "widget" : "ActivityReport",
                         "request" : "markup=ActivityReport&report=activityreport",
                         "link" : "@APP_CONTEXT@/view/reports/?subnav=activityreport"
-                    },
-                    "vehiclehistory" : {
-                        "title" : "Vehicle History",
-                        "widget" : "VehicleHistory",
-                        "request" : "markup=VehicleHistory&report=vehiclehistory",
-                        "link" : "@APP_CONTEXT@/view/reports/?subnav=vehiclehistory"
-                    <!--
-                    },
-                    "activityreportvehicle" : {
-	                    "title" : "Activity Report Vehicle",
-	                    "widget" : "ActivityReportVehicle",
-	                    "request" : "markup=ActivityReportVehicle&report=activityreportvehicle",
-	                    "link" : "@APP_CONTEXT@/view/reports/?subnav=activityreportvehicle"
-	                -->
-	                <!--
-	                },
-	                "tncsc" : {
-                        "title" : "Tncsc",
-                        "widget" : "Tncsc",
-                        "request" : "markup=Tncsc&report=tncsc",
-                        "link" : "@APP_CONTEXT@/view/reports/?subnav=tncsc"
-                   	-->
-                    } 
-                }
+                    }
+	          }
             },
             
             "controlpanel" : {
