@@ -325,7 +325,7 @@
 		var datasource = new $YU.FunctionDataSource(this.getData);
 		datasource.responseType = $YU.DataSource.TYPE_JSARRAY;
 		datasource.responseSchema = {
-				fields: ["date", "location",/* "lon", "lat",*/ "speed", "distance"]
+				fields: ["date", "location","speed"]
 		};
 		var columndefs = [{
 			key: "date",
@@ -339,27 +339,9 @@
 			formatter:"button",
 			sortable: true,
 			resizeable: false
-		}, /*{
-			key: "lon",
-			label: "Longitude",
-			sortable: true,
-			resizeable: false,
-			parser: YAHOO.util.DataSource.parseNumber
-		}, {
-			key: "lat",
-			label: "Latitude",
-			sortable: true,
-			resizeable: false,
-			parser: YAHOO.util.DataSource.parseNumber
-		},*/ {
+		},{
 			key: "speed",
 			label: "Speed",
-			sortable: true,
-			resizeable: false,
-			parser: YAHOO.util.DataSource.parseNumber
-		}, {
-			key: "distance",
-			label: "Cumulative Distance",
 			sortable: true,
 			resizeable: false,
 			parser: YAHOO.util.DataSource.parseNumber
